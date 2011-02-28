@@ -133,16 +133,19 @@ chanters.gfx
 characterrecord.gfx
 chargen.gfx
 chargen_stage2.gfx
+combinedhud.gfx
 container.gfx
 controllerlayout.gfx
 conversation.gfx
 crafting.gfx
+credits.gfx
 deathscreen.gfx
 debug.gfx
 debugoptions.gfx
 demosplashscreen.gfx
 dialoguepop.gfx
 floatylayer.gfx
+fonts_en-us.gfx
 fonttest.gfx
 graphicsdebugger.gfx
 guiachievementunlocked.gfx
@@ -150,6 +153,9 @@ inventory.gfx
 itemupgrade.gfx
 journal.gfx
 load_controller.gfx
+load_fade.gfx
+load_light.gfx
+load_movieoverlay.gfx
 load_town.gfx
 login.gfx
 loginconnecting.gfx
@@ -163,6 +169,7 @@ notifications.gfx
 optionsmenu.gfx
 partypicker.gfx
 popuplayer.gfx
+portraits.gfx
 prccontentmanager.gfx
 prestartmenu.gfx
 purchaseconfirm.gfx
@@ -175,5 +182,6 @@ startmenu.gfx
 startmenu2.gfx
 store.gfx
 tactics.gfx
+tooltips.gfx
 warninglights.gfx
 worldmap.gfx
