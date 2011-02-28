@@ -117,6 +117,7 @@ namespace Gibbed.Bioware.ErfViewer
                             fileName =
                                 entry.NameHash.ToString("X16") + "." +
                                 info.TypeNames[entry.TypeHash];
+                            fileName = Path.Combine(info.TypeNames[entry.TypeHash], fileName);
                         }
                         else
                         {

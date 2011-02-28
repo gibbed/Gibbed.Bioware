@@ -181,7 +181,7 @@ namespace Gibbed.Bioware.ErfViewer
             // 
             // openDialog
             // 
-            this.openDialog.Filter = "Bioware Archives (*.erf, *.rim)|*.erf;*.rim|All Files (*.*)|*.*";
+            this.openDialog.Filter = "Bioware Archives (*.erf, *.crf, *.rim)|*.erf;*.crf;*.rim|All Files (*.*)|*.*";
             // 
             // saveFilesDialog
             // 
