@@ -2,6 +2,7 @@ area_transition.cur
 area_transition_pressed.cur
 attack.cur
 attack_pressed.cur
+campaign_base_en-us.cre
 chest.cur
 chest_pressed.cur
 close.cur
@@ -12,6 +13,8 @@ destroy.cur
 destroy_pressed.cur
 dialog.cur
 dialog_pressed.cur
+disabled_disarm.cur
+disabled_disarm_pressed.cur
 disabled_unlock.cur
 disabled_unlock_pressed.cur
 disarm.cur
@@ -46,6 +49,7 @@ standard.cur
 standard_pressed.cur
 standard_targeting.cur
 standard_targeting_pressed.cur
+target.cur
 target_circle.cur
 target_circle_invalid.cur
 target_circle_pressed.cur
@@ -67,3 +71,4 @@ unlock.cur
 unlock_pressed.cur
 use.cur
 use_pressed.cur
+white.dds
