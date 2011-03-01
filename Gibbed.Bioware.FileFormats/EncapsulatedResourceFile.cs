@@ -105,9 +105,9 @@ namespace Gibbed.Bioware.FileFormats
                     throw new InvalidOperationException();
                 }
 
-                this.Flags = (flags & 0x8FFFFF0F) >> 0;
+                this.Flags = (flags & 0x1FFFFF0F) >> 0;
                 this.Encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
-                this.Compression = (CompressionScheme)((flags & 0x70000000) >> 28);
+                this.Compression = (CompressionScheme)((flags & 0xE0000000) >> 29);
 
                 if (this.Flags != 0 && this.Flags != 1)
                 {
@@ -144,11 +144,11 @@ namespace Gibbed.Bioware.FileFormats
                 var passwordDigest = new byte[16];
                 input.Read(passwordDigest, 0, passwordDigest.Length);
 
-                this.Flags = (flags & 0x8FFFFF0F) >> 0;
+                this.Flags = (flags & 0x1FFFFF0F) >> 0;
                 this.Encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
-                this.Compression = (CompressionScheme)((flags & 0x70000000) >> 28);
+                this.Compression = (CompressionScheme)((flags & 0xE0000000) >> 29);
 
-                if (this.Flags != 0)
+                if (this.Flags != 0 && this.Flags != 1)
                 {
                     throw new FormatException("unknown flags value");
                 }
