@@ -65,6 +65,7 @@ namespace Gibbed.Bioware.ErfViewer
 			}
 
 			this.Close();
+            this.Dispose();
 		}
 
 		public void SaveAll(object oinfo)
@@ -235,7 +236,9 @@ namespace Gibbed.Bioware.ErfViewer
             public SaveAllSettings Settings;
 		}
 
+        private SaveAllInformation Info;
 		private Thread SaveThread;
+
 		public void ShowSaveProgress(
             IWin32Window owner,
             Stream stream,
@@ -246,21 +249,19 @@ namespace Gibbed.Bioware.ErfViewer
             string basePath,
             SaveAllSettings settings)
 		{
-			SaveAllInformation info;
-			info.BasePath = basePath;
-			info.Stream = stream;
-			info.Archive = archive;
-            info.Saving = saving;
-			info.FileNames = fileNames;
-            info.TypeNames = typeNames;
-            info.Settings = settings;
+			this.Info.BasePath = basePath;
+            this.Info.Stream = stream;
+            this.Info.Archive = archive;
+            this.Info.Saving = saving;
+            this.Info.FileNames = fileNames;
+            this.Info.TypeNames = typeNames;
+            this.Info.Settings = settings;
 
 			this.progressBar.Value = 0;
 			this.progressBar.Maximum = 100;
 
-			this.SaveThread = new Thread(new ParameterizedThreadStart(SaveAll));
-			this.SaveThread.Start(info);
-			this.ShowDialog(owner);
+            this.SaveThread = new Thread(new ParameterizedThreadStart(SaveAll));
+            this.ShowDialog(owner);
 		}
 
 		private void OnCancel(object sender, EventArgs e)
@@ -272,5 +273,10 @@ namespace Gibbed.Bioware.ErfViewer
 
 			this.Close();
 		}
+
+        private void OnShown(object sender, EventArgs e)
+        {
+            this.SaveThread.Start(this.Info);
+        }
 	}
 }
