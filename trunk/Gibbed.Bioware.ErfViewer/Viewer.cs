@@ -26,7 +26,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using Gibbed.Bioware.FileFormats;
-using EncapsulatedResource = Gibbed.Bioware.FileFormats.EncapsulatedResource;
+using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
 {
@@ -100,7 +100,7 @@ namespace Gibbed.Bioware.ErfViewer
             this.projectComboBox.SelectedItem = project;
         }
 
-        private EncapsulatedResourceFile Archive;
+        private ERF Archive;
         private void BuildFileTree()
         {
             this.fileList.Nodes.Clear();
@@ -236,10 +236,10 @@ namespace Gibbed.Bioware.ErfViewer
                 this.openDialog.InitialDirectory = null;
             }
 
-            EncapsulatedResourceFile archive;
+            ERF archive;
             using (var input = this.openDialog.OpenFile())
             {
-                archive = new EncapsulatedResourceFile();
+                archive = new ERF();
                 archive.Deserialize(input);
             }
             this.Archive = archive;
@@ -265,7 +265,7 @@ namespace Gibbed.Bioware.ErfViewer
 
             string basePath;
             Dictionary<ulong, string> lookup;
-            List<EncapsulatedResource.Entry> saving;
+            List<ERF.Entry> saving;
 
             SaveProgress.SaveAllSettings settings;
             settings.SaveOnlyKnownFiles = false;
@@ -281,9 +281,9 @@ namespace Gibbed.Bioware.ErfViewer
                     return;
                 }
 
-                var entry = (EncapsulatedResource.Entry)root.Tag;
+                var entry = (ERF.Entry)root.Tag;
 
-                saving = new List<EncapsulatedResource.Entry>();
+                saving = new List<ERF.Entry>();
                 saving.Add(entry);
 
                 lookup = new Dictionary<ulong, string>();
@@ -299,7 +299,7 @@ namespace Gibbed.Bioware.ErfViewer
                     return;
                 }
 
-                saving = new List<EncapsulatedResource.Entry>();
+                saving = new List<ERF.Entry>();
                 
                 List<TreeNode> nodes = new List<TreeNode>();
                 nodes.Add(root);
@@ -319,7 +319,7 @@ namespace Gibbed.Bioware.ErfViewer
                             }
                             else
                             {
-                                saving.Add((EncapsulatedResource.Entry)child.Tag);
+                                saving.Add((ERF.Entry)child.Tag);
                             }
                         }
                     }

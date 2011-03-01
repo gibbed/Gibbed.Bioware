@@ -23,14 +23,21 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Gibbed.Bioware.FileFormats.EncapsulatedResource;
+using System.Text;
 using Gibbed.Helpers;
 
 namespace Gibbed.Bioware.FileFormats
 {
     public class EncapsulatedResourceFile
     {
-        public List<EncapsulatedResource.Entry> Entries
+        public byte Version;
+        public uint Flags;
+        public EncryptionScheme Encryption;
+        public CompressionScheme Compression;
+        public uint UnknownC4;
+        public byte[] PasswordDigest = null;
+
+        public List<Entry> Entries
             = new List<Entry>();
 
         public void Deserialize(Stream input)
@@ -42,38 +49,189 @@ namespace Gibbed.Bioware.FileFormats
             var version1 = input.ReadValueU64(false);
             var version2 = input.ReadValueU64(false);
 
-            IVersion reader = null;
-
             if (version1 == 0x4552462056322E31) // ERF V2.1
             {
                 input.Seek(basePosition + 8, SeekOrigin.Begin);
-                reader = new EncapsulatedResource.Version21();
+                throw new NotSupportedException();
             }
             else if (version1 == 0x4500520046002000 &&
                 version2 == 0x560032002E003000) // ERF V2.0
             {
                 input.Seek(basePosition + 16, SeekOrigin.Begin);
-                reader = new EncapsulatedResource.Version20();
+                this.Version = 1;
+
+                var fileCount = input.ReadValueU32();
+                var unknown14 = input.ReadValueU32();
+                var unknown18 = input.ReadValueU32();
+                var unknown1C = input.ReadValueU32();
+
+                this.Flags = 0;
+                this.Encryption = EncryptionScheme.None;
+                this.Compression = CompressionScheme.None;
+                this.UnknownC4 = 0;
+                this.PasswordDigest = null;
+
+                this.Entries.Clear();
+                for (uint i = 0; i < fileCount; i++)
+                {
+                    var entry = new Entry();
+
+                    entry.Name = input.ReadString(64, true, Encoding.Unicode);
+                    entry.CalculateHashes();
+                    entry.Offset = input.ReadValueU32();
+                    entry.UncompressedSize = input.ReadValueU32();
+                    entry.CompressedSize = entry.UncompressedSize;
+
+                    this.Entries.Add(entry);
+                }
             }
             else if (version1 == 0x4500520046002000 &&
                 version2 == 0x560032002E003200) // ERF V2.2
             {
                 input.Seek(basePosition + 16, SeekOrigin.Begin);
-                reader = new EncapsulatedResource.Version22();
+                this.Version = 2;
+
+                var fileCount = input.ReadValueU32();
+                var year = input.ReadValueU32();
+                var day = input.ReadValueU32();
+                var unknown1C = input.ReadValueU32(); // always 0xFFFFFFFF?
+                var flags = input.ReadValueU32();
+                var unknown24 = input.ReadValueU32();
+                var passwordDigest = new byte[16];
+                input.Read(passwordDigest, 0, passwordDigest.Length);
+
+                this.Flags = (flags & 0x8FFFFF0F) >> 0;
+                this.Encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
+                this.Compression = (CompressionScheme)((flags & 0x70000000) >> 28);
+
+                if (this.Flags != 0 && this.Flags != 1)
+                {
+                    throw new FormatException("unknown flags value");
+                }
+
+                this.UnknownC4 = unknown24;
+                this.PasswordDigest = passwordDigest;
+
+                this.Entries.Clear();
+                for (uint i = 0; i < fileCount; i++)
+                {
+                    var entry = new Entry();
+                    
+                    entry.Name = input.ReadString(64, true, Encoding.Unicode);
+                    entry.CalculateHashes();
+                    entry.Offset = input.ReadValueU32();
+                    entry.CompressedSize = input.ReadValueU32();
+                    entry.UncompressedSize = input.ReadValueU32();
+
+                    this.Entries.Add(entry);
+                }
             }
             else if (version1 == 0x4500520046002000 &&
                 version2 == 0x560033002E003000) // ERF V3.0
             {
                 input.Seek(basePosition + 16, SeekOrigin.Begin);
-                reader = new EncapsulatedResource.Version30();
+                this.Version = 3;
+
+                var stringTableSize = input.ReadValueU32();
+                var fileCount = input.ReadValueU32();
+                var flags = input.ReadValueU32();
+                var unknown1C = input.ReadValueU32();
+                var passwordDigest = new byte[16];
+                input.Read(passwordDigest, 0, passwordDigest.Length);
+
+                this.Flags = (flags & 0x8FFFFF0F) >> 0;
+                this.Encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
+                this.Compression = (CompressionScheme)((flags & 0x70000000) >> 28);
+
+                if (this.Flags != 0)
+                {
+                    throw new FormatException("unknown flags value");
+                }
+
+                this.UnknownC4 = unknown1C;
+                this.PasswordDigest = passwordDigest;
+
+                MemoryStream stringTable = stringTableSize == 0 ?
+                    null : input.ReadToMemoryStream(stringTableSize);
+
+                this.Entries.Clear();
+                for (uint i = 0; i < fileCount; i++)
+                {
+                    var entry = new Entry();
+
+                    uint nameOffset = input.ReadValueU32();
+                    entry.NameHash = input.ReadValueU64();
+
+                    if (nameOffset != 0xFFFFFFFF)
+                    {
+                        if (nameOffset + 1 > stringTable.Length)
+                        {
+                            throw new FormatException("file name exceeds string table bounds");
+                        }
+
+                        stringTable.Position = nameOffset;
+                        entry.Name = stringTable.ReadStringZ(Encoding.ASCII);
+
+                        if (entry.Name.HashFNV64() != entry.NameHash)
+                        {
+                            throw new InvalidOperationException("hash mismatch");
+                        }
+                    }
+                    else
+                    {
+                        entry.Name = null;
+                    }
+
+                    entry.TypeHash = input.ReadValueU32();
+                    entry.Offset = input.ReadValueU32();
+                    entry.CompressedSize = input.ReadValueU32();
+                    entry.UncompressedSize = input.ReadValueU32();
+
+                    this.Entries.Add(entry);
+                }
             }
             else
             {
                 throw new FormatException("unsupported / unknown ERF format");
             }
+        }
 
-            this.Entries.Clear();
-            this.Entries.AddRange(reader.Deserialize(input));
+        public enum EncryptionScheme : byte
+        {
+            None = 0,
+            XOR = 1,
+            Blowfish2 = 2,
+            Blowfish3 = 3,
+        }
+
+        public enum CompressionScheme : byte
+        {
+            None = 0,
+            BiowareZlib = 1,
+            HeaderlessZlib = 7,
+        }
+
+        public class Entry
+        {
+            public string Name;
+            public ulong NameHash;
+            public uint TypeHash;
+            public long Offset;
+            public uint UncompressedSize;
+            public uint CompressedSize;
+
+            public void CalculateHashes()
+            {
+                if (this.Name == null)
+                {
+                    throw new InvalidOperationException();
+                }
+
+                this.NameHash = this.Name.HashFNV64();
+                var extension = Path.GetExtension(this.Name);
+                this.TypeHash = extension == null ?
+                    0 : extension.Trim('.').HashFNV32();
+            }
         }
     }
 }

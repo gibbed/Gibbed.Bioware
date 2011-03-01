@@ -29,7 +29,7 @@ using System.Windows.Forms;
 using Gibbed.Bioware.FileFormats;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
-using EncapsulatedResource = Gibbed.Bioware.FileFormats.EncapsulatedResource;
+using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
 {
@@ -70,7 +70,7 @@ namespace Gibbed.Bioware.ErfViewer
 		public void SaveAll(object oinfo)
 		{
 			SaveAllInformation info = (SaveAllInformation)oinfo;
-            IEnumerable<EncapsulatedResource.Entry> saving;
+            IEnumerable<ERF.Entry> saving;
 
             if (info.Saving == null)
             {
@@ -146,30 +146,62 @@ namespace Gibbed.Bioware.ErfViewer
 
                 using (var output = File.Create(path))
                 {
-                    Stream data;
+                    Stream data = info.Stream;
 
-                    if (entry.CompressedSize != entry.UncompressedSize)
+                    switch (info.Archive.Encryption)
                     {
-                        /* Bioware's zlib has a custom header of 1 byte
-                         * rather than the normal two-byte zlib header.
-                         * 
-                         * The upper 4 bits are the window bits.
-                         * 
-                         * The uppermost bit must always be set to 1,
-                         * since a valid window bits size must be from
-                         * 8 to 15.
-                         *
-                         * Don't know what the lower 4 bits are for yet.
-                         * 
-                         * So for now, we'll ignore it their header.
-                         */
-                        data = new InflaterInputStream(
-                            info.Stream, new Inflater(true));
-                        info.Stream.Seek(1, SeekOrigin.Current);
+                        case ERF.EncryptionScheme.None:
+                        {
+                            //data = data;
+                            break;
+                        }
+
+                        default:
+                        {
+                            throw new NotSupportedException("unsupported encryption scheme");
+                        }
                     }
-                    else
+
+                    switch (info.Archive.Compression)
                     {
-                        data = info.Stream;
+                        case ERF.CompressionScheme.BiowareZlib:
+                        {
+                            /* Bioware's zlib has a custom header of 1 byte
+                             * rather than the normal two-byte zlib header.
+                             * 
+                             * The upper 4 bits are the window bits.
+                             * 
+                             * The uppermost bit must always be set to 1,
+                             * since a valid window bits size must be from
+                             * 8 to 15.
+                             *
+                             * Don't know what the lower 4 bits are for yet.
+                             * 
+                             * So for now, we'll ignore it their header.
+                             */
+                            data.Seek(1, SeekOrigin.Current);
+                            data = new InflaterInputStream(
+                                data, new Inflater(true));
+                            break;
+                        }
+
+                        case ERF.CompressionScheme.HeaderlessZlib:
+                        {
+                            data = new InflaterInputStream(
+                                data, new Inflater(true));
+                            break;
+                        }
+
+                        case ERF.CompressionScheme.None:
+                        {
+                            //data = data;
+                            break;
+                        }
+
+                        default:
+                        {
+                            throw new NotSupportedException("unsupported compression scheme");
+                        }
                     }
 
                     long left = entry.UncompressedSize;
@@ -196,8 +228,8 @@ namespace Gibbed.Bioware.ErfViewer
 		{
 			public string BasePath;
 			public Stream Stream;
-            public EncapsulatedResourceFile Archive;
-            public IEnumerable<EncapsulatedResource.Entry> Saving;
+            public ERF Archive;
+            public IEnumerable<ERF.Entry> Saving;
 			public Dictionary<ulong, string> FileNames;
             public Dictionary<uint, string> TypeNames;
             public SaveAllSettings Settings;
@@ -207,8 +239,8 @@ namespace Gibbed.Bioware.ErfViewer
 		public void ShowSaveProgress(
             IWin32Window owner,
             Stream stream,
-            EncapsulatedResourceFile archive,
-            IEnumerable<EncapsulatedResource.Entry> saving,
+            ERF archive,
+            IEnumerable<ERF.Entry> saving,
             Dictionary<ulong, string> fileNames,
             Dictionary<uint, string> typeNames,
             string basePath,
