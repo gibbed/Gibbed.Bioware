@@ -22,11 +22,11 @@
 
 using System;
 using System.Collections.Generic;
-using EncapsulatedResource = Gibbed.Bioware.FileFormats.EncapsulatedResource;
+using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
 {
-    internal class EntryComparer : IComparer<EncapsulatedResource.Entry>
+    internal class EntryComparer : IComparer<ERF.Entry>
     {
         private Dictionary<ulong, string> FileNames;
 
@@ -35,7 +35,7 @@ namespace Gibbed.Bioware.ErfViewer
             this.FileNames = names;
         }
 
-        public int Compare(EncapsulatedResource.Entry x, EncapsulatedResource.Entry y)
+        public int Compare(ERF.Entry x, ERF.Entry y)
         {
             if (x.Name != null && y.Name != null)
             {
