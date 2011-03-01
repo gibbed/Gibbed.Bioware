@@ -1,0 +1,15 @@
+<project>
+	<name>Dragon Age</name>
+	<dependencies>
+		<dependency>Shared</dependency>
+	</dependencies>
+	<list_location>Dragon Age</list_location>
+	<install_locations>
+		<install_location>
+			<action type="registry" key="HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\Dragon Age" value="Path" />
+		</install_location>
+		<install_location>
+			<action type="registry" key="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\BioWare\Dragon Age" value="Path" />
+		</install_location>
+	</install_locations>
+</project>
