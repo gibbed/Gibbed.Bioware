@@ -34,7 +34,7 @@ namespace Gibbed.Bioware.FileFormats
         public uint Flags;
         public EncryptionScheme Encryption;
         public CompressionScheme Compression;
-        public uint UnknownC4;
+        public uint ContentId;
         public byte[] PasswordDigest = null;
 
         public List<Entry> Entries
@@ -68,7 +68,7 @@ namespace Gibbed.Bioware.FileFormats
                 this.Flags = 0;
                 this.Encryption = EncryptionScheme.None;
                 this.Compression = CompressionScheme.None;
-                this.UnknownC4 = 0;
+                this.ContentId = 0;
                 this.PasswordDigest = null;
 
                 this.Entries.Clear();
@@ -96,9 +96,14 @@ namespace Gibbed.Bioware.FileFormats
                 var day = input.ReadValueU32();
                 var unknown1C = input.ReadValueU32(); // always 0xFFFFFFFF?
                 var flags = input.ReadValueU32();
-                var unknown24 = input.ReadValueU32();
+                var contentId = input.ReadValueU32();
                 var passwordDigest = new byte[16];
                 input.Read(passwordDigest, 0, passwordDigest.Length);
+
+                if (unknown1C != 0xFFFFFFFF)
+                {
+                    throw new InvalidOperationException();
+                }
 
                 this.Flags = (flags & 0x8FFFFF0F) >> 0;
                 this.Encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
@@ -109,7 +114,7 @@ namespace Gibbed.Bioware.FileFormats
                     throw new FormatException("unknown flags value");
                 }
 
-                this.UnknownC4 = unknown24;
+                this.ContentId = contentId;
                 this.PasswordDigest = passwordDigest;
 
                 this.Entries.Clear();
@@ -135,7 +140,7 @@ namespace Gibbed.Bioware.FileFormats
                 var stringTableSize = input.ReadValueU32();
                 var fileCount = input.ReadValueU32();
                 var flags = input.ReadValueU32();
-                var unknown1C = input.ReadValueU32();
+                var contentId = input.ReadValueU32();
                 var passwordDigest = new byte[16];
                 input.Read(passwordDigest, 0, passwordDigest.Length);
 
@@ -148,7 +153,7 @@ namespace Gibbed.Bioware.FileFormats
                     throw new FormatException("unknown flags value");
                 }
 
-                this.UnknownC4 = unknown1C;
+                this.ContentId = contentId;
                 this.PasswordDigest = passwordDigest;
 
                 MemoryStream stringTable = stringTableSize == 0 ?
