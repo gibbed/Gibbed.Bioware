@@ -40,6 +40,7 @@ namespace Gibbed.Bioware.Setup
 
         public Dictionary<ulong, string> FileHashLookup { get; private set; }
         public Dictionary<uint, string> TypeHashLookup { get; private set; }
+        public Dictionary<uint, string> GDAHashLookup { get; private set; }
         
         internal Manager Manager;
 
@@ -48,6 +49,7 @@ namespace Gibbed.Bioware.Setup
             this.Dependencies = new List<string>();
             this.FileHashLookup = new Dictionary<ulong, string>();
             this.TypeHashLookup = new Dictionary<uint, string>();
+            this.GDAHashLookup = new Dictionary<uint, string>();
             this.Loaded = false;
         }
 
@@ -64,6 +66,7 @@ namespace Gibbed.Bioware.Setup
             this.Loaded = true;
             this.LoadFileLists();
             this.LoadTypeLists();
+            this.LoadGDALists();
         }
 
         private void LoadFileLists()
@@ -102,7 +105,12 @@ namespace Gibbed.Bioware.Setup
                         {
                             break;
                         }
+                        else if (line.StartsWith(";") == true)
+                        {
+                            continue;
+                        }
 
+                        line = line.Trim();
                         if (line.Length <= 0)
                         {
                             continue;
@@ -169,6 +177,10 @@ namespace Gibbed.Bioware.Setup
                         {
                             break;
                         }
+                        else if (line.StartsWith(";") == true)
+                        {
+                            continue;
+                        }
 
                         line = line.Trim();
                         if (line.Length <= 0)
@@ -187,6 +199,70 @@ namespace Gibbed.Bioware.Setup
                         }
 
                         this.TypeHashLookup[hash] = line; // .Add(hash, line);
+                    }
+
+                    reader.Close();
+                }
+            }
+        }
+
+        private void LoadGDALists()
+        {
+            this.GDAHashLookup.Clear();
+
+            foreach (var name in this.Dependencies)
+            {
+                var dependency = this.Manager[name];
+                if (dependency != null)
+                {
+                    this.LoadGDAListsFrom(dependency.ListsPath);
+                }
+            }
+
+            this.LoadGDAListsFrom(this.ListsPath);
+        }
+
+        private void LoadGDAListsFrom(string basePath)
+        {
+            if (Directory.Exists(basePath) == false)
+            {
+                return;
+            }
+
+            foreach (string listPath in Directory.GetFiles(basePath, "*.gdalist", SearchOption.AllDirectories))
+            {
+                using (var input = File.Open(listPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    TextReader reader = new StreamReader(input);
+
+                    while (true)
+                    {
+                        string line = reader.ReadLine();
+                        if (line == null)
+                        {
+                            break;
+                        }
+                        else if (line.StartsWith(";") == true)
+                        {
+                            continue;
+                        }
+
+                        line = line.Trim();
+                        if (line.Length <= 0)
+                        {
+                            continue;
+                        }
+
+                        uint hash = line.HashCRC32();
+
+                        if (this.GDAHashLookup.ContainsKey(hash) &&
+                            this.GDAHashLookup[hash] != line)
+                        {
+                            string otherLine = this.GDAHashLookup[hash];
+                            throw new InvalidOperationException("duplicate hash");
+                        }
+
+                        this.GDAHashLookup[hash] = line; // .Add(hash, line);
                     }
 
                     reader.Close();
