@@ -58,6 +58,7 @@ namespace Gibbed.Bioware.ErfViewer
             this.saveAllButton = new System.Windows.Forms.ToolStripButton();
             this.reloadListsButton = new System.Windows.Forms.ToolStripSplitButton();
             this.saveKnownListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveKnownListToDefaultLocationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsButton = new System.Windows.Forms.ToolStripDropDownButton();
             this.saveOnlyKnownFilesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dontOverwriteFilesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,8 +69,13 @@ namespace Gibbed.Bioware.ErfViewer
             this.saveFilesDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.saveKnownFileListDialog = new System.Windows.Forms.SaveFileDialog();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.infoStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.spacerStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.modeStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.mainToolStrip.SuspendLayout();
             this.fileMenuStrip.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainToolStrip
@@ -93,7 +99,7 @@ namespace Gibbed.Bioware.ErfViewer
             this.projectComboBox.Name = "projectComboBox";
             this.projectComboBox.Size = new System.Drawing.Size(181, 25);
             this.projectComboBox.Sorted = true;
-            this.projectComboBox.SelectedIndexChanged += new System.EventHandler(this.OnProjectSelected);
+            this.projectComboBox.SelectedIndexChanged += new System.EventHandler(this.OnProjectSelect);
             // 
             // openButton
             // 
@@ -116,7 +122,8 @@ namespace Gibbed.Bioware.ErfViewer
             // reloadListsButton
             // 
             this.reloadListsButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saveKnownListToolStripMenuItem});
+            this.saveKnownListToolStripMenuItem,
+            this.saveKnownListToDefaultLocationToolStripMenuItem});
             this.reloadListsButton.Image = global::Gibbed.Bioware.ErfViewer.Properties.Resources.ReloadLists;
             this.reloadListsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.reloadListsButton.Name = "reloadListsButton";
@@ -127,9 +134,16 @@ namespace Gibbed.Bioware.ErfViewer
             // saveKnownListToolStripMenuItem
             // 
             this.saveKnownListToolStripMenuItem.Name = "saveKnownListToolStripMenuItem";
-            this.saveKnownListToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.saveKnownListToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
             this.saveKnownListToolStripMenuItem.Text = "Save Known &List";
             this.saveKnownListToolStripMenuItem.Click += new System.EventHandler(this.OnSaveKnownFileList);
+            // 
+            // saveKnownListToDefaultLocationToolStripMenuItem
+            // 
+            this.saveKnownListToDefaultLocationToolStripMenuItem.Name = "saveKnownListToDefaultLocationToolStripMenuItem";
+            this.saveKnownListToDefaultLocationToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.saveKnownListToDefaultLocationToolStripMenuItem.Text = "Save Known List to &default location";
+            this.saveKnownListToDefaultLocationToolStripMenuItem.Click += new System.EventHandler(this.OnSaveKnownFileListToDefaultLocation);
             // 
             // settingsButton
             // 
@@ -162,8 +176,9 @@ namespace Gibbed.Bioware.ErfViewer
             this.fileList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fileList.Location = new System.Drawing.Point(0, 25);
             this.fileList.Name = "fileList";
-            this.fileList.Size = new System.Drawing.Size(640, 295);
+            this.fileList.Size = new System.Drawing.Size(640, 273);
             this.fileList.TabIndex = 1;
+            this.fileList.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.OnNodeSelect);
             // 
             // fileMenuStrip
             // 
@@ -198,12 +213,44 @@ namespace Gibbed.Bioware.ErfViewer
             this.saveKnownFileListDialog.Filter = "File List (*.filelist)|*.filelist";
             this.saveKnownFileListDialog.RestoreDirectory = true;
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.infoStatusLabel,
+            this.spacerStatusLabel,
+            this.modeStatusLabel});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 298);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(640, 22);
+            this.statusStrip1.TabIndex = 2;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // infoStatusLabel
+            // 
+            this.infoStatusLabel.Name = "infoStatusLabel";
+            this.infoStatusLabel.Size = new System.Drawing.Size(36, 17);
+            this.infoStatusLabel.Text = "(info)";
+            // 
+            // spacerStatusLabel
+            // 
+            this.spacerStatusLabel.Name = "spacerStatusLabel";
+            this.spacerStatusLabel.Size = new System.Drawing.Size(543, 17);
+            this.spacerStatusLabel.Spring = true;
+            this.spacerStatusLabel.Text = " ";
+            // 
+            // modeStatusLabel
+            // 
+            this.modeStatusLabel.Name = "modeStatusLabel";
+            this.modeStatusLabel.Size = new System.Drawing.Size(46, 17);
+            this.modeStatusLabel.Text = "(mode)";
+            // 
             // Viewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(640, 320);
             this.Controls.Add(this.fileList);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.mainToolStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Viewer";
@@ -212,6 +259,8 @@ namespace Gibbed.Bioware.ErfViewer
             this.mainToolStrip.ResumeLayout(false);
             this.mainToolStrip.PerformLayout();
             this.fileMenuStrip.ResumeLayout(false);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,6 +284,11 @@ namespace Gibbed.Bioware.ErfViewer
         private System.Windows.Forms.ToolStripSplitButton reloadListsButton;
         private System.Windows.Forms.ToolStripMenuItem saveKnownListToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveKnownFileListDialog;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel infoStatusLabel;
+        private System.Windows.Forms.ToolStripStatusLabel modeStatusLabel;
+        private System.Windows.Forms.ToolStripStatusLabel spacerStatusLabel;
+        private System.Windows.Forms.ToolStripMenuItem saveKnownListToDefaultLocationToolStripMenuItem;
     }
 }
 

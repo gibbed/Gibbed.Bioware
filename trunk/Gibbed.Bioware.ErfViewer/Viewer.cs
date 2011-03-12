@@ -25,7 +25,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using Gibbed.Bioware.FileFormats;
 using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
@@ -35,6 +34,8 @@ namespace Gibbed.Bioware.ErfViewer
         public Viewer()
         {
             this.InitializeComponent();
+            this.infoStatusLabel.Text = "";
+            this.modeStatusLabel.Text = "";
         }
 
         private Setup.Manager Manager;
@@ -150,7 +151,14 @@ namespace Gibbed.Bioware.ErfViewer
                             }
                         }
 
-                        node = parentNodes.Add(null, Path.GetFileName(fileName), 3, 3);
+                        var name = Path.GetFileName(fileName);
+
+                        if (entry.Name != null)
+                        {
+                            name += " *";
+                        }
+
+                        node = parentNodes.Add(null, name, 3, 3);
                         knownCount++;
                     }
                     else
@@ -244,14 +252,9 @@ namespace Gibbed.Bioware.ErfViewer
             }
             this.Archive = archive;
 
-            /*
-            TextWriter writer = new StreamWriter("all_file_hashes.txt");
-            foreach (var hash in table.Keys.OrderBy(k => k))
-            {
-                writer.WriteLine(hash.ToString("X8"));
-            }
-            writer.Close();
-            */
+            this.modeStatusLabel.Text =
+                string.Format("Compression: {0}, Encryption: {1}",
+                    archive.Compression, archive.Encryption);
 
             this.BuildFileTree();
         }
@@ -301,7 +304,7 @@ namespace Gibbed.Bioware.ErfViewer
 
                 saving = new List<ERF.Entry>();
                 
-                List<TreeNode> nodes = new List<TreeNode>();
+                var nodes = new List<TreeNode>();
                 nodes.Add(root);
 
                 while (nodes.Count > 0)
@@ -379,17 +382,21 @@ namespace Gibbed.Bioware.ErfViewer
             }
         }
 
-        private void OnReloadLists(object sender, EventArgs e)
+        private void OnNodeSelect(object sender, TreeViewEventArgs e)
         {
-            if (this.Manager.ActiveProject != null)
+            if (e.Node == null || !(e.Node.Tag is ERF.Entry))
             {
-                this.Manager.ActiveProject.Reload();
+                this.infoStatusLabel.Text = "";
+                return;
             }
 
-            this.BuildFileTree();
+            var entry = (ERF.Entry)e.Node.Tag;
+            this.infoStatusLabel.Text =
+                string.Format("@ {0} : {1}",
+                    entry.Offset, entry.CompressedSize);
         }
 
-        private void OnProjectSelected(object sender, EventArgs e)
+        private void OnProjectSelect(object sender, EventArgs e)
         {
             this.projectComboBox.Invalidate();
             var project = this.projectComboBox.SelectedItem as Setup.Project;
@@ -401,18 +408,25 @@ namespace Gibbed.Bioware.ErfViewer
             this.BuildFileTree();
         }
 
-        private void OnSaveKnownFileList(object sender, EventArgs e)
+        private void OnReloadLists(object sender, EventArgs e)
         {
-            if (this.saveKnownFileListDialog.ShowDialog() != DialogResult.OK)
+            if (this.Manager.ActiveProject != null)
             {
-                return;
+                this.Manager.ActiveProject.Reload();
             }
 
-            List<string> names = new List<string>();
+            this.BuildFileTree();
+        }
+
+        private void SaveKnownFileList(string outputPath)
+        {
+            var names = new List<string>();
+            string headerLine = null;
 
             if (this.Archive != null &&
                 this.Manager.ActiveProject != null)
             {
+                int count = 0;
                 foreach (var entry in this.Archive.Entries)
                 {
                     string name = entry.Name;
@@ -428,18 +442,92 @@ namespace Gibbed.Bioware.ErfViewer
                     if (name != null && names.Contains(name) == false)
                     {
                         names.Add(name);
+                        count++;
                     }
                 }
+
+                headerLine = string.Format("{0}/{1} ({2}%)",
+                    count, this.Archive.Entries.Count,
+                    (int)Math.Floor(((float)count / (float)this.Archive.Entries.Count) * 100));
             }
 
             names.Sort();
 
-            TextWriter output = new StreamWriter(this.saveKnownFileListDialog.OpenFile());
-            foreach (string name in names)
+            using (var output = new StreamWriter(outputPath))
             {
-                output.WriteLine(name);
+                if (headerLine != null)
+                {
+                    output.WriteLine("; {0}", headerLine);
+                }
+
+                foreach (string name in names)
+                {
+                    output.WriteLine(name);
+                }
             }
-            output.Close();
+        }
+
+        private void OnSaveKnownFileList(object sender, EventArgs e)
+        {
+            if (this.saveKnownFileListDialog.ShowDialog() != DialogResult.OK)
+            {
+                return;
+            }
+
+            this.SaveKnownFileList(this.saveKnownFileListDialog.FileName);
+        }
+
+        private void OnSaveKnownFileListToDefaultLocation(object sender, EventArgs e)
+        {
+            if (this.Archive == null)
+            {
+                MessageBox.Show(
+                    "No open archive.",
+                    "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else if (this.Manager.ActiveProject == null)
+            {
+                MessageBox.Show(
+                    "No active project.",
+                    "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // case insensitive, but who cares eh?
+
+            var inputPath = this.openDialog.FileName.ToLowerInvariant();
+            var installPath = this.Manager.ActiveProject.InstallPath.ToLowerInvariant();
+
+            if (inputPath.StartsWith(installPath) == false)
+            {
+                MessageBox.Show(
+                    "This archive is not within the install directory.",
+                    "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            var baseName = inputPath.Substring(installPath.Length + 1);
+            
+            string outputPath;
+            outputPath = Path.Combine(this.Manager.ActiveProject.ListsPath, "files");
+            outputPath = Path.Combine(outputPath, baseName);
+            outputPath = Path.ChangeExtension(outputPath, ".filelist");
+
+            if (MessageBox.Show(
+                "Save to\n" + outputPath + "\n?",
+                "Question",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question) == DialogResult.No)
+            {
+                return;
+            }
+
+            Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
+            this.SaveKnownFileList(outputPath);
         }
     }
 }
