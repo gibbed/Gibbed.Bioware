@@ -1,0 +1,1577 @@
+; 1576/2559 (62%)
+art\characters\creatures\corpse\animation\combat\ready.ani
+art\characters\creatures\corpse\animation\combat\ready.evt
+art\characters\creatures\corpse\animation\combat\ready.gad
+art\characters\creatures\darkspawnogre\animation\cindes\custom\meleeattackv1_frozen.ani
+art\characters\playercharacter\children\animation\blendtree\child.anb
+art\characters\playercharacter\children\animation\blendtree\child_exp_movement.anb
+art\characters\playercharacter\children\animation\blendtree\child_overlay.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\combat_movement_varric_crossbow.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\dm_exp_idle.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\dm_exp_movement.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\pp_varric.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\varric_crossbow_bowoverlay.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\varric_crossbow_combat.anb
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\move_p.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\move_p.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\move_p.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\move_p_injured.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v1.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v1.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v1.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v2.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v2.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v2.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v3.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v3.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v3.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v4.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\idle\twitch_v5.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l180_rf.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l180_rf.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l180_rf.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l90_p.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l90_p.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l90_p.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l90_rf.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l90_rf.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_l90_rf.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r180_rf.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r180_rf.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r180_rf.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r90_p.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r90_p.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r90_p.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r90_rf.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r90_rf.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_r90_rf.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_rf.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_rf.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_p_rf.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_injured.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_injured_leanl.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_injured_leanr.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_leanl.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_leanl.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_leanl.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_leanr.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_leanr.evt
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_leanr.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_p_lfoot.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_rf_p_rfoot.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_wf.ani
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_wf.gad
+art\characters\playercharacter\dwarfmale\animation\exploration\movement\mov_wf_injured.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_attk_trn_lft_180.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_attk_trn_rght_180.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_attk_trn_rght_180.evt
+art\characters\playercharacter\dwarfmale\animation\vrc_attk_trn_rght_180.gad
+art\characters\playercharacter\dwarfmale\animation\vrc_bayonet_atk_v1.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_bayonet_atk_v2.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_butt_atk_v1.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_butt_atk_v2.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_cmov_rf.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_cmov_wb.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_cmov_wf.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_cmov_wf_l.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_cmov_wf_r.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_critical_shot.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_critical_shot.evt
+art\characters\playercharacter\dwarfmale\animation\vrc_critical_shot.gad
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v1.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v1_lp.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v1_up.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v2.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v2_lp.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v2_up.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v3.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v3_lp.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_die_v3_up.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_ent.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_ent_overlay.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_escape.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_ext.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_ext_overlay.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_flourish_additive.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_grenade_toss.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_kick_atk.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_pinning_shot.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_pinning_shot_v2.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_pinpoint_strike.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_pinpoint_strike.evt
+art\characters\playercharacter\dwarfmale\animation\vrc_pinpoint_strike.gad
+art\characters\playercharacter\dwarfmale\animation\vrc_quick_modal_activate.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_rct_kdown_v1.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_rct_kdown_v2.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_rct_kdown_v3.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_rdy.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_rdy_flrsh.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_rng_atk_v2.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_rng_atk_v2.evt
+art\characters\playercharacter\dwarfmale\animation\vrc_rng_atk_v2.gad
+art\characters\playercharacter\dwarfmale\animation\vrc_rng_atk_v5.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_teleport.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_trip_v1.ani
+art\characters\playercharacter\dwarfmale\animation\vrc_trip_v2.ani
+art\characters\playercharacter\elffemale\animation\blendtree\ef_exp_idle.anb
+art\characters\playercharacter\elffemale\animation\blendtree\ef_exp_movement.anb
+art\characters\playercharacter\elffemale\animation\blendtree\merril_exp_movement.anb
+art\characters\playercharacter\elffemale\animation\exploration\idle\mov_p.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\mov_p_injured.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v1.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v2.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v3.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v4.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v5.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v6.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v7.ani
+art\characters\playercharacter\elffemale\animation\exploration\idle\twitch_v8.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf_injured.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf_injured_leanl.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf_injured_leanr.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf_leanl.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf_leanr.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf_p_lfoot.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_rf_p_rfoot.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_wf.ani
+art\characters\playercharacter\elffemale\animation\exploration\movement\mov_wf_injured.ani
+art\characters\playercharacter\elfmale\animation\blendtree\em_exp_idle.anb
+art\characters\playercharacter\elfmale\animation\blendtree\em_exp_movement.anb
+art\characters\playercharacter\elfmale\animation\blendtree\pp_fenris.anb
+art\characters\playercharacter\elfmale\animation\exploration\idle\mov_p.ani
+art\characters\playercharacter\elfmale\animation\exploration\idle\twitch_v1.ani
+art\characters\playercharacter\elfmale\animation\exploration\idle\twitch_v2.ani
+art\characters\playercharacter\elfmale\animation\exploration\idle\twitch_v3.ani
+art\characters\playercharacter\elfmale\animation\exploration\idle\twitch_v4.ani
+art\characters\playercharacter\elfmale\animation\exploration\idle\twitch_v5.ani
+art\characters\playercharacter\elfmale\animation\exploration\idle\twitch_v6.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_injured.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_injured_leanl.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_injured_leanr.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_leanl.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_leanr.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_p_lfoot.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_p_rfoot.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_wf.ani
+art\characters\playercharacter\elfmale\animation\exploration\movement\mov_wf_injured.ani
+art\characters\playercharacter\elfmale\animation\trooperarcher\flurry.ani
+art\characters\playercharacter\elfmale\animation\trooperarcher\powerattack.ani
+art\characters\playercharacter\elfmale\animation\trooperassasin\disengage.ani
+art\characters\playercharacter\elfmale\animation\trooperassasin\stealthactivate.ani
+art\characters\playercharacter\elfmale\animation\trooperassasin\stealthattackv1.ani
+art\characters\playercharacter\elfmale\animation\trooperassasin\stealthattackv2.ani
+art\characters\playercharacter\elfmale\animation\trooperwarrior\enrage.ani
+art\characters\playercharacter\elfmale\animation\trooperwarrior\flurry.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_2hands_on_hip_enter.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_2hands_on_hip_exit.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_2hands_on_hip_loop.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_arm_cross_enter.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_arm_cross_exit.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_arm_cross_loop.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_hand_on_hip_enter.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_hand_on_hip_exit.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_hand_on_hip_loop.ani
+art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_loop.ani
+art\characters\playercharacter\humanfemale\animation\blendtree\aveline.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\aveline_exp_movement.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\aveline_overlay.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\hf.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\hf_exp_movement.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\hf_overlay.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\hf_paperdoll.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\pp_aveline.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\pp_bethany.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\pp_female_mage.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\pp_female_rogue.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\pp_female_warrior.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\pp_isabella.anb
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\cuddle_lying_female_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\cuddle_sitting_female_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\leaning_back_low_2arm_shrug.ani
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\leaning_back_low_enter.ani
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\leaning_back_low_exit.ani
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\leaning_back_low_gesture_left.ani
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\leaning_back_low_gesture_right.ani
+art\characters\playercharacter\humanfemale\animation\cindes\ambient\compressed\leaning_back_low_loop.ani
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headhigh.ani
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headhigh.evt
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headhigh.gad
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headlow.ani
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headlow.evt
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headlow.gad
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headmid.ani
+art\characters\playercharacter\humanfemale\animation\exploration\fh_ovr_headmid.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\chargenidle.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\chargenidle.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\pause.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\pause.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\pause_injured.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv1.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv1.evt
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv1.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv2.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv2.evt
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv2.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv3.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv3.evt
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv3.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv4.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv4.evt
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv4.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv5.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv5.evt
+art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv5.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauserunf.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauserunf.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauserunf.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl180runf.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl180runf.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl180runf.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl90pause.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl90pause.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl90pause.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl90runf.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl90runf.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnl90runf.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr180runf.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr180runf.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr180runf.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr90pause.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr90pause.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr90pause.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr90runf.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr90runf.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\pauseturnr90runf.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runf.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runf.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runf.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runf_injured.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runf_injured_leanl.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runf_injured_leanr.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runleanl.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runleanl.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runleanl.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runleanr.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runleanr.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runleanr.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runpausefl.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runpausefl.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runpausefl.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runpausefr.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runpausefr.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\runpausefr.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\shuffle.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\shuffle.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\shuffle.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\walkf.ani
+art\characters\playercharacter\humanfemale\animation\exploration\movement\walkf.evt
+art\characters\playercharacter\humanfemale\animation\exploration\movement\walkf.gad
+art\characters\playercharacter\humanfemale\animation\exploration\movement\walkf_injured.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_browsing_store.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_grdstand_en.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_grdstand_ex.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_grdstand_lp.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_mer_tw.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_std_beg_lp.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_weep_en.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_weep_ex.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_weep_lp.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\am_wipe_eyes.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\dg_prostitute_2.ani
+art\characters\playercharacter\humanmale\animation\ambient\ambient\dg_tk_camp_fire.ani
+art\characters\playercharacter\humanmale\animation\ambient\custom\crushing_prison_reaction_db_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\custom\mw_slow_zone.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\bless_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\bless_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\bless_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\crouch_one_knee_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\crouch_pray_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\crouch_squat_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\crouch_squat_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\crouch_squat_interact_low.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\crouch_squat_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\drunk_gesture_2hands.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\drunk_gesture_left_1.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\drunk_gesture_right_1.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\drunk_gesture_right_2.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\drunk_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\drunk_stagger_1.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\drunk_wobble.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\hands_behind_back_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\hands_behind_back_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\hands_behind_back_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\hands_on_face_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\hands_on_face_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\hands_on_face_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\kneeling_faint_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\lean_on_table_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\left_hand_gesture_self.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\left_hand_torightarm_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\lying_injured_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\lying_injured_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\lying_on_ground_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\right_hand_gesture_left.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\scared_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\sitting_chair_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\sitting_ground_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\sitting_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\sitting_ground_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\sitting_injured_pose_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\talk_barter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\talk_beseech.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\talk_dismissive.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\talk_pointing.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\talk_scared.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\talk_wary.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\talk_welcome.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\thinking_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\thinking_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\thinking_gesture_right_hand.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\thinking_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\thinking_twitch_hands_on_hips.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\thinking_weightshift_gesture_left_hand.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_left_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_left_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_left_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_left_twitch.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_right_enter.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_right_exit.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_right_loop.ani
+art\characters\playercharacter\humanmale\animation\ambient\dialogue\wall_lean_right_twitch.ani
+art\characters\playercharacter\humanmale\animation\ambient\pose\pose_a.ani
+art\characters\playercharacter\humanmale\animation\ambient\pose\pose_af_transition.ani
+art\characters\playercharacter\humanmale\animation\ambient\pose\pose_f.ani
+art\characters\playercharacter\humanmale\animation\ambient\pose\pose_fa_transition.ani
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\basedualwield\blendtree\assassin.anb
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\basedualwield\blendtree\assassin_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_activate.ani
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_atk_v1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_atk_v2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\blendtree\templarseeker_override.anb
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\disengage.ani
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ledgedropland.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\blendtree\meredith.anb
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\blendtree\meredith_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\blendtree\meredith_pcoverride.anb
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\attackversion1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\attackversion2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\attackversion3.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\combatrun.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\combatwalkback.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\combatwalkbackleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\combatwalkbackright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\combatwalkforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\combatwalkforwardleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\combatwalkforwardright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\dropthrust.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\energyburst.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\fightdisengage.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\fightreappear.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\fightrecoverenter.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\fightrecoverexit.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\fightrecoverloop.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\holysmite.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\ready.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrike.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncenter_meredith.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncenter_pc.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncexit_meredith.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncexit_pc.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncfail_meredith.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncfail_pc.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncloop_meredith.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\rushingstrikesyncloop_pc.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\twitch01.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\twitch02.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\twitch03.ani
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\whirlwind.ani
+art\characters\playercharacter\humanmale\animation\archetypes\commander\baseswordshield\blendtree\commander.anb
+art\characters\playercharacter\humanmale\animation\archetypes\commander\baseswordshield\blendtree\commander_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\commander\templarcaptain\blendtree\templarcaptain_override.anb
+art\characters\playercharacter\humanmale\animation\archetypes\commander\templarcaptain\combat\bufftwitch.ani
+art\characters\playercharacter\humanmale\animation\archetypes\commander\templarcaptain\combat\debilitationcast.ani
+art\characters\playercharacter\humanmale\animation\archetypes\commander\templarcaptain\combat\debuffareacast.ani
+art\characters\playercharacter\humanmale\animation\archetypes\commander\twohanded\ledgedropland.ani
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\basestaff\blendtree\devastator.anb
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\basestaff\blendtree\devastator_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\basestaff\blendtree\devastator_overlay.anb
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\blendtree\circlehighmage_override.anb
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\combat\devastationaoe.ani
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\combat\devastationcast.ani
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\combat\invulnerable.ani
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\combat\invulnerablesustain.ani
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\combat\invulnerablesustainexit.ani
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\combat\ledgedropland.ani
+art\characters\playercharacter\humanmale\animation\archetypes\devastator\circlehighmage\combat\teleportfull.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\dw_tal_crp_atk.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\enrage.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\flurry.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\sw_tal_dstrk.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\sw_tal_sbash.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\sw_tal_sbash.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\sw_tal_sbash.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\sweep.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tal_thrtn.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tal_thrtn.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tal_thrtn.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tal_wcry.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tal_wcry.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tal_wcry.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tw_tal_crtstrk.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\blendtree\trooper.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv1.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv1.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv2.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv2.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv3.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\enter.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\exit.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\ledgedropland.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\rangedv1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\rangedv1.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\rangedv1.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\rangedv2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\rangedv2.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\rangedv2.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\ready.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\runforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\walkback.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\walkbackleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\walkbackright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\walkforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\walkforwardleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\walkforwardright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\blendtree\trooper.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\ass_ent.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\ass_ext.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\ass_overlay_ent.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\attackv1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\attackv2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\attackv3.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\ready.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\runforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\walkback.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\walkbackleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\walkbackright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\walkforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\walkforwardleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\walkforwardright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\blendtree\trooper.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\blendtree\trooper_overlay.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\attackv1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\attackv2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\attackv3.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\defend.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\enrage.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\enter.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\exit.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\flurry.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\ledgedropland.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\powerattack.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\quickenter.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\rangedv1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\rangedv2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basestaff\combat\ready.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\blendtree\trooper.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\blendtree\trooper_overlay.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\combatrun.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\combatrun.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\combatrun.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\enter.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\exit.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\ledgedropland.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv1.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv1.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv2.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv2.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv3.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv3.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv3.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv4.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv4.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\meleeattackv4.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\ready.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\ready.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\ready.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkback.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkback.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkback.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkbackleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkbackleft.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkbackleft.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkbackright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkbackright.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkbackright.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforward.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforward.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforwardleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforwardleft.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforwardleft.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforwardright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforwardright.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforwardright.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\blendtree\trooper.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\attackv1.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\attackv2.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\attackv3.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\enter.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\exit.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\ledgedropland.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\ledgedropland.evt
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\ledgedropland.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\ready.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\runforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkback.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkbackleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkbackright.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkforward.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkforwardleft.ani
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkforwardright.ani
+art\characters\playercharacter\humanmale\animation\blendtree\bow.anb
+art\characters\playercharacter\humanmale\animation\blendtree\bowoverlay.anb
+art\characters\playercharacter\humanmale\animation\blendtree\combat_face_additive.anb
+art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_bow.anb
+art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_dw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_mw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_sw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_tw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\dw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\dwoverlay.anb
+art\characters\playercharacter\humanmale\animation\blendtree\hm.anb
+art\characters\playercharacter\humanmale\animation\blendtree\hm_exp_movement.anb
+art\characters\playercharacter\humanmale\animation\blendtree\hm_overlay.anb
+art\characters\playercharacter\humanmale\animation\blendtree\hm_paperdoll.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_arms_crossed.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_bench.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_coward.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_crouching.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_injured.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_other.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_sitting.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_standing.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_wall_lean_left.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_damage_reactions.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_local_ambient_tavern.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_local_corpse_idle.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_local_ogre_frozen.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_local_qunari_grovel.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_local_qunari_stairs.anb
+art\characters\playercharacter\humanmale\animation\blendtree\mw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\mwoverlay.anb
+art\characters\playercharacter\humanmale\animation\blendtree\pp_anders.anb
+art\characters\playercharacter\humanmale\animation\blendtree\pp_male_mage.anb
+art\characters\playercharacter\humanmale\animation\blendtree\pp_male_rogue.anb
+art\characters\playercharacter\humanmale\animation\blendtree\pp_male_warrior.anb
+art\characters\playercharacter\humanmale\animation\blendtree\pp_sebastian.anb
+art\characters\playercharacter\humanmale\animation\blendtree\shielddefence_override.anb
+art\characters\playercharacter\humanmale\animation\blendtree\sw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\swoverlay.anb
+art\characters\playercharacter\humanmale\animation\blendtree\tw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\twoverlay.anb
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\cuddle_lying_male_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\cuddle_sitting_male_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\lean_bar_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\lean_bar_order_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\lean_bar_order_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\lean_bar_twitch.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_adjust_talk.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_1_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_1_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_1_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_2_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_2_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_2_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_3_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_3_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_forward_3_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_gesture_head.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_lean_forward_look_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_lean_forward_talk.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_talk_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_bench_talk_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_drinking_cheers.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_drinking_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_drinking_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_drinking_standing_cheer.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_drunk_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_drunk_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_adjust.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_1_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_1_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_1_gesture_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_1_gesture_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_1_gesture_3.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_1_gesture_4.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_1_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_2_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_2_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_2_gesture_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_2_gesture_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_2_gesture_3.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_clasped_2_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_lean_forward.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_right_hand_flat.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_right_hand_gesture.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\sitting_table_right_hand_gesture_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\toast_drink_down_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\toast_drink_down_to_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\toast_drink_up_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\toast_drink_up_to_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_loop.gad
+art\characters\playercharacter\humanmale\animation\combat\facial anims\combat_face_additive.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_db.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_db.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_db.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_end.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_end.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_end.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_lp.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_lp.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_reaction_db.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_reaction_db.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_reaction_db.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_strt.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison_strt.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\enter.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\enter.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\enter.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\exit.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\exit.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\exit.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\fireball.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\fireball.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\fireball.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\flourish.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\flourish.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\flourish.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\flrourish_additive.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\flrourish_additive.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\flrourish_additive.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\forcefield.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\forcefield.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\forcefield.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\inferno.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\inferno.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\inferno.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\knockback.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\knockback.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\knockback.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mindblast.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mindblast.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mindblast.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_anders_fury.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_anders_fury.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_anders_fury.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v4.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v4.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v4.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v5.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v5.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_attk_v5.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_control.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_control.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_control.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_sacrifice.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_sacrifice.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_sacrifice.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_wound.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_wound.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_blood_wound.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_cone_of_cold.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_cone_of_cold.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_cone_of_cold.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_death_magic.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_death_magic.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_death_magic.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_elemental_mark.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_elemental_mark.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_elemental_mark.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_force_crush.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_force_crush.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_force_crush.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_glyph_of_paralysis.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_glyph_of_paralysis.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_glyph_of_paralysis.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_group_heal.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_group_heal.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_group_heal.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_heal.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_heal.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_heal.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_merril_earth_movement.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_merril_earth_movement.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_merril_earth_movement.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_merril_inward_grasp.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_merril_inward_grasp.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_merril_inward_grasp.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_petrify.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_petrify.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_petrify.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_quick_modal_activate.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_quick_modal_activate.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_quick_modal_activate.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rdy.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rdy.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rdy.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_repulsion_wave.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_repulsion_wave.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_repulsion_wave.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_revival.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_revival.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_revival.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v4.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v4.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v4.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v5.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v5.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_rng_atk_v5.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_slow_zone.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_slow_zone.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_slow_zone.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_staff_swarm.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_staff_swarm.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\mw_staff_swarm.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\overlay_enter.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\overlay_enter.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\overlay_enter.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\overlay_exit.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\overlay_exit.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\overlay_exit.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\quick_enter.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\quick_enter.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\quick_enter.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\ready.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\ready.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\ready.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\runfront.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\runfront.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\runfront.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage_fl.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage_fr.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage_hurloks.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage_hurloks.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage_hurloks.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\cbt_grenade_toss.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\cbt_grenade_toss.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\cbt_grenade_toss.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_dualwield.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_dualwield.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_dualwield.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_magestaff.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_magestaff.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_magestaff.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_swordshield.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_swordshield.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_swordshield.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_twohanded.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_twohanded.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\generic exits\genericexit_twohanded.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\potion_drink.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\potion_drink.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\potion_drink.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\potion_drink_explore.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\potion_drink_explore.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\potion_drink_explore.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_attraction_wave.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_attraction_wave.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_attraction_wave.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_ent.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_ent.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_ent.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_ext.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_ext.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_ext.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_lp.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_lp.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_bldwnd_lp.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_cold_extreme_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_cold_extreme_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_cold_extreme_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_cold_major_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_cold_major_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_cold_major_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_gup_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_lp_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_lp_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_lp_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_lp_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_lp_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_lp_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_die_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_fire_extreme_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_fire_extreme_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_fire_extreme_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_fire_major_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_fire_major_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_fire_major_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_force_crush.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_force_crush.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_horrored.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_horrored.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_horrored.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_b.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_b.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_b.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_f.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_f.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_f.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_f_left.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_f_right.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_l.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_l.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_l.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_r.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_r.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_hvy_dmg_r.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_enter.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_enter.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_enter.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_loop.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_loop.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_lightning_extreme_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_lightning_extreme_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_lightning_extreme_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_lightning_major_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_lightning_major_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_lightning_major_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_poison_extreme_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_poison_extreme_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_poison_extreme_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_poison_major_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_poison_major_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_poison_major_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_left_down.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_left_down.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_left_down.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_left_down_loop.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_right_down.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_right_down.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_right_down.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_quick_rct_die_right_down_loop.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_spirit_extreme_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_spirit_extreme_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_spirit_extreme_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_spirit_major_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_spirit_major_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_spirit_major_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stggr_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stunned.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stunned.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_stunned.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\revive_reaction_temp.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\revive_reaction_temp.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\revive_reaction_temp.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\root.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\root.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\root.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_melee_attk_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v4.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v5.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v4.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v5.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_burst_shot.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_critical_shot.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_ent.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_ent.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_ent.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_ent_override.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_escape.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_ext.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_ext_override.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_flourish_additive.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_grenade_toss.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_mark_activate.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_pinning_shot.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_quick_modal_activate.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rain_of_arrows.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rain_of_arrows.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rain_of_arrows.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rdy.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_reversal.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_threat_decay.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_trip_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_trip_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\runfront.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_assassinate.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_assassinate.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_assassinate.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d1_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d1_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d1_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d1_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d1_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d1_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d2_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d2_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_d2_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_trn_lft_180.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_trn_lft_180.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_trn_lft_180.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v10.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v10.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v10.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_bw_teleport.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_bw_teleport.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_bw_teleport.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_cmov_rf.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_cmov_rf.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_cmov_rf.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_combo_breaker.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_combo_breaker.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_combo_breaker.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_critical_strike.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_critical_strike.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_critical_strike.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_ent.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_ent.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_ent.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_escape.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_escape.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_escape.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_ext.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_ext.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_ext.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_flourish_additive.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_flourish_additive.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_flourish_additive.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_grenade_toss.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_grenade_toss.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_grenade_toss.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_isabella_flicker.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_isabella_flicker.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_isabella_flicker.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_down_lhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_down_lhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_down_lhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_down_rhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_down_rhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_down_rhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_up_lhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_up_lhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_up_lhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_up_rhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_up_rhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_left_up_rhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_mark_activate.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_mark_activate.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_mark_activate.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_overlay_ent.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_overlay_ent.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_overlay_ent.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_overlay_ext.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_overlay_ext.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_overlay_ext.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_quick_ent.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_quick_ent.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_quick_ent.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_quick_modal_activate.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_quick_modal_activate.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_quick_modal_activate.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_rdy.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_rdy.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_rdy.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_reversal.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_reversal.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_reversal.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_down_lhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_down_lhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_down_lhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_down_rhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_down_rhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_down_rhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_up_lhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_up_lhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_up_lhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_up_rhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_up_rhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_right_up_rhand.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_threat_decay.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_threat_decay.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_threat_decay.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_trip_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_trip_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_trip_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_trip_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_trip_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_trip_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\left_down_lhand.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\left_down_lhand.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\left_down_lhand.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\left_up.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\left_up.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_aoe_kback.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_aoe_kback.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_aoe_kback.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_left_down.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_left_down.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_left_down.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_left_up.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_left_up.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_left_up.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_longrange_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_longrange_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_longrange_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_med_rng_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_med_rng_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_med_rng_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_med_rng_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_med_rng_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_med_rng_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_right_down.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_right_down.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_right_down.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_right_up.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_right_up.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_right_up.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_trn_lft.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_trn_lft.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_trn_lft.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_trn_lft_180.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_trn_lft_180.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_trn_lft_180.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_v5.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_v5.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_attk_v5.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_berserk.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_berserk.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_berserk.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_buildup.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_buildup.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_buildup.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_cleanse_area.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_cleanse_area.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_cleanse_area.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_cmov_rf.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_cmov_rf.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_cmov_rf.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_damage_reduction.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_damage_reduction.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_damage_reduction.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_defense_mode_rdy_ent.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_defense_mode_rdy_ent.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_defense_mode_rdy_ent.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_dmg_bonus_stagger.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_dmg_bonus_stagger.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_dmg_bonus_stagger.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_ent.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_ent.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_ent.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_ext.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_ext.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_ext.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_flurry.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_flurry.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_flurry.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_front_arc_clear.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_front_arc_clear.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_front_arc_clear.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_haste.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_haste.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_haste.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_incense.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_incense.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_incense.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_quick_modal_activate.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_quick_modal_activate.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_quick_modal_activate.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy_flrsh.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy_flrsh.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy_flrsh.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy_flrsh_additive.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy_flrsh_additive.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_rdy_flrsh_additive.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_reaver.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_reaver.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_reaver.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_second_wind.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_second_wind.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_second_wind.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_shield_bash.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_shield_bash.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_shield_bash.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_silence.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_silence.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_silence.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_stun.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_stun.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_stun.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_taunt.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_taunt.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_taunt.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\additive_damage.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\additive_damage.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\buildup_lp.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\buildup_lp.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\buildup_lp.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\charge.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\charge.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\charge.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\combo_finish.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\combo_finish.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\combo_finish.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\dash.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\dash.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\dash.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_getup_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_getup_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_getup_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_loop_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_loop_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_loop_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_loop_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_loop_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_v3.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\die_v3.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\enter.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\enter.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\enter.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\exit.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\exit.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\exit.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\fire_death.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\fire_death.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\fire_death.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\flourish.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\flourish.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\flourish.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\flourish_additive.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\flourish_additive.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\flourish_additive.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\groundstab.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\groundstab.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\groundstab.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\knockback_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\knockback_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\knockback_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\knockdown_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\knockdown_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\knockdown_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_180.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_180.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_180.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_90.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_90.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_90.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_down.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_down.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_down.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_up.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_up.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\left_up.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\longrangeattack.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\longrangeattack.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\longrangeattack.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\medium_range.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\medium_range.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\medium_range.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\medium_rng_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\medium_rng_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\medium_rng_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\mightyblow.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\mightyblow.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\mightyblow.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\mightyblow_death.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\mightyblow_death.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\mightyblow_death.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\overlay_enter.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\overlay_enter.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\overlay_enter.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\overlay_exit.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\overlay_exit.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\overlay_exit.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_deathpose_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_deathpose_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_deathpose_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_die_v2.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_die_v2.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_die_v2.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_die_v3.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_enter.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_enter.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\quick_enter.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\ready.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\ready.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\ready.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right_down.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right_down.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right_down.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right_up.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right_up.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\right_up.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfront.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfront.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfront.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfrontleanleft.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfrontleanleft.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfrontleanleft.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfrontleanright.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfrontleanright.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\runfrontleanright.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\stun.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\stun.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\stun.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\taunt.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\taunt.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\taunt.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_berserk.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_berserk.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_berserk.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_buildup.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_buildup.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_buildup.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_cleanse_area.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_cleanse_area.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_cleanse_area.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_damage_bonus_stagger.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_damage_bonus_stagger.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_damage_bonus_stagger.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_damage_reduction.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_damage_reduction.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_damage_reduction.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_haste.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_haste.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_haste.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_incense.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_incense.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_incense.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_quick_die_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_quick_die_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_quick_die_v1.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_quick_modal_activate.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_quick_modal_activate.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_quick_modal_activate.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_reaver.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_reaver.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_reaver.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_second_wind.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_second_wind.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_second_wind.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_silence.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_silence.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_silence.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_sw_holy_smite.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_sw_holy_smite.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\tw_sw_holy_smite.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walk_front_left.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walk_front_left.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walk_front_left.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walk_front_right.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walk_front_right.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walk_front_right.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkback.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkback.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkback.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkbackleft.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkbackleft.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkbackleft.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkbackright.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkbackright.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkbackright.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkfront.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkfront.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\walkfront.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\wideslash.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\wideslash.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\twohanded\wideslash.gad
+art\characters\playercharacter\humanmale\animation\exploration\additive\eyehigh.ani
+art\characters\playercharacter\humanmale\animation\exploration\additive\eyehigh.gad
+art\characters\playercharacter\humanmale\animation\exploration\additive\eyelow.ani
+art\characters\playercharacter\humanmale\animation\exploration\additive\eyelow.gad
+art\characters\playercharacter\humanmale\animation\exploration\additive\eyemid.ani
+art\characters\playercharacter\humanmale\animation\exploration\additive\eyemid.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v1.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v1.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v1.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v2.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v2.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v2.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v3.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v3.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v3.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v4.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v4.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v4.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v5.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v5.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\am_idle_tw_v5.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\chargenidle.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\mov_p.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\mov_p.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\mov_p.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmenter.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmenter.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmenter.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmexit.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmexit.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmexit.gad
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmloop.ani
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmloop.evt
+art\characters\playercharacter\humanmale\animation\exploration\idle\overwhelmloop.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l180_rf.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l180_rf.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l180_rf.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l90_p.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l90_p.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l90_p.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l90_rf.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l90_rf.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_l90_rf.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r180_rf.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r180_rf.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r180_rf.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r90_p.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r90_p.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r90_p.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r90_rf.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r90_rf.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_r90_rf.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_rf.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_rf.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_rf.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_shffl.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_shffl.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_p_shffl.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_injured.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_injured_leanl.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_injured_leanr.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_leanl.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_leanl.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_leanl.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_leanr.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_leanr.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_leanr.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_p_lfoot.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_p_lfoot.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_p_lfoot.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_p_rfoot.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_p_rfoot.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_rf_p_rfoot.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_tl180_lfoot.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_tr180_rfoot.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_wf.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_wf.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_wf.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_wf_injured.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_wf_p_lfoot.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_wf_p_lfoot.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\mov_wf_p_lfoot.gad
+art\characters\playercharacter\humanmale\animation\exploration\movement\runforward.ani
+art\characters\playercharacter\humanmale\animation\exploration\movement\runforward.evt
+art\characters\playercharacter\humanmale\animation\exploration\movement\runforward.gad
+art\characters\playercharacter\qunarimale\animation\blendtree\qm_exp_idle.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qm_exp_movement.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunariarishok.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunariarishok_movement.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunariarishok_overlay.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunariarishok_pcoverride.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunaricommander.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunaricommander_movement.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunaricommander_overlay.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunarimage.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunarimage_movement.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunaritrooper.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunaritrooper_movement.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunaritrooper_overlay.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qunaritrooper_ranged.anb
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_1.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_2.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_3.ani
+art\characters\playercharacter\qunarimale\animation\cindes\pose\pose_grovel_floor.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_bladestorm.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_buff.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_buff.evt
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_buff.gad
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_ch_en_charge.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_ch_ex_charge.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_charge.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_chop.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_heal.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_impale_en.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_impale_ex.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_impale_hr_en.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_impale_hr_ex.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_impale_hr_lp.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_impale_lp.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_trip.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_whirlwind_en.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_whirlwind_ex.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_whirlwind_lp.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_charge.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_charge.evt
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_charge.gad
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_die.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_die_loop.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ent.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ready.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_runf.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\attk_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\attk_v2.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\attk_v3.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\attk_v4.ani
+art\characters\playercharacter\qunarimale\animation\combat\commander\comm_ability_aoe.ani
+art\characters\playercharacter\qunarimale\animation\combat\commander\comm_ability_buff.ani
+art\characters\playercharacter\qunarimale\animation\combat\commander\comm_ability_debuff.ani
+art\characters\playercharacter\qunarimale\animation\combat\commander\comm_enter.ani
+art\characters\playercharacter\qunarimale\animation\combat\commander\comm_exit.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_aoe.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_dir_cast.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_dir_cast.evt
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_dir_cast.gad
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_immunity_en.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_immunity_ex.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_immunity_lp.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_ability_teleport.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_attk_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_attk_v2.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_combat_enter.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_combat_idle.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_die_lp.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_die_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_die_v1.evt
+art\characters\playercharacter\qunarimale\animation\combat\mage\mage_die_v1.gad
+art\characters\playercharacter\qunarimale\animation\combat\ranged\ranged_attk_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\ranged\ranged_attk_v2.ani
+art\characters\playercharacter\qunarimale\animation\combat\ranged\ranged_attk_v2.evt
+art\characters\playercharacter\qunarimale\animation\combat\ranged\ranged_attk_v2.gad
+art\characters\playercharacter\qunarimale\animation\combat\ranged\ranged_enter.ani
+art\characters\playercharacter\qunarimale\animation\combat\ranged\ranged_exit.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\ready.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_attk_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_attk_v2.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_attk_v3.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_modal_activ.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_ready.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_runf.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_runf.evt
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_runf.gad
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_tw_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_die_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_die_v1_lp.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_enter.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_enter.evt
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_enter.gad
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_exit.ani
+art\characters\playercharacter\qunarimale\animation\exploration\idle\mov_p.ani
+art\characters\playercharacter\qunarimale\animation\exploration\idle\twitchv1.ani
+art\characters\playercharacter\qunarimale\animation\exploration\idle\twitchv2.ani
+art\characters\playercharacter\qunarimale\animation\exploration\idle\twitchv3.ani
+art\characters\playercharacter\qunarimale\animation\exploration\idle\twitchv4.ani
+art\characters\playercharacter\qunarimale\animation\exploration\idle\twitchv5.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf_injured.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf_injured_leanl.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf_injured_leanr.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf_leanl.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf_leanr.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf_p_lfoot.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_rf_p_rfoot.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_wf.ani
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_wf.gad
+art\characters\playercharacter\qunarimale\animation\exploration\movement\mov_wf_injured.ani
