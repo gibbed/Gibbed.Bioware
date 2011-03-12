@@ -1,4 +1,4 @@
-; 178/232 (77%)
+; 185/232 (80%)
 ability_core.ncs
 active.ncs
 addparty.ncs
@@ -72,11 +72,16 @@ gen00pt_generic_actions.ncs
 gen00pt_party.ncs
 gen00pt_random.ncs
 gen00pt_skills.ncs
+gen00pt_vault.ncs
 gen00tr_talk.ncs
 genev_item_acquired.ncs
 genev_tutorial.ncs
 genip_blocker_fire.ncs
+genip_crafting_node.ncs
+genip_crafting_station.ncs
 genip_party_storage.ncs
+genip_pressure_plate.ncs
+genip_trap.ncs
 genpt_party_rand_banter.ncs
 genpt_personality.ncs
 gentr_ambient.ncs
@@ -92,6 +97,8 @@ immortals.ncs
 injury.ncs
 invisibletoai.ncs
 ip_restrict_player.ncs
+ip_restrict_status.ncs
+ip_restrict_weapon_style.ncs
 kbfield.ncs
 killallhostiles.ncs
 killcreature.ncs

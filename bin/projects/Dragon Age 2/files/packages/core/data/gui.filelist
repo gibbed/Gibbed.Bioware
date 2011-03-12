@@ -1,4 +1,5 @@
-; 623/725 (86%)
+; 627/725 (86%)
+adder_of_antiva.dds
 area_transition.cur
 area_transition_pressed.cur
 attack.cur
@@ -360,6 +361,7 @@ red25.dds
 red50.dds
 resize.dds
 rightarrow.dds
+ring_of_whispers.dds
 rog_accuracymode.dds
 rog_armistice.dds
 rog_assassinate.dds
@@ -472,6 +474,7 @@ rune_weapon_nature.dds
 rune_weapon_sandal.dds
 rune_weapon_spirit.dds
 rune_weapon_striking.dds
+signatureeditionitems.dds
 standard.cur
 standard_pressed.cur
 standard_targeting.cur
@@ -495,6 +498,7 @@ target_creaturelock.cur
 target_creaturelock_pressed.cur
 target_inactive.cur
 target_pressed.cur
+the_antivan_garrote.dds
 topple.cur
 topple_pressed.cur
 transparent.dds
