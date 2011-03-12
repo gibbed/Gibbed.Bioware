@@ -1,4 +1,4 @@
-; 36/38 (95%)
+; 37/38 (97%)
 base_light.mmh
 base_light.msh
 battlemenu.gfx
@@ -8,6 +8,7 @@ dadefaultsub.sub.xml
 default_player.utc
 default_stage.stg
 gen_im_copper.uti
+gen_im_delete_me_04.uti
 gen_im_npc_arm_hum_boo_rdra.uti
 gen_im_npc_arm_hum_cht_slvb.uti
 gen_im_npc_arm_hum_glv_rdra.uti

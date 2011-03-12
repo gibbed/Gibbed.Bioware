@@ -1,7 +1,10 @@
-; 3074/3079 (99%)
+; 3077/3079 (99%)
 2p_100.stg
 2p_200.stg
 2p_200_r.stg
+2p_follower.stg
+3p_200_a_frame.stg
+3p_200_mob(a-frame).stg
 acl_1p.stg
 char_stage.are
 char_stage.lst

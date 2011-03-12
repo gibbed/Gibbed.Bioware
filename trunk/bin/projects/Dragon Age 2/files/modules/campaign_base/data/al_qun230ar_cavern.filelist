@@ -1,0 +1,18 @@
+; 17/18 (94%)
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter_qunari.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.ani
+isa000im_gft_ship_in_bottle.uti
+isa000ip_bottle_container.utp
+qun000pt_dialogs.ncs
+qun200pt_blackform2.ncs
+qun230ar_cavern.are
+qun230ar_cavern.ncs
+qun230cr_carta_thug.utc
+qun230cr_guild_contact.cnv
+qun230ip_to_darktown.utp
+qun230ip_to_wilderness.utp
+qun230tr_contact_ambient.ncs
