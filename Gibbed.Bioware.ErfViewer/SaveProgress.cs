@@ -26,7 +26,6 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
-using Gibbed.Bioware.FileFormats;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
@@ -65,7 +64,6 @@ namespace Gibbed.Bioware.ErfViewer
 			}
 
 			this.Close();
-            this.Dispose();
 		}
 
 		public void SaveAll(object oinfo)

@@ -211,9 +211,11 @@ namespace Gibbed.Bioware.FileFormats
 
         public enum CompressionScheme : byte
         {
-            None = 0,
-            BiowareZlib = 1,
-            HeaderlessZlib = 7,
+            None = 0, // all platforms
+            BiowareZlib = 1, // all platforms
+            LZMA = 2, // PS3
+            XMemLZX = 3, // XBOX 360
+            HeaderlessZlib = 7, // all platforms
         }
 
         public class Entry

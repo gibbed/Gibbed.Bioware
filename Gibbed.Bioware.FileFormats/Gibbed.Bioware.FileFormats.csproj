@@ -23,7 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -41,6 +41,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EncapsulatedResourceFile.cs" />
+    <Compile Include="GenericFileFormat\Builtins\Color.cs" />
+    <Compile Include="GenericFileFormat\FieldFlags.cs" />
+    <Compile Include="GenericFileFormat\IFieldBuiltinType.cs" />
+    <Compile Include="GenericFileFormat\Builtins\Matrix4x4.cs" />
+    <Compile Include="GenericFileFormat\Builtin.cs" />
+    <Compile Include="GenericFileFormat\Builtins\Quaternion.cs" />
+    <Compile Include="GenericFileFormat\Builtins\TalkString.cs" />
+    <Compile Include="GenericFileFormat\Builtins\Vector3.cs" />
+    <Compile Include="GenericFileFormat\Builtins\Vector4.cs" />
+    <Compile Include="GenericFile_Data.cs" />
+    <Compile Include="GenericFile_Type.cs" />
+    <Compile Include="KeyValue.cs" />
+    <Compile Include="HTLK.cs" />
+    <Compile Include="OldGenericFile.cs" />
+    <Compile Include="OldGenericFileFormat\FieldData.cs" />
+    <Compile Include="OldGenericFileFormat\FieldType.cs" />
+    <Compile Include="OldGenericFileFormat\FormatType.cs" />
+    <Compile Include="OldGenericFileFormat\LocalizedString.cs" />
+    <Compile Include="OldGenericFileFormat\StructureData.cs" />
+    <Compile Include="TLK.cs" />
+    <Compile Include="GenericFile.cs" />
+    <Compile Include="GenericFileFormat\FieldDefinition.cs" />
+    <Compile Include="GenericFileFormat\FieldDefinitionAttribute.cs" />
+    <Compile Include="GenericFileFormat\FieldType.cs" />
+    <Compile Include="GenericFileFormat\FormatType.cs" />
+    <Compile Include="GenericFileFormat\FilePlatform.cs" />
+    <Compile Include="GenericFileFormat\ReflectedStructureType.cs" />
+    <Compile Include="GenericFileFormat\StructureDefinition.cs" />
+    <Compile Include="GenericFileFormat\StructureDefinitionAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringHelpers.cs" />
   </ItemGroup>
