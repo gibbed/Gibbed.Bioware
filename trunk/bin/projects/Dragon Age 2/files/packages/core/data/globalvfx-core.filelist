@@ -1,4 +1,4 @@
-; 2493/6230 (40%)
+; 2515/6230 (40%)
 art\characters\weapons\arrows\w_arw_001.msh
 art\characters\weapons\boulder\w_bld_ogre.mao
 art\characters\weapons\boulder\w_bld_ogre.msh
@@ -696,6 +696,8 @@ art\vfx\combat\vfx_glb_ice_imp_min_c.impa.gad
 art\vfx\combat\vfx_glb_ice_imp_min_c.mmh
 art\vfx\combat\vfx_glb_levelup_c.anb
 art\vfx\combat\vfx_glb_levelup_c.impa.ani
+art\vfx\combat\vfx_glb_levelup_c.impa.evt
+art\vfx\combat\vfx_glb_levelup_c.impa.gad
 art\vfx\combat\vfx_glb_levelup_c.mmh
 art\vfx\combat\vfx_glb_lit_imp_c.anb
 art\vfx\combat\vfx_glb_lit_imp_c.impa.ani
@@ -707,7 +709,11 @@ art\vfx\combat\vfx_glb_lit_imp_maj_c.anb
 art\vfx\combat\vfx_glb_lit_imp_maj_c.impa.ani
 art\vfx\combat\vfx_glb_lit_imp_maj_c.mmh
 art\vfx\combat\vfx_glb_lit_imp_min_c.impa.ani
+art\vfx\combat\vfx_glb_loot_shimmer_c.anb
 art\vfx\combat\vfx_glb_loot_shimmer_c.dura.ani
+art\vfx\combat\vfx_glb_loot_shimmer_c.dura.evt
+art\vfx\combat\vfx_glb_loot_shimmer_c.dura.gad
+art\vfx\combat\vfx_glb_loot_shimmer_c.mmh
 art\vfx\combat\vfx_glb_loot_shimmer_gen_c.anb
 art\vfx\combat\vfx_glb_loot_shimmer_gen_c.dura.ani
 art\vfx\combat\vfx_glb_loot_shimmer_gen_c.dura.evt
@@ -1539,9 +1545,17 @@ art\vfx\combat\vfx_meredith_powerup_c.cess.ani
 art\vfx\combat\vfx_meredith_powerup_c.dura.ani
 art\vfx\combat\vfx_meredith_powerup_c.impa.ani
 art\vfx\combat\vfx_projectile_p.mmh
+art\vfx\combat\vfx_q_ari_appearance_c.anb
 art\vfx\combat\vfx_q_ari_appearance_c.cess.ani
+art\vfx\combat\vfx_q_ari_appearance_c.cess.evt
+art\vfx\combat\vfx_q_ari_appearance_c.cess.gad
 art\vfx\combat\vfx_q_ari_appearance_c.dura.ani
+art\vfx\combat\vfx_q_ari_appearance_c.dura.evt
+art\vfx\combat\vfx_q_ari_appearance_c.dura.gad
 art\vfx\combat\vfx_q_ari_appearance_c.impa.ani
+art\vfx\combat\vfx_q_ari_appearance_c.impa.evt
+art\vfx\combat\vfx_q_ari_appearance_c.impa.gad
+art\vfx\combat\vfx_q_ari_appearance_c.mmh
 art\vfx\combat\vfx_q_ari_bstorm_act_c.cess.ani
 art\vfx\combat\vfx_q_ari_bstorm_act_c.dura.ani
 art\vfx\combat\vfx_q_ari_bstorm_act_c.impa.ani
@@ -1851,8 +1865,14 @@ art\vfx\combat\vfx_r_var_rfire_act_5_c.impa.ani
 art\vfx\combat\vfx_r_var_rfire_act_c.impa.ani
 art\vfx\combat\vfx_sg_app_c.anb
 art\vfx\combat\vfx_sg_app_c.cess.ani
+art\vfx\combat\vfx_sg_app_c.cess.evt
+art\vfx\combat\vfx_sg_app_c.cess.gad
 art\vfx\combat\vfx_sg_app_c.dura.ani
+art\vfx\combat\vfx_sg_app_c.dura.evt
+art\vfx\combat\vfx_sg_app_c.dura.gad
 art\vfx\combat\vfx_sg_app_c.impa.ani
+art\vfx\combat\vfx_sg_app_c.impa.evt
+art\vfx\combat\vfx_sg_app_c.impa.gad
 art\vfx\combat\vfx_sg_app_c.mmh
 art\vfx\combat\vfx_sg_awake_act_c.impa.ani
 art\vfx\combat\vfx_sg_blast_act_c.anb
@@ -2231,6 +2251,7 @@ art\vfx\creatures\fxc_succubus_c.cess.ani
 art\vfx\creatures\fxc_succubus_c.dura.ani
 art\vfx\creatures\fxc_succubus_c.impa.ani
 art\vfx\materials\chunky\vfx_c_branch.mao
+art\vfx\materials\chunky\vfx_c_crsh_pris.mao
 art\vfx\materials\chunky\vfx_c_crsh_pris_blend.mao
 art\vfx\materials\chunky\vfx_c_d_clear.mao
 art\vfx\materials\chunky\vfx_c_falloff.mao
@@ -2253,6 +2274,7 @@ art\vfx\materials\chunky\vfx_shield_blend.mao
 art\vfx\materials\chunky\vfx_tube.mao
 art\vfx\materials\gui\vfx_gui_target_ret.mao
 art\vfx\materials\level_fx\vfx_lvl_dothalf.mao
+art\vfx\materials\level_fx\vfx_lvl_flare02.mao
 art\vfx\materials\level_fx\vfx_lvl_flare03.mao
 art\vfx\materials\vfx_blood_dir02.mao
 art\vfx\materials\vfx_blood_pool.mao

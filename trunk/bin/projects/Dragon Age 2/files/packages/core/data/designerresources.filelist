@@ -1,4 +1,4 @@
-; 2637/3079 (86%)
+; 2646/3079 (86%)
 2p_100.stg
 2p_200.stg
 acl_1p.stg
@@ -470,6 +470,7 @@ gen_im_acc_rng_lore_01.uti
 gen_im_acc_rng_lore_02.uti
 gen_im_acc_rng_lore_03.uti
 gen_im_acc_rng_mrl1.uti
+gen_im_ammo_quiver_05.uti
 gen_im_arm_boo_hvy_act1_01.uti
 gen_im_arm_boo_hvy_act1_02.uti
 gen_im_arm_boo_hvy_act1_03.uti
@@ -713,12 +714,20 @@ gen_im_cft_rec_wrn_06.uti
 gen_im_cft_rec_wrn_07.uti
 gen_im_cft_rec_wrn_08.uti
 gen_im_cft_reg_a.uti
+gen_im_cft_reg_a3.uti
 gen_im_cft_reg_b.uti
+gen_im_cft_reg_b1.uti
 gen_im_cft_reg_c.uti
+gen_im_cft_reg_c1.uti
+gen_im_cft_reg_c2.uti
 gen_im_cft_reg_d.uti
 gen_im_cft_reg_e.uti
 gen_im_cft_reg_f.uti
+gen_im_cft_reg_f1.uti
+gen_im_cft_reg_f2.uti
 gen_im_cft_reg_g.uti
+gen_im_cft_reg_g1.uti
+gen_im_cft_reg_g2.uti
 gen_im_cft_reg_h.uti
 gen_im_cft_reg_i.uti
 gen_im_cft_reg_j.uti

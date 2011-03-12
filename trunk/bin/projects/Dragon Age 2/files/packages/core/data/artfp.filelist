@@ -1,4 +1,4 @@
-; 18574/22840 (81%)
+; 18630/22840 (82%)
 animblend_core.fdl
 art\characters\creatures\arh_abm_rev\animation\a_appr.ani
 art\characters\creatures\arh_abm_rev\animation\a_appr.gad
@@ -2677,6 +2677,7 @@ art\characters\playercharacter\dwarfmale\animation\cindes\varric\varric_6.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\varric_6.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\varric_6.gad
 art\characters\playercharacter\dwarfmale\animation\parypicker\idle.ani
+art\characters\playercharacter\dwarfmale\animation\parypicker\idle.gad
 art\characters\playercharacter\dwarfmale\arm_hvyn.mmh
 art\characters\playercharacter\dwarfmale\arm_hvyn.msh
 art\characters\playercharacter\dwarfmale\arm_hvyn.phy
@@ -3420,6 +3421,7 @@ art\characters\playercharacter\elffemale\textures\ef_rob_enco_0n.dds
 art\characters\playercharacter\elffemale\textures\ef_rob_enco_0s.dds
 art\characters\playercharacter\elffemale\textures\ef_rob_enco_0t.dds
 art\characters\playercharacter\elfmale\animation\partypicker\idle.ani
+art\characters\playercharacter\elfmale\animation\partypicker\idle.gad
 art\characters\playercharacter\elfmale\arm_hvyn.mmh
 art\characters\playercharacter\elfmale\arm_hvyn.msh
 art\characters\playercharacter\elfmale\arm_hvyn.phy
@@ -3870,8 +3872,11 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transit
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.gad
 art\characters\playercharacter\humanfemale\animation\partypicker\aveline_swordshield_idle.ani
+art\characters\playercharacter\humanfemale\animation\partypicker\aveline_swordshield_idle.gad
 art\characters\playercharacter\humanfemale\animation\partypicker\bethany_staff_idle.ani
+art\characters\playercharacter\humanfemale\animation\partypicker\bethany_staff_idle.gad
 art\characters\playercharacter\humanfemale\animation\partypicker\isabelle_dualweild_idle.ani
+art\characters\playercharacter\humanfemale\animation\partypicker\isabelle_dualweild_idle.gad
 art\characters\playercharacter\humanfemale\animation\partypicker\magestaffdeselectedexit.ani
 art\characters\playercharacter\humanfemale\animation\partypicker\magestaffdeselectedexit.evt
 art\characters\playercharacter\humanfemale\animation\partypicker\magestaffdeselectedexit.gad
@@ -5884,6 +5889,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\leftarm_wave_good
 art\characters\playercharacter\humanmale\animation\cindes\pose\leftarm_wave_goodbye_short.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\leftarm_wave_goodbye_short.gad
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter_qunari.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.gad
@@ -6214,6 +6220,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_whistle.
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_whistle.gad
 art\characters\playercharacter\humanmale\animation\cindes\pose\sitting_chair_pose_a.ani
 art\characters\playercharacter\humanmale\animation\partypicker\anders_staff_idle.ani
+art\characters\playercharacter\humanmale\animation\partypicker\anders_staff_idle.gad
 art\characters\playercharacter\humanmale\animation\partypicker\magestaffdeselectedexit.ani
 art\characters\playercharacter\humanmale\animation\partypicker\magestaffdeselectedexit.evt
 art\characters\playercharacter\humanmale\animation\partypicker\magestaffdeselectedexit.gad
@@ -6239,6 +6246,7 @@ art\characters\playercharacter\humanmale\animation\partypicker\roguedualwieldsel
 art\characters\playercharacter\humanmale\animation\partypicker\roguedualwieldselectedflurrish.evt
 art\characters\playercharacter\humanmale\animation\partypicker\roguedualwieldselectedflurrish.gad
 art\characters\playercharacter\humanmale\animation\partypicker\sebastian_bow_idle.ani
+art\characters\playercharacter\humanmale\animation\partypicker\sebastian_bow_idle.gad
 art\characters\playercharacter\humanmale\animation\partypicker\warriortwohandeddeselectedexit.ani
 art\characters\playercharacter\humanmale\animation\partypicker\warriortwohandeddeselectedexit.evt
 art\characters\playercharacter\humanmale\animation\partypicker\warriortwohandeddeselectedexit.gad
@@ -8654,6 +8662,9 @@ art\characters\weapons\greatswords\textures\w_gsw_008a_0t.dds
 art\characters\weapons\greatswords\textures\w_gsw_011a_0d.dds
 art\characters\weapons\greatswords\textures\w_gsw_011a_0n.dds
 art\characters\weapons\greatswords\textures\w_gsw_011a_0s.dds
+art\characters\weapons\greatswords\textures\w_gsw_012a_0d.dds
+art\characters\weapons\greatswords\textures\w_gsw_012a_0n.dds
+art\characters\weapons\greatswords\textures\w_gsw_012a_0s.dds
 art\characters\weapons\greatswords\textures\w_gsw_013a_0d.dds
 art\characters\weapons\greatswords\textures\w_gsw_013a_0n.dds
 art\characters\weapons\greatswords\textures\w_gsw_013a_0s.dds
@@ -9637,6 +9648,12 @@ art\cinematics\props\prp_barge.mmh
 art\cinematics\props\prp_barge.msh
 art\effects\cloudshadows\w_blightlands\cloud1.dds
 art\effects\cloudshadows\w_blightlands\cloud2.dds
+art\effects\cloudshadows\w_bonepitmining_a2\cloud1.dds
+art\effects\cloudshadows\w_bonepitmining_a2\cloud2.dds
+art\effects\cloudshadows\w_sundermount\cloud1.dds
+art\effects\cloudshadows\w_sundermount\cloud2.dds
+art\effects\cloudshadows\w_woundedcoast\cloud1.dds
+art\effects\cloudshadows\w_woundedcoast\cloud2.dds
 art\effects\lightattenuation\default_lightattenuation.dds
 art\levels\4cinematics\dwarf\_textures\dwarfchair_d.dds
 art\levels\4cinematics\dwarf\_textures\dwarfchair_n.dds
@@ -10946,6 +10963,7 @@ art\levels\races\ferelden\kirkhigh\ext\_textures\set_visdoortrim_d.dds
 art\levels\races\ferelden\kirkhigh\ext\_textures\set_visdoortrim_n.dds
 art\levels\races\ferelden\kirkhigh\ext\_textures\set_visdoortrim_sa.dds
 art\levels\races\ferelden\kirkhigh\ext\_textures\til_hightown_main_d.dds
+art\levels\races\ferelden\kirkhigh\ext\_textures\til_hightown_main_drelief.dds
 art\levels\races\ferelden\kirkhigh\ext\_textures\til_hightown_main_n.dds
 art\levels\races\ferelden\kirkhigh\ext\_textures\til_hightown_main_sa.dds
 art\levels\races\ferelden\kirkhigh\ext\_textures\vst_hightown_d.dds
@@ -12062,6 +12080,7 @@ art\levels\races\ferelden\kirklow\ext\_textures\set_rust_d.dds
 art\levels\races\ferelden\kirklow\ext\_textures\set_rust_n.dds
 art\levels\races\ferelden\kirklow\ext\_textures\set_rust_sa.dds
 art\levels\races\ferelden\kirklow\ext\_textures\til_lowtown_main_d.dds
+art\levels\races\ferelden\kirklow\ext\_textures\til_lowtown_main_drelief.dds
 art\levels\races\ferelden\kirklow\ext\_textures\til_lowtown_main_n.dds
 art\levels\races\ferelden\kirklow\ext\_textures\til_lowtown_main_sa.dds
 art\levels\races\ferelden\kirklow\ext\_textures\vst_channel_d.dds
@@ -12626,9 +12645,11 @@ art\levels\races\ferelden\kirklow\int\_textures\lt_floorbasec_d.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_floorbasec_n.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_floorbasec_sa.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas_d.dds
+art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas_drelief.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas_n.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas_sa.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas2_d.dds
+art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas2_drelief.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas2_n.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_int_atlas2_sa.dds
 art\levels\races\ferelden\kirklow\int\_textures\lt_paintings_backtoback_da.dds
@@ -15019,6 +15040,7 @@ art\levels\races\natural\highlands\props\_textures\prp_bonepile_d.dds
 art\levels\races\natural\highlands\props\_textures\prp_bonepile_n.dds
 art\levels\races\natural\highlands\props\_textures\prp_bonepile_sa.dds
 art\levels\races\natural\highlands\props\_textures\prp_hcliff2_d.dds
+art\levels\races\natural\highlands\props\_textures\prp_hcliff2_drelief.dds
 art\levels\races\natural\highlands\props\_textures\prp_hcliff2_n.dds
 art\levels\races\natural\highlands\props\_textures\prp_hcliff2_sa.dds
 art\levels\races\natural\highlands\props\prp_01hgecrgrck.mmh
@@ -15109,13 +15131,17 @@ art\levels\races\natural\highlands\props\prp_oldmonument.phy
 art\levels\races\natural\highlands\props\prp_sundermt.mmh
 art\levels\races\natural\highlands\props\prp_sundermt.msh
 art\levels\races\natural\highlands\terrainmats\ter_hcliff2_da.dds
+art\levels\races\natural\highlands\terrainmats\ter_hcliff2_darelief.dds
 art\levels\races\natural\highlands\terrainmats\ter_hcliff2_n.dds
 art\levels\races\natural\highlands\terrainmats\ter_hcliffblend3_da.dds
+art\levels\races\natural\highlands\terrainmats\ter_hcliffblend3_darelief.dds
 art\levels\races\natural\highlands\terrainmats\ter_hcliffblend3_n.dds
 art\levels\races\natural\highlands\terrainmats\ter_hgrass_da.dds
 art\levels\races\natural\highlands\terrainmats\ter_hgrass2_da.dds
+art\levels\races\natural\highlands\terrainmats\ter_hgrass2_darelief.dds
 art\levels\races\natural\highlands\terrainmats\ter_hgrass2_n.dds
 art\levels\races\natural\highlands\terrainmats\ter_hpath2_da.dds
+art\levels\races\natural\highlands\terrainmats\ter_hpath2_darelief.dds
 art\levels\races\natural\highlands\terrainmats\ter_hpath2_n.dds
 art\levels\races\natural\highlands\vista\_textures\prp_occluder_d.dds
 art\levels\races\natural\highlands\vista\vista_fogoccluder.mmh
@@ -15857,6 +15883,7 @@ art\levels\races\natural\kirkcoastal\foliage\tre_poplar.msh
 art\levels\races\natural\kirkcoastal\foliage\tre_windtree.mmh
 art\levels\races\natural\kirkcoastal\foliage\tre_windtree.msh
 art\levels\races\natural\kirkcoastal\props\_textures\prp_ccliff02_d.dds
+art\levels\races\natural\kirkcoastal\props\_textures\prp_ccliff02_drelief.dds
 art\levels\races\natural\kirkcoastal\props\_textures\prp_ccliff02_n.dds
 art\levels\races\natural\kirkcoastal\props\_textures\prp_ccliff02_sa.dds
 art\levels\races\natural\kirkcoastal\props\_textures\til_ruins01_d.dds
@@ -16005,8 +16032,10 @@ art\levels\races\natural\kirkcoastal\props\prp_stonestand.phy
 art\levels\races\natural\kirkcoastal\props\vista_cmountain.mmh
 art\levels\races\natural\kirkcoastal\props\vista_cmountain.msh
 art\levels\races\natural\kirkcoastal\terrainmats\ter_ccliff02_da.dds
+art\levels\races\natural\kirkcoastal\terrainmats\ter_ccliff02_darelief.dds
 art\levels\races\natural\kirkcoastal\terrainmats\ter_ccliff02_n.dds
 art\levels\races\natural\kirkcoastal\terrainmats\ter_ccliffblend03_da.dds
+art\levels\races\natural\kirkcoastal\terrainmats\ter_ccliffblend03_darelief.dds
 art\levels\races\natural\kirkcoastal\terrainmats\ter_ccliffblend03_n.dds
 art\levels\races\natural\kirkcoastal\terrainmats\ter_cgrass01_da.dds
 art\levels\races\natural\kirkcoastal\terrainmats\ter_csand01_da.dds
@@ -17996,6 +18025,7 @@ art\vfx\creatures\vfxroot.impa.ani
 art\vfx\creatures\vfxroot.impa.evt
 art\vfx\creatures\vfxroot.impa.gad
 art\vfx\creatures\vfxroot.mmh
+art\vfx\environment\level_fx\ambient\vfx_ashfalling.mmh
 art\vfx\environment\level_fx\ambient\vfx_barge_anim.anb
 art\vfx\environment\level_fx\ambient\vfx_barge_anim.dura.ani
 art\vfx\environment\level_fx\ambient\vfx_barge_anim.dura.evt
@@ -18008,12 +18038,18 @@ art\vfx\environment\level_fx\ambient\vfx_blightfire.dura.gad
 art\vfx\environment\level_fx\ambient\vfx_blightfire.mmh
 art\vfx\environment\level_fx\ambient\vfx_cenotaphfire_day.mmh
 art\vfx\environment\level_fx\ambient\vfx_cenotaphfire_night.mmh
+art\vfx\environment\level_fx\ambient\vfx_groundfog.mmh
 art\vfx\environment\level_fx\ambient\vfx_lichenglowdots.mmh
+art\vfx\environment\level_fx\ambient\vfx_lt_ash.mmh
+art\vfx\environment\level_fx\ambient\vfx_lt_ash_sparks.mmh
+art\vfx\environment\level_fx\ambient\vfx_mist_4x16.mmh
+art\vfx\environment\level_fx\ambient\vfx_mist_light.mmh
 art\vfx\environment\level_fx\ambient\vfx_splash.anb
 art\vfx\environment\level_fx\ambient\vfx_splash.dura.ani
 art\vfx\environment\level_fx\ambient\vfx_splash.dura.evt
 art\vfx\environment\level_fx\ambient\vfx_splash.dura.gad
 art\vfx\environment\level_fx\ambient\vfx_splash.mmh
+art\vfx\environment\level_fx\ambient\vfx_wavesplash.mmh
 art\vfx\environment\level_fx\birds\vfx_birdgliding01.anb
 art\vfx\environment\level_fx\birds\vfx_birdgliding01.dura.ani
 art\vfx\environment\level_fx\birds\vfx_birdgliding01.dura.evt
@@ -18029,6 +18065,8 @@ art\vfx\environment\level_fx\bugs\vfx_flys.dura.ani
 art\vfx\environment\level_fx\bugs\vfx_flys.dura.evt
 art\vfx\environment\level_fx\bugs\vfx_flys.dura.gad
 art\vfx\environment\level_fx\bugs\vfx_flys.mmh
+art\vfx\environment\level_fx\bugs\vfx_glowbugs.mmh
+art\vfx\environment\level_fx\bugs\vfx_moths.mmh
 art\vfx\environment\level_fx\fire\vfx_brazfirelrg.anb
 art\vfx\environment\level_fx\fire\vfx_brazfirelrg.dura.ani
 art\vfx\environment\level_fx\fire\vfx_brazfirelrg.dura.evt
@@ -18089,6 +18127,7 @@ art\vfx\environment\level_fx\fire\vfx_campfiresml.dura.ani
 art\vfx\environment\level_fx\fire\vfx_campfiresml.dura.evt
 art\vfx\environment\level_fx\fire\vfx_campfiresml.dura.gad
 art\vfx\environment\level_fx\fire\vfx_campfiresml.mmh
+art\vfx\environment\level_fx\fire\vfx_candleflame.mmh
 art\vfx\environment\level_fx\fire\vfx_candleflame_glow.mmh
 art\vfx\environment\level_fx\fire\vfx_chanterboard.anb
 art\vfx\environment\level_fx\fire\vfx_chanterboard.dura.ani
@@ -18133,11 +18172,24 @@ art\vfx\environment\level_fx\fire\vfx_lavajet_med.dura.ani
 art\vfx\environment\level_fx\fire\vfx_lavajet_med.dura.evt
 art\vfx\environment\level_fx\fire\vfx_lavajet_med.dura.gad
 art\vfx\environment\level_fx\fire\vfx_lavajet_med.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_dustmots_lrg.mmh
 art\vfx\environment\level_fx\lightbeams\vfx_duststream.anb
 art\vfx\environment\level_fx\lightbeams\vfx_duststream.dura.ani
 art\vfx\environment\level_fx\lightbeams\vfx_duststream.dura.evt
 art\vfx\environment\level_fx\lightbeams\vfx_duststream.dura.gad
 art\vfx\environment\level_fx\lightbeams\vfx_duststream.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_ht_lightstreaks.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lightbeam_hta.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lightbeam_htb.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lightbeam_htc.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lightbeam_rec.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lightbeam_sml.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lightbeam_sqr.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lightstreaks.mmh
+art\vfx\environment\level_fx\lightbeams\vfx_lt_lightstreaks.mmh
+art\vfx\environment\level_fx\smoke\vfx_dt_smoke_lrg.mmh
+art\vfx\environment\level_fx\smoke\vfx_dt_smoke_sml.mmh
+art\vfx\environment\level_fx\smoke\vfx_foundryfire.mmh
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.anb
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.cess.ani
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.cess.evt
@@ -18149,6 +18201,9 @@ art\vfx\environment\level_fx\smoke\vfx_foundryfire2.impa.ani
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.impa.evt
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.impa.gad
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.mmh
+art\vfx\environment\level_fx\smoke\vfx_foundrysmoke_lrg.mmh
+art\vfx\environment\level_fx\smoke\vfx_foundrysmoke_sml.mmh
+art\vfx\environment\level_fx\smoke\vfx_saintsmoke.mmh
 art\vfx\environment\level_fx\smoke\vfx_steamdrain.anb
 art\vfx\environment\level_fx\smoke\vfx_steamdrain.dura.ani
 art\vfx\environment\level_fx\smoke\vfx_steamdrain.dura.evt
@@ -18210,6 +18265,7 @@ art\vfx\environment\vfx_dark_fog.impa.ani
 art\vfx\environment\vfx_dark_fog.impa.evt
 art\vfx\environment\vfx_dark_fog.impa.gad
 art\vfx\environment\vfx_dark_fog.mmh
+art\vfx\environment\vfx_fire_cndl_p.mmh
 art\vfx\environment\vfx_fire_small_p.anb
 art\vfx\environment\vfx_fire_small_p.dura.ani
 art\vfx\environment\vfx_fire_small_p.dura.evt

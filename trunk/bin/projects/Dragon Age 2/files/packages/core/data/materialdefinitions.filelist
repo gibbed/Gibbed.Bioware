@@ -1,4 +1,4 @@
-; 1009/1756 (57%)
+; 1030/1756 (59%)
 bink.mat
 bink.mat.dx11
 bink_bink_p0.psh.fxo
@@ -542,6 +542,7 @@ framebuffereffects_illuminationmask_p0.vsh.fxo.dx11
 framebuffereffects_linearfade_p0.psh.fxo
 framebuffereffects_linearfade_p0.psh.fxo.dx11
 framebuffereffects_linearizedepth_p0.psh.fxo
+framebuffereffects_linearizedepth_p0.psh.fxo.dx11
 framebuffereffects_motionblur_p0.psh.fxo
 framebuffereffects_motionblur_p0.psh.fxo.dx11
 framebuffereffects_motionblurcombine_p0.psh.fxo
@@ -568,6 +569,7 @@ framebuffereffects_smallblur_p0.vsh.fxo
 framebuffereffects_smallblur_p0.vsh.fxo.dx11
 framebuffereffects_ssao_p0.psh.fxo
 framebuffereffects_ssao_p0.psh.fxo.dx11
+framebuffereffects_ssao_p0.vsh.fxo.dx11
 framebuffereffects_twopassblur_p0.psh.fxo
 framebuffereffects_twopassblur_p0.psh.fxo.dx11
 framebuffereffects_twopassblurcochorizontl_p0.psh.fxo
@@ -632,6 +634,11 @@ hairalpha_hair_p1.vsh.fxo
 hairalpha_hair_p1.vsh.fxo.dx11
 hairalpha_hair_p2.psh.fxo
 hairalpha_hair_p2.psh.fxo.dx11
+hairalpha_hair_p2.vsh.fxo.dx11
+hairalpha_hair_p3.psh.fxo.dx11
+hairalpha_hair_p3.vsh.fxo.dx11
+hairalpha_hair_p4.psh.fxo.dx11
+hairalpha_hair_p5.psh.fxo.dx11
 hairalpha_rendertodepth_p0.psh.fxo
 hairalpha_rendertodepth_p0.psh.fxo.dx11
 hairalpha_rendertodepth_p0.vsh.fxo
@@ -742,12 +749,14 @@ static_static_p1.psh.fxo
 static_static_p1.vsh.fxo
 static_static_p1.vsh.fxo.dx11
 static_static_p10.psh.fxo
+static_static_p10.psh.fxo.dx11
 static_static_p10.vsh.fxo.dx11
 static_static_p100.psh.fxo.dx11
 static_static_p101.psh.fxo.dx11
 static_static_p102.psh.fxo.dx11
 static_static_p103.psh.fxo.dx11
 static_static_p11.psh.fxo
+static_static_p11.psh.fxo.dx11
 static_static_p11.vsh.fxo.dx11
 static_static_p12.psh.fxo
 static_static_p12.psh.fxo.dx11
@@ -774,7 +783,9 @@ static_static_p21.psh.fxo.dx11
 static_static_p22.psh.fxo
 static_static_p23.psh.fxo
 static_static_p24.psh.fxo
+static_static_p24.psh.fxo.dx11
 static_static_p25.psh.fxo
+static_static_p25.psh.fxo.dx11
 static_static_p26.psh.fxo
 static_static_p26.psh.fxo.dx11
 static_static_p27.psh.fxo
@@ -785,7 +796,9 @@ static_static_p3.psh.fxo
 static_static_p3.vsh.fxo
 static_static_p3.vsh.fxo.dx11
 static_static_p30.psh.fxo
+static_static_p30.psh.fxo.dx11
 static_static_p31.psh.fxo
+static_static_p31.psh.fxo.dx11
 static_static_p32.psh.fxo
 static_static_p32.psh.fxo.dx11
 static_static_p33.psh.fxo
@@ -814,7 +827,9 @@ static_static_p42.psh.fxo.dx11
 static_static_p43.psh.fxo
 static_static_p44.psh.fxo
 static_static_p45.psh.fxo
+static_static_p45.psh.fxo.dx11
 static_static_p46.psh.fxo
+static_static_p46.psh.fxo.dx11
 static_static_p47.psh.fxo
 static_static_p47.psh.fxo.dx11
 static_static_p48.psh.fxo
@@ -825,7 +840,9 @@ static_static_p5.psh.fxo.dx11
 static_static_p5.vsh.fxo.dx11
 static_static_p50.psh.fxo
 static_static_p51.psh.fxo
+static_static_p51.psh.fxo.dx11
 static_static_p52.psh.fxo
+static_static_p52.psh.fxo.dx11
 static_static_p53.psh.fxo
 static_static_p53.psh.fxo.dx11
 static_static_p54.psh.fxo
@@ -843,11 +860,15 @@ static_static_p60.psh.fxo.dx11
 static_static_p61.psh.fxo.dx11
 static_static_p62.psh.fxo.dx11
 static_static_p63.psh.fxo.dx11
+static_static_p66.psh.fxo.dx11
+static_static_p67.psh.fxo.dx11
 static_static_p68.psh.fxo.dx11
 static_static_p69.psh.fxo.dx11
 static_static_p7.psh.fxo
 static_static_p7.psh.fxo.dx11
 static_static_p7.vsh.fxo.dx11
+static_static_p72.psh.fxo.dx11
+static_static_p73.psh.fxo.dx11
 static_static_p74.psh.fxo.dx11
 static_static_p75.psh.fxo.dx11
 static_static_p76.psh.fxo.dx11

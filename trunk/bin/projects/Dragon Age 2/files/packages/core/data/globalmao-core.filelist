@@ -1,4 +1,4 @@
-; 3540/3743 (95%)
+; 3542/3743 (95%)
 art\characters\creatures\arh_abm_rev\c_abm_body.mao
 art\characters\creatures\arh_abm_rev\c_abm_head.mao
 art\characters\creatures\arh_abm_rev\c_arh_body.mao
@@ -3413,6 +3413,7 @@ art\vfx\combat\vfx_gib_hlk_p_1_1.mao
 art\vfx\combat\vfx_gib_hlk_p_3.mao
 art\vfx\combat\vfx_gib_ogr_p.mao
 art\vfx\materials\chunky\vfx_c_branch.mao
+art\vfx\materials\chunky\vfx_c_crsh_pris.mao
 art\vfx\materials\chunky\vfx_c_crsh_pris_blend.mao
 art\vfx\materials\chunky\vfx_c_d_clear.mao
 art\vfx\materials\chunky\vfx_c_falloff.mao
@@ -3450,6 +3451,7 @@ art\vfx\materials\level_fx\vfx_lvl_fire01a.mao
 art\vfx\materials\level_fx\vfx_lvl_fire02.mao
 art\vfx\materials\level_fx\vfx_lvl_fire02a.mao
 art\vfx\materials\level_fx\vfx_lvl_flare01.mao
+art\vfx\materials\level_fx\vfx_lvl_flare02.mao
 art\vfx\materials\level_fx\vfx_lvl_flare03.mao
 art\vfx\materials\level_fx\vfx_lvl_flys.mao
 art\vfx\materials\level_fx\vfx_lvl_foam01.mao
