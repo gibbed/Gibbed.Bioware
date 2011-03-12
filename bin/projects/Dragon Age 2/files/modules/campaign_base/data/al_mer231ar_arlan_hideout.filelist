@@ -1,0 +1,23 @@
+; 22/25 (88%)
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter_qunari.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.evt
+dae000ip_show_world_map.utp
+mer000ip_hubert_store.ncs
+mer000pt_mine_payments.ncs
+mer200pt_stolen_goods.ncs
+mer231_brekker.cnv
+mer231_brekker_st.stg
+mer231ar_arlan_hideout.are
+mer231ar_arlan_hideout.ncs
+mer231cr_brekker.utc
+mer231ip_to_undercity.utp
