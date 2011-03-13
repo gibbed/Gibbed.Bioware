@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{453E236A-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebuildFileLists", "RebuildFileLists\RebuildFileLists.csproj", "{9F3D6028-F2A6-415B-99EE-CD969421808F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibbed.Bioware.ErfPack", "Gibbed.Bioware.ErfPack\Gibbed.Bioware.ErfPack.csproj", "{3E798036-CA22-4F7E-8564-01F9D4A909CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,16 @@ Global
 		{9F3D6028-F2A6-415B-99EE-CD969421808F}.Release|Mixed Platforms.Build.0 = Release|x86
 		{9F3D6028-F2A6-415B-99EE-CD969421808F}.Release|x86.ActiveCfg = Release|x86
 		{9F3D6028-F2A6-415B-99EE-CD969421808F}.Release|x86.Build.0 = Release|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Debug|x86.ActiveCfg = Debug|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Debug|x86.Build.0 = Debug|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Release|Any CPU.ActiveCfg = Release|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Release|x86.ActiveCfg = Release|x86
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,5 +150,6 @@ Global
 		{53944C88-1DC6-4AED-A1E7-156557E110F5} = {64407066-FAA1-49E3-900B-10F05A30FDE0}
 		{5560FC12-3DBF-4220-9865-E802D267CF37} = {64407066-FAA1-49E3-900B-10F05A30FDE0}
 		{9F3D6028-F2A6-415B-99EE-CD969421808F} = {64407066-FAA1-49E3-900B-10F05A30FDE0}
+		{3E798036-CA22-4F7E-8564-01F9D4A909CE} = {64407066-FAA1-49E3-900B-10F05A30FDE0}
 	EndGlobalSection
 EndGlobal

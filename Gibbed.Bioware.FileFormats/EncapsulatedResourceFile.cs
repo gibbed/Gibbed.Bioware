@@ -40,6 +40,122 @@ namespace Gibbed.Bioware.FileFormats
         public List<Entry> Entries
             = new List<Entry>();
 
+        public long CalculateHeaderSize(IEnumerable<string> strings, int entries)
+        {
+            if (this.Version == 3)
+            {
+                long size = 0;
+                size += 16;
+                size += 4 + 4 + 4;
+                size += 4 + 16;
+
+                int stringTableSize = 0;
+                foreach (var str in strings)
+                {
+                    if (str == null)
+                    {
+                        continue;
+                    }
+
+                    stringTableSize += Encoding.UTF8.GetBytes(str).Length + 1;
+                }
+                size += stringTableSize.Align(16);
+                size += entries * 28;
+                return size;
+            }
+            else
+            {
+                throw new InvalidOperationException();
+            }
+        }
+
+        public void Serialize(Stream output)
+        {
+            if (this.Version == 1)
+            {
+                throw new NotSupportedException();
+            }
+            else if (this.Version == 2)
+            {
+                throw new NotSupportedException();
+            }
+            else if (this.Version == 3)
+            {
+                output.WriteString("ERF V3.0", Encoding.Unicode);
+
+                var strings = new List<string>();
+                foreach (var entry in this.Entries)
+                {
+                    if (entry.Name != null &&
+                        strings.Contains(entry.Name) == false)
+                    {
+                        strings.Add(entry.Name);
+                    }
+                }
+                strings.Sort();
+
+                var stringOffsets = new Dictionary<string, uint>();
+                var stringTable = new MemoryStream();
+
+                foreach (var str in strings)
+                {
+                    stringOffsets[str] = (uint)stringTable.Length;
+                    stringTable.WriteStringZ(str, Encoding.UTF8);
+                }
+                stringTable.SetLength(stringTable.Length.Align(16));
+                stringTable.Position = 0;
+
+                output.WriteValueU32((uint)stringTable.Length);
+                output.WriteValueS32(this.Entries.Count);
+
+                if (this.Encryption != EncryptionScheme.None ||
+                    this.Compression != CompressionScheme.None)
+                {
+                    throw new NotSupportedException();
+                }
+
+                uint flags = 0;
+                flags |= ((uint)this.Encryption) << 4;
+                flags |= ((uint)this.Compression) << 29;
+                output.WriteValueU32(flags);
+
+                output.WriteValueU32(this.ContentId);
+                if (this.PasswordDigest == null)
+                {
+                    output.Write(new byte[16], 0, 16);
+                }
+                else
+                {
+                    output.Write(this.PasswordDigest, 0, 16);
+                }
+
+                output.WriteFromStream(stringTable, stringTable.Length, 0x00100000);
+
+                foreach (var entry in this.Entries)
+                {
+                    if (entry.Name != null)
+                    {
+                        entry.CalculateHashes();
+                        output.WriteValueU32(stringOffsets[entry.Name]);
+                    }
+                    else
+                    {
+                        output.WriteValueU32(0xFFFFFFFF);
+                    }
+
+                    output.WriteValueU64(entry.NameHash);
+                    output.WriteValueU32(entry.TypeHash);
+                    output.WriteValueU32((uint)entry.Offset);
+                    output.WriteValueU32(entry.CompressedSize);
+                    output.WriteValueU32(entry.UncompressedSize);
+                }
+            }
+            else
+            {
+                throw new InvalidOperationException();
+            }
+        }
+
         public void Deserialize(Stream input)
         {
             var basePosition = input.Position;
