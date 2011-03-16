@@ -1,4 +1,4 @@
-; 2239/2559 (87%)
+; 2247/2559 (87%)
 art\characters\creatures\corpse\animation\combat\ready.ani
 art\characters\creatures\corpse\animation\combat\ready.evt
 art\characters\creatures\corpse\animation\combat\ready.gad
@@ -1085,6 +1085,7 @@ art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\toa
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_loop.gad
 art\characters\playercharacter\humanmale\animation\combat\facial anims\combat_face_additive.ani
+art\characters\playercharacter\humanmale\animation\combat\facial anims\combat_face_additive.gad
 art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.ani
 art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.evt
 art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.gad
@@ -1514,6 +1515,9 @@ art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_
 art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v10.ani
 art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v10.evt
 art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v10.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v6.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v6.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_attk_v6.gad
 art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_bw_teleport.ani
 art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_bw_teleport.evt
 art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\dw_bw_teleport.gad
@@ -1605,6 +1609,10 @@ art\characters\playercharacter\humanmale\animation\combat\warrior\shield and wea
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\left_up.evt
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.ani
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.gad
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\right_down.ani
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\right_down.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\right_down.gad
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_aoe_kback.ani
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_aoe_kback.evt
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\sw_aoe_kback.gad

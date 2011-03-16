@@ -1,4 +1,4 @@
-; 668/749 (89%)
+; 678/749 (90%)
 act00pt_main.ncs
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\creatures\buzzard\c_buzzardg.mmh
@@ -368,6 +368,7 @@ art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge14.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge15.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge2.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge3.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge4.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge5.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge6.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge7.ani
@@ -379,7 +380,15 @@ art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear2.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear3.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear4.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_napalm1.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_avaline.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_bethany.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock1.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock2.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock3.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_player.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_wesley.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_ave_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_carver_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_drag_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_flem_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur1_flemeth_real.ani
@@ -390,6 +399,7 @@ art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur5_flemeth_real.an
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_mom_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_pc_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sib_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sib2_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sis_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_wes_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\brother_pcopeningmage.ani

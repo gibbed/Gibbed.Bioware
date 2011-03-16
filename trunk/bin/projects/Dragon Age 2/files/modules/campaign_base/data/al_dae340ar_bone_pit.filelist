@@ -1,4 +1,4 @@
-; 75/77 (97%)
+; 76/77 (98%)
 and340ip_at_mines.ncs
 and340ip_at_mines.utp
 art\characters\creatures\highdragon\animation\exploration\takeoffflylandv2.ani
@@ -21,6 +21,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_e
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_up.evt
+art\cinematics\deathblows\highdragon\c_highdragon.tal_swp.ani
 art\cinematics\deathblows\highdragon\c_pc_swp.ani
 art\cinematics\deathblows\highdragon\cs_db_drag_dragwarr.ani
 art\cinematics\deathblows\highdragon\cs_db_pc_dragwarr.ani
