@@ -1,4 +1,4 @@
-; 85/99 (85%)
+; 87/99 (87%)
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani
@@ -8,6 +8,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ev
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_loop.ani

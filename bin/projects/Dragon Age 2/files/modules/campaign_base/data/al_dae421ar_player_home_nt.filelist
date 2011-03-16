@@ -1,6 +1,8 @@
-; 91/103 (88%)
+; 95/103 (92%)
 act00pt_main.ncs
 art\characters\creatures\mubari\animation\sleep.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -16,6 +18,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_wal
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt

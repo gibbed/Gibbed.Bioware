@@ -1,10 +1,14 @@
-; 315/368 (85%)
+; 325/368 (88%)
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_enter.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_enter.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_diepose_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_enter.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_enter.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -14,11 +18,14 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_deadloop_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
@@ -37,6 +44,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_18
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_forward_7_steps.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_forward_7_steps.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
@@ -183,6 +192,7 @@ dae000_dalish_apprentices.cnv
 dae000_fenarel.cnv
 dae000_flemeth.cnv
 dae000_flemeth.stg
+dae000_flemeth6000680.cl
 dae000_gen_turn_in_3.cnv
 dae000_ineria.cnv
 dae000_junar.cnv

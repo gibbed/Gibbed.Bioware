@@ -1,4 +1,4 @@
-; 331/366 (90%)
+; 347/366 (94%)
 act00pt_main.ncs
 and000pt_gift_amulet.ncs
 and000pt_gift_key.ncs
@@ -34,6 +34,8 @@ and330tr_base.utt
 and330tr_worldmap.ncs
 and330tr_worldmap.utt
 and331st_romance.stg
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
@@ -41,20 +43,28 @@ art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_up_side.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_loop.ani
@@ -94,6 +104,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_l
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.evt
@@ -103,10 +115,14 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.evt

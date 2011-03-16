@@ -1,4 +1,4 @@
-; 245/310 (79%)
+; 266/310 (85%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and200pt_dissent.ncs
@@ -8,10 +8,17 @@ art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.evt
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_knckbck.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_knckbck.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_diepose_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
@@ -21,8 +28,16 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.a
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_deadloop_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.ani
@@ -176,9 +191,13 @@ art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge2.ani
 ave200pt_long_road.ncs
 dae000_flemeth.cnv
 dae000_flemeth.stg
+dae000_flemeth6000680.cl
 dae000_gamlen.cnv
+dae000_gamlen6005754.cl
 dae000_mother.cnv
 dae000_mother_blightlands_1.stg
+dae000_mother6001874.cl
+dae000_mother6004095.cl
 dae000cr_cassandra.utc
 dae000cr_flemeth.utc
 dae000cr_gamlen.utc
@@ -216,6 +235,8 @@ mer120cr_hubert.utc
 mrl150pt_longway.ncs
 one100pt_gamlen.ncs
 pro000_colonel_ewald.cnv
+pro000_colonel_ewald6039937.cl
+pro000_colonel_ewald6040615.cl
 pro000_guard.cnv
 pro000_wesley.cnv
 pro000cr_colonel_ewald.utc

@@ -1,4 +1,6 @@
-; 78/93 (83%)
+; 82/93 (88%)
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -9,6 +11,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_w
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_varian_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani

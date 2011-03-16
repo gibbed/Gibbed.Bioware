@@ -1,12 +1,15 @@
-; 118/140 (84%)
+; 121/140 (86%)
 act00pt_main.ncs
 art\characters\creatures\pridedemon\animation\cast.ani
 art\characters\creatures\pridedemon\animation\cast.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ik_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ik_transition.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani

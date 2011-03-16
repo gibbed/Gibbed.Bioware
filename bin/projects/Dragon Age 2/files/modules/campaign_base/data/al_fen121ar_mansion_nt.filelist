@@ -1,4 +1,4 @@
-; 61/68 (89%)
+; 63/68 (92%)
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.ani
@@ -9,6 +9,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back_mirror.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back_mirror.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_forward.ani

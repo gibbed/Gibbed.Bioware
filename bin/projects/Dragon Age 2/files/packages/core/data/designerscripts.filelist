@@ -1,4 +1,4 @@
-; 185/232 (79%)
+; 190/232 (81%)
 ability_core.ncs
 active.ncs
 addparty.ncs
@@ -82,6 +82,7 @@ genip_crafting_station.ncs
 genip_party_storage.ncs
 genip_pressure_plate.ncs
 genip_trap.ncs
+genpt_follower_approval.ncs
 genpt_party_rand_banter.ncs
 genpt_personality.ncs
 gentr_ambient.ncs
@@ -96,6 +97,10 @@ healplayer.ncs
 immortals.ncs
 injury.ncs
 invisibletoai.ncs
+ip_restrict_attribute.ncs
+ip_restrict_class.ncs
+ip_restrict_class_war_rog.ncs
+ip_restrict_follower.ncs
 ip_restrict_player.ncs
 ip_restrict_status.ncs
 ip_restrict_weapon_style.ncs

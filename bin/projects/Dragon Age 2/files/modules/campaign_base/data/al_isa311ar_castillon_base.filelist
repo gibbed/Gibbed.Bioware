@@ -1,4 +1,6 @@
-; 104/128 (81%)
+; 108/128 (84%)
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_interact_low.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_interact_low.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_loop.ani
@@ -23,6 +25,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_18
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_forward_7_steps.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_forward_7_steps.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani

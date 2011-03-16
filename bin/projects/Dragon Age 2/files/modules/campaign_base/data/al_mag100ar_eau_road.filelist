@@ -1,6 +1,10 @@
-; 106/147 (72%)
+; 114/147 (77%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani
@@ -11,6 +15,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_9
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_90_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.evt
@@ -32,6 +38,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani

@@ -1,10 +1,12 @@
-; 258/307 (84%)
+; 264/307 (85%)
 2p_200_one280_iwan.stg
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and200pt_dissent.ncs
 and300pt_justice.ncs
 art\characters\creatures\mubari\animation\sleep.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -28,10 +30,14 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_pose.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back_mirror.ani

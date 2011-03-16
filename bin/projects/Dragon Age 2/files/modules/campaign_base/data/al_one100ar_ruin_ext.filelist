@@ -1,5 +1,9 @@
-; 127/150 (84%)
+; 131/150 (87%)
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani

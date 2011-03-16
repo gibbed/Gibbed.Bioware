@@ -1,5 +1,7 @@
-; 145/168 (86%)
+; 151/168 (89%)
 and000pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -13,9 +15,13 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_lef
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_beckon.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_beckon.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_loop.ani

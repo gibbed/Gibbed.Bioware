@@ -1,4 +1,6 @@
-; 67/98 (68%)
+; 71/98 (72%)
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -6,6 +8,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loo
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_deadloop_wesley.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani

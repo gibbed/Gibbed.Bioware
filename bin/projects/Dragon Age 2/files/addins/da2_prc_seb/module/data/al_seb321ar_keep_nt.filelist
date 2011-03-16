@@ -1,4 +1,4 @@
-; 38/62 (61%)
+; 42/62 (67%)
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
@@ -11,12 +11,16 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwie
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_run_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_run_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_run_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_right.ani

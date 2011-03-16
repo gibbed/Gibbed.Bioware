@@ -1,4 +1,4 @@
-; 233/293 (79%)
+; 246/293 (83%)
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
@@ -6,6 +6,10 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_u
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani
@@ -29,6 +33,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_run
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_run_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_run.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_run.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.evt
@@ -36,8 +42,12 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_forward_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_forward_1.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_forehand_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_forehand_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_loop.ani
@@ -49,6 +59,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_18
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.evt
@@ -145,6 +157,7 @@ cod_hst_kirk_lowtown.utp
 cod_hst_vehnadahl.utp
 dae000_friend_turn_in.cnv
 dae000_gamlen.cnv
+dae000_gamlen6005754.cl
 dae000_party_night_comment.cnv
 dae000ip_show_world_map.utp
 dae000ip_show_world_map_l.utp

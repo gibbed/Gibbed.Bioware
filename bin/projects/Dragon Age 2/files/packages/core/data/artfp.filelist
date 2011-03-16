@@ -1,4 +1,4 @@
-; 18630/22840 (81%)
+; 18848/22840 (82%)
 animblend_core.fdl
 art\characters\creatures\arh_abm_rev\animation\a_appr.ani
 art\characters\creatures\arh_abm_rev\animation\a_appr.gad
@@ -274,6 +274,8 @@ art\characters\creatures\ashwraith\animation\ras_atkv4.gad
 art\characters\creatures\ashwraith\animation\ras_cast.ani
 art\characters\creatures\ashwraith\animation\ras_cast.evt
 art\characters\creatures\ashwraith\animation\ras_cast.gad
+art\characters\creatures\ashwraith\animation\ras_com_v1.ani
+art\characters\creatures\ashwraith\animation\ras_com_v1.evt
 art\characters\creatures\ashwraith\animation\ras_crnf.ani
 art\characters\creatures\ashwraith\animation\ras_crnf.evt
 art\characters\creatures\ashwraith\animation\ras_crnf.gad
@@ -315,6 +317,8 @@ art\characters\creatures\ashwraith\animation\ras_p.ani
 art\characters\creatures\ashwraith\animation\ras_rdy.ani
 art\characters\creatures\ashwraith\animation\ras_rdy.evt
 art\characters\creatures\ashwraith\animation\ras_rdy.gad
+art\characters\creatures\ashwraith\animation\ras_wk_p_rf.ani
+art\characters\creatures\ashwraith\animation\ras_wk_p_rf.evt
 art\characters\creatures\ashwraith\animation\ras_wkf.ani
 art\characters\creatures\ashwraith\animation\ras_wkf.evt
 art\characters\creatures\ashwraith\animation\ras_wkf.gad
@@ -713,6 +717,14 @@ art\characters\creatures\darkspawnogre\textures\cn_bdy_ogra_0s.dds
 art\characters\creatures\darkspawnogre\textures\cn_hed_ogra_0d.dds
 art\characters\creatures\darkspawnogre\textures\cn_hed_ogra_0n.dds
 art\characters\creatures\darkspawnogre\textures\cn_hed_ogra_0s.dds
+art\characters\creatures\desiredemon\animation\a_cst.ani
+art\characters\creatures\desiredemon\animation\a_cst.evt
+art\characters\creatures\desiredemon\animation\a_end.ani
+art\characters\creatures\desiredemon\animation\a_end.evt
+art\characters\creatures\desiredemon\animation\a_lp.ani
+art\characters\creatures\desiredemon\animation\a_lp.evt
+art\characters\creatures\desiredemon\animation\a_strt.ani
+art\characters\creatures\desiredemon\animation\a_strt.evt
 art\characters\creatures\desiredemon\animation\appr.ani
 art\characters\creatures\desiredemon\animation\appr.evt
 art\characters\creatures\desiredemon\animation\appr.gad
@@ -774,6 +786,8 @@ art\characters\creatures\desiredemon\animation\die_v1.gad
 art\characters\creatures\desiredemon\animation\dmg_v1.ani
 art\characters\creatures\desiredemon\animation\dmg_v1.evt
 art\characters\creatures\desiredemon\animation\dmg_v1.gad
+art\characters\creatures\desiredemon\animation\enter.ani
+art\characters\creatures\desiredemon\animation\enter.evt
 art\characters\creatures\desiredemon\animation\exit.ani
 art\characters\creatures\desiredemon\animation\exit.evt
 art\characters\creatures\desiredemon\animation\exit.gad
@@ -792,6 +806,8 @@ art\characters\creatures\desiredemon\animation\kd_exit.gad
 art\characters\creatures\desiredemon\animation\kd_lp.ani
 art\characters\creatures\desiredemon\animation\kd_lp.gad
 art\characters\creatures\desiredemon\animation\p.ani
+art\characters\creatures\desiredemon\animation\p_tw_v1.ani
+art\characters\creatures\desiredemon\animation\p_tw_v1.evt
 art\characters\creatures\desiredemon\animation\rangedaoe.ani
 art\characters\creatures\desiredemon\animation\rangedaoe.evt
 art\characters\creatures\desiredemon\animation\rangedaoe.gad
@@ -801,6 +817,8 @@ art\characters\creatures\desiredemon\animation\rdy.gad
 art\characters\creatures\desiredemon\animation\singletarget.ani
 art\characters\creatures\desiredemon\animation\singletarget.evt
 art\characters\creatures\desiredemon\animation\singletarget.gad
+art\characters\creatures\desiredemon\animation\wkf.ani
+art\characters\creatures\desiredemon\animation\wkf.evt
 art\characters\creatures\desiredemon\c_desiredemon.mmh
 art\characters\creatures\desiredemon\c_desiredemon.msh
 art\characters\creatures\desiredemon\textures\cn_bdy_suca_0d.dds
@@ -1545,6 +1563,8 @@ art\characters\creatures\highdragon\cn_hed_fdr.phy
 art\characters\creatures\highdragon\cn_hed_hdr.mmh
 art\characters\creatures\highdragon\cn_hed_hdr.msh
 art\characters\creatures\highdragon\cn_hed_hdr.phy
+art\characters\creatures\hurlock\animation\additive\hurlock_eyes_frown.ani
+art\characters\creatures\hurlock\animation\additive\hurlock_eyes_frown.evt
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.ani
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.gad
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_slidel.ani
@@ -1602,6 +1622,8 @@ art\characters\creatures\hurlock\animation\sword_shield\hurlock_attk_v3.gad
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.evt
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.gad
+art\characters\creatures\hurlock\animation\sword_shield\hurlock_runf_v2.ani
+art\characters\creatures\hurlock\animation\sword_shield\hurlock_runf_v2.evt
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_attack_v4.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_attack_v4.evt
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_attack_v4.gad
@@ -1698,6 +1720,8 @@ art\characters\creatures\mubari\animation\blendtree\mabari_pcoverride.anb
 art\characters\creatures\mubari\animation\choke.ani
 art\characters\creatures\mubari\animation\choke.evt
 art\characters\creatures\mubari\animation\choke.gad
+art\characters\creatures\mubari\animation\com_bark.ani
+art\characters\creatures\mubari\animation\com_bark.evt
 art\characters\creatures\mubari\animation\com_barking.ani
 art\characters\creatures\mubari\animation\com_barking.evt
 art\characters\creatures\mubari\animation\com_barking.gad
@@ -1710,6 +1734,8 @@ art\characters\creatures\mubari\animation\com_cocked.gad
 art\characters\creatures\mubari\animation\com_dig.ani
 art\characters\creatures\mubari\animation\com_dig.evt
 art\characters\creatures\mubari\animation\com_dig.gad
+art\characters\creatures\mubari\animation\com_growl.ani
+art\characters\creatures\mubari\animation\com_growl.evt
 art\characters\creatures\mubari\animation\com_pant_v2.ani
 art\characters\creatures\mubari\animation\com_pant_v2.evt
 art\characters\creatures\mubari\animation\com_pant_v2.gad
@@ -1795,6 +1821,8 @@ art\characters\creatures\mubari\animation\p_tw_v3.gad
 art\characters\creatures\mubari\animation\p_tw_v4.ani
 art\characters\creatures\mubari\animation\p_tw_v4.evt
 art\characters\creatures\mubari\animation\p_tw_v4.gad
+art\characters\creatures\mubari\animation\pp_rst_p.ani
+art\characters\creatures\mubari\animation\pp_rst_p.evt
 art\characters\creatures\mubari\animation\rdy_old.ani
 art\characters\creatures\mubari\animation\rdy_old.gad
 art\characters\creatures\mubari\animation\relax.ani
@@ -1809,6 +1837,8 @@ art\characters\creatures\mubari\animation\sleep.gad
 art\characters\creatures\mubari\animation\sleep_tw_v1.ani
 art\characters\creatures\mubari\animation\sleep_tw_v1.evt
 art\characters\creatures\mubari\animation\sleep_tw_v1.gad
+art\characters\creatures\mubari\animation\tailwag_enter.ani
+art\characters\creatures\mubari\animation\tailwag_enter.evt
 art\characters\creatures\mubari\animation\tailwag_loop.ani
 art\characters\creatures\mubari\animation\tailwag_loop.evt
 art\characters\creatures\mubari\animation\tailwag_loop.gad
@@ -1820,6 +1850,9 @@ art\characters\creatures\mubari\animation\wkf.evt
 art\characters\creatures\mubari\animation\wkf.gad
 art\characters\creatures\mubari\c_mubari.mmh
 art\characters\creatures\mubari\c_mubari.msh
+art\characters\creatures\pridedemon\animation\a_cst.ani
+art\characters\creatures\pridedemon\animation\a_cst.evt
+art\characters\creatures\pridedemon\animation\a_end.ani
 art\characters\creatures\pridedemon\animation\atk_v1.ani
 art\characters\creatures\pridedemon\animation\atk_v1.evt
 art\characters\creatures\pridedemon\animation\atk_v1.gad
@@ -2018,6 +2051,7 @@ art\characters\creatures\rubblegolem\animation\blendtree\rubblegolema_overlay.an
 art\characters\creatures\rubblegolem\animation\blendtree\rubblegolemb.anb
 art\characters\creatures\rubblegolem\animation\blendtree\rubblegolemb_combat.anb
 art\characters\creatures\rubblegolem\animation\blendtree\rubblegolemb_movement.anb
+art\characters\creatures\rubblegolem\animation\cindes\dialogue\ready_slow.ani
 art\characters\creatures\rubblegolem\animation\stage1light\additive01.ani
 art\characters\creatures\rubblegolem\animation\stage1light\additive01.evt
 art\characters\creatures\rubblegolem\animation\stage1light\additive01.gad
@@ -2646,16 +2680,29 @@ art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shou
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_enter.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_enter.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_enter.gad
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_back_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_back_loop.gad
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_back_to_relaxed.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_back_to_relaxed.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_back_to_relaxed.gad
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_enter.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_enter.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_to_back.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_to_back.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_to_back.gad
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left_3.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left_3.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right_2.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right_2.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_relaxed_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_relaxed_loop.gad
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\varric_1.ani
@@ -3795,13 +3842,28 @@ art\characters\playercharacter\humanfemale\animation\cindes\cassandra\cassandra_
 art\characters\playercharacter\humanfemale\animation\cindes\cassandra\cassandra_5.gad
 art\characters\playercharacter\humanfemale\animation\cindes\custom\cuddle_lying_female_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\injured_supported_bethany_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction2.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction2.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\sister_help_up_goodbye_bethany.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\sister_help_up_goodbye_bethany.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\sister_help_up_goodbye_bethany.gad
 art\characters\playercharacter\humanfemale\animation\cindes\custom\swagger_pose.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\swagger_pose.gad
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_die_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_die_aveline.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_die_flemeth_female.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_die_flemeth_female.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_diepose_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_goodbye_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_goodbye_aveline.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\collapse_to_kneel.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\collapse_to_kneel.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.gad
@@ -3831,6 +3893,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_desc
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.gad
 art\characters\playercharacter\humanfemale\animation\cindes\flemeth\flemeth_idle_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_enter.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_enter.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_enter.gad
@@ -3853,6 +3917,7 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_w
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.gad
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ik_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ik_transition.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ik_transition.gad
@@ -4876,12 +4941,23 @@ art\characters\playercharacter\humanfemale\textures\mt_hed_flma_0n.dds
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.gad
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_up_side.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.gad
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.gad
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.gad
@@ -4899,6 +4975,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.an
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.gad
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_up.gad
+art\characters\playercharacter\humanmale\animation\cindes\additive\fingers_r_open.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\fingers_r_open.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.gad
@@ -4922,6 +5000,10 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\righthand_cle
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_in.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_in.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_in.gad
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.ani
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.evt
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.gad
@@ -4962,6 +5044,8 @@ art\characters\playercharacter\humanmale\animation\cindes\blendtree\pose_urgent_
 art\characters\playercharacter\humanmale\animation\cindes\blendtree\pose_urgent_walk.anb
 art\characters\playercharacter\humanmale\animation\cindes\blendtree\pose_wall_lean_left.anb
 art\characters\playercharacter\humanmale\animation\cindes\blendtree\pose_wall_lean_right.anb
+art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_approach.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_approach.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_approach.gad
@@ -4980,6 +5064,8 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_exit.gad
+art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_carver.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_carver.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_carver.gad
@@ -4987,6 +5073,8 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collaps
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_malepc.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_malepc.gad
 art\characters\playercharacter\humanmale\animation\cindes\custom\cuddle_lying_male_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragged_human_female.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragged_human_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragged_human_female.gad
@@ -5008,6 +5096,10 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\handshake_excit
 art\characters\playercharacter\humanmale\animation\cindes\custom\handshake_excited_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\handshake_excited_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\handshake_excited_reaction.gad
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\idunna_prostitute_action_knife_to_throat_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\idunna_prostitute_action_sit_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\idunna_prostitute_action_stand_loop.ani
@@ -5035,6 +5127,8 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\kiss_sweet_acti
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_varian_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_escape.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_escape.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_still.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_still.gad
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_back_throne_enter.ani
@@ -5059,6 +5153,10 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_thro
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_exit.gad
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction2.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction2.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose2.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose2.gad
@@ -5066,6 +5164,14 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\sister_help_up_
 art\characters\playercharacter\humanmale\animation\cindes\custom\sister_help_up_goodbye_malepc.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sister_help_up_goodbye_malepc.gad
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_deadloop_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_die_flemeth.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_die_flemeth.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_die_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_die_wesley.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_goodbye_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_goodbye_wesley.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\anders_intro_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_loop.evt
@@ -5076,6 +5182,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\console_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\console_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\console_action.gad
@@ -5128,9 +5236,17 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_interact_low.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_loop.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\dodge_object.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\dodge_object.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_wobble.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_wobble.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.gad
@@ -5190,6 +5306,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_wal
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.evt
@@ -5208,8 +5326,14 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_enter.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_loop.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_loop.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_exit.gad
@@ -5226,6 +5350,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_weightshift.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_loop.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_exit.gad
@@ -5258,6 +5384,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_loop
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_draw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_draw.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_draw.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_action.gad
@@ -5279,6 +5406,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.gad
@@ -5367,6 +5496,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_th
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_reactio.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_reactio.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_reactio.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.gad
@@ -5376,6 +5507,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwie
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\scared_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\scared_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\scared_enter.gad
@@ -5393,6 +5526,13 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\show_paper_ex
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\show_paper_exit.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\show_paper_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\show_paper_loop.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_adjust_talk.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_adjust_talk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.gad
@@ -5410,6 +5550,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drink
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_standing_cheer.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_standing_cheer.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_standing_cheer.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured.evt
@@ -5417,6 +5559,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injur
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_pose_loop.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_sleep_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_sleep_on_table_loop.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_gesture_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_gesture_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_gesture_1.gad
@@ -5454,11 +5598,17 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_forehand
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stumble_back.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stumble_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_barter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_barter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_barter.gad
@@ -5483,6 +5633,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_gesture_both_hands.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_gesture_both_hands.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_gesture_both_hands.gad
@@ -5505,6 +5659,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\threaten_reac
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180_alt.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.gad
@@ -5514,14 +5672,20 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_45.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
@@ -5571,6 +5735,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_lef
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_twitch.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_twitch.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_twitch.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_loop.gad
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_twitch.ani
@@ -5600,6 +5766,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_right.gad
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\weapon_draw_ready_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\weapon_draw_ready_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_armsup.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_armsup.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_armsup.gad
@@ -5777,6 +5945,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\body_strong_head_
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_surprised_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_surprised_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_surprised_back.gad
+art\characters\playercharacter\humanmale\animation\cindes\pose\body_turn_away_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\body_turn_away_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_twist_look_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_twist_look_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_twist_look_left.gad
@@ -5941,12 +6111,16 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.gad
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.gad
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.gad
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_af_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_af_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_af_transition.gad
@@ -5977,6 +6151,10 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b_weightshift_small_trim1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b_weightshift_small_trim1.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b_weightshift_small_trim1.gad
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ba_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ba_transition.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_bd_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_bd_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.gad
@@ -6007,6 +6185,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ca_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ca_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ca_transition.gad
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_cb_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_cb_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.gad
@@ -6092,6 +6272,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_f_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_fa_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_fa_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_fa_transition.gad
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_fd_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_fd_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_beckon.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_beckon.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_beckon.gad
@@ -9568,28 +9750,51 @@ art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge9.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath1.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath4.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath5.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear2.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear3.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear4.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear5.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_napalm1.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_ave_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_drag_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_drag_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_flem_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur1_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur2_flemeth_fake.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur2_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur3_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur3_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur4_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur4_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur5_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_mom_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_pc_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_pc_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sib_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sis_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sis_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_wes_flemeth_real.ani
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_book_.ani
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_cassandra_.ani
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_inquisitionsoldier1_.ani
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_inquisitionsoldier2_.ani
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_varric_.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\brother_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl1_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl1_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl2_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl2_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\sister_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_aveline_victim.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_brother_victim.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_ogre_victim_brother.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_player_victim.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_wesley_victim.ani
 art\cinematics\act1\cs_fp_closedsneer.ani
 art\cinematics\act1\cs_fp_closedsneer.gad
 art\cinematics\act1\cs_fp_gritteeth.ani
@@ -9606,6 +9811,7 @@ art\cinematics\act1\cs_fp_smirk.ani
 art\cinematics\act1\cs_fp_smirk.gad
 art\cinematics\act1\cs_fp_yell.ani
 art\cinematics\act1\cs_fp_yell.gad
+art\cinematics\additional animation\cs_sail_cycle.ani
 art\cinematics\deathblows\highdragon\c_pc_swp.ani
 art\cinematics\deathblows\highdragon\c_pc_swp.gad
 art\cinematics\deathblows\highdragon\cs_db_drag_dragwarr.ani
@@ -9650,6 +9856,10 @@ art\effects\cloudshadows\w_blightlands\cloud1.dds
 art\effects\cloudshadows\w_blightlands\cloud2.dds
 art\effects\cloudshadows\w_bonepitmining_a2\cloud1.dds
 art\effects\cloudshadows\w_bonepitmining_a2\cloud2.dds
+art\effects\cloudshadows\w_encounter1\cloud1.dds
+art\effects\cloudshadows\w_encounter1\cloud2.dds
+art\effects\cloudshadows\w_encounter2\cloud1.dds
+art\effects\cloudshadows\w_encounter2\cloud2.dds
 art\effects\cloudshadows\w_sundermount\cloud1.dds
 art\effects\cloudshadows\w_sundermount\cloud2.dds
 art\effects\cloudshadows\w_woundedcoast\cloud1.dds
@@ -9919,6 +10129,7 @@ art\levels\races\design\trap_floorlever.phy
 art\levels\races\dwarf\common\int\_textures\til_cavernlava_da.dds
 art\levels\races\dwarf\common\int\_textures\til_cavernlavaedge_d.dds
 art\levels\races\dwarf\common\int\_textures\til_cavernrock_d.dds
+art\levels\races\dwarf\common\int\_textures\til_cavernrock_drelief.dds
 art\levels\races\dwarf\common\int\_textures\til_cavernrock_n.dds
 art\levels\races\dwarf\common\int\_textures\til_cavernrock_sa.dds
 art\levels\races\dwarf\common\int\_textures\til_deeproads_d.dds
@@ -15199,9 +15410,11 @@ art\levels\races\natural\kirkcave\foliage\tre_roots1b.mmh
 art\levels\races\natural\kirkcave\foliage\tre_roots1b.msh
 art\levels\races\natural\kirkcave\props\_textures\prp_bb_d.dds
 art\levels\races\natural\kirkcave\props\_textures\prp_rock_002_d.dds
+art\levels\races\natural\kirkcave\props\_textures\prp_rock_002_drelief.dds
 art\levels\races\natural\kirkcave\props\_textures\prp_rock_002_n.dds
 art\levels\races\natural\kirkcave\props\_textures\prp_rock_002_sa.dds
 art\levels\races\natural\kirkcave\props\_textures\prp_rockblend_d.dds
+art\levels\races\natural\kirkcave\props\_textures\prp_rockblend_drelief.dds
 art\levels\races\natural\kirkcave\props\_textures\prp_rockblend_n.dds
 art\levels\races\natural\kirkcave\props\_textures\prp_rockblend_sa.dds
 art\levels\races\natural\kirkcave\props\_textures\prp_rocks_d.dds
@@ -18039,6 +18252,8 @@ art\vfx\environment\level_fx\ambient\vfx_blightfire.mmh
 art\vfx\environment\level_fx\ambient\vfx_cenotaphfire_day.mmh
 art\vfx\environment\level_fx\ambient\vfx_cenotaphfire_night.mmh
 art\vfx\environment\level_fx\ambient\vfx_groundfog.mmh
+art\vfx\environment\level_fx\ambient\vfx_heathaze.mmh
+art\vfx\environment\level_fx\ambient\vfx_heathaze1x8m.mmh
 art\vfx\environment\level_fx\ambient\vfx_lichenglowdots.mmh
 art\vfx\environment\level_fx\ambient\vfx_lt_ash.mmh
 art\vfx\environment\level_fx\ambient\vfx_lt_ash_sparks.mmh
@@ -18060,6 +18275,7 @@ art\vfx\environment\level_fx\birds\vfx_birdvista01.dura.ani
 art\vfx\environment\level_fx\birds\vfx_birdvista01.dura.evt
 art\vfx\environment\level_fx\birds\vfx_birdvista01.dura.gad
 art\vfx\environment\level_fx\birds\vfx_birdvista01.mmh
+art\vfx\environment\level_fx\bugs\vfx_fireflys10x10.mmh
 art\vfx\environment\level_fx\bugs\vfx_flys.anb
 art\vfx\environment\level_fx\bugs\vfx_flys.dura.ani
 art\vfx\environment\level_fx\bugs\vfx_flys.dura.evt
@@ -18201,6 +18417,7 @@ art\vfx\environment\level_fx\smoke\vfx_foundryfire2.impa.ani
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.impa.evt
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.impa.gad
 art\vfx\environment\level_fx\smoke\vfx_foundryfire2.mmh
+art\vfx\environment\level_fx\smoke\vfx_foundryglow.mmh
 art\vfx\environment\level_fx\smoke\vfx_foundrysmoke_lrg.mmh
 art\vfx\environment\level_fx\smoke\vfx_foundrysmoke_sml.mmh
 art\vfx\environment\level_fx\smoke\vfx_saintsmoke.mmh
@@ -18611,6 +18828,7 @@ art\vfx\textures\vfx_soulloop.dds
 art\vfx\textures\vfx_streak01.dds
 art\vfx\textures\vfx_tear_cs.dds
 art\vfx\textures\vfx_twirl01.dds
+art\vfx\textures\vfx_vein_tile.dds
 art\vfx\textures\vfx_vollight_dust.dds
 art\vfx\textures\vfx_vollightgrad.dds
 art\vfx\textures\vfx_web_debris.dds

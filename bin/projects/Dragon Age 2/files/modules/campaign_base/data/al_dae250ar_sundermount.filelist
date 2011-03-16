@@ -1,4 +1,4 @@
-; 176/196 (89%)
+; 179/196 (91%)
 act00pt_main.ncs
 art\characters\creatures\strider\animation\attkfl_leg.ani
 art\characters\creatures\strider\animation\attkfl_leg.evt
@@ -10,11 +10,14 @@ art\characters\creatures\strider\animation\turnright90.ani
 art\characters\creatures\strider\animation\turnright90.evt
 art\characters\creatures\strider\animation\walkfront.ani
 art\characters\creatures\strider\animation\walkfront.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani

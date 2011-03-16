@@ -1,4 +1,4 @@
-; 88/109 (80%)
+; 92/109 (84%)
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.evt
@@ -12,6 +12,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani
@@ -46,6 +48,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_roll_shoul
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_roll_shoulders.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim1_reverse.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim1_reverse.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_dismiss.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_dismiss.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_long_2.ani

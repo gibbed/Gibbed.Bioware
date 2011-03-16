@@ -1,4 +1,4 @@
-; 73/77 (94%)
+; 75/77 (97%)
 art\characters\creatures\highdragon\animation\combat\rearup.ani
 art\characters\creatures\highdragon\animation\combat\rearup.evt
 art\characters\creatures\pridedemon\animation\tal_stomp.ani
@@ -25,6 +25,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.an
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter_qunari.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.ani
