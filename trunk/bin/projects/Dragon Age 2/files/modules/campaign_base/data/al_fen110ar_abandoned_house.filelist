@@ -1,4 +1,4 @@
-; 95/114 (83%)
+; 97/114 (85%)
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_exit.ani
@@ -19,6 +19,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissi
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani

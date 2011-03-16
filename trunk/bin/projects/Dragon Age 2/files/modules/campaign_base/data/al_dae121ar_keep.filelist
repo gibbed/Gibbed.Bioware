@@ -1,9 +1,10 @@
-; 273/321 (85%)
+; 287/321 (89%)
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ik_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ik_transition.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
@@ -32,6 +33,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_pose.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
@@ -50,12 +55,18 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_le
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.evt
@@ -63,6 +74,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_e
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
@@ -160,6 +173,7 @@ art\levels\races\ferelden\kirklow\int\4co_lowtown\animation\4co_lowtown_int_door
 ave000pt_gift_shield.ncs
 ave000pt_main.ncs
 ave100_ambush_1.cnv
+ave100_ambush_16106195.cl
 ave100_donnic.cnv
 ave100_donnic.stg
 ave100cr_donnic.utc

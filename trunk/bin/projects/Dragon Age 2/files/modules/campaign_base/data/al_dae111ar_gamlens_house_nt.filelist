@@ -1,4 +1,4 @@
-; 357/452 (78%)
+; 396/452 (87%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.ani
@@ -6,10 +6,20 @@ art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.evt
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_knckbck.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_knckbck.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_blink.ani
@@ -17,6 +27,12 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.a
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.evt
@@ -46,6 +62,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_run
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_run_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.evt
@@ -68,6 +86,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_po
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
@@ -86,6 +106,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_twitch_hands_on_hips.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_twitch_hands_on_hips.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.ani
@@ -96,6 +118,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_45
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
@@ -205,8 +229,12 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.ani
@@ -262,8 +290,11 @@ car100pt_gift.ncs
 cod_ltr_forgamlen.utp
 cod_mgc_rules.utp
 dae000_gamlen.cnv
+dae000_gamlen6005754.cl
 dae000_mother.cnv
 dae000_mother_blightlands_1.stg
+dae000_mother6001874.cl
+dae000_mother6004095.cl
 dae000_pc_home_ambients.cnv
 dae000_varric_deeproads.stg
 dae000cr_cassandra.utc
@@ -301,11 +332,18 @@ dae111st_dog_player_plus.stg
 dae111st_mother.stg
 dae200st_mother.stg
 dre000_bethany.cnv
+dre000_bethany6037308.cl
 dre000_carver.cnv
 dre000_mother.cnv
 dre000_mother.stg
 dre000_varric.cnv
 dre000_varric_rockwraith.stg
+dre000_varric6028417.cl
+dre000_varric6029149.cl
+dre000_varric6029385.cl
+dre000_varric6036950.cl
+dre000_varric6208001.cl
+dre000_varric6208031.cl
 dre000pt_extra_funds2.ncs
 dre000st_bethany.stg
 dre000st_carver.stg
@@ -354,5 +392,6 @@ ser221pt_remains.ncs
 ser221st_gamlen_mother.stg
 sib100pt_birthright.ncs
 sib111_mother.cnv
+sib111_mother6098795.cl
 sib111st_mother.stg
 vis100pt_rescue.ncs

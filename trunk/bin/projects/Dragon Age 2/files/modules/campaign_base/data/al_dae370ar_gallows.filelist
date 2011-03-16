@@ -1,15 +1,23 @@
-; 242/302 (80%)
+; 254/302 (84%)
 act00pt_main.ncs
 and200pt_dissent.ncs
 and300pt_justice.ncs
+art\characters\creatures\ashwraith\animation\ras_com_v1.ani
+art\characters\creatures\ashwraith\animation\ras_com_v1.evt
 art\characters\creatures\ashwraith\animation\ras_p.ani
+art\characters\creatures\ashwraith\animation\ras_wk_p_rf.ani
+art\characters\creatures\ashwraith\animation\ras_wk_p_rf.evt
 art\characters\creatures\ashwraith\animation\ras_wkf.ani
 art\characters\creatures\ashwraith\animation\ras_wkf.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
@@ -113,6 +121,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.ani
@@ -204,6 +214,8 @@ mag170_thrask.cnv
 mag170cr_thrask.utc
 mag170st_hugh.stg
 mag200_feynriel.cnv
+mag200_feynriel6023951.cl
+mag200_feynriel6034480.cl
 mag200cr_feynriel.utc
 mag200pt_night_terrors.ncs
 mag270cr_hugh.utc

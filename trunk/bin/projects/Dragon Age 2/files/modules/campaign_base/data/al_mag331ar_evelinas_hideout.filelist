@@ -1,4 +1,4 @@
-; 73/87 (83%)
+; 79/87 (90%)
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani
@@ -16,11 +16,17 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_run
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_180_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.evt

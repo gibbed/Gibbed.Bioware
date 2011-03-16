@@ -1,7 +1,9 @@
-; 143/169 (84%)
+; 147/169 (86%)
 act00pt_main.ncs
 and200pt_dissent.ncs
 and300pt_justice.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -21,6 +23,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_l
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani

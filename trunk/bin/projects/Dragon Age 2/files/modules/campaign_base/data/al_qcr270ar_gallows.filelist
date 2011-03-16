@@ -1,14 +1,19 @@
-; 101/138 (73%)
+; 106/138 (76%)
 act00pt_main.ncs
 art\characters\creatures\arh_abm_rev\animation\a_die_lp_v1.ani
 art\characters\creatures\arh_abm_rev\animation\a_die_v1.ani
 art\characters\creatures\arh_abm_rev\animation\a_die_v1.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani

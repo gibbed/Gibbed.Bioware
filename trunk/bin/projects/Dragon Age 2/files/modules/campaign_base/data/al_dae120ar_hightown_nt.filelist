@@ -1,4 +1,4 @@
-; 132/156 (84%)
+; 136/156 (87%)
 act00pt_main.ncs
 and120st_chantry.stg
 and120tr_anders.ncs
@@ -11,6 +11,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_kn
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
@@ -26,6 +28,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back_mirror.ani

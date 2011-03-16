@@ -1,4 +1,4 @@
-; 167/197 (84%)
+; 169/197 (85%)
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
@@ -33,6 +33,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_fain
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani

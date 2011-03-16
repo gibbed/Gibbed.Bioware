@@ -1,13 +1,17 @@
-; 103/120 (85%)
+; 108/120 (90%)
 act00pt_main.ncs
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.evt
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
@@ -22,6 +26,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throat_slit_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani

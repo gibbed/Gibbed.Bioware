@@ -1,18 +1,24 @@
-; 263/361 (72%)
+; 273/361 (75%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\righthand_clench_fist.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_approach.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_approach.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_kill_mage.ani
@@ -48,11 +54,15 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_l
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_scared.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_scared.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.evt

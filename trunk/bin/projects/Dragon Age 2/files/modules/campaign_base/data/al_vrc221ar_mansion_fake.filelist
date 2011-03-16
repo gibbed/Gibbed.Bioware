@@ -1,11 +1,22 @@
-; 109/134 (81%)
+; 120/134 (89%)
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left_3.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left_3.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right_2.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right_2.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\righthand_clench_fist.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_wobble.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_wobble.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.ani

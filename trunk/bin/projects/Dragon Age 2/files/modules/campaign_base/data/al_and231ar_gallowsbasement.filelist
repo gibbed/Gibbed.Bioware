@@ -1,4 +1,4 @@
-; 74/78 (94%)
+; 76/78 (97%)
 act00pt_main.ncs
 and000pt_gift_amulet.ncs
 and000pt_gift_key.ncs
@@ -28,6 +28,8 @@ and231tr_smugglers2.ncs
 and231tr_smugglers2.utt
 and231tr_spiders.ncs
 and271_lyrium_smuggler.cnv
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani

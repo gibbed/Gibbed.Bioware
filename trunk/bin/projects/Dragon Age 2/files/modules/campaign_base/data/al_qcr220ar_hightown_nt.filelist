@@ -1,17 +1,28 @@
-; 219/313 (69%)
+; 237/313 (75%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragged_human_female.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragged_human_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragging_qunari.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragging_qunari.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_escape.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_escape.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_deadloop_wesley.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.evt
@@ -38,6 +49,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_wal
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
@@ -48,8 +60,12 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_f
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_front.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_idle.ani
@@ -110,6 +126,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_roll_shoul
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_roll_shoulders.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.ani

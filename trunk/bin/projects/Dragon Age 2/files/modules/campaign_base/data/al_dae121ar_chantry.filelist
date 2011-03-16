@@ -1,9 +1,11 @@
-; 171/204 (83%)
+; 173/204 (84%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and121st_karl.stg
 and200pt_dissent.ncs
 and300pt_justice.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani

@@ -1,4 +1,4 @@
-; 46/53 (86%)
+; 47/53 (88%)
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
@@ -26,6 +26,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_e.ani
 ave000pt_gift_shield.ncs
 ave000pt_main.ncs
 ave100_ambush_1.cnv
+ave100_ambush_16106195.cl
 ave100_donnic.cnv
 ave100_donnic.stg
 ave100ar_patrol.are

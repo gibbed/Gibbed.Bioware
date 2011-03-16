@@ -1,4 +1,4 @@
-; 81/103 (78%)
+; 83/103 (80%)
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani
@@ -12,6 +12,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_pose.ani

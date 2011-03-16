@@ -1,4 +1,6 @@
-; 51/63 (80%)
+; 55/63 (87%)
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -7,6 +9,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_1.ani

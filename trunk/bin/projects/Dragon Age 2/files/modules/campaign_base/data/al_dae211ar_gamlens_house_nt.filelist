@@ -1,7 +1,11 @@
-; 70/85 (82%)
+; 75/85 (88%)
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give.ani
@@ -51,6 +55,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hand_to_face.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hand_to_face.evt
 dae000_gamlen.cnv
+dae000_gamlen6005754.cl
 dae000pt_generic.ncs
 dae000st_gamlen.stg
 dae00st_gamlens_house.stg

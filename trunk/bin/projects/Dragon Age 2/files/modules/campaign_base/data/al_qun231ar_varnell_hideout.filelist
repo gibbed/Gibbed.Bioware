@@ -1,12 +1,16 @@
-; 185/229 (80%)
+; 194/229 (84%)
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_still.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose2.ani
@@ -33,6 +37,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_fain
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
@@ -120,6 +126,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transitio
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ac_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_bd_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_bd_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.ani
@@ -152,6 +160,7 @@ qun221_viscount.cnv
 qun221_viscount_missing_qun.stg
 qun221_viscount_seamus_dead.stg
 qun221_viscount_st.stg
+qun221_viscount6069026.cl
 qun221cr_petrice.utc
 qun221st_petrice_postvarn.stg
 qun231_party_comment.cnv

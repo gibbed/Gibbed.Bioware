@@ -1,4 +1,4 @@
-; 95/110 (86%)
+; 99/110 (90%)
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
@@ -15,6 +15,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_run
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_run.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_forward_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_forward_1.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_forehand_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_forehand_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.ani
@@ -24,6 +26,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_idle.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.evt

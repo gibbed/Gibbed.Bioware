@@ -1,7 +1,11 @@
-; 245/318 (77%)
+; 255/318 (80%)
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
@@ -26,6 +30,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
@@ -123,6 +129,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim2_reverse.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_af_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_af_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.ani
@@ -159,6 +167,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_thumb_ja
 ave100pt_promotion.ncs
 cod_hst_anderfels.utp
 dae000_adriano.cnv
+dae000_adriano6163675.cl
 dae000_brat.cnv
 dae000_brothel_gamlen.cnv
 dae000_cerimon.cnv
@@ -169,6 +178,7 @@ dae000_hired_prostitute.cut
 dae000_katriela.cnv
 dae000_leonato.cnv
 dae000_madam_lusine.cnv
+dae000_madam_lusine6152083.cl
 dae000_male_commoner1_mob.cnv
 dae000_male_commoner2_mob.cnv
 dae000_osric.cnv

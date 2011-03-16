@@ -1,11 +1,14 @@
-; 249/282 (88%)
+; 258/282 (91%)
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
@@ -38,11 +41,17 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_twitch_hands_on_hips.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_twitch_hands_on_hips.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_180_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt

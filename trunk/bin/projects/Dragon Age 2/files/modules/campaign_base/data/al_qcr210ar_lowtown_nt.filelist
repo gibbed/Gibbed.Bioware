@@ -1,7 +1,10 @@
-; 146/184 (79%)
+; 151/184 (82%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
@@ -16,6 +19,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeate
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_walk_enter.ani

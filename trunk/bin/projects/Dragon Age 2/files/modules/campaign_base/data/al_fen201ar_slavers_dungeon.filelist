@@ -1,8 +1,10 @@
-; 56/69 (81%)
+; 58/69 (84%)
 and000im_gft_amulet.uti
 and000ip_amulet_container.utp
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani

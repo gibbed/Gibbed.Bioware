@@ -1,9 +1,15 @@
-; 269/330 (81%)
+; 285/330 (86%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
+art\characters\creatures\ashwraith\animation\ras_com_v1.ani
+art\characters\creatures\ashwraith\animation\ras_com_v1.evt
 art\characters\creatures\ashwraith\animation\ras_p.ani
+art\characters\creatures\ashwraith\animation\ras_wk_p_rf.ani
+art\characters\creatures\ashwraith\animation\ras_wk_p_rf.evt
 art\characters\creatures\ashwraith\animation\ras_wkf.ani
 art\characters\creatures\ashwraith\animation\ras_wkf.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter_walk.ani
@@ -12,11 +18,14 @@ art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
+art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
@@ -26,6 +35,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_daggers.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani
@@ -130,6 +141,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_small_trim1_reverse.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ae_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c.ani
@@ -236,9 +249,12 @@ mag120st_macha.stg
 mag131_keran.cnv
 mag131cr_keran_civ.utc
 mag200_feynriel.cnv
+mag200_feynriel6023951.cl
+mag200_feynriel6034480.cl
 mag200cr_feynriel.utc
 mag200pt_night_terrors.ncs
 mag210_arianni.cnv
+mag210_arianni6024090.cl
 mag210cr_arianni.utc
 mag210cr_feynriel_abominat.utc
 mag210st_arianni.stg

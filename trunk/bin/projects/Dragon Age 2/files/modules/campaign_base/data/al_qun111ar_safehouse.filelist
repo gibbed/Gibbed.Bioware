@@ -1,4 +1,6 @@
-; 89/101 (88%)
+; 94/101 (93%)
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -83,6 +85,9 @@ qun110cr_varnell.utc
 qun111_ketojan.cnv
 qun111_ketojan_freed.stg
 qun111_ketojan_post_thug.stg
+qun111_ketojan6019013.cl
+qun111_ketojan6019040.cl
+qun111_ketojan6039003.cl
 qun111ar_safehouse.are
 qun111ar_safehouse.ncs
 qun111cr_ketojan.utc

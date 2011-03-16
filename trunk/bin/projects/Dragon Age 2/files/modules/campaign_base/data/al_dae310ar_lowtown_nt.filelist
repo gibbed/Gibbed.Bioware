@@ -1,9 +1,12 @@
-; 171/202 (84%)
+; 182/202 (90%)
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_up_side.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
@@ -14,6 +17,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_kn
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_interact_low.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_interact_low.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_45_walk.ani
@@ -24,6 +29,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.evt
@@ -83,10 +90,14 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_sway_big.a
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_sway_big.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim1.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ab_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_b.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ba_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ba_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_da_transition.ani
