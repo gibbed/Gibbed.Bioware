@@ -1,4 +1,4 @@
-; 18848/22840 (82%)
+; 18997/22840 (83%)
 animblend_core.fdl
 art\characters\creatures\arh_abm_rev\animation\a_appr.ani
 art\characters\creatures\arh_abm_rev\animation\a_appr.gad
@@ -5007,6 +5007,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.ev
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.ani
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.evt
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.gad
+art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_lp.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_lp.gad
 art\characters\playercharacter\humanmale\animation\cindes\blendtree\common_gestures.anb
 art\characters\playercharacter\humanmale\animation\cindes\blendtree\pose_arms_crossed.anb
 art\characters\playercharacter\humanmale\animation\cindes\blendtree\pose_arms_crossed_female.anb
@@ -6059,8 +6061,10 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\leftarm_wave_good
 art\characters\playercharacter\humanmale\animation\cindes\pose\leftarm_wave_goodbye_short.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\leftarm_wave_goodbye_short.gad
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.gad
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter_qunari.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.gad
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.gad
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_bounce_small.ani
@@ -9734,61 +9738,204 @@ art\characters\weapons\zzdao\textures\w_lsw_ls01a_0s.dds
 art\characters\weapons\zzdao\w_lsw_ls01a.mmh
 art\characters\weapons\zzdao\w_lsw_ls01a.msh
 art\characters\weapons\zzdao\w_lsw_ls01a.phy
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex.gad
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex2.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex2.gad
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_mered_chant_ex.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_mered_chant_ex.gad
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_mered_chant_ex2.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_mered_chant_ex2.gad
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_orsino_chant_ex.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_orsino_chant_ex.gad
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_orsino_chant_ex2.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_orsino_chant_ex2.gad
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant_ex.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant_ex.gad
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant_ex2.ani
+art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant_ex2.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower2_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower2_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower2_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower2_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_pc_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_pc_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_pc_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_pc_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar1_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar1_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar1_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar1_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar2_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar2_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar2_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar2_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar3_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar3_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar3_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar3_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar4_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar4_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar4_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar4_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar5_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar5_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar5_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar5_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar6_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar6_mcr370_playerflees.gad
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar6_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar6_mcr370_playerrules.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar1_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar1_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar2_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar2_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar4_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar4_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar5_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar5_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar1_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar1_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar2_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar2_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar4_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar4_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar5_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar5_.gad
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplarfemale6_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplarfemale6_.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge1.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge1.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge11.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge11.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge12.ani
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge13.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge13.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge14.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge14.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge15.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge15.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge2.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge2.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge3.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge3.gad
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge4.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge4.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge5.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge5.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge6.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge6.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge7.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge7.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge8.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge8.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge9.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_charge9.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath1.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath1.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath4.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath4.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath5.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fdeath5.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear2.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear2.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear3.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear3.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear4.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear4.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear5.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_fear5.gad
 art\cinematics\_crit path\prologue\additional animations\cs_hurlock_napalm1.ani
+art\cinematics\_crit path\prologue\additional animations\cs_hurlock_napalm1.gad
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_avaline.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_avaline.gad
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_bethany.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_bethany.gad
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock1.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock1.gad
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock2.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock2.gad
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock3.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_hurlock3.gad
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_player.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_player.gad
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_wesley.ani
+art\cinematics\_crit path\prologue\pro000cs_avalineintro_real\avalineintro_wesley.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_ave_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_ave_flemeth_real.gad
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_carver_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_carver_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_drag_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_drag_flemeth_fake.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_drag_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_drag_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_flem_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_flem_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur1_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur1_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur2_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur2_flemeth_fake.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur2_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur2_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur3_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur3_flemeth_fake.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur3_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur3_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur4_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur4_flemeth_fake.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur4_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur4_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur5_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_hur5_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_mom_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_mom_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_pc_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_pc_flemeth_fake.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_pc_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_pc_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sib_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sib_flemeth_real.gad
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sib2_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sib2_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sis_flemeth_fake.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sis_flemeth_fake.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sis_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_sis_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_wes_flemeth_real.ani
+art\cinematics\_crit path\prologue\pro000cs_flemeth_real\cs_wes_flemeth_real.gad
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_book_.ani
+art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_book_.gad
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_cassandra_.ani
+art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_cassandra_.gad
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_inquisitionsoldier1_.ani
+art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_inquisitionsoldier1_.gad
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_inquisitionsoldier2_.ani
+art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_inquisitionsoldier2_.gad
 art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_varric_.ani
+art\cinematics\_crit path\prologue\pro000cs_opening\introshot3_varric_.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\brother_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl1_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl1_pcopening.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl1_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl2_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl2_pcopening.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl2_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopening.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopening.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\sister_pcopening.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\sister_pcopening.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_aveline_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_brother_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim.ani
@@ -9812,6 +9959,8 @@ art\cinematics\act1\cs_fp_smirk.gad
 art\cinematics\act1\cs_fp_yell.ani
 art\cinematics\act1\cs_fp_yell.gad
 art\cinematics\additional animation\cs_sail_cycle.ani
+art\cinematics\deathblows\highdragon\c_highdragon.tal_swp.ani
+art\cinematics\deathblows\highdragon\c_highdragon.tal_swp.gad
 art\cinematics\deathblows\highdragon\c_pc_swp.ani
 art\cinematics\deathblows\highdragon\c_pc_swp.gad
 art\cinematics\deathblows\highdragon\cs_db_drag_dragwarr.ani

@@ -1,4 +1,4 @@
-; 410/558 (73%)
+; 440/558 (78%)
 act00pt_main.ncs
 and000pt_main.ncs
 and200pt_dissent.ncs
@@ -34,6 +34,7 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.ani
 art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_en.evt
+art\characters\playercharacter\humanmale\animation\cindes\ambient\am_grdstand_lp.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_carver.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_carver.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_malepc.ani
@@ -231,6 +232,35 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_self_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.evt
+art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower2_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_follower2_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_pc_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_pc_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar1_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar1_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar2_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar2_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar3_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar3_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar4_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar4_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar5_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar5_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar6_mcr370_playerflees.ani
+art\cinematics\_crit path\mage crisis\rulesflees\cs_templar6_mcr370_playerrules.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar1_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar2_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar4_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerflees_extratemplar5_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar1_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar2_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar4_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplar5_.ani
+art\cinematics\_crit path\mage crisis\rulesflees\playerrules_extratemplarfemale6_.ani
 art\vfx\cinematic\prerendered\vfx_fog_ground_p.dura.ani
 art\vfx\cinematic\prerendered\vfx_fog_ground_p.dura.evt
 art\vfx\cinematic\prerendered\vfx_fog_ground_p.mmh
