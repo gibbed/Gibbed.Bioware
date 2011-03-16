@@ -1,0 +1,15 @@
+; 14/21 (66%)
+art\characters\creatures\desiredemon\animation\p.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_clenchfists.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_clenchfists.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter_qunari.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.ani
+seb000_install.ncs
+seb222ar_ruin.are
