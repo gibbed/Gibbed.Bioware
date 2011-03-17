@@ -1,4 +1,4 @@
-; 93/104 (89%)
+; 94/104 (90%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
@@ -11,6 +11,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_self.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_self.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_pointing.ani

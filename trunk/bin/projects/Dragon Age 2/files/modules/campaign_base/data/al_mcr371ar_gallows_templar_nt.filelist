@@ -1,4 +1,4 @@
-; 174/200 (87%)
+; 176/200 (88%)
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.evt
@@ -13,6 +13,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throat_slit_dead_loop.ani

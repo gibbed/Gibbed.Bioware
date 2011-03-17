@@ -1,4 +1,4 @@
-; 237/313 (75%)
+; 242/313 (77%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
@@ -53,13 +53,18 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_front.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_front.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani

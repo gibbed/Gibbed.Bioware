@@ -1,6 +1,10 @@
-; 62/70 (88%)
+; 66/70 (94%)
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter_walk.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter_walk.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_exit.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_exit.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani

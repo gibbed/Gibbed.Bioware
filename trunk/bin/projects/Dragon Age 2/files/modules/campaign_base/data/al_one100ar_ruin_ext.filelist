@@ -1,4 +1,4 @@
-; 131/150 (87%)
+; 133/150 (88%)
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
@@ -15,6 +15,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeate
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90_alt.evt

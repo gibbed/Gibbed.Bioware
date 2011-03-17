@@ -1,4 +1,4 @@
-; 287/321 (89%)
+; 291/321 (90%)
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
@@ -43,6 +43,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
@@ -51,6 +53,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_po
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.evt

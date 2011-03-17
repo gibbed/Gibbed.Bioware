@@ -1,4 +1,4 @@
-; 448/560 (80%)
+; 458/560 (81%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and200pt_dissent.ncs
@@ -56,6 +56,10 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\handshake_excit
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.ani
@@ -93,6 +97,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani
@@ -104,6 +112,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_beseech.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_beseech.evt

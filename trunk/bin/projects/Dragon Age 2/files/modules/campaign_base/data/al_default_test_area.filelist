@@ -1,4 +1,4 @@
-; 266/310 (85%)
+; 270/310 (87%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and200pt_dissent.ncs
@@ -38,6 +38,10 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_deadloop_wesley.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_hurt_wesley.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.ani

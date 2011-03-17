@@ -1,4 +1,4 @@
-; 289/319 (90%)
+; 293/319 (91%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
@@ -6,6 +6,8 @@ art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter_walk.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter_walk.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_exit.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_exit.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
@@ -53,6 +55,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeate
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_pose.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_90.ani

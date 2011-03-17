@@ -1,4 +1,4 @@
-; 258/282 (91%)
+; 260/282 (92%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
@@ -31,6 +31,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_right.ani

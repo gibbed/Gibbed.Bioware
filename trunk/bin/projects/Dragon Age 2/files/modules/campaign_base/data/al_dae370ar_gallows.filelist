@@ -1,4 +1,4 @@
-; 254/302 (84%)
+; 260/302 (86%)
 act00pt_main.ncs
 and200pt_dissent.ncs
 and300pt_justice.ncs
@@ -32,6 +32,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.evt
@@ -133,6 +137,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshift_medium_trim1.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshift_small_trim1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshift_small_trim1.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_cf_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_cf_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d_chest_out.ani

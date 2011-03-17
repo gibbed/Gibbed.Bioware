@@ -1,4 +1,4 @@
-; 108/136 (79%)
+; 110/136 (80%)
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
@@ -27,6 +27,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt

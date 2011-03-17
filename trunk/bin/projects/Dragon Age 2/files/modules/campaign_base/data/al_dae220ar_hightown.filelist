@@ -1,4 +1,4 @@
-; 264/307 (85%)
+; 268/307 (87%)
 2p_200_one280_iwan.stg
 act00pt_main.ncs
 and100pt_tranquility.ncs
@@ -16,6 +16,10 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\righthand_clench_fist.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.ani

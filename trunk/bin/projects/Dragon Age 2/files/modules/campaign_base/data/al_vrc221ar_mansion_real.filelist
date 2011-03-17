@@ -1,4 +1,4 @@
-; 127/141 (90%)
+; 129/141 (91%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
@@ -31,6 +31,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_rig
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_enter.evt
