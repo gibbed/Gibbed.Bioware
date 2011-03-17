@@ -1,4 +1,4 @@
-; 42/62 (67%)
+; 43/62 (69%)
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
@@ -41,3 +41,4 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim2_reverse.evt
 seb000_install.ncs
 seb321ar_keep_nt.are
+seb321cr_rebel_mage.ncs

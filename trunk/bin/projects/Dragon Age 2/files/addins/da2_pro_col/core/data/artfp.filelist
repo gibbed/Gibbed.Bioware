@@ -1,9 +1,19 @@
-; 10/21 (47%)
+; 20/21 (95%)
 art\characters\weapons\greatswords\textures\w_gsw_012a_0d.dds
 art\characters\weapons\greatswords\textures\w_gsw_012a_0n.dds
 art\characters\weapons\greatswords\textures\w_gsw_012a_0s.dds
 art\characters\weapons\greatswords\w_gsw_012a.mmh
 art\characters\weapons\greatswords\w_gsw_012a.msh
+art\characters\weapons\longbows\textures\w_lbw_008a_0d.dds
+art\characters\weapons\longbows\textures\w_lbw_008a_0n.dds
+art\characters\weapons\longbows\textures\w_lbw_008a_0s.dds
+art\characters\weapons\longbows\w_lbw_008a.mmh
+art\characters\weapons\longbows\w_lbw_008a.msh
+art\characters\weapons\shields\textures\w_shd_010a_0d.dds
+art\characters\weapons\shields\textures\w_shd_010a_0n.dds
+art\characters\weapons\shields\textures\w_shd_010a_0s.dds
+art\characters\weapons\shields\w_shd_010a.mmh
+art\characters\weapons\shields\w_shd_010a.msh
 art\characters\weapons\staff\textures\w_stf_018a_0d.dds
 art\characters\weapons\staff\textures\w_stf_018a_0n.dds
 art\characters\weapons\staff\textures\w_stf_018a_0s.dds
