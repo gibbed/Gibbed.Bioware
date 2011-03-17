@@ -1,4 +1,4 @@
-; 240/293 (81%)
+; 244/293 (83%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and200pt_dissent.ncs
@@ -11,6 +11,10 @@ art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_desc
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani

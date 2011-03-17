@@ -1,4 +1,4 @@
-; 303/326 (92%)
+; 306/326 (93%)
 act00pt_main.ncs
 and000pt_gift_amulet.ncs
 and000pt_gift_key.ncs
@@ -43,6 +43,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ai_transition.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ai_transition.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
@@ -63,6 +65,7 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_down.
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\anders_intro_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\anders_intro_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_interact_low.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_interact_low.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani

@@ -1,4 +1,4 @@
-; 233/274 (85%)
+; 235/274 (85%)
 act00pt_main.ncs
 and200pt_dissent.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
@@ -101,6 +101,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshift_medium_trim1.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshift_small_trim1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_c_weightshift_small_trim1.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_cf_transition.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\pose_cf_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d_chest_out.ani

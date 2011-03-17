@@ -1,8 +1,9 @@
-; 136/156 (87%)
+; 139/156 (89%)
 act00pt_main.ncs
 and120st_chantry.stg
 and120tr_anders.ncs
 and120tr_anders.utt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\lean_back_wall_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_check_nails.ani
@@ -27,6 +28,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_left_45.evt

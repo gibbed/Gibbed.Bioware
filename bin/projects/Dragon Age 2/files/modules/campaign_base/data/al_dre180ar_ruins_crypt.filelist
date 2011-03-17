@@ -1,4 +1,4 @@
-; 446/544 (81%)
+; 451/544 (82%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.ani
@@ -28,6 +28,7 @@ art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shou
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_action_enter.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_enter.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_enter.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\pose_f.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
@@ -87,6 +88,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani

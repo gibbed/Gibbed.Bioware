@@ -1,4 +1,4 @@
-; 78/84 (92%)
+; 80/84 (95%)
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
@@ -17,6 +17,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_he
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\thinking_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani

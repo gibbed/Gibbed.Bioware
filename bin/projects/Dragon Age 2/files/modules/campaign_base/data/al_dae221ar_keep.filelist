@@ -1,4 +1,4 @@
-; 294/340 (86%)
+; 298/340 (87%)
 act00pt_main.ncs
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
@@ -47,6 +47,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_tur
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
@@ -69,6 +71,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\turn_right_90_alt.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_forward_7_steps.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_forward_7_steps.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wall_lean_right_exit.evt

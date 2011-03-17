@@ -1,4 +1,4 @@
-; 194/229 (84%)
+; 195/229 (85%)
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
@@ -12,6 +12,7 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.an
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_post_still.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose2.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani

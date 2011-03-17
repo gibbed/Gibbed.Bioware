@@ -1,4 +1,4 @@
-; 182/202 (90%)
+; 184/202 (91%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
@@ -29,6 +29,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani

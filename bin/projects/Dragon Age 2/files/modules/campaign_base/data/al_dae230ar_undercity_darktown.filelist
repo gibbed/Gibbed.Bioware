@@ -1,4 +1,4 @@
-; 355/376 (94%)
+; 357/376 (94%)
 act00pt_main.ncs
 and000pt_gift_amulet.ncs
 and000pt_gift_key.ncs
@@ -50,6 +50,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.evt
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ai_transition.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ai_transition.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani

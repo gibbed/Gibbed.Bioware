@@ -1,4 +1,4 @@
-; 225/277 (81%)
+; 229/277 (82%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and200pt_dissent.ncs
@@ -22,6 +22,10 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.an
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose2.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani

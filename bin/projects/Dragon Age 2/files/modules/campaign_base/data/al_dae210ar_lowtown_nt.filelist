@@ -1,4 +1,4 @@
-; 246/293 (83%)
+; 248/293 (84%)
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
@@ -44,6 +44,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_po
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_forward_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_forward_5_steps.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_forehand_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_forehand_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani

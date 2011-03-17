@@ -1,4 +1,4 @@
-; 348/405 (85%)
+; 351/405 (86%)
 act00pt_main.ncs
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.ani
@@ -8,6 +8,7 @@ art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_knckbck.evt
 art\characters\creatures\mubari\animation\sleep.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\pose_f.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
@@ -84,6 +85,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_po
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_forward_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani

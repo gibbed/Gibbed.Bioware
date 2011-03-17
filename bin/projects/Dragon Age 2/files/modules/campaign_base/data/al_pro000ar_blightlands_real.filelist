@@ -1,4 +1,4 @@
-; 678/749 (90%)
+; 680/749 (90%)
 act00pt_main.ncs
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\creatures\buzzard\c_buzzardg.mmh
@@ -141,6 +141,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_poi
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_loop.evt

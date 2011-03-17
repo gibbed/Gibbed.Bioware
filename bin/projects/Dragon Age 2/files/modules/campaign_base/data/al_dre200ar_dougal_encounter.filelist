@@ -1,4 +1,4 @@
-; 364/436 (83%)
+; 365/436 (83%)
 act00pt_main.ncs
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.ani
@@ -21,6 +21,7 @@ art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shou
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_action_enter.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_enter.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_enter.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\pose_f.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani

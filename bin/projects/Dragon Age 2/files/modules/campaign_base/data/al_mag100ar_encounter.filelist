@@ -1,4 +1,4 @@
-; 139/177 (78%)
+; 144/177 (81%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
@@ -19,7 +19,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction_exit.ani
@@ -31,6 +34,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_left.evt

@@ -1,9 +1,11 @@
-; 292/340 (85%)
+; 296/340 (87%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\pose_f.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\lean_back_wall_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
@@ -46,6 +48,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_ge
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.evt

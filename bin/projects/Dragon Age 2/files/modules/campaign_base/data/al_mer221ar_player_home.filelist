@@ -1,4 +1,4 @@
-; 67/80 (83%)
+; 68/80 (85%)
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
@@ -14,6 +14,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ev
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_pose_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani

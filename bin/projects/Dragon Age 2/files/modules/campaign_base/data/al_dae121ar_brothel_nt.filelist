@@ -1,4 +1,4 @@
-; 255/318 (80%)
+; 257/318 (80%)
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
@@ -34,6 +34,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_med
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.evt

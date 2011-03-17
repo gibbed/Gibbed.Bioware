@@ -1,4 +1,4 @@
-; 110/141 (78%)
+; 112/141 (79%)
 act00pt_main.ncs
 and000pt_main.ncs
 and200pt_dissent.ncs
@@ -18,6 +18,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.ani

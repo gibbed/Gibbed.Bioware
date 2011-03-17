@@ -1,4 +1,4 @@
-; 336/385 (87%)
+; 338/385 (87%)
 act00pt_main.ncs
 and100pt_tranquility.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
@@ -8,6 +8,7 @@ art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
@@ -54,6 +55,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_ge
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_self.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_self.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani

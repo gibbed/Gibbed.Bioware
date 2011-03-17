@@ -1,10 +1,12 @@
-; 46/80 (57%)
+; 48/80 (60%)
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_varian_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
