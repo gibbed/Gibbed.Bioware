@@ -1,4 +1,4 @@
-; 19349/22840 (84%)
+; 19352/22840 (84%)
 animblend_core.fdl
 art\characters\creatures\arh_abm_rev\animation\a_appr.ani
 art\characters\creatures\arh_abm_rev\animation\a_appr.gad
@@ -18852,6 +18852,7 @@ art\vfx\environment\level_fx\fire\vfx_chanterboard.dura.evt
 art\vfx\environment\level_fx\fire\vfx_chanterboard.dura.gad
 art\vfx\environment\level_fx\fire\vfx_chanterboard.mmh
 art\vfx\environment\level_fx\fire\vfx_firebeam.mmh
+art\vfx\environment\level_fx\fire\vfx_firebeam2.mmh
 art\vfx\environment\level_fx\fire\vfx_firemed.anb
 art\vfx\environment\level_fx\fire\vfx_firemed.dura.ani
 art\vfx\environment\level_fx\fire\vfx_firemed.dura.evt
@@ -18867,6 +18868,7 @@ art\vfx\environment\level_fx\fire\vfx_firesml.dura.ani
 art\vfx\environment\level_fx\fire\vfx_firesml.dura.evt
 art\vfx\environment\level_fx\fire\vfx_firesml.dura.gad
 art\vfx\environment\level_fx\fire\vfx_firesml.mmh
+art\vfx\environment\level_fx\fire\vfx_firetarp_a.mmh
 art\vfx\environment\level_fx\fire\vfx_firexl.mmh
 art\vfx\environment\level_fx\fire\vfx_firexxxl.mmh
 art\vfx\environment\level_fx\fire\vfx_foundrypot.anb
@@ -19014,6 +19016,7 @@ art\vfx\environment\vfx_hnd_r_pickaxe_c.dura.gad
 art\vfx\environment\vfx_hnd_r_pickaxe_c.mmh
 art\vfx\environment\vfx_lightbeam_p.mmh
 art\vfx\environment\vfx_lt_firewall_4m.mmh
+art\vfx\environment\vfx_lyrium_ash.mmh
 art\vfx\environment\vfx_lyrium_aurora.anb
 art\vfx\environment\vfx_lyrium_aurora.dura.ani
 art\vfx\environment\vfx_lyrium_aurora.dura.evt

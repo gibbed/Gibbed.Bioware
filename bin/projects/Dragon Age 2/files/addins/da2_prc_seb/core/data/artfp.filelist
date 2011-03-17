@@ -1,10 +1,22 @@
-; 9/23 (39%)
+; 21/23 (91%)
 art\characters\playercharacter\humanmale\arm_vael.mmh
 art\characters\playercharacter\humanmale\arm_vael.msh
 art\characters\playercharacter\humanmale\arm_vael.phy
+art\characters\playercharacter\humanmale\hlh_vael.mmh
+art\characters\playercharacter\humanmale\hlh_vael.msh
 art\characters\playercharacter\humanmale\hm_har_vael.mmh
 art\characters\playercharacter\humanmale\hm_har_vael.msh
 art\characters\playercharacter\humanmale\hm_har_vael.phy
 art\characters\playercharacter\humanmale\textures\hm_arm_vael_0d.dds
 art\characters\playercharacter\humanmale\textures\hm_arm_vael_0n.dds
 art\characters\playercharacter\humanmale\textures\hm_arm_vael_0s.dds
+art\characters\playercharacter\humanmale\textures\hm_hlm_vael_0d.dds
+art\characters\playercharacter\humanmale\textures\hm_hlm_vael_0n.dds
+art\characters\playercharacter\humanmale\textures\hm_hlm_vael_0s.dds
+art\characters\weapons\unique\textures\w_vael_0d.dds
+art\characters\weapons\unique\textures\w_vael_0n.dds
+art\characters\weapons\unique\textures\w_vael_0s.dds
+art\characters\weapons\unique\w_vael_bow.mmh
+art\characters\weapons\unique\w_vael_bow.msh
+art\characters\weapons\unique\w_vael_quiver.mmh
+art\characters\weapons\unique\w_vael_quiver.msh
