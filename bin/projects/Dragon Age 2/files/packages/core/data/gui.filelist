@@ -1,9 +1,9 @@
-; 684/725 (94%)
+; 685/725 (94%)
 ; 
 ; .cre - 1/7 (14%)
 ; .cur - 72/72 (100%)
 ; .dds - 611/645 (94%)
-; .ttf - 0/1 (0%)
+; .ttf - 1/1 (100%)
 ; 
 ach_comp_armor.dds
 ach_comp_armor_all.dds
@@ -384,6 +384,7 @@ marksman_selfsong.dds
 marksman_staminaregen.dds
 marskman_speed.dds
 might_of_the_sten.dds
+myriadpro-regular.ttf
 ofthingsnotlost.dds
 open.cur
 open_inventory.cur

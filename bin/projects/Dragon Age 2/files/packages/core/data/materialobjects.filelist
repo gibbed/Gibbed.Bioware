@@ -1,7 +1,7 @@
-; 1211/1369 (88%)
+; 1212/1369 (88%)
 ; 
 ; .mao - 1211/1368 (88%)
-;   .s - 0/1 (0%)
+;   .s - 1/1 (100%)
 ; 
 01_bloodimpact_1.mao
 01_dust.mao
@@ -827,6 +827,7 @@ lit_up_05.mao
 lit_up_05_l2.mao
 lit_up_05_l3.mao
 lit_whispy.mao
+maoinit.erf.s
 mapvisbrush.mao
 mer_glow.mao
 mer_oil.mao
