@@ -1,12 +1,17 @@
-; 4/9 (44%)
+; 9/9 (100%)
 ; 
-; .gff - 0/1 (0%)
+; .gff - 1/1 (100%)
 ; .mao - 1/1 (100%)
 ; .mmh - 2/2 (100%)
 ; .rml - 1/1 (100%)
-; .vlm - 0/4 (0%)
+; .vlm - 4/4 (100%)
 ; 
 sky_x_narrativeroom.mao
+vxx_narrativeroom_3c_0_0.vlm
+vxx_narrativeroom_3k_0_0.vlm
+vxx_narrativeroom_3l_0_0.vlm
+vxx_narrativeroom_3m_0_0.vlm
 x_narrativeroom_0.rml
 x_narrativeroom_0_lc.mmh
 x_narrativeroom_0_ll.mmh
+x_narrativeroom_mmi.gff

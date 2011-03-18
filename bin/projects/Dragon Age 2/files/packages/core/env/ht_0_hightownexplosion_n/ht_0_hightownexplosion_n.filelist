@@ -1,6 +1,6 @@
-; 89/143 (62%)
+; 90/143 (62%)
 ; 
-; .gff - 0/1 (0%)
+; .gff - 1/1 (100%)
 ; .mao - 17/17 (100%)
 ; .mmh - 55/55 (100%)
 ; .msh - 16/16 (100%)
@@ -95,4 +95,5 @@ ht_0_hightownexplosion_n_9_0.mao
 ht_0_hightownexplosion_n_9_0.mmh
 ht_0_hightownexplosion_n_9_0.msh
 ht_0_hightownexplosion_n_ll.mmh
+ht_0_hightownexplosion_n_mmi.gff
 sky_ht_0_hightownexplosion_n.mao
