@@ -1,4 +1,4 @@
-; 19352/22840 (84%)
+; 19353/22840 (84%)
 ; 
 ; .anb - 391/391 (100%)
 ; .ani - 1986/3165 (62%)
@@ -7,7 +7,7 @@
 ; .fdl - 2/2 (100%)
 ; .gad - 1986/3165 (62%)
 ; .mao - 1/1 (100%)
-; .mmh - 3841/3857 (99%)
+; .mmh - 3842/3857 (99%)
 ; .msh - 3544/3544 (100%)
 ; .phy - 2433/2433 (100%)
 ; 
@@ -19222,6 +19222,7 @@ art\vfx\environment\vfx_water_splash_s_p.dura.ani
 art\vfx\environment\vfx_water_splash_s_p.dura.evt
 art\vfx\environment\vfx_water_splash_s_p.dura.gad
 art\vfx\environment\vfx_water_splash_s_p.mmh
+art\vfx\materials\vfx_particle_static.mmh
 art\vfx\materials\weapontrail\weapontrail_streaks.mao
 art\vfx\models\vfx_shield_uhm.mmh
 art\vfx\textures\level_fx\vfx_bird_01.dds
