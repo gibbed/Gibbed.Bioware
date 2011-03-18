@@ -1,4 +1,4 @@
-; 48/80 (60%)
+; 53/80 (66%)
 ; 
 ; .ani - 27/31 (87%)
 ; .are - 1/1 (100%)
@@ -6,7 +6,7 @@
 ; .cnv - 0/4 (0%)
 ; .evt - 19/23 (82%)
 ; .ncs - 1/2 (50%)
-; .stg - 0/6 (0%)
+; .stg - 5/6 (83%)
 ; .utc - 0/4 (0%)
 ; .utp - 0/4 (0%)
 ; 
@@ -58,3 +58,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_long_2.evt
 seb000_install.ncs
 seb221ar_harimann_estate.are
+seb221st_flora_1.stg
+seb221st_flora_2.stg
+seb221st_flora_drunk.stg
+seb221st_harimann_brett.stg
+seb221st_ruxton.stg

@@ -1,6 +1,6 @@
-; 217/1210 (17%)
+; 219/1210 (18%)
 ; 
-; .anb - 0/2 (0%)
+; .anb - 2/2 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 65/65 (100%)
 ; .mmh - 87/87 (100%)
@@ -48,6 +48,7 @@ w_encounter2_camp_17_0.msh
 w_encounter2_camp_18_0.mao
 w_encounter2_camp_18_0.mmh
 w_encounter2_camp_18_0.msh
+w_encounter2_camp_19_0.anb
 w_encounter2_camp_19_0.mao
 w_encounter2_camp_19_0.mmh
 w_encounter2_camp_19_0.msh
@@ -91,6 +92,7 @@ w_encounter2_camp_29_0.msh
 w_encounter2_camp_3_0.mao
 w_encounter2_camp_3_0.mmh
 w_encounter2_camp_3_0.msh
+w_encounter2_camp_30_0.anb
 w_encounter2_camp_30_0.mao
 w_encounter2_camp_30_0.mmh
 w_encounter2_camp_30_0.msh

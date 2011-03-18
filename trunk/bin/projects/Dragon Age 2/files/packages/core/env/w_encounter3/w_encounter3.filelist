@@ -1,6 +1,6 @@
-; 778/1440 (54%)
+; 782/1440 (54%)
 ; 
-; .anb - 0/4 (0%)
+; .anb - 4/4 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 257/257 (100%)
 ; .mmh - 264/264 (100%)
@@ -314,6 +314,7 @@ w_encounter3_188_0.msh
 w_encounter3_189_0.mao
 w_encounter3_189_0.mmh
 w_encounter3_189_0.msh
+w_encounter3_19_0.anb
 w_encounter3_19_0.mao
 w_encounter3_19_0.mmh
 w_encounter3_19_0.msh
@@ -352,6 +353,7 @@ w_encounter3_199_0.msh
 w_encounter3_2_0.mao
 w_encounter3_2_0.mmh
 w_encounter3_2_0.msh
+w_encounter3_20_0.anb
 w_encounter3_20_0.mao
 w_encounter3_20_0.mmh
 w_encounter3_20_0.msh
@@ -519,6 +521,7 @@ w_encounter3_248_0.msh
 w_encounter3_249_0.mao
 w_encounter3_249_0.mmh
 w_encounter3_249_0.msh
+w_encounter3_25_0.anb
 w_encounter3_25_0.mao
 w_encounter3_25_0.mmh
 w_encounter3_25_0.msh
@@ -569,6 +572,7 @@ w_encounter3_32_0.msh
 w_encounter3_33_0.mao
 w_encounter3_33_0.mmh
 w_encounter3_33_0.msh
+w_encounter3_34_0.anb
 w_encounter3_34_0.mao
 w_encounter3_34_0.mmh
 w_encounter3_34_0.msh

@@ -1,6 +1,6 @@
-; 51/1003 (5%)
+; 73/1003 (7%)
 ; 
-; .anb - 0/22 (0%)
+; .anb - 22/22 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 3/3 (100%)
 ; .mmh - 45/45 (100%)
@@ -9,46 +9,68 @@
 ; .vlm - 0/891 (0%)
 ; 
 lt_0_lowtown_n.rml
+lt_0_lowtown_n_11_0.anb
+lt_0_lowtown_n_19_0.anb
 lt_0_lowtown_n_19_0_lc.mmh
 lt_0_lowtown_n_19_0_ll.mmh
+lt_0_lowtown_n_20_0.anb
 lt_0_lowtown_n_20_0_lc.mmh
 lt_0_lowtown_n_20_0_ll.mmh
+lt_0_lowtown_n_21_0.anb
 lt_0_lowtown_n_21_0_lc.mmh
 lt_0_lowtown_n_21_0_ll.mmh
+lt_0_lowtown_n_25_0.anb
 lt_0_lowtown_n_25_0_lc.mmh
 lt_0_lowtown_n_25_0_ll.mmh
+lt_0_lowtown_n_26_0.anb
 lt_0_lowtown_n_26_0_lc.mmh
 lt_0_lowtown_n_26_0_ll.mmh
+lt_0_lowtown_n_27_0.anb
 lt_0_lowtown_n_27_0_lc.mmh
 lt_0_lowtown_n_27_0_ll.mmh
+lt_0_lowtown_n_28_0.anb
 lt_0_lowtown_n_28_0_lc.mmh
 lt_0_lowtown_n_28_0_ll.mmh
+lt_0_lowtown_n_32_0.anb
 lt_0_lowtown_n_32_0_lc.mmh
 lt_0_lowtown_n_32_0_ll.mmh
+lt_0_lowtown_n_33_0.anb
 lt_0_lowtown_n_33_0_lc.mmh
 lt_0_lowtown_n_33_0_ll.mmh
+lt_0_lowtown_n_34_0.anb
 lt_0_lowtown_n_34_0_lc.mmh
 lt_0_lowtown_n_34_0_ll.mmh
+lt_0_lowtown_n_35_0.anb
 lt_0_lowtown_n_35_0_lc.mmh
 lt_0_lowtown_n_35_0_ll.mmh
+lt_0_lowtown_n_36_0.anb
 lt_0_lowtown_n_36_0_lc.mmh
 lt_0_lowtown_n_36_0_ll.mmh
+lt_0_lowtown_n_37_0.anb
 lt_0_lowtown_n_37_0_lc.mmh
 lt_0_lowtown_n_37_0_ll.mmh
+lt_0_lowtown_n_38_0.anb
 lt_0_lowtown_n_38_0_lc.mmh
 lt_0_lowtown_n_38_0_ll.mmh
+lt_0_lowtown_n_42_0.anb
 lt_0_lowtown_n_42_0_lc.mmh
 lt_0_lowtown_n_42_0_ll.mmh
+lt_0_lowtown_n_43_0.anb
 lt_0_lowtown_n_43_0_lc.mmh
 lt_0_lowtown_n_43_0_ll.mmh
+lt_0_lowtown_n_44_0.anb
 lt_0_lowtown_n_44_0_lc.mmh
 lt_0_lowtown_n_44_0_ll.mmh
+lt_0_lowtown_n_45_0.anb
 lt_0_lowtown_n_45_0_lc.mmh
 lt_0_lowtown_n_45_0_ll.mmh
+lt_0_lowtown_n_46_0.anb
 lt_0_lowtown_n_46_0_lc.mmh
 lt_0_lowtown_n_46_0_ll.mmh
+lt_0_lowtown_n_52_0.anb
 lt_0_lowtown_n_52_0_lc.mmh
 lt_0_lowtown_n_52_0_ll.mmh
+lt_0_lowtown_n_53_0.anb
 lt_0_lowtown_n_53_0_lc.mmh
 lt_0_lowtown_n_53_0_ll.mmh
 lt_0_lowtown_n_ll.mmh

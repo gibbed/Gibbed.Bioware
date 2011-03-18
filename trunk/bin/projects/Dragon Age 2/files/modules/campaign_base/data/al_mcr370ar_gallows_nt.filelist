@@ -1,8 +1,8 @@
-; 440/558 (78%)
+; 499/558 (89%)
 ; 
 ; .ani - 181/227 (79%)
 ; .are - 1/1 (100%)
-;  .cl - 0/60 (0%)
+;  .cl - 59/60 (98%)
 ; .cnv - 27/31 (87%)
 ; .cut - 2/2 (100%)
 ; .dds - 1/1 (100%)
@@ -362,14 +362,31 @@ ave300cr_donnic.utc
 ave300pt_favour_fault.ncs
 ave310_donnic.cnv
 ave310_donnic.stg
+ave310_donnic6062076.cl
+ave310_donnic6062077.cl
 best_served_dae000_meredith.stg
 dae000_meredith.cnv
+dae000_meredith6080973.cl
+dae000_meredith6085232.cl
+dae000_meredith6085235.cl
+dae000_meredith6085238.cl
+dae000_meredith6085300.cl
 dae000_orsino.cnv
+dae000_orsino6081360.cl
+dae000_orsino6085419.cl
+dae000_orsino6085456.cl
 dae000cr_cassandra.utc
 dae000cr_follower_apr.ncs
 dae000cr_varric_cuts.utc
 dae000pt_talkedto.ncs
 dae300_cullen.cnv
+dae300_cullen6135346.cl
+dae300_cullen6140579.cl
+dae300_cullen6140593.cl
+dae300_cullen6140596.cl
+dae300_cullen6140599.cl
+dae300_cullen6140602.cl
+dae300_cullen6142067.cl
 dae300cr_cullen.utc
 dae300cr_meredith.utc
 dae300cr_orsino.utc
@@ -391,23 +408,56 @@ mcr000pt_general.ncs
 mcr000pt_main.ncs
 mcr310cr_circle_mage.utc
 mcr370_assignments.cnv
+mcr370_assignments6081680.cl
+mcr370_assignments6081689.cl
+mcr370_assignments6081698.cl
+mcr370_assignments6081707.cl
+mcr370_assignments6081716.cl
+mcr370_assignments6081725.cl
+mcr370_assignments6081734.cl
+mcr370_assignments6081743.cl
+mcr370_assignments6176719.cl
+mcr370_assignments6176725.cl
+mcr370_assignments6176731.cl
+mcr370_assignments6176737.cl
+mcr370_assignments6176743.cl
+mcr370_assignments6176749.cl
+mcr370_assignments6182062.cl
 mcr370_cullen.cnv
 mcr370_cut_animate_guardian.cnv
+mcr370_cut_animate_guardian6086017.cl
 mcr370_cut_arrival_gallows.cnv
+mcr370_cut_arrival_gallows6078043.cl
 mcr370_cut_attack_begins.cnv
+mcr370_cut_attack_begins6082061.cl
 mcr370_cut_epilogue.cnv
+mcr370_cut_epilogue6086868.cl
 mcr370_cut_meredith_dies.cnv
+mcr370_cut_meredith_dies6081067.cl
 mcr370_cut_meredith_idol.cnv
+mcr370_cut_meredith_idol6085999.cl
 mcr370_cut_player_rules.cnv
+mcr370_cut_player_rules6086395.cl
 mcr370_cut_player_survives.cnv
+mcr370_cut_player_survives6098263.cl
 mcr370_guardsman.cnv
 mcr370_meredith.cnv
+mcr370_meredith6081086.cl
+mcr370_meredith6083020.cl
+mcr370_meredith6083573.cl
+mcr370_meredith6083616.cl
+mcr370_meredith6084398.cl
+mcr370_meredith6084413.cl
+mcr370_meredith6085968.cl
 mcr370_meredithcrazy_st.stg
 mcr370_meredithrally_st.stg
 mcr370_messenger.cnv
 mcr370_messenger_st.stg
+mcr370_messenger6068983.cl
+mcr370_messenger6071817.cl
 mcr370_moira.cnv
 mcr370_negotiation.cnv
+mcr370_negotiation6078717.cl
 mcr370_samson.cnv
 mcr370_templar1.cnv
 mcr370_templar1.utc
@@ -415,6 +465,8 @@ mcr370_templar2.cnv
 mcr370_templar2.utc
 mcr370_varric.cnv
 mcr370_varric.stg
+mcr370_varric6208270.cl
+mcr370_varric6208273.cl
 mcr370ar_gallows_nt.are
 mcr370ar_gallows_nt.ncs
 mcr370cr_boss_meredith.ncs
@@ -447,8 +499,15 @@ mrl000pt_main.ncs
 mrl350pt_newpath.ncs
 nat300pt_find_nathaniel.ncs
 nat380_nathaniel.cnv
+nat380_nathaniel6066182.cl
+nat380_nathaniel6068261.cl
+nat380_nathaniel6068341.cl
+nat380_nathaniel6071023.cl
 nat380cr_nathaniel.utc
 one300_zevran.cnv
+one300_zevran6071479.cl
+one300_zevran6071480.cl
+one300_zevran6089764.cl
 one300cr_zevran.utc
 one300pt_murder_crows.ncs
 one300st_zevran.stg

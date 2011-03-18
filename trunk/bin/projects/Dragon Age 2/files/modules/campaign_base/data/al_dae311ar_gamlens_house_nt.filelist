@@ -1,8 +1,8 @@
-; 94/107 (87%)
+; 107/107 (100%)
 ; 
 ; .ani - 35/35 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 1/14 (7%)
+;  .cl - 14/14 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 29/29 (100%)
 ; .ncs - 12/12 (100%)
@@ -78,6 +78,16 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hand_to_
 cod_mgc_chantry_founded.utp
 dae000_gamlen.cnv
 dae000_gamlen6005754.cl
+dae000_gamlen6048413.cl
+dae000_gamlen6088135.cl
+dae000_gamlen6102409.cl
+dae000_gamlen6121545.cl
+dae000_gamlen6121581.cl
+dae000_gamlen6131077.cl
+dae000_gamlen6139441.cl
+dae000_gamlen6139444.cl
+dae000_gamlen6145087.cl
+dae000_gamlen6149406.cl
 dae000pt_generic.ncs
 dae000st_gamlen.stg
 dae00st_gamlens_house.stg
@@ -97,6 +107,9 @@ one111ip_ggt_note.ncs
 one111ip_ggt_note.utp
 one140cr_charade.cnv
 one140cr_charade.utc
+one140cr_charade6098611.cl
+one140cr_charade6128483.cl
+one140cr_charade6137032.cl
 one140st_charade.stg
 pro000pt_main.ncs
 pro000st_gamlen.stg

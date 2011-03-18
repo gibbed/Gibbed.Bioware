@@ -1,6 +1,6 @@
-; 685/725 (94%)
+; 691/725 (95%)
 ; 
-; .cre - 1/7 (14%)
+; .cre - 7/7 (100%)
 ; .cur - 72/72 (100%)
 ; .dds - 611/645 (94%)
 ; .ttf - 1/1 (100%)
@@ -57,7 +57,13 @@ blue.dds
 blue25.dds
 blue50.dds
 boots_frozen_wastes.dds
+campaign_base_de-de.cre
 campaign_base_en-us.cre
+campaign_base_es-es.cre
+campaign_base_fr-fr.cre
+campaign_base_it-it.cre
+campaign_base_pl-pl.cre
+campaign_base_ru-ru.cre
 chest.cur
 chest_pressed.cur
 close.cur

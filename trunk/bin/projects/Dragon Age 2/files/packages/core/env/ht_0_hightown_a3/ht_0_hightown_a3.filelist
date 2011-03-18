@@ -1,6 +1,6 @@
-; 60/1339 (4%)
+; 77/1339 (5%)
 ; 
-; .anb - 1/18 (5%)
+; .anb - 18/18 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 4/4 (100%)
 ; .mmh - 51/51 (100%)
@@ -11,50 +11,67 @@
 ; 
 ht_0_hightown_a3.anb
 ht_0_hightown_a3.rml
+ht_0_hightown_a3_12_0.anb
 ht_0_hightown_a3_12_0_lc.mmh
 ht_0_hightown_a3_12_0_ll.mmh
+ht_0_hightown_a3_16_0.anb
 ht_0_hightown_a3_16_0_lc.mmh
 ht_0_hightown_a3_16_0_ll.mmh
+ht_0_hightown_a3_17_0.anb
 ht_0_hightown_a3_17_0_lc.mmh
 ht_0_hightown_a3_17_0_ll.mmh
 ht_0_hightown_a3_18_0_lc.mmh
 ht_0_hightown_a3_18_0_ll.mmh
+ht_0_hightown_a3_20_0.anb
 ht_0_hightown_a3_20_0_lc.mmh
 ht_0_hightown_a3_20_0_ll.mmh
+ht_0_hightown_a3_21_0.anb
 ht_0_hightown_a3_21_0_lc.mmh
 ht_0_hightown_a3_21_0_ll.mmh
+ht_0_hightown_a3_25_0.anb
 ht_0_hightown_a3_25_0_lc.mmh
 ht_0_hightown_a3_25_0_ll.mmh
+ht_0_hightown_a3_26_0.anb
 ht_0_hightown_a3_26_0_lc.mmh
 ht_0_hightown_a3_26_0_ll.mmh
 ht_0_hightown_a3_27_0_lc.mmh
 ht_0_hightown_a3_27_0_ll.mmh
+ht_0_hightown_a3_28_0.anb
 ht_0_hightown_a3_28_0_lc.mmh
 ht_0_hightown_a3_28_0_ll.mmh
+ht_0_hightown_a3_29_0.anb
 ht_0_hightown_a3_29_0_lc.mmh
 ht_0_hightown_a3_29_0_ll.mmh
+ht_0_hightown_a3_30_0.anb
 ht_0_hightown_a3_30_0_lc.mmh
 ht_0_hightown_a3_30_0_ll.mmh
+ht_0_hightown_a3_33_0.anb
 ht_0_hightown_a3_33_0_lc.mmh
 ht_0_hightown_a3_33_0_ll.mmh
+ht_0_hightown_a3_34_0.anb
 ht_0_hightown_a3_34_0_lc.mmh
 ht_0_hightown_a3_34_0_ll.mmh
+ht_0_hightown_a3_35_0.anb
 ht_0_hightown_a3_35_0_lc.mmh
 ht_0_hightown_a3_35_0_ll.mmh
 ht_0_hightown_a3_36_0_lc.mmh
 ht_0_hightown_a3_36_0_ll.mmh
+ht_0_hightown_a3_37_0.anb
 ht_0_hightown_a3_37_0_lc.mmh
 ht_0_hightown_a3_37_0_ll.mmh
+ht_0_hightown_a3_42_0.anb
 ht_0_hightown_a3_42_0_lc.mmh
 ht_0_hightown_a3_42_0_ll.mmh
 ht_0_hightown_a3_43_0_lc.mmh
 ht_0_hightown_a3_43_0_ll.mmh
+ht_0_hightown_a3_45_0.anb
 ht_0_hightown_a3_45_0_lc.mmh
 ht_0_hightown_a3_45_0_ll.mmh
 ht_0_hightown_a3_51_0_lc.mmh
 ht_0_hightown_a3_51_0_ll.mmh
 ht_0_hightown_a3_52_0_lc.mmh
 ht_0_hightown_a3_52_0_ll.mmh
+ht_0_hightown_a3_53_0.anb
 ht_0_hightown_a3_53_0_lc.mmh
 ht_0_hightown_a3_53_0_ll.mmh
 ht_0_hightown_a3_8_0.mao

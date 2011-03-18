@@ -1,8 +1,8 @@
-; 75/83 (90%)
+; 83/83 (100%)
 ; 
 ; .ani - 14/14 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/8 (0%)
+;  .cl - 8/8 (100%)
 ; .cnv - 10/10 (100%)
 ; .evt - 10/10 (100%)
 ; .ncs - 36/36 (100%)
@@ -61,11 +61,19 @@ lgt200cr_gang_2_docks.utc
 lgt200cr_kanky_hammertoe.utc
 lgt210_eau_keran_father.cnv
 lgt210_eau_senestra.cnv
+lgt210_eau_senestra6144873.cl
 lgt210_eau_symp_templar.cnv
+lgt210_eau_symp_templar6144450.cl
 lgt210_mag_escp_rescued.cnv
+lgt210_mag_escp_rescued6156644.cl
 lgt210_magu_selby.cnv
+lgt210_magu_selby6142017.cl
+lgt210_magu_selby6142025.cl
 lgt210_qun_blk_qunari.cnv
+lgt210_qun_blk_qunari6142300.cl
+lgt210_qun_blk_qunari6142389.cl
 lgt210_shp_kill_qunari1.cnv
+lgt210_shp_kill_qunari16156855.cl
 lgt210_shp_kill_qunari2.cnv
 lgt210_shp_kill_qunari3.cnv
 lgt210ar_gang_hideout_d.are

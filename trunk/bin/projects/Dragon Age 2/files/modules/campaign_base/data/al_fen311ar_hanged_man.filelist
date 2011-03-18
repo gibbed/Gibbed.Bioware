@@ -1,8 +1,8 @@
-; 92/109 (84%)
+; 104/109 (95%)
 ; 
 ; .ani - 33/36 (91%)
 ; .are - 1/1 (100%)
-;  .cl - 0/12 (0%)
+;  .cl - 12/12 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 29/31 (93%)
 ; .mmh - 4/4 (100%)
@@ -80,6 +80,14 @@ art\vfx\cinematic\vfx_lyrium_glow_c.mmh
 dae000pt_amb_actions.ncs
 dae010pt_amb_tavern.ncs
 dae011_corff_sta.cnv
+dae011_corff_sta6140574.cl
+dae011_corff_sta6140575.cl
+dae011_corff_sta6140694.cl
+dae011_corff_sta6142579.cl
+dae011_corff_sta6149600.cl
+dae011_corff_sta6152750.cl
+dae011_corff_sta6152751.cl
+dae011_corff_sta6152752.cl
 dae011cr_bartender.utc
 dae011st_tavern_ambients.stg
 fen000pt_gift_book.ncs
@@ -90,7 +98,11 @@ fen300pt_alone.ncs
 fen310_fenris.cnv
 fen310_fenris_danarius.stg
 fen310_fenris_praescia.stg
+fen310_fenris6117658.cl
+fen310_fenris6118544.cl
+fen310_fenris6118657.cl
 fen310_varania.cnv
+fen310_varania6118559.cl
 fen310st_fenris.stg
 fen310st_vanrania.stg
 fen311ar_hanged_man.are

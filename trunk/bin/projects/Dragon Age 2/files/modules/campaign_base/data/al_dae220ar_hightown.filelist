@@ -1,8 +1,8 @@
-; 268/307 (87%)
+; 305/307 (99%)
 ; 
 ; .ani - 67/68 (98%)
 ; .are - 1/1 (100%)
-;  .cl - 0/37 (0%)
+;  .cl - 37/37 (100%)
 ; .cnv - 31/31 (100%)
 ; .evt - 59/60 (98%)
 ; .ncs - 43/43 (100%)
@@ -147,6 +147,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_rub_neck
 cod_bks_fifth_blight_2.utp
 cod_hst_kirk_hightown.utp
 dae000_bodhan.cnv
+dae000_bodhan6129078.cl
+dae000_bodhan6146781.cl
 dae000_fem_priest_mob.cnv
 dae000_gen_turn_in_1.cnv
 dae000_gen_turn_in_2.cnv
@@ -156,9 +158,26 @@ dae000_merchant_tailor_hm.cnv
 dae000_merchant_weapons_dm.cnv
 dae000_sandal_st.stg
 dae000_worthy.cnv
+dae000_worthy6166562.cl
 dae000cr_chanter.utc
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000cr_worthy.utc
 dae000ip_show_world_map.utp
 dae000pt_amb_actions.ncs
@@ -243,18 +262,30 @@ mer210pt_cavern_of_dead.ncs
 mer210pt_pickaxes.ncs
 mer220_hubert.cnv
 mer220_hubert.stg
+mer220_hubert6040834.cl
+mer220_hubert6041222.cl
+mer220_hubert6078296.cl
 mer220cr_hubert.utc
 mrl350pt_newpath.ncs
 one200pt_fools_gold.ncs
 one220_dera.cnv
 one220_yevhen.cnv
+one220_yevhen6098700.cl
+one220_yevhen6098704.cl
+one220_yevhen6102806.cl
+one220_yevhen6104144.cl
 one220cr_dera.utc
 one220cr_yevhen.utc
 one220st_yevhen.stg
 one280_emrys.cnv
 one280_emrys.stg
+one280_emrys6104249.cl
+one280_emrys6116800.cl
 one280_iwan.cnv
+one280_iwan6096736.cl
 one280_merin.cnv
+one280_merin6104369.cl
+one280_merin6105434.cl
 one280cr_emrys.utc
 one280cr_iwan.ncs
 one280cr_iwan.utc
@@ -277,6 +308,12 @@ vrc220ip_at_mansion.ncs
 vrc220ip_at_mansion.utp
 vrc221_hawke.cnv
 vrc221_varric.cnv
+vrc221_varric6040699.cl
+vrc221_varric6040700.cl
+vrc221_varric6040701.cl
+vrc221_varric6040865.cl
+vrc221_varric6043508.cl
+vrc221_varric6043588.cl
 vrc221pt_family_matter.ncs
 vrc221st_bartrand_fake.stg
 vrc221st_varric_outsidemans.stg

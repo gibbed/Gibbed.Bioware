@@ -1,8 +1,8 @@
-; 177/204 (86%)
+; 193/204 (94%)
 ; 
 ; .ani - 52/62 (83%)
 ; .are - 1/1 (100%)
-;  .cl - 0/16 (0%)
+;  .cl - 16/16 (100%)
 ; .cnv - 8/8 (100%)
 ; .evt - 48/49 (97%)
 ; .ncs - 39/39 (100%)
@@ -127,6 +127,22 @@ cod_mgc_chantry_founded.utp
 dae000_gen_turn_in_5.cnv
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000pt_amb_actions.ncs
 dae000pt_location.ncs
 dae000pt_talkedto.ncs

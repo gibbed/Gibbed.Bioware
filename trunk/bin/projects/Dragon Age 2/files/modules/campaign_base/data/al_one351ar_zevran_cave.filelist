@@ -1,8 +1,8 @@
-; 73/79 (92%)
+; 79/79 (100%)
 ; 
 ; .ani - 24/24 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 20/20 (100%)
 ; .ncs - 12/12 (100%)
@@ -62,12 +62,18 @@ lgt261ip_treasure_pile.utp
 mrl000pt_main.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100pt_herb_ironwood.ncs
 one100st_ilen.stg
 one200pt_herbalist.ncs
 one300_murder_followers.cnv
 one300_zevran.cnv
+one300_zevran6071479.cl
+one300_zevran6071480.cl
+one300_zevran6089764.cl
 one300cr_zevran.utc
 one300pt_murder_crows.ncs
 one300st_zevran.stg

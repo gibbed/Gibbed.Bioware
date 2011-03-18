@@ -1,8 +1,8 @@
-; 66/70 (94%)
+; 69/70 (98%)
 ; 
 ; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 19/19 (100%)
 ; .ncs - 5/6 (83%)
@@ -61,6 +61,9 @@ mag320pt_otl_emile.ncs
 mag320pt_otl_main.ncs
 mag321_comte_de_launcet.cnv
 mag321_comtesse_de_launcet.cnv
+mag321_comtesse_de_launcet6061395.cl
+mag321_comtesse_de_launcet6061396.cl
+mag321_comtesse_de_launcet6064706.cl
 mag321_nella.cnv
 mag321ar_mansion.are
 mag321ar_mansion.ncs

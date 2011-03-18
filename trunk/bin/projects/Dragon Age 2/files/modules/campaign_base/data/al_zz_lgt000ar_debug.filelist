@@ -1,8 +1,8 @@
-; 144/162 (88%)
+; 162/162 (100%)
 ; 
 ; .ani - 34/34 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/18 (0%)
+;  .cl - 18/18 (100%)
 ; .cnv - 14/14 (100%)
 ; .evt - 29/29 (100%)
 ; .ncs - 20/20 (100%)
@@ -82,10 +82,16 @@ dae220st_merch_weapon.utm
 dae320st_merch_weapon.utm
 lgt000ip_store_epic1_3.utp
 lgt110_orz_harr_carta.cnv
+lgt110_orz_harr_carta6109039.cl
+lgt110_orz_harr_carta6109045.cl
 lgt110_orz_harrowmont.cnv
+lgt110_orz_harrowmont6108984.cl
+lgt110_orz_harrowmont6109022.cl
 lgt110_urn_barker.cnv
 lgt110_urn_con_leader.cnv
 lgt110_urn_guard.cnv
+lgt110_urn_guard6133109.cl
+lgt110_urn_guard6170673.cl
 lgt110cr_orz_harrow_carta.utc
 lgt110cr_orz_harrow_guard.utc
 lgt110cr_orz_harrowmont.utc
@@ -99,12 +105,17 @@ lgt110pt_urn_miracle.ncs
 lgt110tr_orz_harrow_betray.utt
 lgt111pt_gxa_coa.ncs
 lgt150_nat_were_supporter.cnv
+lgt150_nat_were_supporter6110935.cl
+lgt150_nat_were_supporter6110951.cl
+lgt150_nat_were_supporter6110959.cl
+lgt150_nat_were_supporter6111006.cl
 lgt150cr_nat_were_dalish_gd.utc
 lgt150cr_nat_were_supporter.utc
 lgt150pt_nat_werewolf.ncs
 lgt160_wk_soph_cultist.cnv
 lgt160_wk_soph_hunter.cnv
 lgt160_wk_soph_sophia.cnv
+lgt160_wk_soph_sophia6119769.cl
 lgt160cr_wk_soph_cultist.utc
 lgt160cr_wk_soph_hunter.utc
 lgt160cr_wk_soph_sophia.utc
@@ -117,6 +128,9 @@ lgt200pt_tomes.ncs
 lgt210pt_frame.ncs
 lgt260pt_way_blood_mage.ncs
 lgt320_mis_resp_swordhunter.cnv
+lgt320_mis_resp_swordhunter6150262.cl
+lgt320_mis_resp_swordhunter6150265.cl
+lgt320_mis_resp_swordhunter6150321.cl
 lgt320cr_mis_resp_swordhntr.utc
 lgt320im_mis_resp_sword_01.uti
 lgt320pt_mis_resp_deman.ncs
@@ -144,10 +158,14 @@ store_one100cr_ilen.utm
 store_one200cr_ilen.utm
 store_one300cr_ilen.utm
 zz_lgt_1_debug.cnv
+zz_lgt_1_debug6114216.cl
 zz_lgt_2_debug.cnv
+zz_lgt_2_debug6140441.cl
 zz_lgt_3_debug.cnv
+zz_lgt_3_debug6140424.cl
 zz_lgt_debug.cnv
 zz_lgt_debug.ncs
+zz_lgt_debug6109143.cl
 zz_lgt000ar_debug.are
 zz_lgt320ip_mis_resp_chest.utp
 zz_lgtar_debug.ncs

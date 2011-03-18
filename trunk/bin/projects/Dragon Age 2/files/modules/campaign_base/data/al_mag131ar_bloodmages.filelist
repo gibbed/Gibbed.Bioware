@@ -1,8 +1,8 @@
-; 65/69 (94%)
+; 67/69 (97%)
 ; 
 ; .ani - 19/20 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 0/2 (0%)
+;  .cl - 2/2 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 14/15 (93%)
 ; .mmh - 1/1 (100%)
@@ -56,8 +56,10 @@ mag100ip_corpse_1.utp
 mag120pt_enemies.ncs
 mag121_eau_banter.cnv
 mag131_keran.cnv
+mag131_keran6086159.cl
 mag131_taraneh.cnv
 mag131_taraneh.stg
+mag131_taraneh6044442.cl
 mag131ar_bloodmages.are
 mag131ar_bloodmages.ncs
 mag131cr_bloodmage.utc

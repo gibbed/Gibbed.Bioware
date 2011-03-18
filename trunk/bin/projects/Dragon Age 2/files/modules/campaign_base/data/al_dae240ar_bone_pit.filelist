@@ -1,8 +1,8 @@
-; 65/70 (92%)
+; 70/70 (100%)
 ; 
 ; .ani - 23/23 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/5 (0%)
+;  .cl - 5/5 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 16/16 (100%)
 ; .ncs - 7/7 (100%)
@@ -58,6 +58,7 @@ dae240ar_bone_pit.ncs
 lgt000im_ultra_finger.uti
 lgt000ip_finger_sack.utp
 lgt210_shp_kill_qunari1.cnv
+lgt210_shp_kill_qunari16156855.cl
 lgt210cr_shp_kill_qunari1.utc
 lgt220pt_shp_kill_qun.ncs
 lgt240ip_at_tomecave.utp
@@ -68,6 +69,10 @@ mer210pt_cavern_of_dead.ncs
 mer210pt_pickaxes.ncs
 mer240_jansen.cnv
 mer240_jansen_st.stg
+mer240_jansen6045098.cl
+mer240_jansen6045113.cl
+mer240_jansen6050318.cl
+mer240_jansen6050427.cl
 mer240cr_jansen.utc
 mer240cr_miner1.utc
 mer240cr_miner2.utc

@@ -1,8 +1,8 @@
-; 159/187 (85%)
+; 160/187 (85%)
 ; 
 ; .ani - 66/80 (82%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 51/64 (79%)
 ; .mmh - 3/3 (100%)
@@ -148,6 +148,7 @@ fen000pt_gift_sword.ncs
 fen000pt_main.ncs
 fen100pt_bait.ncs
 fen121_cut_fenris_finds.cnv
+fen121_cut_fenris_finds6098872.cl
 fen121ar_base.are
 fen121ar_base.ncs
 fen121ar_mansion_nt.ncs

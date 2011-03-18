@@ -1,8 +1,8 @@
-; 129/141 (91%)
+; 139/141 (98%)
 ; 
 ; .ani - 48/49 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/10 (0%)
+;  .cl - 10/10 (100%)
 ; .cnv - 6/6 (100%)
 ; .evt - 41/42 (97%)
 ; .ncs - 14/14 (100%)
@@ -108,10 +108,20 @@ vrc000pt_n_rival_mid.ncs
 vrc211st_hugin.stg
 vrc221_bartrand.cnv
 vrc221_bartrand_fake.cnv
+vrc221_bartrand_fake6064784.cl
+vrc221_bartrand6042865.cl
 vrc221_cassandra.cnv
+vrc221_cassandra6040882.cl
 vrc221_hawke.cnv
 vrc221_hugin.cnv
+vrc221_hugin6040974.cl
 vrc221_varric.cnv
+vrc221_varric6040699.cl
+vrc221_varric6040700.cl
+vrc221_varric6040701.cl
+vrc221_varric6040865.cl
+vrc221_varric6043508.cl
+vrc221_varric6043588.cl
 vrc221ar_mansion_fake.ncs
 vrc221ar_mansion_real.are
 vrc221ar_mansion_real.ncs

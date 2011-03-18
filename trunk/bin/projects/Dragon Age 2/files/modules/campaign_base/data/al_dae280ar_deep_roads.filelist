@@ -1,8 +1,8 @@
-; 72/79 (91%)
+; 79/79 (100%)
 ; 
 ; .ani - 24/24 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/7 (0%)
+;  .cl - 7/7 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 18/18 (100%)
 ; .ncs - 7/7 (100%)
@@ -66,9 +66,16 @@ one200_gold_followers.cnv
 one200pt_fools_gold.ncs
 one280_emrys.cnv
 one280_emrys.stg
+one280_emrys6104249.cl
+one280_emrys6116800.cl
 one280_golem.cnv
+one280_golem6115969.cl
+one280_golem6115978.cl
 one280_iwan.cnv
+one280_iwan6096736.cl
 one280_merin.cnv
+one280_merin6104369.cl
+one280_merin6105434.cl
 one280cr_emissary.utc
 one280cr_emrys.utc
 one280cr_golem.utc

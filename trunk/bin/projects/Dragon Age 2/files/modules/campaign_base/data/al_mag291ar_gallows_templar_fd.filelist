@@ -1,8 +1,8 @@
-; 271/306 (88%)
+; 294/306 (96%)
 ; 
 ; .ani - 94/100 (94%)
 ; .are - 1/1 (100%)
-;  .cl - 6/29 (20%)
+;  .cl - 29/29 (100%)
 ; .cnv - 13/13 (100%)
 ; .evt - 82/88 (93%)
 ; .mmh - 1/1 (100%)
@@ -214,13 +214,24 @@ lowtown_male_alienage1_sta.cnv
 mag000pt_otl_debug.ncs
 mag110pt_wayward_son.ncs
 mag200_feynriel.cnv
+mag200_feynriel6023866.cl
+mag200_feynriel6023877.cl
+mag200_feynriel6023880.cl
 mag200_feynriel6023951.cl
+mag200_feynriel6034447.cl
+mag200_feynriel6034450.cl
 mag200_feynriel6034480.cl
+mag200_feynriel6205364.cl
 mag200cr_feynriel.utc
 mag200pt_night_terrors.ncs
 mag200pt_nt_ambient.ncs
 mag210_arianni.cnv
+mag210_arianni6021202.cl
 mag210_arianni6024090.cl
+mag210_arianni6024100.cl
+mag210_arianni6024109.cl
+mag210_arianni6025025.cl
+mag210_arianni6033879.cl
 mag210cr_arianni.utc
 mag210st_arianni.stg
 mag211st_marethari_arianni.stg
@@ -229,8 +240,14 @@ mag291_ambient_2.cnv
 mag291_demon_marethari.cnv
 mag291_demon_marethari6027832.cl
 mag291_ntbanter.cnv
+mag291_ntbanter6056720.cl
+mag291_ntbanter6116214.cl
 mag291_torpor.cnv
 mag291_torpor6021667.cl
+mag291_torpor6022740.cl
+mag291_torpor6026989.cl
+mag291_torpor6026991.cl
+mag291_torpor6056811.cl
 mag291_vincento.cnv
 mag291_vincento6027108.cl
 mag291ar_gallows_templar_fd.are
@@ -277,6 +294,12 @@ mer100pt_missing_miners.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl150_marethari.stg
 mrl150_marethaript2.stg
 mrl150pt_longway.ncs

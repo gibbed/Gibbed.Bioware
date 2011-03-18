@@ -1,8 +1,8 @@
-; 10/11 (90%)
+; 11/11 (100%)
 ; 
 ; .ani - 4/4 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 1/1 (100%)
 ; .stg - 1/1 (100%)
 ; .utc - 3/3 (100%)
@@ -17,3 +17,4 @@ zz_facefx_test.are
 zz_facefx_test.cnv
 zz_facefx_test.stg
 zz_facefx_test.utc
+zz_facefx_test6088479.cl

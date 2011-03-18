@@ -1,8 +1,8 @@
-; 298/340 (87%)
+; 324/340 (95%)
 ; 
 ; .ani - 108/115 (93%)
 ; .are - 1/1 (100%)
-;  .cl - 1/28 (3%)
+;  .cl - 27/28 (96%)
 ; .cnv - 18/19 (94%)
 ; .evt - 82/89 (92%)
 ; .ncs - 37/37 (100%)
@@ -211,11 +211,22 @@ ave200_donnic_bar.stg
 ave200_donnic_patrol_1.stg
 ave200_donnic_patrol_2.stg
 ave200_donnic_post_patrol.stg
+ave200_donnic6110501.cl
+ave200_donnic6110700.cl
+ave200_donnic6110709.cl
+ave200_donnic6110712.cl
+ave200_donnic6110739.cl
+ave200_donnic6110748.cl
+ave200_donnic6111069.cl
+ave200_donnic6111070.cl
+ave200_donnic6111073.cl
+ave200_donnic6112154.cl
 ave200cr_donnic.utc
 ave200pt_long_road.ncs
 ave200pt_opening.ncs
 ave221_brennan.cnv
 ave221_brennan.stg
+ave221_brennan6110460.cl
 ave221cr_brennan.utc
 ave221ip_duty_roster.ncs
 ave221ip_duty_roster.utp
@@ -224,6 +235,7 @@ ave310_gen_guardsman.utc
 ave321cr_guardswoman.utc
 clf200pt_cliff_raiders.ncs
 clf221_jalen.cnv
+clf221_jalen6070335.cl
 clf221cr_jalen.utc
 cod_bks_death_templar.utp
 cod_bks_kirkwall_guards.utp
@@ -269,12 +281,19 @@ dae021_keep_servant.utc
 dae021_keep_servant_male.utc
 dae200_bran.cnv
 dae200_bran_st.stg
+dae200_bran6083828.cl
+dae200_bran6144556.cl
 dae200_saemus.cnv
+dae200_saemus6091644.cl
+dae200_saemus6142789.cl
 dae200_viscount.stg
 dae200cr_bran.utc
 dae200cr_saemus.utc
 dae200cr_viscount.cnv
 dae200cr_viscount.utc
+dae200cr_viscount6087158.cl
+dae200cr_viscount6087368.cl
+dae200cr_viscount6087393.cl
 dae221ar_brothel_nt.ncs
 dae221ar_chantry.ncs
 dae221ar_keep.are
@@ -287,6 +306,7 @@ genpt_amb_notif.ncs
 genpt_dog.ncs
 lgt000ip_show_world_map.utp
 lgt200_eau_tome.cnv
+lgt200_eau_tome6171791.cl
 lgt200cr_tome_abomination.utc
 lgt200cr_tome_horror.utc
 lgt200ip_eau_tome02.utp
@@ -304,6 +324,12 @@ qun221_viscount_missing_qun.stg
 qun221_viscount_seamus_dead.stg
 qun221_viscount_st.stg
 qun221_viscount6069026.cl
+qun221_viscount6070197.cl
+qun221_viscount6092418.cl
+qun221_viscount6092421.cl
+qun221_viscount6095591.cl
+qun221_viscount6095594.cl
+qun221_viscount6205726.cl
 qun221tr_viscount_ambient.ncs
 qun221tr_viscount_ambient.utt
 ser221pt_remains.ncs

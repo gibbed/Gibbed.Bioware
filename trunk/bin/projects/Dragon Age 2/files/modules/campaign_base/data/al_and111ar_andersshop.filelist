@@ -1,8 +1,8 @@
-; 64/68 (94%)
+; 68/68 (100%)
 ; 
 ; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/4 (0%)
+;  .cl - 4/4 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 17/17 (100%)
 ; .ncs - 6/6 (100%)
@@ -17,10 +17,14 @@ and000pt_gift_key.ncs
 and000pt_main.ncs
 and100pt_tranquility.ncs
 and110_refugee.cnv
+and110_refugee6090301.cl
 and110cr_angry_refugee.utc
 and110st_refugee.stg
 and111_donation_box.cnv
+and111_donation_box6200720.cl
 and111_lirene.cnv
+and111_lirene6044961.cl
+and111_lirene6094268.cl
 and111_refugee_barks.cnv
 and111ar_andersshop.are
 and111ar_andersshop.ncs

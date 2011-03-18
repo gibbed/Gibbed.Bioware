@@ -1,8 +1,8 @@
-; 306/326 (93%)
+; 315/326 (96%)
 ; 
 ; .ani - 95/106 (89%)
 ; .are - 1/1 (100%)
-;  .cl - 0/9 (0%)
+;  .cl - 9/9 (100%)
 ; .cnv - 17/17 (100%)
 ; .evt - 84/84 (100%)
 ; .mmh - 3/3 (100%)
@@ -20,6 +20,13 @@ and000pt_gift_key.ncs
 and000pt_main.ncs
 and000st_100.stg
 and100_anders.cnv
+and100_anders6095794.cl
+and100_anders6095795.cl
+and100_anders6095806.cl
+and100_anders6095808.cl
+and100_anders6095942.cl
+and100_anders6095945.cl
+and100_anders6095951.cl
 and100pt_tranquility.ncs
 and100st_anders_intro.stg
 and100st_anders_intro2.stg
@@ -240,6 +247,7 @@ dae000_gen_turn_in_2.cnv
 dae000_gen_turn_in_3.cnv
 dae000_oldmangossip.cnv
 dae000_tomwise.cnv
+dae000_tomwise6167264.cl
 dae000cr_fereldan_f.utc
 dae000cr_gossip_old_m1.utc
 dae000cr_gossip_old_m2.utc
@@ -291,6 +299,7 @@ mag110pt_wayward_son.ncs
 mag111pt_act_of_mercy.ncs
 mag120pt_enemies.ncs
 mag130_danzig.cnv
+mag130_danzig6016424.cl
 mag130cr_danzig.utc
 mag130cr_slaver.utc
 mag130cr_slaver_listener.utc

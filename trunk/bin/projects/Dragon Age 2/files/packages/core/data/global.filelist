@@ -1,6 +1,6 @@
-; 37/38 (97%)
+; 38/38 (100%)
 ; 
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 1/1 (100%)
 ; .gfx - 7/7 (100%)
 ; .mmh - 1/1 (100%)
@@ -17,6 +17,7 @@ base_light.msh
 battlemenu.gfx
 container.gfx
 cutscene_wrapper.cnv
+cutscene_wrapper6000073.cl
 dadefaultsub.sub.xml
 default_player.utc
 default_stage.stg

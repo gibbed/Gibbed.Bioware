@@ -1,8 +1,8 @@
-; 93/122 (76%)
+; 110/122 (90%)
 ; 
 ; .ani - 40/46 (86%)
 ; .are - 1/1 (100%)
-;  .cl - 0/17 (0%)
+;  .cl - 17/17 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 35/41 (85%)
 ; .ncs - 6/6 (100%)
@@ -93,9 +93,26 @@ ser221pt_remains.ncs
 ser221st_quentin.stg
 ser270_alley.are
 ser270_cut_aftermath.cnv
+ser270_cut_aftermath6162266.cl
 ser270_cut_motherreveal.cnv
+ser270_cut_motherreveal6131378.cl
 ser270_emeric.cnv
+ser270_emeric6111272.cl
+ser270_emeric6112662.cl
+ser270_emeric6112663.cl
+ser270_emeric6112664.cl
+ser270_emeric6113348.cl
+ser270_emeric6113750.cl
+ser270_emeric6149276.cl
+ser270_emeric6149282.cl
+ser270_emeric6201565.cl
+ser270_emeric6201568.cl
+ser270_emeric6201571.cl
 ser270_templar.cnv
+ser270_templar6112544.cl
+ser270_templar6112564.cl
+ser270_templar6122497.cl
+ser270_templar6127400.cl
 ser270ar_alley.ncs
 ser270cr_emeric.utc
 ser270cr_templar.utc

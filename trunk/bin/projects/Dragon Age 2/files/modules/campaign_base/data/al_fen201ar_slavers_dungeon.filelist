@@ -1,8 +1,8 @@
-; 58/69 (84%)
+; 62/69 (89%)
 ; 
 ; .ani - 21/25 (84%)
 ; .are - 1/1 (100%)
-;  .cl - 0/4 (0%)
+;  .cl - 4/4 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 16/19 (84%)
 ; .ncs - 7/7 (100%)
@@ -66,6 +66,10 @@ fen201ar_slavers_dungeon.are
 fen201ar_slavers_dungeon.ncs
 fen201ip_blood_sacrafice.utp
 fen210_fenris.cnv
+fen210_fenris6108721.cl
+fen210_fenris6109421.cl
 fen210_hadriana.cnv
+fen210_hadriana6110008.cl
 fen210_orana.cnv
+fen210_orana6109681.cl
 fen210st_hadriana.stg

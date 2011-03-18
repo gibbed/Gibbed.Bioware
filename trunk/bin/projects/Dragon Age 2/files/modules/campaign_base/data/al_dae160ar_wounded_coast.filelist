@@ -1,8 +1,8 @@
-; 130/141 (92%)
+; 141/141 (100%)
 ; 
 ; .ani - 41/41 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/11 (0%)
+;  .cl - 11/11 (100%)
 ; .cnv - 9/9 (100%)
 ; .evt - 34/34 (100%)
 ; .ncs - 9/9 (100%)
@@ -99,11 +99,16 @@ gencr_talvashoth_warrior.utc
 lgt000im_ultra_redblossom.uti
 lgt000ip_redblossom_crate.utp
 lgt160_ntb_elf_conflict.cnv
+lgt160_ntb_elf_conflict6163330.cl
+lgt160_ntb_elf_conflict6163334.cl
+lgt160_ntb_elf_conflict6163338.cl
+lgt160_ntb_elf_conflict6163356.cl
 lgt160_wk_avern_bandits.cnv
 lgt160_wk_avern_body.cnv
 lgt160_wk_soph_cultist.cnv
 lgt160_wk_soph_hunter.cnv
 lgt160_wk_soph_sophia.cnv
+lgt160_wk_soph_sophia6119769.cl
 lgt160cr_ntb_elf_dalish.utc
 lgt160cr_ntb_elf_human.utc
 lgt160cr_ntb_elf_werewolf.utc
@@ -127,6 +132,7 @@ qun100pt_blackform.ncs
 qun160_vashothbandits.cnv
 qun160_vashothlead.cnv
 qun160_vashothlead.stg
+qun160_vashothlead6052561.cl
 qun160cr_vashothlead.utc
 qun160ip_at_cave.utp
 qun160ip_vashothlead_dummy.utp
@@ -137,6 +143,11 @@ sebcr_merc_warrior_f.utc
 sebcr_merch_warrior.utc
 vis100pt_rescue.ncs
 vis121_saemus.cnv
+vis121_saemus6071966.cl
+vis121_saemus6086695.cl
+vis121_saemus6100130.cl
+vis121_saemus6101159.cl
+vis121_saemus6101292.cl
 vis121cr_saemus.utc
 vis160cr_ginnis.utc
 vis160cr_qunari.utc

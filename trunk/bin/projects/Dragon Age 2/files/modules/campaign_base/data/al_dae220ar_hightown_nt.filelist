@@ -1,8 +1,8 @@
-; 169/197 (85%)
+; 193/197 (97%)
 ; 
 ; .ani - 51/53 (96%)
 ; .are - 1/1 (100%)
-;  .cl - 0/24 (0%)
+;  .cl - 24/24 (100%)
 ; .cnv - 16/16 (100%)
 ; .evt - 41/43 (95%)
 ; .ncs - 19/19 (100%)
@@ -147,6 +147,7 @@ lgt200cr_gang_1_ht.utc
 lgt200cr_gang_2_ht.utc
 lgt200cr_gang_3_ht.utc
 lgt220_mag_tmplr_templar.cnv
+lgt220_mag_tmplr_templar6140240.cl
 lgt220cr_mag_templar.utc
 lgt220cr_mag_tmplr_archer.utc
 lgt220cr_mag_tmplr_captain.utc
@@ -168,6 +169,23 @@ qun221_petrice_cleric.stg
 qun221_petrice_cleric_2.stg
 qun221_petrice_intercept.stg
 qun221_petrice_saemus_dead.stg
+qun221_petrice6075963.cl
+qun221_petrice6075981.cl
+qun221_petrice6075982.cl
+qun221_petrice6075983.cl
+qun221_petrice6075984.cl
+qun221_petrice6075985.cl
+qun221_petrice6075986.cl
+qun221_petrice6077312.cl
+qun221_petrice6077315.cl
+qun221_petrice6077318.cl
+qun221_petrice6077983.cl
+qun221_petrice6082574.cl
+qun221_petrice6083432.cl
+qun221_petrice6083628.cl
+qun221_petrice6083653.cl
+qun221_petrice6083802.cl
+qun221_petrice6185133.cl
 qun221cr_petrice.utc
 qun221st_petrice_postvarn.stg
 seb220ip_to_harimann_estate.utp
@@ -176,6 +194,12 @@ vrc220ip_at_mansion.ncs
 vrc220ip_at_mansion.utp
 vrc221_hawke.cnv
 vrc221_varric.cnv
+vrc221_varric6040699.cl
+vrc221_varric6040700.cl
+vrc221_varric6040701.cl
+vrc221_varric6040865.cl
+vrc221_varric6043508.cl
+vrc221_varric6043588.cl
 vrc221pt_family_matter.ncs
 vrc221st_bartrand_fake.stg
 vrc221st_varric_outsidemans.stg

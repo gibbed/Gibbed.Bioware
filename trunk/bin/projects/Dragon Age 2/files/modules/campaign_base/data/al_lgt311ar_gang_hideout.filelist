@@ -1,8 +1,8 @@
-; 84/90 (93%)
+; 90/90 (100%)
 ; 
 ; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 22/22 (100%)
 ; .ncs - 26/26 (100%)
@@ -85,8 +85,14 @@ lgt300cr_gang_3_docks.utc
 lgt300cr_jess_varvel.utc
 lgt310pt_shw_mer_main.ncs
 lgt311_shw_mer_agatha.cnv
+lgt311_shw_mer_agatha6156495.cl
 lgt311_shw_mer_intro.cnv
+lgt311_shw_mer_intro6156408.cl
 lgt311_shw_mer_mettin.cnv
+lgt311_shw_mer_mettin6156393.cl
+lgt311_shw_mer_mettin6156521.cl
+lgt311_shw_mer_mettin6156533.cl
+lgt311_shw_mer_mettin6156567.cl
 lgt311ar_gang_hideout.are
 lgt311ar_rand_sewer_1_nt.ncs
 lgt311tr_shw_mer_mettin.ncs

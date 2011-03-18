@@ -1,8 +1,8 @@
-; 83/93 (89%)
+; 89/93 (95%)
 ; 
 ; .ani - 31/33 (93%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 26/28 (92%)
 ; .ncs - 8/8 (100%)
@@ -74,7 +74,13 @@ mag110pt_wayward_son.ncs
 mag130cr_slaver2.utc
 mag130cr_slaver3.utc
 mag160_feynriel.cnv
+mag160_feynriel6016541.cl
+mag160_feynriel6016565.cl
+mag160_feynriel6020068.cl
+mag160_feynriel6204956.cl
 mag160_varian_ilithis.cnv
+mag160_varian_ilithis6016482.cl
+mag160_varian_ilithis6171454.cl
 mag160cr_feynriel.utc
 mag160cr_slaver.utc
 mag160cr_slaver_mage.utc

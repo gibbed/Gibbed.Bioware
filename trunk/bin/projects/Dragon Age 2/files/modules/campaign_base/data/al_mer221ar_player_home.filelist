@@ -1,8 +1,8 @@
-; 68/80 (85%)
+; 73/80 (91%)
 ; 
 ; .ani - 28/32 (87%)
 ; .are - 1/1 (100%)
-;  .cl - 0/5 (0%)
+;  .cl - 5/5 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 22/25 (88%)
 ; .ncs - 7/7 (100%)
@@ -65,14 +65,19 @@ mer000pt_mine_payments.ncs
 mer200pt_stolen_goods.ncs
 mer210_seldrek.cnv
 mer210_seldrek_st.stg
+mer210_seldrek6033962.cl
 mer210cr_seldrek.utc
 mer210pt_cave_crawling.ncs
 mer210pt_cavern_of_dead.ncs
 mer210pt_pickaxes.ncs
 mer220_hubert.cnv
 mer220_hubert.stg
+mer220_hubert6040834.cl
+mer220_hubert6041222.cl
+mer220_hubert6078296.cl
 mer220cr_hubert.utc
 mer221_sabin.cnv
+mer221_sabin6040021.cl
 mer221ar_player_home.are
 mer221ar_player_home.ncs
 mer221cr_sabin.utc

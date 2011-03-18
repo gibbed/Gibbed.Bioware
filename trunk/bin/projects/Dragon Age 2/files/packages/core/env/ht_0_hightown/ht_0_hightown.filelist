@@ -1,6 +1,6 @@
-; 59/1342 (4%)
+; 76/1342 (5%)
 ; 
-; .anb - 1/18 (5%)
+; .anb - 18/18 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 4/4 (100%)
 ; .mmh - 50/50 (100%)
@@ -11,48 +11,65 @@
 ; 
 ht_0_hightown.anb
 ht_0_hightown.rml
+ht_0_hightown_12_0.anb
 ht_0_hightown_12_0_lc.mmh
 ht_0_hightown_12_0_ll.mmh
+ht_0_hightown_16_0.anb
 ht_0_hightown_16_0_lc.mmh
 ht_0_hightown_16_0_ll.mmh
+ht_0_hightown_17_0.anb
 ht_0_hightown_17_0_lc.mmh
 ht_0_hightown_17_0_ll.mmh
 ht_0_hightown_18_0_lc.mmh
 ht_0_hightown_18_0_ll.mmh
+ht_0_hightown_20_0.anb
 ht_0_hightown_20_0_lc.mmh
 ht_0_hightown_20_0_ll.mmh
+ht_0_hightown_21_0.anb
 ht_0_hightown_21_0_lc.mmh
 ht_0_hightown_21_0_ll.mmh
+ht_0_hightown_25_0.anb
 ht_0_hightown_25_0_lc.mmh
 ht_0_hightown_25_0_ll.mmh
+ht_0_hightown_26_0.anb
 ht_0_hightown_26_0_lc.mmh
 ht_0_hightown_26_0_ll.mmh
+ht_0_hightown_28_0.anb
 ht_0_hightown_28_0_lc.mmh
 ht_0_hightown_28_0_ll.mmh
+ht_0_hightown_29_0.anb
 ht_0_hightown_29_0_lc.mmh
 ht_0_hightown_29_0_ll.mmh
+ht_0_hightown_30_0.anb
 ht_0_hightown_30_0_lc.mmh
 ht_0_hightown_30_0_ll.mmh
+ht_0_hightown_33_0.anb
 ht_0_hightown_33_0_lc.mmh
 ht_0_hightown_33_0_ll.mmh
+ht_0_hightown_34_0.anb
 ht_0_hightown_34_0_lc.mmh
 ht_0_hightown_34_0_ll.mmh
+ht_0_hightown_35_0.anb
 ht_0_hightown_35_0_lc.mmh
 ht_0_hightown_35_0_ll.mmh
 ht_0_hightown_36_0_lc.mmh
 ht_0_hightown_36_0_ll.mmh
+ht_0_hightown_37_0.anb
 ht_0_hightown_37_0_lc.mmh
 ht_0_hightown_37_0_ll.mmh
+ht_0_hightown_42_0.anb
 ht_0_hightown_42_0_lc.mmh
 ht_0_hightown_42_0_ll.mmh
 ht_0_hightown_43_0_lc.mmh
 ht_0_hightown_43_0_ll.mmh
+ht_0_hightown_45_0.anb
 ht_0_hightown_45_0_lc.mmh
 ht_0_hightown_45_0_ll.mmh
 ht_0_hightown_51_0_lc.mmh
 ht_0_hightown_51_0_ll.mmh
 ht_0_hightown_52_0_lc.mmh
 ht_0_hightown_52_0_ll.mmh
+ht_0_hightown_53_0.anb
 ht_0_hightown_53_0_lc.mmh
 ht_0_hightown_53_0_ll.mmh
 ht_0_hightown_62_0_lc.mmh

@@ -1,8 +1,8 @@
-; 132/140 (94%)
+; 140/140 (100%)
 ; 
 ; .ani - 32/32 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/8 (0%)
+;  .cl - 8/8 (100%)
 ; .cnv - 9/9 (100%)
 ; .evt - 26/26 (100%)
 ; .ncs - 16/16 (100%)
@@ -73,6 +73,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_small.evt
 clf200pt_cliff_raiders.ncs
 clf360_evets.cnv
+clf360_evets6072211.cl
 clf360cr_evets.utc
 clf360cr_evets_archer.utc
 clf360cr_evets_thug.utc
@@ -99,6 +100,7 @@ lgt101cr_mag_escp_terrie.utc
 lgt200cr_pride_abomination.utc
 lgt220cr_apost1.ncs
 lgt360_mag_orlanna.cnv
+lgt360_mag_orlanna6155309.cl
 lgt360cr_mag_bandit_leader.utc
 lgt360cr_mag_orlanna.utc
 lgt360pt_nt_rescue.ncs
@@ -112,8 +114,14 @@ mag120pt_enemies.ncs
 mag200ip_corpse_1.utp
 mag321pt_bestservedcold.ncs
 mag360_alain.cnv
+mag360_alain6044600.cl
+mag360_alain6044606.cl
 mag360_samson.cnv
+mag360_samson6042030.cl
+mag360_samson6044866.cl
+mag360_samson6044869.cl
 mag360_thrask.cnv
+mag360_thrask6042373.cl
 mag360cr_alain.utc
 mag360cr_apostate.utc
 mag360cr_cullen.utc

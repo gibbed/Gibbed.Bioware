@@ -1,8 +1,8 @@
-; 680/749 (90%)
+; 721/749 (96%)
 ; 
 ; .ani - 288/303 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 15/60 (25%)
+;  .cl - 56/60 (93%)
 ; .cnv - 28/31 (90%)
 ; .cut - 3/3 (100%)
 ; .evt - 203/209 (97%)
@@ -559,10 +559,16 @@ cod_hst_wilds.utp
 dae000_flemeth.cnv
 dae000_flemeth.stg
 dae000_flemeth6000680.cl
+dae000_flemeth6013252.cl
 dae000_mother.cnv
 dae000_mother_blightlands_1.stg
 dae000_mother6001874.cl
 dae000_mother6004095.cl
+dae000_mother6004098.cl
+dae000_mother6099181.cl
+dae000_mother6103034.cl
+dae000_mother6121001.cl
+dae000_mother6136909.cl
 dae000cr_cassandra.utc
 dae000cr_flemeth.utc
 dae000cr_flemeth2.utc
@@ -575,6 +581,7 @@ dae111st_mother.stg
 dae200st_mother.stg
 demo_weapon_swap.cnv
 demo_weapon_swap.stg
+demo_weapon_swap6207141.cl
 dre000pt_extra_funds2.ncs
 dre120pt_main.ncs
 fen200pt_bitterpill.ncs
@@ -594,6 +601,12 @@ mag200pt_night_terrors.ncs
 mcr000pt_main.ncs
 mrl150pt_longway.ncs
 pro000_athenril.cnv
+pro000_athenril6048750.cl
+pro000_athenril6048762.cl
+pro000_athenril6048774.cl
+pro000_athenril6049428.cl
+pro000_athenril6049471.cl
+pro000_athenril6049474.cl
 pro000_aveline.cnv
 pro000_aveline6047232.cl
 pro000_aveline6177136.cl
@@ -602,24 +615,50 @@ pro000_captain_wright6047467.cl
 pro000_colonel_ewald.cnv
 pro000_colonel_ewald6039937.cl
 pro000_colonel_ewald6040615.cl
+pro000_colonel_ewald6047374.cl
 pro000_cut_act_of_mercy.cnv
 pro000_cut_act_of_mercy6001019.cl
+pro000_cut_act_of_mercy6001031.cl
 pro000_cut_flemeth_rescue.cnv
+pro000_cut_flemeth_rescue6001230.cl
 pro000_cut_innocent_blood.cnv
 pro000_cut_innocent_blood6004071.cl
+pro000_cut_innocent_blood6004078.cl
 pro000_cut2d_real_story.cnv
+pro000_cut2d_real_story6001238.cl
 pro000_cut2d_thefirstyear.cnv
+pro000_cut2d_thefirstyear6005292.cl
 pro000_cut2d_voyage.cnv
+pro000_cut2d_voyage6004217.cl
 pro000_friedrich.cnv
+pro000_friedrich6050159.cl
+pro000_friedrich6050168.cl
 pro000_guard.cnv
 pro000_meeran.cnv
+pro000_meeran6048832.cl
+pro000_meeran6048844.cl
+pro000_meeran6048966.cl
+pro000_meeran6050067.cl
+pro000_meeran6050107.cl
+pro000_meeran6050114.cl
+pro000_meeran6050117.cl
 pro000_merchant.cnv
+pro000_merchant6051248.cl
+pro000_merchant6051650.cl
+pro000_merchant6051654.cl
+pro000_merchant6051839.cl
 pro000_mother_blightlands_2.stg
 pro000_opening.cnv
 pro000_opening_pc.cnv
+pro000_opening_pc6001189.cl
 pro000_opening_pc6001190.cl
+pro000_opening_pc6001219.cl
 pro000_opening_pc6001220.cl
+pro000_opening_pc6142521.cl
 pro000_opening_pc6142522.cl
+pro000_opening_pc6142523.cl
+pro000_opening6178515.cl
+pro000_opening6207373.cl
 pro000_refugee_angry.cnv
 pro000_refugee_female.cnv
 pro000_refugee_male.cnv
@@ -627,6 +666,8 @@ pro000_varric.cnv
 pro000_varric_cass.cnv
 pro000_varric_cass6208370.cl
 pro000_varric_cass6208400.cl
+pro000_varric6001262.cl
+pro000_varric6170652.cl
 pro000_wesley.cnv
 pro000ar_blightlands_fake.ncs
 pro000ar_blightlands_real.are

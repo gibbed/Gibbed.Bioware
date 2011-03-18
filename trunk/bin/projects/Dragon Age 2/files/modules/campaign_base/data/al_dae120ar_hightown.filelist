@@ -1,8 +1,8 @@
-; 458/560 (81%)
+; 528/560 (94%)
 ; 
 ; .ani - 142/165 (86%)
 ; .are - 1/1 (100%)
-;  .cl - 2/72 (2%)
+;  .cl - 72/72 (100%)
 ; .cnv - 35/35 (100%)
 ; .evt - 122/131 (93%)
 ; .mmh - 1/1 (100%)
@@ -294,6 +294,25 @@ dae000_bartrand.stg
 dae000_bartrand_a.stg
 dae000_bartrand_b.stg
 dae000_bartrand_deeproads.stg
+dae000_bartrand6015442.cl
+dae000_bartrand6027443.cl
+dae000_bartrand6027468.cl
+dae000_bartrand6027474.cl
+dae000_bartrand6027499.cl
+dae000_bartrand6027540.cl
+dae000_bartrand6027541.cl
+dae000_bartrand6027571.cl
+dae000_bartrand6027583.cl
+dae000_bartrand6030658.cl
+dae000_bartrand6033979.cl
+dae000_bartrand6064037.cl
+dae000_bartrand6064053.cl
+dae000_bartrand6107545.cl
+dae000_bartrand6107556.cl
+dae000_bartrand6206145.cl
+dae000_bartrand6206156.cl
+dae000_bartrand6206162.cl
+dae000_bartrand6210162.cl
 dae000_bodahn.stg
 dae000_bodahn_deeproads.stg
 dae000_fem_priest_mob.cnv
@@ -306,10 +325,32 @@ dae000_mother.cnv
 dae000_mother_blightlands_1.stg
 dae000_mother6001874.cl
 dae000_mother6004095.cl
+dae000_mother6004098.cl
+dae000_mother6099181.cl
+dae000_mother6103034.cl
+dae000_mother6121001.cl
+dae000_mother6136909.cl
 dae000_worthy.cnv
+dae000_worthy6166562.cl
 dae000cr_chanter.utc
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000cr_merchant_wandering.utc
 dae000cr_mother.utc
 dae000cr_worthy.utc
@@ -369,11 +410,20 @@ dae120st_merch_weapon.utm
 dae200cr_meredith.utc
 dae200st_mother.stg
 dre000_bodahn.cnv
+dre000_bodahn6028138.cl
+dre000_bodahn6028162.cl
+dre000_bodahn6031260.cl
+dre000_bodahn6031263.cl
+dre000_bodahn6031369.cl
 dre000_cut_varric_intro.cnv
+dre000_cut_varric_intro6033474.cl
 dre000_hireling1.cnv
 dre000_hireling2.cnv
 dre000_sandal.cnv
 dre000_sandal.stg
+dre000_sandal6028394.cl
+dre000_sandal6028400.cl
+dre000_sandal6033432.cl
 dre000pt_extra_funds.ncs
 dre000pt_extra_funds2.ncs
 dre100cr_bodahn.utc
@@ -415,6 +465,7 @@ lgt110tr_noble_attack.utt
 mag110pt_wayward_son.ncs
 mag111pt_act_of_mercy.ncs
 mag120_macha.cnv
+mag120_macha6080606.cl
 mag120cr_macha.utc
 mag120cr_templar_1.utc
 mag120pt_enemies.ncs
@@ -430,13 +481,28 @@ mer000ip_hubert_store.utp
 mer100pt_missing_miners.ncs
 mer110pt_back_to_work.ncs
 mer120_hubert.cnv
+mer120_hubert6017814.cl
+mer120_hubert6059141.cl
+mer120_hubert6059408.cl
+mer120_hubert6070224.cl
+mer120_hubert6070233.cl
 mer120cr_hubert.utc
 mrl150pt_longway.ncs
 one100dg_vanard.cnv
+one100dg_vanard6017476.cl
+one100dg_vanard6020937.cl
+one100dg_vanard6047283.cl
+one100dg_vanard6047400.cl
 one100pt_loose_end_athe.ncs
 one100pt_magistrate.ncs
 one110_ambush_st.stg
 one120_athenril.cnv
+one120_athenril6088233.cl
+one120_athenril6088337.cl
+one120_athenril6088889.cl
+one120_athenril6088898.cl
+one120_athenril6113277.cl
+one120_athenril6113285.cl
 one120cr_athenril.utc
 one120cr_magistrate.utc
 one120st_magistrate.stg
@@ -452,6 +518,10 @@ seb120pt_duty.ncs
 seb221pt_repentance.ncs
 seb321pt_faith.ncs
 ser120_ghyslain.cnv
+ser120_ghyslain6104800.cl
+ser120_ghyslain6105487.cl
+ser120_ghyslain6105490.cl
+ser120_ghyslain6118396.cl
 ser120cr_ghyslain.utc
 ser120cr_market_guard.utc
 ser120cr_market_guard_talk.utc

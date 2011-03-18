@@ -1,8 +1,8 @@
-; 47/50 (94%)
+; 50/50 (100%)
 ; 
 ; .ani - 16/16 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 12/12 (100%)
 ; .ncs - 10/10 (100%)
@@ -56,4 +56,7 @@ fen200ip_second_ambush_exit.ncs
 fen200ip_second_ambush_exit.utp
 fen200pt_bitterpill.ncs
 fen210_fenris.cnv
+fen210_fenris6108721.cl
+fen210_fenris6109421.cl
 fen210_tevinter_ambusher2.cnv
+fen210_tevinter_ambusher26108639.cl

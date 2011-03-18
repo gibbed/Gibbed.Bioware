@@ -1,4 +1,4 @@
-; 599/645 (92%)
+; 645/645 (100%)
 and100_anders.bnk
 and110_refugee.bnk
 and111_lirene.bnk
@@ -13,6 +13,7 @@ ave121_brennan.bnk
 ave121_jeven.bnk
 ave200_aveline_bar.bnk
 ave200_donnic.bnk
+ave200_party_comment.bnk
 ave221_brennan.bnk
 ave310_brennan.bnk
 ave310_donnic.bnk
@@ -49,11 +50,14 @@ dae000_flemeth.bnk
 dae000_foreshadow.bnk
 dae000_friend_turn_in.bnk
 dae000_gamlen.bnk
+dae000_gen_player_turn_in.bnk
 dae000_gen_turn_in_1.bnk
 dae000_gen_turn_in_2.bnk
 dae000_gen_turn_in_3.bnk
 dae000_gen_turn_in_4.bnk
 dae000_gen_turn_in_5.bnk
+dae000_hate_enemies.bnk
+dae000_hate_follower_react.bnk
 dae000_ineria.bnk
 dae000_junar.bnk
 dae000_katriela.bnk
@@ -76,6 +80,9 @@ dae000_male_templar_mob.bnk
 dae000_maren.bnk
 dae000_merchant_access_hf.bnk
 dae000_merchant_armor_hm.bnk
+dae000_merchant_dm_mob.bnk
+dae000_merchant_generic_hm.bnk
+dae000_merchant_hm_mob.bnk
 dae000_merchant_mage_hf.bnk
 dae000_merchant_rare_em.bnk
 dae000_merchant_tailor_hm.bnk
@@ -90,6 +97,7 @@ dae000_paivel.bnk
 dae000_party_night_comment.bnk
 dae000_pc_home_ambients.bnk
 dae000_pickpocket_scene.bnk
+dae000_player_generic_find.bnk
 dae000_porfiria.bnk
 dae000_quintus.bnk
 dae000_sabina.bnk
@@ -135,6 +143,7 @@ dae200_saemus.bnk
 dae200cr_captain_wright.bnk
 dae200cr_viscount.bnk
 dae210_gate_guard.bnk
+dae221_viscount_chantry.bnk
 dae300_alistair_king.bnk
 dae300_bran.bnk
 dae300_cullen.bnk
@@ -191,6 +200,7 @@ fen210_orana.bnk
 fen210_tevinter_ambusher.bnk
 fen210_tevinter_ambusher2.bnk
 fen310_fenris.bnk
+fen310_party_comment.bnk
 fen310_varania.bnk
 follower_banter.bnk
 follower_barks.bnk
@@ -284,6 +294,7 @@ lgt310_mag_melson_guards.bnk
 lgt310_mis_burn_murder1.bnk
 lgt310_mis_burn_murder2.bnk
 lgt310_mis_burn_rival_thug.bnk
+lgt310_shw_ors_informant.bnk
 lgt311_shw_mer_agatha.bnk
 lgt311_shw_mer_intro.bnk
 lgt311_shw_mer_mettin.bnk
@@ -292,13 +303,23 @@ lgt320_shw_ors_black_op.bnk
 lgt320_shw_ors_marlein.bnk
 lgt320_shw_ors_secret_meet.bnk
 lgt320_shw_ors_secret_nob.bnk
+lgt320_shw_ors_secret_thug.bnk
 lgt360_mag_orlanna.bnk
+lowtown_argument.bnk
+lowtown_fem_alien_elf_2_mob.bnk
 lowtown_fem_alienage1_sta.bnk
+lowtown_fem_cityguard_mob.bnk
+lowtown_fem_lowlife_mob.bnk
 lowtown_fem_prostitute_sta.bnk
+lowtown_fem_urchin_mob.bnk
+lowtown_guard_chase.bnk
 lowtown_male_alienage1_sta.bnk
+lowtown_male_alienage2_mob.bnk
 lowtown_male_beggar_sta.bnk
 lowtown_male_cityguard_mob.bnk
+lowtown_male_drunk_mob.bnk
 lowtown_male_lowlife1_sta.bnk
+lowtown_male_lowlife2_mob.bnk
 lowtown_male_urchin_sta.bnk
 mag100_cullen.bnk
 mag100_karras.bnk
@@ -369,10 +390,12 @@ mcr370_cut_animate_guardian.bnk
 mcr370_cut_arrival_gallows.bnk
 mcr370_cut_attack_begins.bnk
 mcr370_cut_epilogue.bnk
+mcr370_cut_marriage.bnk
 mcr370_cut_meredith_dies.bnk
 mcr370_cut_meredith_idol.bnk
 mcr370_cut_player_rules.bnk
 mcr370_cut_player_survives.bnk
+mcr370_desten.bnk
 mcr370_guardsman.bnk
 mcr370_meredith.bnk
 mcr370_messenger.bnk
@@ -383,6 +406,8 @@ mcr370_templar1.bnk
 mcr370_templar2.bnk
 mcr370_varric.bnk
 mcr371_alain.bnk
+mcr371_angry_mage_m.bnk
+mcr371_arthuris.bnk
 mcr371_cut_orsino_defiance.bnk
 mcr371_emile_de_launcet.bnk
 mcr371_hostile_anders.bnk
@@ -398,6 +423,7 @@ mer110_jansen.bnk
 mer120_hubert.bnk
 mer140_bonepit_comments.bnk
 mer141_jansen.bnk
+mer200_ambush_leader.bnk
 mer210_coterie_contact.bnk
 mer210_seldrek.bnk
 mer210_smith.bnk
@@ -406,6 +432,7 @@ mer221_sabin.bnk
 mer231_brekker.bnk
 mer240_jansen.bnk
 mer320_hubert.bnk
+mer340_bonepit_comments.bnk
 mer340_cowan.bnk
 mer341_earl.bnk
 mer341_jansen.bnk
@@ -421,12 +448,18 @@ mrl310_merrill.bnk
 mrl310_party_comments.bnk
 mrl351_phantomelves.bnk
 mrl351_pridedemon.bnk
+narrative_banter.bnk
+narrative_flemeth.bnk
+narrative_varric.bnk
+narrative_varric_demo.bnk
 nat320_delilah.bnk
 nat380_nathaniel.bnk
+nat380_nathaniel_banter.bnk
 nat380_party_banter.bnk
 nat380_sibling.bnk
 nat380_temmerin.bnk
 one000_ilen.bnk
+one100_ht_banter.bnk
 one100_party_comments.bnk
 one100_solivitus.bnk
 one100dg_elren.bnk
@@ -434,6 +467,7 @@ one100dg_kelder.bnk
 one100dg_lia.bnk
 one100dg_nabil.bnk
 one100dg_vanard.bnk
+one101_orders_followers.bnk
 one101dg_smuggler.bnk
 one110_gustav.bnk
 one110_meeran.bnk
@@ -461,8 +495,10 @@ one300dg_vanard.bnk
 one350_terath.bnk
 one350_variel.bnk
 one350_vinell.bnk
+prm000_varric_crest.bnk
 pro000_athenril.bnk
 pro000_aveline.bnk
+pro000_aveline_intro.bnk
 pro000_captain_wright.bnk
 pro000_colonel_ewald.bnk
 pro000_cut_act_of_mercy.bnk
@@ -480,6 +516,8 @@ pro000_opening_pc.bnk
 pro000_refugee_angry.bnk
 pro000_refugee_female.bnk
 pro000_refugee_male.bnk
+pro000_soldier_leader.bnk
+pro000_soldier1.bnk
 pro000_varric.bnk
 pro000_varric_cass.bnk
 pro000_wesley.bnk
@@ -558,6 +596,9 @@ ser270_emeric.bnk
 ser270_templar.bnk
 sib100_father_contact.bnk
 sib111_mother.bnk
+sib131_letter_react.bnk
+sib131_slave_a.bnk
+sib131_slaver_guard.bnk
 sib131_slaver_lord.bnk
 ss_anders.bnk
 ss_athenril.bnk
@@ -569,8 +610,12 @@ ss_carver.bnk
 ss_castillon.bnk
 ss_danarius.bnk
 ss_danzig.bnk
+ss_fell_orden.bnk
 ss_fenris.bnk
+ss_grace.bnk
+ss_hadriana.bnk
 ss_isabela.bnk
+ss_justice.bnk
 ss_karras.bnk
 ss_meeran.bnk
 ss_meredith.bnk
@@ -580,6 +625,7 @@ ss_taraneh.bnk
 ss_torpor.bnk
 ss_varian_ilithis.bnk
 ss_varric.bnk
+ss_wilmod.bnk
 ss_wryme.bnk
 ss_zevran.bnk
 vis110_commoner1.bnk

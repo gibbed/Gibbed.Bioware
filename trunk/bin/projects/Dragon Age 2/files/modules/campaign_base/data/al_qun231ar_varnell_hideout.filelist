@@ -1,8 +1,8 @@
-; 195/229 (85%)
+; 223/229 (97%)
 ; 
 ; .ani - 81/84 (96%)
 ; .are - 1/1 (100%)
-;  .cl - 1/29 (3%)
+;  .cl - 29/29 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 56/59 (94%)
 ; .ncs - 12/12 (100%)
@@ -157,6 +157,9 @@ dae000pt_talkedto.ncs
 dae200_viscount.stg
 dae200cr_viscount.cnv
 dae200cr_viscount.utc
+dae200cr_viscount6087158.cl
+dae200cr_viscount6087368.cl
+dae200cr_viscount6087393.cl
 qcr221cr_qunari_mage.ncs
 qcr221cr_qunari_mage.utc
 qun_231_varnell_2.stg
@@ -170,16 +173,41 @@ qun221_petrice_cleric.stg
 qun221_petrice_cleric_2.stg
 qun221_petrice_intercept.stg
 qun221_petrice_saemus_dead.stg
+qun221_petrice6075963.cl
+qun221_petrice6075981.cl
+qun221_petrice6075982.cl
+qun221_petrice6075983.cl
+qun221_petrice6075984.cl
+qun221_petrice6075985.cl
+qun221_petrice6075986.cl
+qun221_petrice6077312.cl
+qun221_petrice6077315.cl
+qun221_petrice6077318.cl
+qun221_petrice6077983.cl
+qun221_petrice6082574.cl
+qun221_petrice6083432.cl
+qun221_petrice6083628.cl
+qun221_petrice6083653.cl
+qun221_petrice6083802.cl
+qun221_petrice6185133.cl
 qun221_viscount.cnv
 qun221_viscount_missing_qun.stg
 qun221_viscount_seamus_dead.stg
 qun221_viscount_st.stg
 qun221_viscount6069026.cl
+qun221_viscount6070197.cl
+qun221_viscount6092418.cl
+qun221_viscount6092421.cl
+qun221_viscount6095591.cl
+qun221_viscount6095594.cl
+qun221_viscount6205726.cl
 qun221cr_petrice.utc
 qun221st_petrice_postvarn.stg
 qun231_party_comment.cnv
 qun231_varnell.cnv
 qun231_varnell.stg
+qun231_varnell6027806.cl
+qun231_varnell6078101.cl
 qun231ar_varnell_hideout.are
 qun231ar_varnell_hideout.ncs
 qun231cr_envoy.utc

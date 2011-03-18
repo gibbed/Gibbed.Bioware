@@ -1,8 +1,8 @@
-; 98/114 (85%)
+; 105/114 (92%)
 ; 
 ; .ani - 40/48 (83%)
 ; .are - 1/1 (100%)
-;  .cl - 0/7 (0%)
+;  .cl - 7/7 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 35/36 (97%)
 ; .mmh - 4/4 (100%)
@@ -95,9 +95,16 @@ fen000pt_gift_sword.ncs
 fen000pt_main.ncs
 fen100pt_bait.ncs
 fen110_anso.cnv
+fen110_anso6094944.cl
+fen110_anso6094948.cl
 fen110_cut_fenris_intro.cnv
+fen110_cut_fenris_intro6066812.cl
 fen110_fenris.cnv
+fen110_fenris6096176.cl
+fen110_fenris6101948.cl
+fen110_fenris6117986.cl
 fen110_hunter.cnv
+fen110_hunter6066862.cl
 fen110_intro.stg
 fen110_party_comment.cnv
 fen110ar_abandoned_house.are

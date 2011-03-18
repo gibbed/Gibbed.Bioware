@@ -1,8 +1,8 @@
-; 48/51 (94%)
+; 51/51 (100%)
 ; 
 ; .ani - 16/16 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 9/9 (100%)
 ; .ncs - 8/8 (100%)
@@ -20,6 +20,8 @@ and000pt_gift_key.ncs
 and000pt_main.ncs
 and100pt_tranquility.ncs
 and121_karl.cnv
+and121_karl6045419.cl
+and121_karl6093859.cl
 and121ar_chantry.are
 and121ar_chantry.ncs
 and121cr_karl.ncs
@@ -57,5 +59,6 @@ art\cinematics\act1\cs_fp_gritteeth.ani
 cod_mgc_chant_maker.utp
 dae121ip_at_cht_hightown.utp
 lgt200_eau_tome.cnv
+lgt200_eau_tome6171791.cl
 lgt200ip_eau_tome01.utp
 lgt200pt_tomes.ncs

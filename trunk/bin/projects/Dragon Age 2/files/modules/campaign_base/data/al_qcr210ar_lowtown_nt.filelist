@@ -1,8 +1,8 @@
-; 151/184 (82%)
+; 169/184 (91%)
 ; 
 ; .ani - 49/63 (77%)
 ; .are - 1/1 (100%)
-;  .cl - 0/18 (0%)
+;  .cl - 18/18 (100%)
 ; .cnv - 10/10 (100%)
 ; .evt - 39/40 (97%)
 ; .mmh - 6/6 (100%)
@@ -139,11 +139,25 @@ pro000st_varric.stg
 qcr000_arishok.cnv
 qcr000_arishok.stg
 qcr000_arishok_keep.stg
+qcr000_arishok6057084.cl
+qcr000_arishok6059659.cl
+qcr000_arishok6059669.cl
+qcr000_arishok6060093.cl
+qcr000_arishok6060149.cl
+qcr000_arishok6109125.cl
 qcr000_aveline.cnv
+qcr000_aveline6054356.cl
+qcr000_aveline6054365.cl
 qcr000_cut_arishok_response.cnv
+qcr000_cut_arishok_response6039425.cl
 qcr000_cut2d_thechampion.cnv
+qcr000_cut2d_thechampion6025121.cl
 qcr000_fake_siege.cnv
 qcr000_varric.cnv
+qcr000_varric6043181.cl
+qcr000_varric6066265.cl
+qcr000_varric6066268.cl
+qcr000_varric6208237.cl
 qcr000pt_general.ncs
 qcr000pt_main.ncs
 qcr000st_aveline.stg
@@ -156,6 +170,10 @@ qcr210cr_elven_supporters.utc
 qcr210cr_looter_thug.utc
 qcr210ip_to_hightown.utp
 qcr220_grey_wardens.cnv
+qcr220_grey_wardens6060375.cl
+qcr220_grey_wardens6060383.cl
+qcr220_grey_wardens6060417.cl
+qcr220_grey_wardens6135903.cl
 qcr220cr_alistar_gw.utc
 qcr220cr_bethany.utc
 qcr220cr_carver.utc

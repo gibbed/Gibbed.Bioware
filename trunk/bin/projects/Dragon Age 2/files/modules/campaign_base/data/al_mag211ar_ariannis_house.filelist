@@ -1,8 +1,8 @@
-; 146/160 (91%)
+; 158/160 (98%)
 ; 
 ; .ani - 56/57 (98%)
 ; .are - 1/1 (100%)
-;  .cl - 1/13 (7%)
+;  .cl - 13/13 (100%)
 ; .cnv - 7/7 (100%)
 ; .evt - 50/51 (98%)
 ; .ncs - 16/16 (100%)
@@ -138,10 +138,16 @@ mag000pt_otl_debug.ncs
 mag110pt_wayward_son.ncs
 mag200pt_night_terrors.ncs
 mag210_arianni.cnv
+mag210_arianni6021202.cl
 mag210_arianni6024090.cl
+mag210_arianni6024100.cl
+mag210_arianni6024109.cl
+mag210_arianni6025025.cl
+mag210_arianni6033879.cl
 mag210cr_arianni.utc
 mag210st_arianni.stg
 mag211_marethari.cnv
+mag211_marethari6030693.cl
 mag211ar_ariannis_house.are
 mag211ar_ariannis_house.ncs
 mag211st_marethari_arianni.stg
@@ -150,6 +156,12 @@ mer100pt_missing_miners.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl150_marethari.stg
 mrl150_marethaript2.stg
 mrl150pt_longway.ncs

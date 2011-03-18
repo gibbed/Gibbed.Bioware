@@ -1,8 +1,8 @@
-; 34/37 (91%)
+; 35/37 (94%)
 ; 
 ; .ani - 14/15 (93%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 1/2 (50%)
 ; .evt - 10/10 (100%)
 ; .ncs - 4/4 (100%)
@@ -43,4 +43,5 @@ mer200cr_ambush_leader.utc
 mer200pt_stolen_goods.ncs
 mer210_seldrek.cnv
 mer210_seldrek_st.stg
+mer210_seldrek6033962.cl
 mer210cr_seldrek.utc

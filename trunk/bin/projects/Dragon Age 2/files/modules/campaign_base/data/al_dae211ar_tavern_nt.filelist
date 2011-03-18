@@ -1,8 +1,8 @@
-; 375/436 (86%)
+; 404/436 (92%)
 ; 
 ; .ani - 121/138 (87%)
 ; .are - 1/1 (100%)
-;  .cl - 0/29 (0%)
+;  .cl - 29/29 (100%)
 ; .cnv - 23/23 (100%)
 ; .evt - 107/122 (87%)
 ; .ncs - 53/53 (100%)
@@ -244,11 +244,22 @@ art\characters\playercharacter\qunarimale\animation\cindes\custom\arishok_collap
 art\characters\playercharacter\qunarimale\animation\cindes\custom\arishok_collapse_enter.evt
 ave100pt_promotion.ncs
 ave200_aveline_bar.cnv
+ave200_aveline_bar6114110.cl
 ave200_donnic.cnv
 ave200_donnic_bar.stg
 ave200_donnic_patrol_1.stg
 ave200_donnic_patrol_2.stg
 ave200_donnic_post_patrol.stg
+ave200_donnic6110501.cl
+ave200_donnic6110700.cl
+ave200_donnic6110709.cl
+ave200_donnic6110712.cl
+ave200_donnic6110739.cl
+ave200_donnic6110748.cl
+ave200_donnic6111069.cl
+ave200_donnic6111070.cl
+ave200_donnic6111073.cl
+ave200_donnic6112154.cl
 ave200cr_donnic.utc
 ave200pt_long_road.ncs
 cod_bks_first_children.utp
@@ -276,10 +287,19 @@ dae010pt_amb_tavern.ncs
 dae011_badpoet_sta.cnv
 dae011_conspiracy_mob.cnv
 dae011_corff_sta.cnv
+dae011_corff_sta6140574.cl
+dae011_corff_sta6140575.cl
+dae011_corff_sta6140694.cl
+dae011_corff_sta6142579.cl
+dae011_corff_sta6149600.cl
+dae011_corff_sta6152750.cl
+dae011_corff_sta6152751.cl
+dae011_corff_sta6152752.cl
 dae011_drunk1_sta.cnv
 dae011_drunk2_sta.cnv
 dae011_gossips.cnv
 dae011_order_drink.cnv
+dae011_order_drink6205118.cl
 dae011_wench_mob.cnv
 dae011cr_bar_wench.utc
 dae011cr_bartender.utc
@@ -294,6 +314,7 @@ dae011ip_order_drink.ncs
 dae011ip_order_drink.utp
 dae011st_tavern_ambients.stg
 dae200_alistair_drunk.cnv
+dae200_alistair_drunk6135189.cl
 dae211ar_gamlens_house.ncs
 dae211ar_tavern.ncs
 dae211ar_tavern_nt.are
@@ -362,6 +383,8 @@ qun200pt_missing_qunari.ncs
 qun211_braggart.cnv
 qun211_braggart.stg
 qun211_braggart_after_fight.stg
+qun211_braggart6075460.cl
+qun211_braggart6075663.cl
 qun211cr_braggart.utc
 qun211cr_braggart_ally_f.utc
 qun211cr_braggart_ally_f2.utc
@@ -376,6 +399,12 @@ qun211tr_braggart_amb.utt
 rdr100pt_keepers.ncs
 rdr111cr_martin.utc
 rdr111dg_martin.cnv
+rdr111dg_martin6014337.cl
+rdr111dg_martin6014614.cl
+rdr111dg_martin6014874.cl
+rdr111dg_martin6015182.cl
+rdr111dg_martin6054832.cl
+rdr111dg_martin6054833.cl
 rdr111st_martin.stg
 rdr200st_martin.utm
 rdrip_store.utp

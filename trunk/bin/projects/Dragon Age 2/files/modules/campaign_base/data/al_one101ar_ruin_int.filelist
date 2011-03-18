@@ -1,8 +1,8 @@
-; 66/72 (91%)
+; 71/72 (98%)
 ; 
 ; .ani - 23/23 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/5 (0%)
+;  .cl - 5/5 (100%)
 ; .cnv - 4/5 (80%)
 ; .evt - 17/17 (100%)
 ; .ncs - 9/9 (100%)
@@ -54,9 +54,14 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_rub_face
 dae000pt_amb_sunder.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100dg_kelder.cnv
+one100dg_kelder6055417.cl
 one100dg_lia.cnv
+one100dg_lia6013840.cl
 one100ip_at_ruin_ext.utp
 one100ip_chest_1.utp
 one100ip_chest_2.utp

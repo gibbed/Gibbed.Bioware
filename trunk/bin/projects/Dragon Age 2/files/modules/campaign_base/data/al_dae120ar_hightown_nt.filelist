@@ -1,8 +1,8 @@
-; 139/156 (89%)
+; 154/156 (98%)
 ; 
 ; .ani - 42/43 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/15 (0%)
+;  .cl - 15/15 (100%)
 ; .cnv - 8/8 (100%)
 ; .evt - 36/37 (97%)
 ; .mmh - 1/1 (100%)
@@ -119,6 +119,9 @@ dae120ip_chant_board_ht.ncs
 fen000pt_main.ncs
 fen100pt_bait.ncs
 fen110_fenris.cnv
+fen110_fenris6096176.cl
+fen110_fenris6101948.cl
+fen110_fenris6117986.cl
 fen110_intro.stg
 fen110st_fenris_hates_mages.stg
 fen110st_fenris_mansion.stg
@@ -132,6 +135,12 @@ isa100im_letter.uti
 isa100pt_fools.ncs
 isa111_chantry_st.stg
 isa111_isabela.cnv
+isa111_isabela6067054.cl
+isa111_isabela6075421.cl
+isa111_isabela6075424.cl
+isa111_isabela6164592.cl
+isa111_isabela6164598.cl
+isa111_isabela6164601.cl
 isa111st_courtyard.stg
 isa120cr_letter_thug.utc
 isa120ip_at_chantry.ncs
@@ -148,6 +157,12 @@ mag120cr_brothelguard.utc
 one100pt_loose_end_athe.ncs
 one110_ambush_st.stg
 one120_athenril.cnv
+one120_athenril6088233.cl
+one120_athenril6088337.cl
+one120_athenril6088889.cl
+one120_athenril6088898.cl
+one120_athenril6113277.cl
+one120_athenril6113285.cl
 one120cr_athenril.utc
 one120tr_athe_ambush.ncs
 one120tr_athe_ambush.utt

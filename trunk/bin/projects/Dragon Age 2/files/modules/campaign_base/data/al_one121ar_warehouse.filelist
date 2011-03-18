@@ -1,8 +1,8 @@
-; 64/74 (86%)
+; 72/74 (97%)
 ; 
 ; .ani - 21/22 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 0/8 (0%)
+;  .cl - 8/8 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 17/18 (94%)
 ; .ncs - 8/8 (100%)
@@ -53,6 +53,9 @@ cod_hst_kirk_arch_1a_10.utp
 dae000pt_amb_sunder.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100_party_comments.cnv
 one100ip_ggt_trap.ncs
@@ -70,6 +73,11 @@ one111ip_ggt_crate_7.utp
 one111ip_ggt_crate_8.utp
 one111ip_ggt_trap.utp
 one121_trap.cnv
+one121_trap6088456.cl
+one121_trap6112683.cl
+one121_trap6112684.cl
+one121_trap6112685.cl
+one121_trap6112686.cl
 one121ar_warehouse.are
 one121ar_warehouse.ncs
 one121cr_note_thug.utc

@@ -1,8 +1,8 @@
-; 76/78 (97%)
+; 78/78 (100%)
 ; 
 ; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/2 (0%)
+;  .cl - 2/2 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 18/18 (100%)
 ; .ncs - 11/11 (100%)
@@ -18,6 +18,8 @@ and000pt_gift_key.ncs
 and000pt_main.ncs
 and200pt_dissent.ncs
 and230_mage_girl.cnv
+and230_mage_girl6061847.cl
+and230_mage_girl6135803.cl
 and230cr_mage_girl.utc
 and230cr_ser_alrik.utc
 and230cr_templar.utc

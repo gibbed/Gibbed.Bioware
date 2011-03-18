@@ -1,8 +1,8 @@
-; 42/43 (97%)
+; 43/43 (100%)
 ; 
 ; .ani - 5/5 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 1/1 (100%)
 ; .ncs - 25/25 (100%)
@@ -38,6 +38,7 @@ lgt000pt_tombs_second.ncs
 lgt000pt_tombs_third.ncs
 lgt000pt_ultra_4_03.ncs
 lgt210_mag_escp_rescued.cnv
+lgt210_mag_escp_rescued6156644.cl
 lgt210cr_mag_escp_rescued.utc
 lgt210pt_search_rescue.ncs
 lgt261ar_rescue_cave.are

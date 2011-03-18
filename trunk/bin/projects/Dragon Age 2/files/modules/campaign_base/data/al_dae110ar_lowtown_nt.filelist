@@ -1,8 +1,8 @@
-; 296/340 (87%)
+; 325/340 (95%)
 ; 
 ; .ani - 99/110 (90%)
 ; .are - 1/1 (100%)
-;  .cl - 1/30 (3%)
+;  .cl - 30/30 (100%)
 ; .cnv - 17/17 (100%)
 ; .evt - 84/88 (95%)
 ; .mmh - 4/4 (100%)
@@ -202,8 +202,10 @@ art\vfx\cinematic\vfx_lyrium_glow_c.impa.evt
 art\vfx\cinematic\vfx_lyrium_glow_c.mmh
 ave100_ambush_1.cnv
 ave100_ambush_16106195.cl
+ave100_ambush_16106199.cl
 ave100_donnic.cnv
 ave100_donnic.stg
+ave100_donnic6105934.cl
 ave100cr_donnic.utc
 ave100pt_promotion.ncs
 ave100st_ambush_1.stg
@@ -245,6 +247,12 @@ dae110ip_at_mrl_home.utp
 dae110ip_at_tavern.utp
 dae221st_dougal_pc_home.stg
 dre000_dougal.cnv
+dre000_dougal6128877.cl
+dre000_dougal6128880.cl
+dre000_dougal6129709.cl
+dre000_dougal6129721.cl
+dre000_dougal6130956.cl
+dre000_dougal6131116.cl
 dre000cr_dougal.utc
 dre000cr_dougal_thugs.utc
 dre000pt_extra_funds.ncs
@@ -253,9 +261,16 @@ dre200st_dougal_ambush.stg
 fen000pt_main.ncs
 fen100pt_bait.ncs
 fen110_anso.cnv
+fen110_anso6094944.cl
+fen110_anso6094948.cl
 fen110_cut_fenris_intro.cnv
+fen110_cut_fenris_intro6066812.cl
 fen110_fenris.cnv
+fen110_fenris6096176.cl
+fen110_fenris6101948.cl
+fen110_fenris6117986.cl
 fen110_hunter.cnv
+fen110_hunter6066862.cl
 fen110_intro.stg
 fen110_party_comment.cnv
 fen110cr_anso.utc
@@ -275,6 +290,10 @@ lgt110ip_at_gang_hideout_lt.utp
 lowtown_fem_prostitute_sta.cnv
 mag110_samson.cnv
 mag110_samson.stg
+mag110_samson6016157.cl
+mag110_samson6018133.cl
+mag110_samson6025541.cl
+mag110_samson6049808.cl
 mag110cr_samson.utc
 mag110pt_wayward_son.ncs
 mag321pt_bestservedcold.ncs
@@ -282,6 +301,12 @@ one100pt_loose_end_meer.ncs
 one110_ambush_st.stg
 one110_meeran.cnv
 one110_meeran_st.stg
+one110_meeran6089464.cl
+one110_meeran6089516.cl
+one110_meeran6089848.cl
+one110_meeran6089861.cl
+one110_meeran6113244.cl
+one110_meeran6141082.cl
 one110cr_meeran.utc
 one110tr_meer_ambush.ncs
 one110tr_meer_ambush.utt
@@ -296,6 +321,10 @@ qun110_petrice_aftermath.stg
 qun110_petrice_alley.stg
 qun110_petrice_intro.stg
 qun110_petrice_ketojan.stg
+qun110_petrice6018514.cl
+qun110_petrice6018555.cl
+qun110_petrice6036410.cl
+qun110_petrice6041266.cl
 qun110_varnell.cnv
 qun110cr_mugger.utc
 qun110cr_petrice.utc

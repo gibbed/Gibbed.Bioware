@@ -1,8 +1,8 @@
-; 428/521 (82%)
+; 485/521 (93%)
 ; 
 ; .ani - 167/192 (86%)
 ; .are - 1/1 (100%)
-;  .cl - 13/70 (18%)
+;  .cl - 70/70 (100%)
 ; .cnv - 23/23 (100%)
 ; .evt - 142/153 (92%)
 ; .mmh - 3/3 (100%)
@@ -335,6 +335,25 @@ dae000_bartrand.stg
 dae000_bartrand_a.stg
 dae000_bartrand_b.stg
 dae000_bartrand_deeproads.stg
+dae000_bartrand6015442.cl
+dae000_bartrand6027443.cl
+dae000_bartrand6027468.cl
+dae000_bartrand6027474.cl
+dae000_bartrand6027499.cl
+dae000_bartrand6027540.cl
+dae000_bartrand6027541.cl
+dae000_bartrand6027571.cl
+dae000_bartrand6027583.cl
+dae000_bartrand6030658.cl
+dae000_bartrand6033979.cl
+dae000_bartrand6064037.cl
+dae000_bartrand6064053.cl
+dae000_bartrand6107545.cl
+dae000_bartrand6107556.cl
+dae000_bartrand6206145.cl
+dae000_bartrand6206156.cl
+dae000_bartrand6206162.cl
+dae000_bartrand6210162.cl
 dae000_bodahn.stg
 dae000_bodahn_deeproads.stg
 dae000_varric_deeproads.stg
@@ -346,12 +365,20 @@ dae100cr_bartrand.utc
 dae200cr_meredith.utc
 dae221st_dougal_pc_home.stg
 dre000_anders.cnv
+dre000_anders6045606.cl
 dre000_arrival_deeproads.stg
 dre000_bethany.cnv
 dre000_bethany6037308.cl
 dre000_bodahn.cnv
+dre000_bodahn6028138.cl
+dre000_bodahn6028162.cl
+dre000_bodahn6031260.cl
+dre000_bodahn6031263.cl
+dre000_bodahn6031369.cl
 dre000_carver.cnv
+dre000_carver6037574.cl
 dre000_cut_arrivaldeeproads.cnv
+dre000_cut_arrivaldeeproads6027613.cl
 dre000_cut_arrivalprimeval.cnv
 dre000_cut_arrivalprimeval6033789.cl
 dre000_cut_bartrandbetrayal.cnv
@@ -361,31 +388,61 @@ dre000_cut_return_surface6030202.cl
 dre000_cut_rock_wraith.cnv
 dre000_cut_rock_wraith6150004.cl
 dre000_cut_sibling_dies.cnv
+dre000_cut_sibling_dies6036290.cl
+dre000_cut_sibling_dies6036293.cl
+dre000_cut_sibling_dies6036323.cl
+dre000_cut_sibling_dies6036326.cl
 dre000_cut_thewayout.cnv
 dre000_cut_thewayout6030029.cl
 dre000_cut_varric_intro.cnv
+dre000_cut_varric_intro6033474.cl
 dre000_cut2d_ragstoriches.cnv
+dre000_cut2d_ragstoriches6025082.cl
 dre000_dougal.cnv
+dre000_dougal6128877.cl
+dre000_dougal6128880.cl
+dre000_dougal6129709.cl
+dre000_dougal6129721.cl
+dre000_dougal6130956.cl
+dre000_dougal6131116.cl
 dre000_hireling1.cnv
 dre000_hireling2.cnv
 dre000_mother.cnv
 dre000_mother.stg
+dre000_mother6037110.cl
 dre000_sandal.cnv
 dre000_sandal.stg
+dre000_sandal6028394.cl
+dre000_sandal6028400.cl
+dre000_sandal6033432.cl
 dre000_sibling_has_blight.cnv
 dre000_sibling_has_blight.stg
+dre000_sibling_has_blight6036448.cl
 dre000_stroud.cnv
 dre000_stroud.stg
+dre000_stroud6036673.cl
 dre000_vampire.cnv
 dre000_vampire.stg
 dre000_vampire6034270.cl
 dre000_varric.cnv
 dre000_varric_rockwraith.stg
+dre000_varric6027743.cl
 dre000_varric6028417.cl
 dre000_varric6029149.cl
 dre000_varric6029385.cl
+dre000_varric6030283.cl
+dre000_varric6030292.cl
+dre000_varric6034627.cl
 dre000_varric6036950.cl
+dre000_varric6207929.cl
 dre000_varric6208001.cl
+dre000_varric6208004.cl
+dre000_varric6208007.cl
+dre000_varric6208010.cl
+dre000_varric6208016.cl
+dre000_varric6208019.cl
+dre000_varric6208025.cl
+dre000_varric6208028.cl
 dre000_varric6208031.cl
 dre000pt_extra_funds.ncs
 dre000pt_extra_funds2.ncs

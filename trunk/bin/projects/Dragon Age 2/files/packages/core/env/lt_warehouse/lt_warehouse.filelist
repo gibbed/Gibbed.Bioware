@@ -1,6 +1,6 @@
-; 32/805 (3%)
+; 36/805 (4%)
 ; 
-; .anb - 1/5 (20%)
+; .anb - 5/5 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 7/7 (100%)
 ; .mmh - 17/17 (100%)
@@ -15,11 +15,13 @@ lt_warehouse_0_0.mao
 lt_warehouse_0_0.mmh
 lt_warehouse_0_0.msh
 lt_warehouse_0_0_lc.mmh
+lt_warehouse_1_0.anb
 lt_warehouse_1_0.mao
 lt_warehouse_1_0.mmh
 lt_warehouse_1_0.msh
 lt_warehouse_1_0_lc.mmh
 lt_warehouse_1_0_ll.mmh
+lt_warehouse_2_0.anb
 lt_warehouse_2_0.mao
 lt_warehouse_2_0.mmh
 lt_warehouse_2_0.msh
@@ -28,8 +30,10 @@ lt_warehouse_2_0_ll.mmh
 lt_warehouse_3_0.mao
 lt_warehouse_3_0.mmh
 lt_warehouse_3_0.msh
+lt_warehouse_4_0.anb
 lt_warehouse_4_0_lc.mmh
 lt_warehouse_4_0_ll.mmh
+lt_warehouse_5_0.anb
 lt_warehouse_5_0_lc.mmh
 lt_warehouse_5_0_ll.mmh
 lt_warehouse_lc.mmh

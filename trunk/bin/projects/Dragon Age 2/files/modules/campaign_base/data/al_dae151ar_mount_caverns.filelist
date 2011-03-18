@@ -1,8 +1,8 @@
-; 61/68 (89%)
+; 68/68 (100%)
 ; 
 ; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/7 (0%)
+;  .cl - 7/7 (100%)
 ; .cnv - 1/1 (100%)
 ; .evt - 18/18 (100%)
 ; .mmh - 1/1 (100%)
@@ -69,6 +69,13 @@ mrl150_merrill_pt3.stg
 mrl150_merrill_pt4.stg
 mrl150_merrill_pt6.stg
 mrl150_merrill_pt7.stg
+mrl150_merrill6070451.cl
+mrl150_merrill6071783.cl
+mrl150_merrill6071916.cl
+mrl150_merrill6072770.cl
+mrl150_merrill6077659.cl
+mrl150_merrill6078227.cl
+mrl150_merrill6078285.cl
 mrl150cr_shadow_warrior.utc
 mrl150ip_pile_b.utp
 mrl150pt_longway.ncs

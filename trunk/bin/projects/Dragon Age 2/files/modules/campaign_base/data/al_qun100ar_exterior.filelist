@@ -1,8 +1,8 @@
-; 105/108 (97%)
+; 108/108 (100%)
 ; 
 ; .ani - 39/39 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 4/7 (57%)
+;  .cl - 7/7 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 33/33 (100%)
 ; .mmh - 3/3 (100%)
@@ -108,7 +108,10 @@ qun111_ketojan.cnv
 qun111_ketojan_freed.stg
 qun111_ketojan_post_thug.stg
 qun111_ketojan6019013.cl
+qun111_ketojan6019022.cl
+qun111_ketojan6019031.cl
 qun111_ketojan6019040.cl
+qun111_ketojan6039000.cl
 qun111_ketojan6039003.cl
 qun111cr_ketojan.utc
 qun131_party_comment.cnv

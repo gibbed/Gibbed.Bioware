@@ -1,8 +1,8 @@
-; 24/25 (96%)
+; 25/25 (100%)
 ; 
 ; .ani - 9/9 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 1/1 (100%)
 ; .evt - 5/5 (100%)
 ; .ncs - 4/4 (100%)
@@ -30,6 +30,7 @@ mer000pt_mine_payments.ncs
 mer200pt_stolen_goods.ncs
 mer231_brekker.cnv
 mer231_brekker_st.stg
+mer231_brekker6075164.cl
 mer231ar_arlan_hideout.are
 mer231ar_arlan_hideout.ncs
 mer231cr_brekker.utc

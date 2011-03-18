@@ -1,8 +1,8 @@
-; 157/174 (90%)
+; 174/174 (100%)
 ; 
 ; .ani - 63/63 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/17 (0%)
+;  .cl - 17/17 (100%)
 ; .cnv - 7/7 (100%)
 ; .evt - 56/56 (100%)
 ; .ncs - 16/16 (100%)
@@ -136,6 +136,9 @@ fen000pt_main.ncs
 mrl000pt_main.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100_solivitus.stg
 one100pt_herb_ironwood.ncs
@@ -144,7 +147,15 @@ one100st_ilen.stg
 one200pt_herbalist.ncs
 one300_murder_followers.cnv
 one300_nuncio.cnv
+one300_nuncio6073775.cl
+one300_nuncio6073802.cl
+one300_nuncio6075327.cl
+one300_nuncio6084355.cl
+one300_nuncio6084356.cl
 one300_zevran.cnv
+one300_zevran6071479.cl
+one300_zevran6071480.cl
+one300_zevran6089764.cl
 one300ar_crow_camp.are
 one300ar_crow_camp.ncs
 one300ar_vanard_fight.ncs
@@ -157,9 +168,15 @@ one300cr_nuncio_guard.utc
 one300cr_solivitus.ncs
 one300cr_zevran.utc
 one300dg_lia.cnv
+one300dg_lia6064519.cl
+one300dg_lia6064548.cl
 one300dg_solivitus.cnv
+one300dg_solivitus6048294.cl
+one300dg_solivitus6048303.cl
 one300dg_vanard.cnv
 one300dg_vanard.stg
+one300dg_vanard6063873.cl
+one300dg_vanard6063908.cl
 one300ip_st_solivitus.ncs
 one300ip_worldmap.ncs
 one300lia_aveline_st.stg

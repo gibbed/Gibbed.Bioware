@@ -1,8 +1,8 @@
-; 55/63 (87%)
+; 63/63 (100%)
 ; 
 ; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/8 (0%)
+;  .cl - 8/8 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 18/18 (100%)
 ; .ncs - 3/3 (100%)
@@ -52,13 +52,21 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_d.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_medium.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_medium.evt
 lgt110_orz_harr_carta.cnv
+lgt110_orz_harr_carta6109039.cl
+lgt110_orz_harr_carta6109045.cl
 lgt110_orz_harrowmont.cnv
+lgt110_orz_harrowmont6108984.cl
+lgt110_orz_harrowmont6109022.cl
 lgt110cr_orz_harrow_carta.utc
 lgt110cr_orz_harrow_guard.utc
 lgt110cr_orz_harrowmont.utc
 lgt110pt_harrow_escape.ncs
 lgt110tr_orz_harrow_betray.utt
 lgt150_nat_were_supporter.cnv
+lgt150_nat_were_supporter6110935.cl
+lgt150_nat_were_supporter6110951.cl
+lgt150_nat_were_supporter6110959.cl
+lgt150_nat_were_supporter6111006.cl
 lgt150cr_nat_were_dalish_gd.utc
 lgt150cr_nat_were_supporter.utc
 lgt150im_ntb_wr_ingrdnt_1.uti

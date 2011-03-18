@@ -1,8 +1,8 @@
-; 39/40 (97%)
+; 40/40 (100%)
 ; 
 ; .ani - 5/5 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 1/1 (100%)
 ; .ncs - 24/24 (100%)
@@ -38,6 +38,7 @@ lgt000pt_tombs_second.ncs
 lgt000pt_tombs_third.ncs
 lgt000pt_ultra_4_03.ncs
 lgt200_eau_tome.cnv
+lgt200_eau_tome6171791.cl
 lgt200cr_tome_abomination.utc
 lgt200cr_tome_revenant.utc
 lgt200ip_eau_tome05.utp

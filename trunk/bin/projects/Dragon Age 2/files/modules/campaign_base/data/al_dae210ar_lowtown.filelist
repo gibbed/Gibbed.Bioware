@@ -1,8 +1,8 @@
-; 291/330 (88%)
+; 316/330 (95%)
 ; 
 ; .ani - 93/100 (93%)
 ; .are - 1/1 (100%)
-;  .cl - 3/28 (10%)
+;  .cl - 28/28 (100%)
 ; .cnv - 21/21 (100%)
 ; .evt - 82/89 (92%)
 ; .mmh - 2/2 (100%)
@@ -198,6 +198,7 @@ cod_hst_kirk_alienage.utp
 cod_hst_kirk_lowtown.utp
 cod_hst_vehnadahl.utp
 dae000_elegant.cnv
+dae000_elegant6166884.cl
 dae000_gen_turn_in_1.cnv
 dae000_gen_turn_in_2.cnv
 dae000_gen_turn_in_3.cnv
@@ -236,6 +237,8 @@ dae200cr_captain_wright.cnv
 dae200cr_captain_wright.utc
 dae210_gate_guard.cnv
 dae210_gate_guard.stg
+dae210_gate_guard6085047.cl
+dae210_gate_guard6209975.cl
 dae210ar_docks.ncs
 dae210ar_docks_nt.ncs
 dae210ar_lowtown.are
@@ -264,18 +267,31 @@ lgt210pt_eau_debt.ncs
 lowtown_male_alienage1_sta.cnv
 mag110pt_wayward_son.ncs
 mag120_macha.cnv
+mag120_macha6080606.cl
 mag120cr_macha.utc
 mag120pt_enemies.ncs
 mag120st_macha.stg
 mag131_keran.cnv
+mag131_keran6086159.cl
 mag131cr_keran_civ.utc
 mag200_feynriel.cnv
+mag200_feynriel6023866.cl
+mag200_feynriel6023877.cl
+mag200_feynriel6023880.cl
 mag200_feynriel6023951.cl
+mag200_feynriel6034447.cl
+mag200_feynriel6034450.cl
 mag200_feynriel6034480.cl
+mag200_feynriel6205364.cl
 mag200cr_feynriel.utc
 mag200pt_night_terrors.ncs
 mag210_arianni.cnv
+mag210_arianni6021202.cl
 mag210_arianni6024090.cl
+mag210_arianni6024100.cl
+mag210_arianni6024109.cl
+mag210_arianni6025025.cl
+mag210_arianni6033879.cl
 mag210cr_arianni.utc
 mag210cr_feynriel_abominat.utc
 mag210st_arianni.stg
@@ -284,11 +300,20 @@ mag291st_feynriel.stg
 mag320pt_otl_main.ncs
 mer100pt_missing_miners.ncs
 mer210_smith.cnv
+mer210_smith6051384.cl
+mer210_smith6051410.cl
+mer210_smith6051418.cl
 mer210cr_smith.utc
 mer210pt_pickaxes.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl150_marethari.stg
 mrl150_marethaript2.stg
 mrl150pt_longway.ncs

@@ -1,8 +1,8 @@
-; 46/55 (83%)
+; 47/55 (85%)
 ; 
 ; .ani - 11/15 (73%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 7/11 (63%)
 ; .mmh - 1/1 (100%)
@@ -34,6 +34,7 @@ art\vfx\cinematic\vfx_abom_trans_sw_p.impa.evt
 art\vfx\cinematic\vfx_abom_trans_sw_p.mmh
 mag000pt_otl_debug.ncs
 mag110_cut_abomination.cnv
+mag110_cut_abomination6016220.cl
 mag110_sailor.cnv
 mag110_ws_banter.cnv
 mag110cr_abomination.utc

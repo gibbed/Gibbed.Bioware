@@ -1,8 +1,8 @@
-; 60/68 (88%)
+; 67/68 (98%)
 ; 
 ; .ani - 25/26 (96%)
 ; .are - 1/1 (100%)
-;  .cl - 0/7 (0%)
+;  .cl - 7/7 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 20/20 (100%)
 ; .ncs - 5/5 (100%)
@@ -63,8 +63,15 @@ isa000pt_main.ncs
 isa100pt_fools.ncs
 isa111_chantry_st.stg
 isa111_isabela.cnv
+isa111_isabela6067054.cl
+isa111_isabela6075421.cl
+isa111_isabela6075424.cl
+isa111_isabela6164592.cl
+isa111_isabela6164598.cl
+isa111_isabela6164601.cl
 isa111st_courtyard.stg
 isa120_hayder.cnv
+isa120_hayder6066875.cl
 isa120st_hayder.stg
 isa121ar_chantry.are
 isa121ar_chantry.ncs

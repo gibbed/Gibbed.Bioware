@@ -1,8 +1,8 @@
-; 351/405 (86%)
+; 396/405 (97%)
 ; 
 ; .ani - 131/135 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 3/49 (6%)
+;  .cl - 48/49 (97%)
 ; .cnv - 13/14 (92%)
 ; .evt - 106/109 (97%)
 ; .mmh - 3/3 (100%)
@@ -263,17 +263,39 @@ cod_bks_kirkwall_hist_2.utp
 cod_hst_calendar.utp
 dae000_bodhan.cnv
 dae000_bodhan_letter.cnv
+dae000_bodhan6129078.cl
+dae000_bodhan6146781.cl
 dae000_gamlen.cnv
 dae000_gamlen6005754.cl
+dae000_gamlen6048413.cl
+dae000_gamlen6088135.cl
+dae000_gamlen6102409.cl
+dae000_gamlen6121545.cl
+dae000_gamlen6121581.cl
+dae000_gamlen6131077.cl
+dae000_gamlen6139441.cl
+dae000_gamlen6139444.cl
+dae000_gamlen6145087.cl
+dae000_gamlen6149406.cl
 dae000_mother.cnv
 dae000_mother_blightlands_1.stg
 dae000_mother6001874.cl
 dae000_mother6004095.cl
+dae000_mother6004098.cl
+dae000_mother6099181.cl
+dae000_mother6103034.cl
+dae000_mother6121001.cl
+dae000_mother6136909.cl
 dae000_orana.cnv
 dae000_orana.stg
+dae000_orana6149008.cl
+dae000_orana6149011.cl
 dae000_pc_home_ambients.cnv
 dae000_sandal.cnv
 dae000_sandal_st.stg
+dae000_sandal6147779.cl
+dae000_sandal6148209.cl
+dae000_sandal6180615.cl
 dae000cr_cassandra.utc
 dae000cr_orana.utc
 dae000cr_varric_cuts.utc
@@ -314,6 +336,12 @@ dae221st_dog_player_plus.stg
 dae221st_dougal_pc_home.stg
 dae400pt_post_game.ncs
 dre000_dougal.cnv
+dre000_dougal6128877.cl
+dre000_dougal6128880.cl
+dre000_dougal6129709.cl
+dre000_dougal6129721.cl
+dre000_dougal6130956.cl
+dre000_dougal6131116.cl
 dre000cr_dougal.utc
 dre000cr_dougal_thugs.utc
 dre000pt_extra_funds.ncs
@@ -335,6 +363,16 @@ isa000pt_main.ncs
 isa100pt_fools.ncs
 isa200pt_thief.ncs
 isa211_isabela.cnv
+isa211_isabela6069398.cl
+isa211_isabela6069399.cl
+isa211_isabela6070107.cl
+isa211_isabela6070113.cl
+isa211_isabela6081849.cl
+isa211_isabela6081984.cl
+isa211_isabela6081985.cl
+isa211_isabela6202148.cl
+isa211_isabela6202151.cl
+isa211_isabela6202154.cl
 isa211st_foundry.stg
 isa211st_isabela.stg
 mcr000pt_main.ncs
@@ -349,13 +387,20 @@ pro000st_gamlen.stg
 pro000st_gamlen_mother.stg
 pro000st_varric.stg
 qcr000_varric.cnv
+qcr000_varric6043181.cl
+qcr000_varric6066265.cl
+qcr000_varric6066268.cl
+qcr000_varric6208237.cl
 qcr000pt_main.ncs
 qun200pt_following_qun.ncs
 rdr100pt_keepers.ncs
 ser120pt_sacricfice.ncs
 ser200_aveline.cnv
+ser200_aveline6201465.cl
 ser200st_aveline.stg
 ser221_gamlen.cnv
+ser221_gamlen6123411.cl
+ser221_gamlen6123412.cl
 ser221ip_lillies.utp
 ser221pt_remains.ncs
 ser221st_gamlen.stg

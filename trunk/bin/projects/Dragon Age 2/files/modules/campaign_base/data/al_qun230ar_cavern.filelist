@@ -1,8 +1,8 @@
-; 17/18 (94%)
+; 18/18 (100%)
 ; 
 ; .ani - 5/5 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 1/1 (100%)
 ; .evt - 1/1 (100%)
 ; .ncs - 4/4 (100%)
@@ -24,6 +24,7 @@ qun230ar_cavern.are
 qun230ar_cavern.ncs
 qun230cr_carta_thug.utc
 qun230cr_guild_contact.cnv
+qun230cr_guild_contact6068697.cl
 qun230ip_to_darktown.utp
 qun230ip_to_wilderness.utp
 qun230tr_contact_ambient.ncs

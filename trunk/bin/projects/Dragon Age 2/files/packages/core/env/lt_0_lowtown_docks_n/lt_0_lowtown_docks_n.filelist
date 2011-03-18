@@ -1,6 +1,6 @@
-; 539/1420 (37%)
+; 565/1420 (39%)
 ; 
-; .anb - 0/26 (0%)
+; .anb - 26/26 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 162/162 (100%)
 ; .mmh - 215/215 (100%)
@@ -10,8 +10,10 @@
 ; .vlm - 0/779 (0%)
 ; 
 lt_0_lowtown_docks_n.rml
+lt_0_lowtown_docks_n_1_0.anb
 lt_0_lowtown_docks_n_1_0_lc.mmh
 lt_0_lowtown_docks_n_1_0_ll.mmh
+lt_0_lowtown_docks_n_10_0.anb
 lt_0_lowtown_docks_n_10_0_lc.mmh
 lt_0_lowtown_docks_n_10_0_ll.mmh
 lt_0_lowtown_docks_n_100_0.mao
@@ -44,6 +46,7 @@ lt_0_lowtown_docks_n_108_0.msh
 lt_0_lowtown_docks_n_109_0.mao
 lt_0_lowtown_docks_n_109_0.mmh
 lt_0_lowtown_docks_n_109_0.msh
+lt_0_lowtown_docks_n_11_0.anb
 lt_0_lowtown_docks_n_11_0_lc.mmh
 lt_0_lowtown_docks_n_11_0_ll.mmh
 lt_0_lowtown_docks_n_110_0.mao
@@ -76,6 +79,7 @@ lt_0_lowtown_docks_n_118_0.msh
 lt_0_lowtown_docks_n_119_0.mao
 lt_0_lowtown_docks_n_119_0.mmh
 lt_0_lowtown_docks_n_119_0.msh
+lt_0_lowtown_docks_n_12_0.anb
 lt_0_lowtown_docks_n_12_0_lc.mmh
 lt_0_lowtown_docks_n_12_0_ll.mmh
 lt_0_lowtown_docks_n_120_0.mao
@@ -198,6 +202,7 @@ lt_0_lowtown_docks_n_158_0.msh
 lt_0_lowtown_docks_n_159_0.mao
 lt_0_lowtown_docks_n_159_0.mmh
 lt_0_lowtown_docks_n_159_0.msh
+lt_0_lowtown_docks_n_16_0.anb
 lt_0_lowtown_docks_n_16_0_lc.mmh
 lt_0_lowtown_docks_n_16_0_ll.mmh
 lt_0_lowtown_docks_n_160_0.mao
@@ -230,6 +235,7 @@ lt_0_lowtown_docks_n_168_0.msh
 lt_0_lowtown_docks_n_169_0.mao
 lt_0_lowtown_docks_n_169_0.mmh
 lt_0_lowtown_docks_n_169_0.msh
+lt_0_lowtown_docks_n_17_0.anb
 lt_0_lowtown_docks_n_17_0_lc.mmh
 lt_0_lowtown_docks_n_17_0_ll.mmh
 lt_0_lowtown_docks_n_170_0.mao
@@ -262,6 +268,7 @@ lt_0_lowtown_docks_n_178_0.msh
 lt_0_lowtown_docks_n_179_0.mao
 lt_0_lowtown_docks_n_179_0.mmh
 lt_0_lowtown_docks_n_179_0.msh
+lt_0_lowtown_docks_n_18_0.anb
 lt_0_lowtown_docks_n_18_0_lc.mmh
 lt_0_lowtown_docks_n_18_0_ll.mmh
 lt_0_lowtown_docks_n_180_0.mao
@@ -294,6 +301,7 @@ lt_0_lowtown_docks_n_188_0.msh
 lt_0_lowtown_docks_n_189_0.mao
 lt_0_lowtown_docks_n_189_0.mmh
 lt_0_lowtown_docks_n_189_0.msh
+lt_0_lowtown_docks_n_19_0.anb
 lt_0_lowtown_docks_n_19_0_lc.mmh
 lt_0_lowtown_docks_n_19_0_ll.mmh
 lt_0_lowtown_docks_n_190_0.mao
@@ -326,8 +334,10 @@ lt_0_lowtown_docks_n_198_0.msh
 lt_0_lowtown_docks_n_199_0.mao
 lt_0_lowtown_docks_n_199_0.mmh
 lt_0_lowtown_docks_n_199_0.msh
+lt_0_lowtown_docks_n_2_0.anb
 lt_0_lowtown_docks_n_2_0_lc.mmh
 lt_0_lowtown_docks_n_2_0_ll.mmh
+lt_0_lowtown_docks_n_20_0.anb
 lt_0_lowtown_docks_n_20_0_lc.mmh
 lt_0_lowtown_docks_n_20_0_ll.mmh
 lt_0_lowtown_docks_n_200_0.mao
@@ -360,6 +370,7 @@ lt_0_lowtown_docks_n_208_0.msh
 lt_0_lowtown_docks_n_209_0.mao
 lt_0_lowtown_docks_n_209_0.mmh
 lt_0_lowtown_docks_n_209_0.msh
+lt_0_lowtown_docks_n_21_0.anb
 lt_0_lowtown_docks_n_21_0_lc.mmh
 lt_0_lowtown_docks_n_21_0_ll.mmh
 lt_0_lowtown_docks_n_210_0.mao
@@ -452,6 +463,7 @@ lt_0_lowtown_docks_n_238_0.msh
 lt_0_lowtown_docks_n_239_0.mao
 lt_0_lowtown_docks_n_239_0.mmh
 lt_0_lowtown_docks_n_239_0.msh
+lt_0_lowtown_docks_n_24_0.anb
 lt_0_lowtown_docks_n_24_0_lc.mmh
 lt_0_lowtown_docks_n_24_0_ll.mmh
 lt_0_lowtown_docks_n_240_0.mao
@@ -484,6 +496,7 @@ lt_0_lowtown_docks_n_248_0.msh
 lt_0_lowtown_docks_n_249_0.mao
 lt_0_lowtown_docks_n_249_0.mmh
 lt_0_lowtown_docks_n_249_0.msh
+lt_0_lowtown_docks_n_25_0.anb
 lt_0_lowtown_docks_n_25_0_lc.mmh
 lt_0_lowtown_docks_n_25_0_ll.mmh
 lt_0_lowtown_docks_n_250_0.mao
@@ -504,30 +517,43 @@ lt_0_lowtown_docks_n_254_0.msh
 lt_0_lowtown_docks_n_255_0.mao
 lt_0_lowtown_docks_n_255_0.mmh
 lt_0_lowtown_docks_n_255_0.msh
+lt_0_lowtown_docks_n_26_0.anb
 lt_0_lowtown_docks_n_26_0_lc.mmh
 lt_0_lowtown_docks_n_26_0_ll.mmh
+lt_0_lowtown_docks_n_27_0.anb
 lt_0_lowtown_docks_n_27_0_lc.mmh
 lt_0_lowtown_docks_n_27_0_ll.mmh
+lt_0_lowtown_docks_n_28_0.anb
 lt_0_lowtown_docks_n_28_0_lc.mmh
 lt_0_lowtown_docks_n_28_0_ll.mmh
+lt_0_lowtown_docks_n_29_0.anb
 lt_0_lowtown_docks_n_29_0_lc.mmh
 lt_0_lowtown_docks_n_29_0_ll.mmh
+lt_0_lowtown_docks_n_3_0.anb
 lt_0_lowtown_docks_n_3_0_lc.mmh
 lt_0_lowtown_docks_n_3_0_ll.mmh
+lt_0_lowtown_docks_n_30_0.anb
 lt_0_lowtown_docks_n_30_0_lc.mmh
 lt_0_lowtown_docks_n_30_0_ll.mmh
+lt_0_lowtown_docks_n_31_0.anb
 lt_0_lowtown_docks_n_31_0_lc.mmh
 lt_0_lowtown_docks_n_31_0_ll.mmh
+lt_0_lowtown_docks_n_32_0.anb
 lt_0_lowtown_docks_n_32_0_lc.mmh
 lt_0_lowtown_docks_n_32_0_ll.mmh
+lt_0_lowtown_docks_n_33_0.anb
 lt_0_lowtown_docks_n_33_0_lc.mmh
 lt_0_lowtown_docks_n_33_0_ll.mmh
+lt_0_lowtown_docks_n_38_0.anb
 lt_0_lowtown_docks_n_38_0_lc.mmh
 lt_0_lowtown_docks_n_38_0_ll.mmh
+lt_0_lowtown_docks_n_39_0.anb
 lt_0_lowtown_docks_n_39_0_lc.mmh
 lt_0_lowtown_docks_n_39_0_ll.mmh
+lt_0_lowtown_docks_n_8_0.anb
 lt_0_lowtown_docks_n_8_0_lc.mmh
 lt_0_lowtown_docks_n_8_0_ll.mmh
+lt_0_lowtown_docks_n_9_0.anb
 lt_0_lowtown_docks_n_9_0_lc.mmh
 lt_0_lowtown_docks_n_9_0_ll.mmh
 lt_0_lowtown_docks_n_96_0.mao

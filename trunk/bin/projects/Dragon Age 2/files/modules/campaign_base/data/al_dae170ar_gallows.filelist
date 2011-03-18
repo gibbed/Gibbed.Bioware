@@ -1,8 +1,8 @@
-; 306/360 (85%)
+; 340/360 (94%)
 ; 
 ; .ani - 105/116 (90%)
 ; .are - 1/1 (100%)
-;  .cl - 0/34 (0%)
+;  .cl - 34/34 (100%)
 ; .cnv - 23/23 (100%)
 ; .evt - 95/104 (91%)
 ; .mmh - 2/2 (100%)
@@ -259,35 +259,60 @@ gen00flst_fenris_gallows.stg
 lgt000cr_mage_turn_in_4.utc
 lgt000cr_ultra_turn_in.ncs
 lgt210_eau_symp_templar.cnv
+lgt210_eau_symp_templar6144450.cl
 lgt210cr_eau_margitte.utc
 lgt210pt_eau_debt.ncs
 mag100_cullen.cnv
 mag100_cullen_karen_resolve.stg
+mag100_cullen6082257.cl
+mag100_cullen6082283.cl
+mag100_cullen6095081.cl
+mag100_cullen6095090.cl
+mag100_cullen6140937.cl
+mag100_cullen6205415.cl
 mag100cr_cullen.utc
 mag100st_cullen_wilmod.stg
 mag100st_grace_outside.stg
 mag101_alain.cnv
+mag101_alain6032127.cl
 mag101_grace.cnv
+mag101_grace6034022.cl
+mag101_grace6034032.cl
+mag101_grace6034045.cl
+mag101_grace6035845.cl
 mag101cr_alain.utc
 mag101cr_grace.utc
 mag101st_grace_inside.stg
 mag110pt_wayward_son.ncs
 mag111pt_act_of_mercy.ncs
 mag120_macha.cnv
+mag120_macha6080606.cl
 mag120cr_macha.utc
 mag120cr_templar_1.utc
 mag120pt_enemies.ncs
 mag120st_macha.stg
 mag131_keran.cnv
+mag131_keran6086159.cl
 mag131cr_keran_templar.utc
 mag160_feynriel.cnv
+mag160_feynriel6016541.cl
+mag160_feynriel6016565.cl
+mag160_feynriel6020068.cl
+mag160_feynriel6204956.cl
 mag160cr_feynriel.utc
 mag160st_feynriel_cave.stg
 mag160st_feynriel_sund.stg
 mag170_hugh.cnv
+mag170_hugh6080691.cl
 mag170_recruit01.cnv
 mag170_recruit02.cnv
 mag170_thrask.cnv
+mag170_thrask6020525.cl
+mag170_thrask6020529.cl
+mag170_thrask6020992.cl
+mag170_thrask6054044.cl
+mag170_thrask6054045.cl
+mag170_thrask6054046.cl
 mag170cr_hugh.utc
 mag170cr_recruit01.utc
 mag170cr_recruit02.utc
@@ -301,6 +326,8 @@ mrl150pt_longway.ncs
 one000pt_herbalist.ncs
 one100_solivitus.cnv
 one100_solivitus.stg
+one100_solivitus6048107.cl
+one100_solivitus6059911.cl
 one100cr_solivitus.ncs
 one100ip_st_solivitus.ncs
 one100ip_st_solivitus.utp
@@ -312,10 +339,17 @@ one100pt_herb_ironwood.ncs
 pro000ip_gallows_gate.utp
 ser120pt_sacricfice.ncs
 ser191_emeric.cnv
+ser191_emeric6108136.cl
+ser191_emeric6108145.cl
+ser191_emeric6108146.cl
+ser191_emeric6120098.cl
 ser191cr_emeric.utc
 ser191st_emeric.stg
 ser191st_emeric_turn_in.stg
 sib100_father_contact.cnv
+sib100_father_contact6108274.cl
+sib100_father_contact6108442.cl
+sib100_father_contact6108443.cl
 sib100st_father_contact.stg
 sib110_carver_tobrius.utc
 store_dae170cr_armor.utm

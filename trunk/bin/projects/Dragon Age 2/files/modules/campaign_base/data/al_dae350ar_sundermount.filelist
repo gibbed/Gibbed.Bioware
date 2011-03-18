@@ -1,8 +1,8 @@
-; 293/319 (91%)
+; 317/319 (99%)
 ; 
 ; .ani - 87/88 (98%)
 ; .are - 1/1 (100%)
-;  .cl - 1/25 (4%)
+;  .cl - 25/25 (100%)
 ; .cnv - 20/20 (100%)
 ; .evt - 79/80 (98%)
 ; .ncs - 29/29 (100%)
@@ -234,7 +234,12 @@ lowtown_male_alienage1_sta.cnv
 mag110pt_wayward_son.ncs
 mag200pt_night_terrors.ncs
 mag210_arianni.cnv
+mag210_arianni6021202.cl
 mag210_arianni6024090.cl
+mag210_arianni6024100.cl
+mag210_arianni6024109.cl
+mag210_arianni6025025.cl
+mag210_arianni6033879.cl
 mag210cr_arianni.utc
 mag210st_arianni.stg
 mag211st_marethari_arianni.stg
@@ -243,11 +248,18 @@ mer100pt_missing_miners.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl000cr_shadow.ncs
 mrl000cr_wraith.ncs
 mrl000pt_main.ncs
 mrl150_dalish_guard.cnv
 mrl150_dalish_guard.stg
+mrl150_dalish_guard6068159.cl
 mrl150_marethari.stg
 mrl150_marethaript2.stg
 mrl150cr_dalish_guard1.utc
@@ -268,6 +280,9 @@ mrl310_merrill.cnv
 mrl310_merrill_pt1.stg
 mrl310_merrill_pt2.stg
 mrl310_merrill_pt3.stg
+mrl310_merrill6115551.cl
+mrl310_merrill6120064.cl
+mrl310_merrill6144353.cl
 mrl310_party_comments.cnv
 mrl350cr_dragon.utc
 mrl350cr_wraith.utc
@@ -285,6 +300,9 @@ mrl350ip_shrine.ncs
 mrl350ip_shrine.utp
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100ip_st_ilen.ncs
 one100it_fang.uti
@@ -297,8 +315,14 @@ one300_murder_followers.cnv
 one300ip_st_ilen.utp
 one300pt_murder_crows.ncs
 one350_terath.cnv
+one350_terath6087115.cl
+one350_terath6106360.cl
 one350_variel.cnv
+one350_variel6070997.cl
+one350_variel6070998.cl
 one350_vinell.cnv
+one350_vinell6087339.cl
+one350_vinell6106484.cl
 one350cr_terath.utc
 one350cr_variel.utc
 one350cr_vinell.utc

@@ -1,8 +1,8 @@
-; 75/77 (97%)
+; 76/77 (98%)
 ; 
 ; .ani - 25/26 (96%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 17/17 (100%)
 ; .mmh - 3/3 (100%)
@@ -57,6 +57,7 @@ art\vfx\cinematic\vfx_ogre_slobber_c.impa.ani
 art\vfx\cinematic\vfx_ogre_slobber_c.impa.evt
 art\vfx\cinematic\vfx_ogre_slobber_c.mmh
 dae000_light_tombs_boss.cnv
+dae000_light_tombs_boss6179452.cl
 lgt000_chanter.cnv
 lgt000ar_gang_hideout.ncs
 lgt000cr_hybris.utc

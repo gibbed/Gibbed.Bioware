@@ -1,8 +1,8 @@
-; 248/293 (84%)
+; 291/293 (99%)
 ; 
 ; .ani - 83/84 (98%)
 ; .are - 1/1 (100%)
-;  .cl - 1/44 (2%)
+;  .cl - 44/44 (100%)
 ; .cnv - 13/13 (100%)
 ; .evt - 71/72 (98%)
 ; .ncs - 34/34 (100%)
@@ -173,6 +173,16 @@ cod_hst_vehnadahl.utp
 dae000_friend_turn_in.cnv
 dae000_gamlen.cnv
 dae000_gamlen6005754.cl
+dae000_gamlen6048413.cl
+dae000_gamlen6088135.cl
+dae000_gamlen6102409.cl
+dae000_gamlen6121545.cl
+dae000_gamlen6121581.cl
+dae000_gamlen6131077.cl
+dae000_gamlen6139441.cl
+dae000_gamlen6139444.cl
+dae000_gamlen6145087.cl
+dae000_gamlen6149406.cl
 dae000_party_night_comment.cnv
 dae000ip_show_world_map.utp
 dae000ip_show_world_map_l.utp
@@ -187,6 +197,8 @@ dae110ip_at_tavern.utp
 dae200cr_gamlen.utc
 dae210_gate_guard.cnv
 dae210_gate_guard.stg
+dae210_gate_guard6085047.cl
+dae210_gate_guard6209975.cl
 dae210ar_docks.ncs
 dae210ar_docks_nt.ncs
 dae210ar_lowtown.ncs
@@ -207,9 +219,20 @@ isa200pt_thief.ncs
 isa210ip_at_foundry.ncs
 isa210ip_at_foundry.utp
 isa211_isabela.cnv
+isa211_isabela6069398.cl
+isa211_isabela6069399.cl
+isa211_isabela6070107.cl
+isa211_isabela6070113.cl
+isa211_isabela6081849.cl
+isa211_isabela6081984.cl
+isa211_isabela6081985.cl
+isa211_isabela6202148.cl
+isa211_isabela6202151.cl
+isa211_isabela6202154.cl
 isa211_party_reaction.cnv
 isa211_qunari_ambush.cnv
 isa211_walleyedsam.cnv
+isa211_walleyedsam6070007.cl
 isa211cr_walleyedsam.utc
 isa211st_foundry.stg
 isa211st_isabela.stg
@@ -219,6 +242,7 @@ lgt000pt_gangs.ncs
 lgt200cr_gang_1_lt.utc
 lgt200cr_gang_2_lt.utc
 lgt310_mis_burn_murder2.cnv
+lgt310_mis_burn_murder26152761.cl
 lgt310cr_mis_burn_murder2.utc
 lgt310ip_body_2.ncs
 lgt310ip_body_2.utp
@@ -229,6 +253,10 @@ lgt310pt_fixer_2.ncs
 lgt311ip_at_bandit_alley_lt.utp
 mag110_samson.cnv
 mag110_samson.stg
+mag110_samson6016157.cl
+mag110_samson6018133.cl
+mag110_samson6025541.cl
+mag110_samson6049808.cl
 mag110cr_samson.utc
 mag110pt_wayward_son.ncs
 mag321pt_bestservedcold.ncs
@@ -243,17 +271,32 @@ qun200pt_following_qun.ncs
 rdr100pt_keepers.ncs
 ser120pt_sacricfice.ncs
 ser210_witness.cnv
+ser210_witness6168103.cl
 ser210cr_witness.utc
 ser210ip_blood_trail.ncs
 ser210ip_blood_trail.utp
 ser210st_witness.stg
 ser211ip_to_foundry.utp
 ser221_gamlen.cnv
+ser221_gamlen6123411.cl
+ser221_gamlen6123412.cl
 ser221_party_comment_1.stg
 ser221_party_comment_2.stg
 ser221_party_comment_3.stg
 ser221_party_comment_found.stg
 ser221_party_comments.cnv
+ser221_party_comments6122860.cl
+ser221_party_comments6128806.cl
+ser221_party_comments6128807.cl
+ser221_party_comments6163595.cl
+ser221_party_comments6163598.cl
+ser221_party_comments6163601.cl
+ser221_party_comments6163604.cl
+ser221_party_comments6163605.cl
+ser221_party_comments6163606.cl
+ser221_party_comments6163607.cl
+ser221_party_comments6209901.cl
+ser221_party_comments6209914.cl
 ser221pt_remains.ncs
 ser221st_gamlen.stg
 ser221st_gamlen_mother.stg
