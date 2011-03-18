@@ -1,6 +1,6 @@
-; 5/8 (62%)
+; 6/8 (75%)
 ; 
-; .gff - 0/1 (0%)
+; .gff - 1/1 (100%)
 ; .mao - 2/2 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
@@ -11,4 +11,5 @@ blank_exterior.rml
 blank_exterior_0_0.mao
 blank_exterior_0_0.mmh
 blank_exterior_0_0.msh
+blank_exterior_mmi.gff
 sky_blank_exterior.mao

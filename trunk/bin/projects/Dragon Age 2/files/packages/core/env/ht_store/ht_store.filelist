@@ -1,14 +1,35 @@
-; 5/26 (19%)
+; 26/26 (100%)
 ; 
 ; .anb - 1/1 (100%)
-; .gff - 0/1 (0%)
+; .gff - 1/1 (100%)
 ; .mao - 1/1 (100%)
 ; .mmh - 2/2 (100%)
 ; .rml - 1/1 (100%)
-; .vlm - 0/20 (0%)
+; .vlm - 20/20 (100%)
 ; 
 ht_store_187.anb
 ht_store_187.rml
 ht_store_187_lc.mmh
 ht_store_187_ll.mmh
+ht_store_mmi.gff
 sky_ht_store.mao
+vxht_store_bs_0_0.vlm
+vxht_store_bt_0_0.vlm
+vxht_store_bu_0_0.vlm
+vxht_store_bv_0_0.vlm
+vxht_store_bw_0_0.vlm
+vxht_store_bz_0_0.vlm
+vxht_store_c0_0_0.vlm
+vxht_store_c1_0_0.vlm
+vxht_store_c3_0_0.vlm
+vxht_store_c5_0_0.vlm
+vxht_store_c6_0_0.vlm
+vxht_store_c7_0_0.vlm
+vxht_store_c8_0_0.vlm
+vxht_store_c9_0_0.vlm
+vxht_store_ca_0_0.vlm
+vxht_store_cb_0_0.vlm
+vxht_store_cc_0_0.vlm
+vxht_store_cd_0_0.vlm
+vxht_store_ch_0_0.vlm
+vxht_store_ci_0_0.vlm
