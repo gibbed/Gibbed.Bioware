@@ -1,4 +1,15 @@
 ; 83/103 (80%)
+; 
+; .ani - 33/34 (97%)
+; .are - 1/1 (100%)
+;  .cl - 0/17 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 25/26 (96%)
+; .ncs - 11/12 (91%)
+; .stg - 7/7 (100%)
+; .utc - 1/1 (100%)
+; .utp - 3/3 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani

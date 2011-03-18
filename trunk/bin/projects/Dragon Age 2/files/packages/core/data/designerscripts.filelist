@@ -1,4 +1,8 @@
 ; 190/232 (81%)
+; 
+; .ncc - 2/2 (100%)
+; .ncs - 188/230 (81%)
+; 
 ability_core.ncs
 active.ncs
 addparty.ncs

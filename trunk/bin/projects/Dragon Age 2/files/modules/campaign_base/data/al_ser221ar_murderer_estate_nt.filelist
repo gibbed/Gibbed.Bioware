@@ -1,4 +1,16 @@
 ; 110/136 (80%)
+; 
+; .ani - 38/41 (92%)
+; .are - 1/1 (100%)
+;  .cl - 0/20 (0%)
+; .cnv - 4/4 (100%)
+; .evt - 27/30 (90%)
+; .ncs - 18/18 (100%)
+; .stg - 9/9 (100%)
+; .utc - 2/2 (100%)
+; .utp - 9/9 (100%)
+; .utt - 2/2 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt

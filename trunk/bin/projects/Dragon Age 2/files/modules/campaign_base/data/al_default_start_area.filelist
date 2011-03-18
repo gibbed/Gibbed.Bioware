@@ -1,4 +1,14 @@
 ; 77/89 (86%)
+; 
+; .ani - 33/34 (97%)
+; .are - 1/1 (100%)
+;  .cl - 0/10 (0%)
+; .cnv - 1/1 (100%)
+; .evt - 26/27 (96%)
+; .ncs - 10/10 (100%)
+; .stg - 2/2 (100%)
+; .utc - 4/4 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_enter.evt

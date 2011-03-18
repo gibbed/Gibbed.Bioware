@@ -1,4 +1,17 @@
 ; 108/120 (90%)
+; 
+; .ani - 44/45 (97%)
+; .are - 1/1 (100%)
+;  .cl - 0/9 (0%)
+; .cnv - 4/5 (80%)
+; .evt - 34/35 (97%)
+; .mmh - 1/1 (100%)
+; .ncs - 8/8 (100%)
+; .stg - 4/4 (100%)
+; .utc - 4/4 (100%)
+; .utp - 6/6 (100%)
+; .utt - 2/2 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.evt

@@ -1,4 +1,17 @@
 ; 106/138 (76%)
+; 
+; .ani - 40/54 (74%)
+; .are - 1/1 (100%)
+;  .cl - 0/17 (0%)
+; .cnv - 7/7 (100%)
+; .evt - 29/30 (96%)
+; .mmh - 5/5 (100%)
+; .msh - 2/2 (100%)
+; .ncs - 9/9 (100%)
+; .stg - 6/6 (100%)
+; .utc - 6/6 (100%)
+; .utp - 1/1 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\arh_abm_rev\animation\a_die_lp_v1.ani
 art\characters\creatures\arh_abm_rev\animation\a_die_v1.ani

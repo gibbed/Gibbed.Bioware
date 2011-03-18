@@ -1,4 +1,17 @@
 ; 48/49 (97%)
+; 
+; .ani - 5/5 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/1 (0%)
+; .cnv - 3/3 (100%)
+; .evt - 1/1 (100%)
+; .ncs - 25/25 (100%)
+; .utc - 3/3 (100%)
+; .uti - 1/1 (100%)
+; .utm - 1/1 (100%)
+; .utp - 7/7 (100%)
+; .utt - 1/1 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.ani

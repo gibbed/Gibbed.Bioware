@@ -1,4 +1,15 @@
 ; 92/109 (84%)
+; 
+; .ani - 33/36 (91%)
+; .are - 1/1 (100%)
+;  .cl - 0/12 (0%)
+; .cnv - 3/3 (100%)
+; .evt - 29/31 (93%)
+; .mmh - 4/4 (100%)
+; .ncs - 11/11 (100%)
+; .stg - 5/5 (100%)
+; .utc - 6/6 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.evt

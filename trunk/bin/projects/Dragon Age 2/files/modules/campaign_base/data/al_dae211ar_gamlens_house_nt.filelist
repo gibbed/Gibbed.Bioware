@@ -1,4 +1,15 @@
 ; 75/85 (88%)
+; 
+; .ani - 30/30 (100%)
+; .are - 1/1 (100%)
+;  .cl - 1/11 (9%)
+; .cnv - 1/1 (100%)
+; .evt - 24/24 (100%)
+; .ncs - 10/10 (100%)
+; .stg - 6/6 (100%)
+; .utc - 1/1 (100%)
+; .utp - 1/1 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani

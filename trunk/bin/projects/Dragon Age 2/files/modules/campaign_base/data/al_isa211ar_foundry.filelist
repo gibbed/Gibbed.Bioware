@@ -1,4 +1,16 @@
 ; 99/110 (90%)
+; 
+; .ani - 40/40 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/11 (0%)
+; .cnv - 4/4 (100%)
+; .evt - 34/34 (100%)
+; .ncs - 11/11 (100%)
+; .stg - 3/3 (100%)
+; .utc - 4/4 (100%)
+; .uti - 1/1 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani

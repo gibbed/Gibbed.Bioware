@@ -1,4 +1,15 @@
 ; 123/140 (87%)
+; 
+; .ani - 43/45 (95%)
+; .are - 1/1 (100%)
+;  .cl - 0/13 (0%)
+; .cnv - 4/4 (100%)
+; .evt - 36/37 (97%)
+; .ncs - 17/18 (94%)
+; .stg - 9/9 (100%)
+; .utc - 10/10 (100%)
+; .utp - 3/3 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\pridedemon\animation\cast.ani
 art\characters\creatures\pridedemon\animation\cast.evt

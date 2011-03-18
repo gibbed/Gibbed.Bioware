@@ -1,4 +1,15 @@
 ; 42/43 (97%)
+; 
+; .ani - 5/5 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/1 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 1/1 (100%)
+; .ncs - 25/25 (100%)
+; .utc - 5/5 (100%)
+; .utp - 2/2 (100%)
+; .utt - 1/1 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_4.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_4.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter.ani

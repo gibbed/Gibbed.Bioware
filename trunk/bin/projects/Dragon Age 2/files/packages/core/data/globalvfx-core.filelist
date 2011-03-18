@@ -1,4 +1,13 @@
 ; 3373/6230 (54%)
+; 
+; .anb - 423/867 (48%)
+; .ani - 1351/1392 (97%)
+; .evt - 392/1351 (29%)
+; .gad - 398/1392 (28%)
+; .mao - 183/203 (90%)
+; .mmh - 520/919 (56%)
+; .msh - 106/106 (100%)
+; 
 art\characters\weapons\arrows\w_arw_001.msh
 art\characters\weapons\boulder\w_bld_ogre.mao
 art\characters\weapons\boulder\w_bld_ogre.msh

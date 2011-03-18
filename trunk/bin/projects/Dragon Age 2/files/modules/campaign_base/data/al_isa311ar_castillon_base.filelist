@@ -1,4 +1,16 @@
 ; 108/128 (84%)
+; 
+; .ani - 45/50 (90%)
+; .are - 1/1 (100%)
+;  .cl - 0/10 (0%)
+; .cnv - 5/5 (100%)
+; .evt - 39/44 (88%)
+; .ncs - 6/6 (100%)
+; .stg - 5/5 (100%)
+; .utc - 2/2 (100%)
+; .uti - 2/2 (100%)
+; .utp - 3/3 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_interact_low.ani

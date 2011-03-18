@@ -1,4 +1,14 @@
 ; 96/111 (86%)
+; 
+; .ani - 23/23 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/15 (0%)
+; .cnv - 14/14 (100%)
+; .evt - 19/19 (100%)
+; .ncs - 34/34 (100%)
+; .utc - 4/4 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani

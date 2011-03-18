@@ -1,4 +1,16 @@
 ; 97/103 (94%)
+; 
+; .ani - 30/30 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/6 (0%)
+; .cnv - 5/5 (100%)
+; .evt - 25/25 (100%)
+; .ncs - 15/15 (100%)
+; .stg - 3/3 (100%)
+; .utc - 6/6 (100%)
+; .utp - 3/3 (100%)
+; .utt - 9/9 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\corpse\animation\combat\appearv1.ani
 art\characters\creatures\corpse\animation\combat\appearv1.evt

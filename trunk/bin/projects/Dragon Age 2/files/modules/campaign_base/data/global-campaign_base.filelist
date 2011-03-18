@@ -1,4 +1,10 @@
 ; 171/172 (99%)
+; 
+; .cnv - 18/19 (94%)
+; .ncs - 76/76 (100%)
+; .stg - 72/72 (100%)
+; .utc - 5/5 (100%)
+; 
 act00pt_main.ncs
 and000pt_gift_amulet.ncs
 and000pt_gift_key.ncs

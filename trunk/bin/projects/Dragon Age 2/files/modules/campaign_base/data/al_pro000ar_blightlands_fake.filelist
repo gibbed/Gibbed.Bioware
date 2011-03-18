@@ -1,4 +1,18 @@
 ; 479/533 (89%)
+; 
+; .ani - 215/226 (95%)
+; .are - 1/1 (100%)
+;  .cl - 12/50 (24%)
+; .cnv - 22/25 (88%)
+; .cut - 5/5 (100%)
+; .evt - 146/148 (98%)
+; .mmh - 26/26 (100%)
+; .msh - 9/9 (100%)
+; .ncs - 17/17 (100%)
+; .stg - 13/13 (100%)
+; .utc - 12/12 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\creatures\buzzard\c_buzzardg.mmh
 art\characters\creatures\buzzard\c_buzzardg.msh

@@ -1,4 +1,17 @@
 ; 195/229 (85%)
+; 
+; .ani - 81/84 (96%)
+; .are - 1/1 (100%)
+;  .cl - 1/29 (3%)
+; .cnv - 5/5 (100%)
+; .evt - 56/59 (94%)
+; .ncs - 12/12 (100%)
+; .stg - 12/12 (100%)
+; .utc - 20/20 (100%)
+; .uti - 1/1 (100%)
+; .utp - 3/3 (100%)
+; .utt - 3/3 (100%)
+; 
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt

@@ -1,4 +1,16 @@
 ; 298/340 (87%)
+; 
+; .ani - 108/115 (93%)
+; .are - 1/1 (100%)
+;  .cl - 1/28 (3%)
+; .cnv - 18/19 (94%)
+; .evt - 82/89 (92%)
+; .ncs - 37/37 (100%)
+; .stg - 11/11 (100%)
+; .utc - 26/26 (100%)
+; .utp - 11/11 (100%)
+; .utt - 3/3 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\buzzard\animation\perched.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani

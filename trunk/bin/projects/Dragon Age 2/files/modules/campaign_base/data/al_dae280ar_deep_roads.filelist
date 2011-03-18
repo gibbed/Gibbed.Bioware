@@ -1,4 +1,16 @@
 ; 72/79 (91%)
+; 
+; .ani - 24/24 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/7 (0%)
+; .cnv - 5/5 (100%)
+; .evt - 18/18 (100%)
+; .ncs - 7/7 (100%)
+; .stg - 3/3 (100%)
+; .utc - 6/6 (100%)
+; .uti - 1/1 (100%)
+; .utp - 7/7 (100%)
+; 
 2p_200_one280_iwan.stg
 act00pt_main.ncs
 art\characters\creatures\stonegolem\animation\statue.ani

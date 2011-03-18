@@ -1,4 +1,15 @@
 ; 46/50 (92%)
+; 
+; .ani - 16/16 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/4 (0%)
+; .cnv - 3/3 (100%)
+; .evt - 12/12 (100%)
+; .ncs - 9/9 (100%)
+; .stg - 2/2 (100%)
+; .utc - 2/2 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani

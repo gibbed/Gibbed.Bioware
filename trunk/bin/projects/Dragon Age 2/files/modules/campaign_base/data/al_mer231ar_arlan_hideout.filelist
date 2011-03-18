@@ -1,4 +1,15 @@
 ; 24/25 (96%)
+; 
+; .ani - 9/9 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/1 (0%)
+; .cnv - 1/1 (100%)
+; .evt - 5/5 (100%)
+; .ncs - 4/4 (100%)
+; .stg - 1/1 (100%)
+; .utc - 1/1 (100%)
+; .utp - 2/2 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani

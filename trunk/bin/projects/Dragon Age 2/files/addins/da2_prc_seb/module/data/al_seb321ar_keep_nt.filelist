@@ -1,4 +1,16 @@
 ; 43/62 (69%)
+; 
+; .ani - 23/26 (88%)
+; .are - 1/1 (100%)
+;  .cl - 0/3 (0%)
+; .cnv - 0/2 (0%)
+; .evt - 17/19 (89%)
+; .ncs - 2/4 (50%)
+; .stg - 0/2 (0%)
+; .utc - 0/1 (0%)
+; .uti - 0/3 (0%)
+; .utp - 0/1 (0%)
+; 
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani

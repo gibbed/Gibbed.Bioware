@@ -1,4 +1,15 @@
 ; 66/70 (94%)
+; 
+; .ani - 26/26 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/3 (0%)
+; .cnv - 3/3 (100%)
+; .evt - 19/19 (100%)
+; .ncs - 5/6 (83%)
+; .stg - 1/1 (100%)
+; .utc - 9/9 (100%)
+; .utp - 2/2 (100%)
+; 
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_enter_walk.ani

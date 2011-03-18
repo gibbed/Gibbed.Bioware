@@ -1,4 +1,14 @@
 ; 32/805 (3%)
+; 
+; .anb - 1/5 (20%)
+; .gff - 0/1 (0%)
+; .mao - 7/7 (100%)
+; .mmh - 17/17 (100%)
+; .msh - 6/6 (100%)
+; .phy - 0/4 (0%)
+; .rml - 1/7 (14%)
+; .vlm - 0/758 (0%)
+; 
 lt_warehouse.anb
 lt_warehouse.rml
 lt_warehouse_0_0.mao

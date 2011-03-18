@@ -1,4 +1,15 @@
 ; 14/21 (66%)
+; 
+; .ani - 9/9 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/1 (0%)
+; .cnv - 0/1 (0%)
+; .evt - 3/3 (100%)
+; .ncs - 1/2 (50%)
+; .stg - 0/1 (0%)
+; .utc - 0/2 (0%)
+; .utp - 0/1 (0%)
+; 
 art\characters\creatures\desiredemon\animation\p.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.ani

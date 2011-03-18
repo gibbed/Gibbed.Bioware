@@ -1,4 +1,16 @@
 ; 64/68 (94%)
+; 
+; .ani - 25/25 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/4 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 20/20 (100%)
+; .ncs - 7/7 (100%)
+; .stg - 3/3 (100%)
+; .utc - 1/1 (100%)
+; .uti - 1/1 (100%)
+; .utp - 4/4 (100%)
+; 
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\lean_back_wall_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.evt

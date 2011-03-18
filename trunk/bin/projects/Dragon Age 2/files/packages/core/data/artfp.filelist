@@ -1,4 +1,16 @@
 ; 19352/22840 (84%)
+; 
+; .anb - 391/391 (100%)
+; .ani - 1986/3165 (62%)
+; .dds - 3579/3957 (90%)
+; .evt - 1589/2325 (68%)
+; .fdl - 2/2 (100%)
+; .gad - 1986/3165 (62%)
+; .mao - 1/1 (100%)
+; .mmh - 3841/3857 (99%)
+; .msh - 3544/3544 (100%)
+; .phy - 2433/2433 (100%)
+; 
 animblend_core.fdl
 art\characters\creatures\arh_abm_rev\animation\a_appr.ani
 art\characters\creatures\arh_abm_rev\animation\a_appr.gad
