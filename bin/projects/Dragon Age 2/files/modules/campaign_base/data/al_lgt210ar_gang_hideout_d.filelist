@@ -1,4 +1,14 @@
 ; 75/83 (90%)
+; 
+; .ani - 14/14 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/8 (0%)
+; .cnv - 10/10 (100%)
+; .evt - 10/10 (100%)
+; .ncs - 36/36 (100%)
+; .utc - 3/3 (100%)
+; .utp - 1/1 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_4.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_4.evt

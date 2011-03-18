@@ -1,4 +1,17 @@
 ; 271/306 (88%)
+; 
+; .ani - 94/100 (94%)
+; .are - 1/1 (100%)
+;  .cl - 6/29 (20%)
+; .cnv - 13/13 (100%)
+; .evt - 82/88 (93%)
+; .mmh - 1/1 (100%)
+; .ncs - 27/27 (100%)
+; .stg - 12/12 (100%)
+; .utc - 21/21 (100%)
+; .utp - 12/12 (100%)
+; .utt - 2/2 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\ashwraith\animation\ras_com_v1.ani
 art\characters\creatures\ashwraith\animation\ras_com_v1.evt

@@ -1,4 +1,18 @@
 ; 144/177 (81%)
+; 
+; .ani - 55/64 (85%)
+; .are - 1/1 (100%)
+;  .cl - 0/17 (0%)
+; .cnv - 6/6 (100%)
+; .evt - 46/53 (86%)
+; .mmh - 1/1 (100%)
+; .msh - 1/1 (100%)
+; .ncs - 13/13 (100%)
+; .stg - 7/7 (100%)
+; .utc - 10/10 (100%)
+; .utp - 3/3 (100%)
+; .utt - 1/1 (100%)
+; 
 act00pt_main.ncs
 and100pt_tranquility.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani

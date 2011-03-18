@@ -1,4 +1,18 @@
 ; 176/200 (88%)
+; 
+; .ani - 69/73 (94%)
+; .are - 1/1 (100%)
+;  .cl - 0/14 (0%)
+; .cnv - 13/16 (81%)
+; .evt - 58/61 (95%)
+; .mmh - 1/1 (100%)
+; .msh - 1/1 (100%)
+; .ncs - 17/17 (100%)
+; .stg - 7/7 (100%)
+; .utc - 5/5 (100%)
+; .utm - 1/1 (100%)
+; .utp - 3/3 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.evt

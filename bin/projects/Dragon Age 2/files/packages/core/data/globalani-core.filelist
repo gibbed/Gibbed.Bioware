@@ -1,4 +1,10 @@
 ; 2247/2559 (87%)
+; 
+; .anb - 109/142 (76%)
+; .ani - 816/855 (95%)
+; .evt - 593/707 (83%)
+; .gad - 729/855 (85%)
+; 
 art\characters\creatures\corpse\animation\combat\ready.ani
 art\characters\creatures\corpse\animation\combat\ready.evt
 art\characters\creatures\corpse\animation\combat\ready.gad

@@ -1,4 +1,18 @@
 ; 168/206 (81%)
+; 
+; .ani - 50/65 (76%)
+; .are - 1/1 (100%)
+;  .cl - 0/21 (0%)
+; .cnv - 10/10 (100%)
+; .evt - 39/41 (95%)
+; .mmh - 3/3 (100%)
+; .msh - 1/1 (100%)
+; .ncs - 29/29 (100%)
+; .stg - 4/4 (100%)
+; .utc - 19/19 (100%)
+; .utp - 9/9 (100%)
+; .utt - 3/3 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_enter.ani

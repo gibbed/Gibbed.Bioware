@@ -1,4 +1,17 @@
 ; 401/452 (88%)
+; 
+; .ani - 151/160 (94%)
+; .are - 1/1 (100%)
+;  .cl - 11/46 (23%)
+; .cnv - 12/12 (100%)
+; .evt - 129/136 (94%)
+; .mmh - 4/4 (100%)
+; .msh - 3/3 (100%)
+; .ncs - 34/34 (100%)
+; .stg - 39/39 (100%)
+; .utc - 6/6 (100%)
+; .utp - 11/11 (100%)
+; 
 act00pt_main.ncs
 and100pt_tranquility.ncs
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.ani

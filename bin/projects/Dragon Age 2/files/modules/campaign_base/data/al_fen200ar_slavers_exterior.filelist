@@ -1,4 +1,14 @@
 ; 32/34 (94%)
+; 
+; .ani - 10/10 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/2 (0%)
+; .cnv - 1/1 (100%)
+; .evt - 6/6 (100%)
+; .ncs - 10/10 (100%)
+; .stg - 1/1 (100%)
+; .utp - 3/3 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_90_walk.ani

@@ -1,4 +1,15 @@
 ; 34/37 (91%)
+; 
+; .ani - 14/15 (93%)
+; .are - 1/1 (100%)
+;  .cl - 0/1 (0%)
+; .cnv - 1/2 (50%)
+; .evt - 10/10 (100%)
+; .ncs - 4/4 (100%)
+; .stg - 1/1 (100%)
+; .utc - 2/2 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani

@@ -1,4 +1,17 @@
 ; 365/436 (83%)
+; 
+; .ani - 152/175 (86%)
+; .are - 1/1 (100%)
+;  .cl - 13/51 (25%)
+; .cnv - 22/22 (100%)
+; .evt - 130/140 (92%)
+; .mmh - 3/3 (100%)
+; .msh - 2/2 (100%)
+; .ncs - 9/9 (100%)
+; .stg - 30/30 (100%)
+; .utc - 2/2 (100%)
+; .utp - 1/1 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\hurlock\animation\additive\hurlock_jaw_open.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_combat_runf.ani

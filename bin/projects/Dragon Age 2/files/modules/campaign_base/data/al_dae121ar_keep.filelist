@@ -1,4 +1,17 @@
 ; 291/321 (90%)
+; 
+; .ani - 97/105 (92%)
+; .are - 1/1 (100%)
+;  .cl - 1/16 (6%)
+; .cnv - 18/18 (100%)
+; .evt - 77/84 (91%)
+; .ncs - 44/44 (100%)
+; .stg - 11/11 (100%)
+; .utc - 24/24 (100%)
+; .uti - 1/1 (100%)
+; .utp - 13/13 (100%)
+; .utt - 4/4 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani

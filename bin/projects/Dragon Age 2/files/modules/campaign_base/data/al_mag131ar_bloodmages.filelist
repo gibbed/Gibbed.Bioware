@@ -1,4 +1,18 @@
 ; 65/69 (94%)
+; 
+; .ani - 19/20 (95%)
+; .are - 1/1 (100%)
+;  .cl - 0/2 (0%)
+; .cnv - 3/3 (100%)
+; .evt - 14/15 (93%)
+; .mmh - 1/1 (100%)
+; .ncs - 10/10 (100%)
+; .stg - 1/1 (100%)
+; .utc - 5/5 (100%)
+; .uti - 1/1 (100%)
+; .utp - 6/6 (100%)
+; .utt - 4/4 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.ani

@@ -1,4 +1,15 @@
 ; 22/25 (88%)
+; 
+; .ani - 8/8 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/3 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 1/1 (100%)
+; .ncs - 4/4 (100%)
+; .stg - 1/1 (100%)
+; .utc - 4/4 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani

@@ -1,4 +1,19 @@
 ; 95/103 (92%)
+; 
+; .ani - 36/38 (94%)
+; .are - 1/1 (100%)
+;  .cl - 0/5 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 29/30 (96%)
+; .mmh - 1/1 (100%)
+; .msh - 1/1 (100%)
+; .ncs - 16/16 (100%)
+; .stg - 1/1 (100%)
+; .utc - 2/2 (100%)
+; .utm - 1/1 (100%)
+; .utp - 4/4 (100%)
+; .utt - 1/1 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\mubari\animation\sleep.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani

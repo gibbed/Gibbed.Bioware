@@ -1,4 +1,17 @@
 ; 248/293 (84%)
+; 
+; .ani - 83/84 (98%)
+; .are - 1/1 (100%)
+;  .cl - 1/44 (2%)
+; .cnv - 13/13 (100%)
+; .evt - 71/72 (98%)
+; .ncs - 34/34 (100%)
+; .stg - 15/15 (100%)
+; .utc - 11/11 (100%)
+; .uti - 2/2 (100%)
+; .utp - 15/15 (100%)
+; .utt - 2/2 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt

@@ -1,4 +1,17 @@
 ; 77/80 (96%)
+; 
+; .ani - 17/17 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/3 (0%)
+; .cnv - 6/6 (100%)
+; .evt - 12/12 (100%)
+; .ncs - 12/12 (100%)
+; .stg - 2/2 (100%)
+; .utc - 14/14 (100%)
+; .uti - 1/1 (100%)
+; .utp - 10/10 (100%)
+; .utt - 2/2 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.evt

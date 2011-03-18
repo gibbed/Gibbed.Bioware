@@ -1,4 +1,15 @@
 ; 79/87 (90%)
+; 
+; .ani - 36/38 (94%)
+; .are - 1/1 (100%)
+;  .cl - 0/4 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 27/29 (93%)
+; .ncs - 5/5 (100%)
+; .stg - 3/3 (100%)
+; .utc - 4/4 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani

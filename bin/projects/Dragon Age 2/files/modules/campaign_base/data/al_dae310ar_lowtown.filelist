@@ -1,4 +1,18 @@
 ; 155/168 (92%)
+; 
+; .ani - 45/45 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/13 (0%)
+; .cnv - 11/11 (100%)
+; .evt - 40/40 (100%)
+; .ncs - 20/20 (100%)
+; .stg - 3/3 (100%)
+; .utc - 11/11 (100%)
+; .uti - 1/1 (100%)
+; .utm - 4/4 (100%)
+; .utp - 16/16 (100%)
+; .utt - 3/3 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt

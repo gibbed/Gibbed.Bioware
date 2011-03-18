@@ -1,4 +1,16 @@
 ; 47/53 (88%)
+; 
+; .ani - 15/17 (88%)
+; .are - 1/1 (100%)
+;  .cl - 1/3 (33%)
+; .cnv - 2/2 (100%)
+; .evt - 9/11 (81%)
+; .ncs - 9/9 (100%)
+; .stg - 2/2 (100%)
+; .utc - 3/3 (100%)
+; .utp - 1/1 (100%)
+; .utt - 4/4 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani

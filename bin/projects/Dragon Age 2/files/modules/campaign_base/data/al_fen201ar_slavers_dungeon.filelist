@@ -1,4 +1,16 @@
 ; 58/69 (84%)
+; 
+; .ani - 21/25 (84%)
+; .are - 1/1 (100%)
+;  .cl - 0/4 (0%)
+; .cnv - 3/3 (100%)
+; .evt - 16/19 (84%)
+; .ncs - 7/7 (100%)
+; .stg - 2/2 (100%)
+; .utc - 2/2 (100%)
+; .uti - 1/1 (100%)
+; .utp - 5/5 (100%)
+; 
 and000im_gft_amulet.uti
 and000ip_amulet_container.utp
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.ani

@@ -1,4 +1,16 @@
 ; 135/149 (90%)
+; 
+; .ani - 46/47 (97%)
+; .are - 1/1 (100%)
+;  .cl - 0/11 (0%)
+; .cnv - 3/3 (100%)
+; .evt - 38/39 (97%)
+; .ncs - 15/16 (93%)
+; .stg - 8/8 (100%)
+; .utc - 10/10 (100%)
+; .uti - 4/4 (100%)
+; .utp - 10/10 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\strider\animation\attkfl_leg.ani
 art\characters\creatures\strider\animation\attkfl_leg.evt

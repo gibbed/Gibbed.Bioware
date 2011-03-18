@@ -1,4 +1,13 @@
 ; 33/33 (100%)
+; 
+; .are - 1/1 (100%)
+; .cnv - 8/8 (100%)
+; .ncs - 9/9 (100%)
+; .utc - 10/10 (100%)
+; .utm - 1/1 (100%)
+; .utp - 3/3 (100%)
+; .utt - 1/1 (100%)
+; 
 act00pt_main.ncs
 dae000_merchant_rare_em.cnv
 dae000cr_merchant_rare.utc

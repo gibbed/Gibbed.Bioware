@@ -1,4 +1,14 @@
 ; 80/84 (95%)
+; 
+; .ani - 32/33 (96%)
+; .are - 1/1 (100%)
+;  .cl - 0/3 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 23/23 (100%)
+; .ncs - 14/14 (100%)
+; .stg - 2/2 (100%)
+; .utc - 6/6 (100%)
+; 
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani

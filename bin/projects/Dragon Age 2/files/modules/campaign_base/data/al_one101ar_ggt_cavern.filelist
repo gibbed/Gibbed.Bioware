@@ -1,4 +1,15 @@
 ; 64/71 (90%)
+; 
+; .ani - 25/25 (100%)
+; .are - 1/1 (100%)
+;  .cl - 0/6 (0%)
+; .cnv - 3/4 (75%)
+; .evt - 21/21 (100%)
+; .ncs - 8/8 (100%)
+; .stg - 3/3 (100%)
+; .utc - 2/2 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back_mirror.ani

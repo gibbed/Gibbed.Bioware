@@ -1,4 +1,15 @@
 ; 113/146 (77%)
+; 
+; .ani - 38/44 (86%)
+; .are - 1/1 (100%)
+;  .cl - 0/20 (0%)
+; .cnv - 5/5 (100%)
+; .evt - 29/35 (82%)
+; .ncs - 13/14 (92%)
+; .stg - 9/9 (100%)
+; .utc - 8/8 (100%)
+; .utp - 10/10 (100%)
+; 
 act00pt_main.ncs
 art\characters\creatures\corpse\animation\combat\ready.ani
 art\characters\creatures\corpse\animation\combat\ready.evt

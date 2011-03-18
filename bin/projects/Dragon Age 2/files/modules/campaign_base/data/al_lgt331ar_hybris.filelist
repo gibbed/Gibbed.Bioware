@@ -1,4 +1,16 @@
 ; 75/77 (97%)
+; 
+; .ani - 25/26 (96%)
+; .are - 1/1 (100%)
+;  .cl - 0/1 (0%)
+; .cnv - 2/2 (100%)
+; .evt - 17/17 (100%)
+; .mmh - 3/3 (100%)
+; .ncs - 24/24 (100%)
+; .stg - 1/1 (100%)
+; .utc - 1/1 (100%)
+; .utp - 1/1 (100%)
+; 
 art\characters\creatures\highdragon\animation\combat\rearup.ani
 art\characters\creatures\highdragon\animation\combat\rearup.evt
 art\characters\creatures\pridedemon\animation\tal_stomp.ani

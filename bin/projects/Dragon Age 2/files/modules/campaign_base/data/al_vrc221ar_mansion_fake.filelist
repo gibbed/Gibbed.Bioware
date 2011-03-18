@@ -1,4 +1,14 @@
 ; 122/134 (91%)
+; 
+; .ani - 48/49 (97%)
+; .are - 1/1 (100%)
+;  .cl - 0/10 (0%)
+; .cnv - 6/6 (100%)
+; .evt - 41/42 (97%)
+; .ncs - 14/14 (100%)
+; .stg - 6/6 (100%)
+; .utc - 6/6 (100%)
+; 
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
