@@ -1,8 +1,8 @@
-; 75/85 (88%)
+; 85/85 (100%)
 ; 
 ; .ani - 30/30 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 1/11 (9%)
+;  .cl - 11/11 (100%)
 ; .cnv - 1/1 (100%)
 ; .evt - 24/24 (100%)
 ; .ncs - 10/10 (100%)
@@ -67,6 +67,16 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hand_to_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hand_to_face.evt
 dae000_gamlen.cnv
 dae000_gamlen6005754.cl
+dae000_gamlen6048413.cl
+dae000_gamlen6088135.cl
+dae000_gamlen6102409.cl
+dae000_gamlen6121545.cl
+dae000_gamlen6121581.cl
+dae000_gamlen6131077.cl
+dae000_gamlen6139441.cl
+dae000_gamlen6139444.cl
+dae000_gamlen6145087.cl
+dae000_gamlen6149406.cl
 dae000pt_generic.ncs
 dae000st_gamlen.stg
 dae00st_gamlens_house.stg

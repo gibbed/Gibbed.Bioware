@@ -1,8 +1,8 @@
-; 99/105 (94%)
+; 105/105 (100%)
 ; 
 ; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 9/9 (100%)
 ; .evt - 22/22 (100%)
 ; .ncs - 30/30 (100%)
@@ -98,8 +98,14 @@ lgt000pt_tombs_third.ncs
 lgt000pt_ultra_4_03.ncs
 lgt310pt_shw_mer_main.ncs
 lgt311_shw_mer_agatha.cnv
+lgt311_shw_mer_agatha6156495.cl
 lgt311_shw_mer_intro.cnv
+lgt311_shw_mer_intro6156408.cl
 lgt311_shw_mer_mettin.cnv
+lgt311_shw_mer_mettin6156393.cl
+lgt311_shw_mer_mettin6156521.cl
+lgt311_shw_mer_mettin6156533.cl
+lgt311_shw_mer_mettin6156567.cl
 lgt311ar_rand_sewer_1_nt.are
 lgt311ar_rand_sewer_1_nt.ncs
 lgt311tr_shw_mer_mettin.ncs

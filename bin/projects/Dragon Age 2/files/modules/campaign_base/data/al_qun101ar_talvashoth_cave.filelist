@@ -1,8 +1,8 @@
-; 32/33 (96%)
+; 33/33 (100%)
 ; 
 ; .ani - 9/9 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 5/5 (100%)
 ; .ncs - 3/3 (100%)
@@ -37,6 +37,7 @@ qun101ip_at_coast.utp
 qun160_party_comment_2.cnv
 qun160_vashothlead.cnv
 qun160_vashothlead.stg
+qun160_vashothlead6052561.cl
 qun160cr_leader.utc
 qun160cr_rebel_leader.cnv
 qun160cr_vashothlead.utc

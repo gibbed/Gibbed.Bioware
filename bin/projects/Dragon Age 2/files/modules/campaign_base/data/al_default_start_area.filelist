@@ -1,8 +1,8 @@
-; 77/89 (86%)
+; 87/89 (97%)
 ; 
 ; .ani - 33/34 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/10 (0%)
+;  .cl - 10/10 (100%)
 ; .cnv - 1/1 (100%)
 ; .evt - 26/27 (96%)
 ; .ncs - 10/10 (100%)
@@ -70,6 +70,16 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_one_chan
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_one_chance.evt
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_2.ani
 dae000_arishok.cnv
+dae000_arishok6067624.cl
+dae000_arishok6067874.cl
+dae000_arishok6068103.cl
+dae000_arishok6068426.cl
+dae000_arishok6070876.cl
+dae000_arishok6074968.cl
+dae000_arishok6075356.cl
+dae000_arishok6078169.cl
+dae000_arishok6078174.cl
+dae000_arishok6079572.cl
 dae000cr_arishok.ncs
 dae000cr_arishok.utc
 default_start_area.are

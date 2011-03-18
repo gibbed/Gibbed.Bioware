@@ -1,8 +1,8 @@
-; 244/293 (83%)
+; 278/293 (94%)
 ; 
 ; .ani - 83/94 (88%)
 ; .are - 1/1 (100%)
-;  .cl - 0/35 (0%)
+;  .cl - 34/35 (97%)
 ; .cnv - 9/10 (90%)
 ; .evt - 74/76 (97%)
 ; .ncs - 39/39 (100%)
@@ -180,6 +180,22 @@ cod_mgc_chant_maker.utp
 cod_mgc_chant_structure.utp
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000ip_party_picker.ncs
 dae000ip_party_picker.utp
 dae000pt_amb_actions.ncs
@@ -216,6 +232,7 @@ genpt_amb_notif.ncs
 genpt_dog.ncs
 lgt000ip_show_world_map.utp
 lgt200_eau_tome.cnv
+lgt200_eau_tome6171791.cl
 lgt200cr_tome_abomination.utc
 lgt200cr_tome_desire.utc
 lgt200ip_eau_tome01.utp
@@ -240,6 +257,23 @@ qun221_petrice_cleric.stg
 qun221_petrice_cleric_2.stg
 qun221_petrice_intercept.stg
 qun221_petrice_saemus_dead.stg
+qun221_petrice6075963.cl
+qun221_petrice6075981.cl
+qun221_petrice6075982.cl
+qun221_petrice6075983.cl
+qun221_petrice6075984.cl
+qun221_petrice6075985.cl
+qun221_petrice6075986.cl
+qun221_petrice6077312.cl
+qun221_petrice6077315.cl
+qun221_petrice6077318.cl
+qun221_petrice6077983.cl
+qun221_petrice6082574.cl
+qun221_petrice6083432.cl
+qun221_petrice6083628.cl
+qun221_petrice6083653.cl
+qun221_petrice6083802.cl
+qun221_petrice6185133.cl
 qun221_viscount_seamus_dead.stg
 qun221cr_cleric.utc
 qun221cr_petrice.utc

@@ -1,8 +1,8 @@
-; 610/731 (83%)
+; 632/731 (86%)
 ; 
 ; .ani - 231/288 (80%)
 ; .are - 1/1 (100%)
-;  .cl - 0/22 (0%)
+;  .cl - 22/22 (100%)
 ; .cnv - 24/24 (100%)
 ; .dds - 1/1 (100%)
 ; .evt - 186/228 (81%)
@@ -481,7 +481,15 @@ dae000_fem_commoner2_mob.cnv
 dae000_male_commoner1_mob.cnv
 dae000_male_commoner2_mob.cnv
 dae000_meredith.cnv
+dae000_meredith6080973.cl
+dae000_meredith6085232.cl
+dae000_meredith6085235.cl
+dae000_meredith6085238.cl
+dae000_meredith6085300.cl
 dae000_orsino.cnv
+dae000_orsino6081360.cl
+dae000_orsino6085419.cl
+dae000_orsino6085456.cl
 dae000cr_commoner_f1.utc
 dae000cr_commoner_f2.utc
 dae000cr_commoner_m1.utc
@@ -569,15 +577,29 @@ mag321pt_bestservedcold.ncs
 mcr000pt_general.ncs
 mcr000pt_main.ncs
 mcr310_argument.cnv
+mcr310_argument6072273.cl
+mcr310_argument6072654.cl
+mcr310_argument6074320.cl
+mcr310_argument6075058.cl
+mcr310_argument6136206.cl
+mcr310_argument6182273.cl
+mcr310_argument6182276.cl
 mcr310_confused_guard.cnv
+mcr310_confused_guard6077013.cl
 mcr310_cut_chantry_blows_up.cnv
+mcr310_cut_chantry_blows_up6087539.cl
 mcr310_loyalist_mages.cnv
+mcr310_loyalist_mages6076854.cl
 mcr310_loyalist_templars.cnv
 mcr310_loyalist_templars.stg
+mcr310_loyalist_templars6076895.cl
 mcr310_party_banter.cnv
 mcr310_scared_mage.cnv
+mcr310_scared_mage6072858.cl
 mcr310_sibling.cnv
 mcr310_sibling_st.stg
+mcr310_sibling6076241.cl
+mcr310_sibling6076331.cl
 mcr310ar_docks_nt.ncs
 mcr310ar_lowtown_nt.are
 mcr310ar_lowtown_nt.ncs

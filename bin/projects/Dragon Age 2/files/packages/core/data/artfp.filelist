@@ -1,7 +1,7 @@
-; 19353/22840 (84%)
+; 19355/22840 (84%)
 ; 
 ; .anb - 391/391 (100%)
-; .ani - 1986/3165 (62%)
+; .ani - 1988/3165 (62%)
 ; .dds - 3579/3957 (90%)
 ; .evt - 1589/2325 (68%)
 ; .fdl - 2/2 (100%)
@@ -1039,6 +1039,8 @@ art\characters\creatures\gallowsgateguard\animation\blendtree\gateguardian_spear
 art\characters\creatures\gallowsgateguard\animation\blendtree\gateguardian_spear_movement.anb
 art\characters\creatures\gallowsgateguard\animation\blendtree\gateguardian_spider.anb
 art\characters\creatures\gallowsgateguard\animation\blendtree\gateguardian_spider_movement.anb
+art\characters\creatures\gallowsgateguard\animation\custom enter\second_enter.ani
+art\characters\creatures\gallowsgateguard\animation\custom enter\second_enter_lp.ani
 art\characters\creatures\gallowsgateguard\animation\dual\dualattkback.ani
 art\characters\creatures\gallowsgateguard\animation\dual\dualattkback.evt
 art\characters\creatures\gallowsgateguard\animation\dual\dualattkback.gad

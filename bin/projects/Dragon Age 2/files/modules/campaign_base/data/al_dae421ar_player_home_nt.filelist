@@ -1,8 +1,8 @@
-; 95/103 (92%)
+; 100/103 (97%)
 ; 
 ; .ani - 36/38 (94%)
 ; .are - 1/1 (100%)
-;  .cl - 0/5 (0%)
+;  .cl - 5/5 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 29/30 (96%)
 ; .mmh - 1/1 (100%)
@@ -83,8 +83,13 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_
 art\levels\races\ferelden\props\plotspecifc\prp_rune.mmh
 art\levels\races\ferelden\props\plotspecifc\prp_rune.msh
 dae000_bodhan.cnv
+dae000_bodhan6129078.cl
+dae000_bodhan6146781.cl
 dae000_sandal.cnv
 dae000_sandal_st.stg
+dae000_sandal6147779.cl
+dae000_sandal6148209.cl
+dae000_sandal6180615.cl
 dae000ip_exit_house.ncs
 dae000ip_exit_player_house.utp
 dae000pt_generic.ncs

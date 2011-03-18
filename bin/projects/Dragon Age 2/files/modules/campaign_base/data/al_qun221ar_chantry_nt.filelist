@@ -1,8 +1,8 @@
-; 229/277 (82%)
+; 271/277 (97%)
 ; 
 ; .ani - 96/99 (96%)
 ; .are - 1/1 (100%)
-;  .cl - 1/43 (2%)
+;  .cl - 43/43 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 74/77 (96%)
 ; .ncs - 25/25 (100%)
@@ -189,6 +189,22 @@ cod_bks_chantry_hist_3.utp
 cod_mgc_chant_maker.utp
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000pt_location.ncs
 dae000pt_talkedto.ncs
 dae000st_grandcleric.stg
@@ -197,6 +213,9 @@ dae000st_grandclericseb.stg
 dae200_viscount.stg
 dae200cr_viscount.cnv
 dae200cr_viscount.utc
+dae200cr_viscount6087158.cl
+dae200cr_viscount6087368.cl
+dae200cr_viscount6087393.cl
 mag320pt_otl_huon.ncs
 mag320pt_otl_main.ncs
 mag320pt_showdown.ncs
@@ -213,11 +232,34 @@ qun221_petrice_cleric.stg
 qun221_petrice_cleric_2.stg
 qun221_petrice_intercept.stg
 qun221_petrice_saemus_dead.stg
+qun221_petrice6075963.cl
+qun221_petrice6075981.cl
+qun221_petrice6075982.cl
+qun221_petrice6075983.cl
+qun221_petrice6075984.cl
+qun221_petrice6075985.cl
+qun221_petrice6075986.cl
+qun221_petrice6077312.cl
+qun221_petrice6077315.cl
+qun221_petrice6077318.cl
+qun221_petrice6077983.cl
+qun221_petrice6082574.cl
+qun221_petrice6083432.cl
+qun221_petrice6083628.cl
+qun221_petrice6083653.cl
+qun221_petrice6083802.cl
+qun221_petrice6185133.cl
 qun221_viscount.cnv
 qun221_viscount_missing_qun.stg
 qun221_viscount_seamus_dead.stg
 qun221_viscount_st.stg
 qun221_viscount6069026.cl
+qun221_viscount6070197.cl
+qun221_viscount6092418.cl
+qun221_viscount6092421.cl
+qun221_viscount6095591.cl
+qun221_viscount6095594.cl
+qun221_viscount6205726.cl
 qun221ar_chantry_nt.are
 qun221ar_chantry_nt.ncs
 qun221cr_mob_leader.utc

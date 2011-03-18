@@ -1,8 +1,8 @@
-; 276/318 (86%)
+; 318/318 (100%)
 ; 
 ; .ani - 69/69 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/42 (0%)
+;  .cl - 42/42 (100%)
 ; .cnv - 32/32 (100%)
 ; .evt - 64/64 (100%)
 ; .ncs - 36/36 (100%)
@@ -158,11 +158,36 @@ dae000_merchant_armor_hm.cnv
 dae000_merchant_tailor_hm.cnv
 dae000_merchant_weapons_dm.cnv
 dae000_meredith.cnv
+dae000_meredith6080973.cl
+dae000_meredith6085232.cl
+dae000_meredith6085235.cl
+dae000_meredith6085238.cl
+dae000_meredith6085300.cl
 dae000_orsino.cnv
+dae000_orsino6081360.cl
+dae000_orsino6085419.cl
+dae000_orsino6085456.cl
 dae000_worthy.cnv
+dae000_worthy6166562.cl
 dae000cr_chanter.utc
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000cr_worthy.utc
 dae000ip_show_world_map.utp
 dae000pt_amb_actions.ncs
@@ -231,7 +256,12 @@ hightown_market_guard_sta.cnv
 lgt000_chanter.cnv
 lgt000pt_chanter.ncs
 lgt320_mis_resp_swordhunter.cnv
+lgt320_mis_resp_swordhunter6150262.cl
+lgt320_mis_resp_swordhunter6150265.cl
+lgt320_mis_resp_swordhunter6150321.cl
 lgt320_shw_ors_marlein.cnv
+lgt320_shw_ors_marlein6154743.cl
+lgt320_shw_ors_marlein6156376.cl
 lgt320cr_mis_resp_swordhntr.utc
 lgt320cr_shw_ors_marlein.utc
 lgt320im_mis_resp_sword_01.uti
@@ -244,6 +274,7 @@ mag320_nobleman_3.cnv
 mag320_noblewoman_1.cnv
 mag320_noblewoman_2.cnv
 mag320_orsino.cnv
+mag320_orsino6070415.cl
 mag320cr_crowd_1.utc
 mag320cr_crowd_2.utc
 mag320cr_crowd_3.utc
@@ -266,12 +297,23 @@ mer100pt_missing_miners.ncs
 mer300pt_mine_massacre.ncs
 mer320_hubert.cnv
 mer320_hubert.stg
+mer320_hubert6051889.cl
+mer320_hubert6081994.cl
+mer320_hubert6083769.cl
+mer320_hubert6090234.cl
 mer320cr_hubert.utc
 mer320cr_lady_hubert.utc
 nat300pt_find_nathaniel.ncs
 nat320_delilah.cnv
+nat320_delilah6065883.cl
+nat320_delilah6065886.cl
 nat320cr_delilah.utc
 one300_nuncio.cnv
+one300_nuncio6073775.cl
+one300_nuncio6073802.cl
+one300_nuncio6075327.cl
+one300_nuncio6084355.cl
+one300_nuncio6084356.cl
 one300cr_nuncio.utc
 one300cr_nuncio_guard.utc
 one300pt_murder_crows.ncs

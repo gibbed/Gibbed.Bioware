@@ -1,8 +1,8 @@
-; 54/58 (93%)
+; 58/58 (100%)
 ; 
 ; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/4 (0%)
+;  .cl - 4/4 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 18/18 (100%)
 ; .ncs - 8/8 (100%)
@@ -54,11 +54,15 @@ dae000ip_show_world_map.utp
 dae000pt_amb_sunder.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100pt_gamlen.ncs
 one100pt_herb_ironwood.ncs
 one100st_ilen.stg
 one130_thug.cnv
+one130_thug6133304.cl
 one130ar_booker_dungeon.ncs
 one130ar_disciple_dungeon.are
 one130ar_disciple_dungeon.ncs

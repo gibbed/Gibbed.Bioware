@@ -1,8 +1,8 @@
-; 184/202 (91%)
+; 196/202 (97%)
 ; 
 ; .ani - 60/63 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 0/12 (0%)
+;  .cl - 12/12 (100%)
 ; .cnv - 11/11 (100%)
 ; .evt - 50/53 (94%)
 ; .mmh - 1/1 (100%)
@@ -130,6 +130,7 @@ ave200pt_long_road.ncs
 ave300pt_favour_fault.ncs
 ave310_brennan.cnv
 ave310_brennan.stg
+ave310_brennan6136218.cl
 ave310cr_brennan.utc
 cod_hst_kirk_alienage.utp
 cod_hst_kirk_lowtown.utp
@@ -160,6 +161,7 @@ lgt300cr_gang_4_lt.utc
 lgt310_mag_grigor.cnv
 lgt310_mag_melson.cnv
 lgt310_mag_melson_guards.cnv
+lgt310_mag_melson6152200.cl
 lgt310cr_mag_grigor.utc
 lgt310cr_mag_melson.utc
 lgt310cr_mag_melson_guard1.utc
@@ -170,13 +172,20 @@ lgt310tr_melson.ncs
 lgt310tr_melson.utt
 lgt311ip_at_bandit_alley_lt.utp
 lgt320_shw_ors_marlein.cnv
+lgt320_shw_ors_marlein6154743.cl
+lgt320_shw_ors_marlein6156376.cl
 lgt320_shw_ors_secret_meet.cnv
+lgt320_shw_ors_secret_meet6156354.cl
 lgt320_shw_ors_secret_nob.cnv
 lgt320cr_shw_ors_marlein.utc
 lgt320cr_shw_ors_scrt_nob.utc
 lgt320pt_shw_ors_main.ncs
 mag110_samson.cnv
 mag110_samson.stg
+mag110_samson6016157.cl
+mag110_samson6018133.cl
+mag110_samson6025541.cl
+mag110_samson6049808.cl
 mag110cr_samson.utc
 mag110pt_wayward_son.ncs
 mag310cr_controlled_1.utc
@@ -187,8 +196,11 @@ mag310cr_progenitor_1.utc
 mag310cr_progenitor_2.utc
 mag310cr_progenitor_3.utc
 mag311_huon.cnv
+mag311_huon6059235.cl
 mag311_nyssa.cnv
 mag311_nyssa_st.stg
+mag311_nyssa6041763.cl
+mag311_nyssa6050130.cl
 mag311cr_huon.ncs
 mag311cr_huon.utc
 mag311cr_nyssa.utc

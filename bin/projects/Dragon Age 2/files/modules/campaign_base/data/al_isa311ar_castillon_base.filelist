@@ -1,8 +1,8 @@
-; 108/128 (84%)
+; 118/128 (92%)
 ; 
 ; .ani - 45/50 (90%)
 ; .are - 1/1 (100%)
-;  .cl - 0/10 (0%)
+;  .cl - 10/10 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 39/44 (88%)
 ; .ncs - 6/6 (100%)
@@ -109,8 +109,16 @@ isa300ip_warehouse_exit.utp
 isa300pt_wicked.ncs
 isa310pt_isabelas_trail.ncs
 isa311_castillon.cnv
+isa311_castillon6092051.cl
 isa311_hawke_comments.cnv
 isa311_isabela.cnv
+isa311_isabela6091961.cl
+isa311_isabela6092148.cl
+isa311_isabela6092152.cl
+isa311_isabela6092153.cl
+isa311_isabela6092258.cl
+isa311_isabela6092378.cl
+isa311_isabela6116378.cl
 isa311_party_comments.cnv
 isa311ar_castillon_base.are
 isa311ar_castillon_base.ncs
@@ -118,4 +126,6 @@ isa311cr_castillon.utc
 isa311st_castillon.stg
 isa311st_isabella_end.stg
 isa321_velasco.cnv
+isa321_velasco6091846.cl
+isa321_velasco6117689.cl
 isa321cr_velasco.utc

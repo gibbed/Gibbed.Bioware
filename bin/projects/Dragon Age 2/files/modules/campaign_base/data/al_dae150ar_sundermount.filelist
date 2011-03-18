@@ -1,8 +1,8 @@
-; 325/368 (88%)
+; 357/368 (97%)
 ; 
 ; .ani - 93/101 (92%)
 ; .are - 1/1 (100%)
-;  .cl - 1/33 (3%)
+;  .cl - 33/33 (100%)
 ; .cnv - 25/25 (100%)
 ; .cut - 0/1 (0%)
 ; .evt - 85/87 (97%)
@@ -210,6 +210,7 @@ dae000_fenarel.cnv
 dae000_flemeth.cnv
 dae000_flemeth.stg
 dae000_flemeth6000680.cl
+dae000_flemeth6013252.cl
 dae000_gen_turn_in_3.cnv
 dae000_ineria.cnv
 dae000_junar.cnv
@@ -258,6 +259,10 @@ lgt000ip_map_crate.utp
 lgt110_gxa_vgk_conspirator1.cnv
 lgt110cr_gxa_vgk_cnspr_1.utc
 lgt150_nat_were_supporter.cnv
+lgt150_nat_were_supporter6110935.cl
+lgt150_nat_were_supporter6110951.cl
+lgt150_nat_were_supporter6110959.cl
+lgt150_nat_were_supporter6111006.cl
 lgt150cr_nat_were_dalish_gd.utc
 lgt150cr_nat_were_supporter.utc
 lgt150im_ntb_wr_ingrdnt_1.uti
@@ -274,6 +279,10 @@ lgt160_wk_avern_body.cnv
 lgt160pt_wk_avernus.ncs
 mag110pt_wayward_son.ncs
 mag160_feynriel.cnv
+mag160_feynriel6016541.cl
+mag160_feynriel6016565.cl
+mag160_feynriel6020068.cl
+mag160_feynriel6204956.cl
 mag160cr_feynriel.utc
 mag160st_feynriel_cave.stg
 mag160st_feynriel_sund.stg
@@ -281,14 +290,25 @@ mag200pt_night_terrors.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl000cr_shadow.ncs
 mrl150_cut_amulet_ritual.cnv
 mrl150_cut_amulet_ritual.stg
+mrl150_cut_amulet_ritual6147029.cl
 mrl150_cut_merrill_intro.cnv
+mrl150_cut_merrill_intro6117750.cl
+mrl150_cut_merrill_intro6117759.cl
 mrl150_dalish_guard.cnv
 mrl150_dalish_guard.stg
+mrl150_dalish_guard6068159.cl
 mrl150_hunter.cnv
 mrl150_hunter.stg
+mrl150_hunter6071010.cl
 mrl150_marethari.stg
 mrl150_marethaript2.stg
 mrl150_merrill.cnv
@@ -299,6 +319,13 @@ mrl150_merrill_pt4.stg
 mrl150_merrill_pt5.stg
 mrl150_merrill_pt6.stg
 mrl150_merrill_pt7.stg
+mrl150_merrill6070451.cl
+mrl150_merrill6071783.cl
+mrl150_merrill6071916.cl
+mrl150_merrill6072770.cl
+mrl150_merrill6077659.cl
+mrl150_merrill6078227.cl
+mrl150_merrill6078285.cl
 mrl150cr_arcane_horror.utc
 mrl150cr_dalish_guard1.utc
 mrl150cr_dalish_guard2.utc
@@ -321,6 +348,9 @@ mrl200pt_hunteramulets.ncs
 mrl250pt_mirrorimg.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100ip_st_ilen.ncs
 one100ip_st_ilen.utp
@@ -332,6 +362,8 @@ one100st_ilen.stg
 one200pt_herbalist.ncs
 one300pt_murder_crows.ncs
 one350_terath.cnv
+one350_terath6087115.cl
+one350_terath6106360.cl
 one350cr_terath.utc
 pro000pt_main.ncs
 pro000st_flemeth_intro.stg

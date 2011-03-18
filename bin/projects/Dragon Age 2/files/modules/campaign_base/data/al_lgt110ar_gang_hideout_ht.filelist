@@ -1,8 +1,8 @@
-; 96/111 (86%)
+; 111/111 (100%)
 ; 
 ; .ani - 23/23 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/15 (0%)
+;  .cl - 15/15 (100%)
 ; .cnv - 14/14 (100%)
 ; .evt - 19/19 (100%)
 ; .ncs - 34/34 (100%)
@@ -79,19 +79,34 @@ lgt100cr_gang_1_ht.utc
 lgt100cr_gang_2_ht.utc
 lgt100cr_gang_3_ht.utc
 lgt110_arl_bann_teagan.cnv
+lgt110_arl_bann_teagan6115558.cl
+lgt110_arl_bann_teagan6115616.cl
 lgt110_gxa_coa_meeting.cnv
 lgt110_gxa_coa_spy.cnv
+lgt110_gxa_coa_spy6117462.cl
+lgt110_gxa_coa_spy6117518.cl
+lgt110_gxa_coa_spy6117519.cl
+lgt110_gxa_coa_spy6164335.cl
 lgt110_gxa_vgk_conspirator1.cnv
 lgt110_gxa_vgk_conspirator2.cnv
 lgt110_gxa_vgk_conspirator3.cnv
 lgt110_gxa_vgk_conspirator4.cnv
 lgt110_gxa_vgk_consprcy.ncs
 lgt110_gxa_vgk_silver_order.cnv
+lgt110_gxa_vgk_silver_order6116811.cl
+lgt110_gxa_vgk_silver_order6116986.cl
+lgt110_gxa_vgk_silver_order6117049.cl
 lgt110_orz_harr_carta.cnv
+lgt110_orz_harr_carta6109039.cl
+lgt110_orz_harr_carta6109045.cl
 lgt110_orz_harrowmont.cnv
+lgt110_orz_harrowmont6108984.cl
+lgt110_orz_harrowmont6109022.cl
 lgt110_urn_barker.cnv
 lgt110_urn_con_leader.cnv
 lgt110_urn_guard.cnv
+lgt110_urn_guard6133109.cl
+lgt110_urn_guard6170673.cl
 lgt110ar_gang_hideout_ht.are
 lgt110pt_arl_connor.ncs
 lgt110pt_har_escape_rew.ncs

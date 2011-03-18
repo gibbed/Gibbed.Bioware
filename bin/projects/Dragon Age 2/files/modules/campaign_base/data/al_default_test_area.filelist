@@ -1,8 +1,8 @@
-; 270/310 (87%)
+; 310/310 (100%)
 ; 
 ; .ani - 103/103 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 6/46 (13%)
+;  .cl - 46/46 (100%)
 ; .cnv - 9/9 (100%)
 ; .evt - 86/86 (100%)
 ; .ncs - 34/34 (100%)
@@ -208,17 +208,49 @@ ave200pt_long_road.ncs
 dae000_flemeth.cnv
 dae000_flemeth.stg
 dae000_flemeth6000680.cl
+dae000_flemeth6013252.cl
 dae000_gamlen.cnv
 dae000_gamlen6005754.cl
+dae000_gamlen6048413.cl
+dae000_gamlen6088135.cl
+dae000_gamlen6102409.cl
+dae000_gamlen6121545.cl
+dae000_gamlen6121581.cl
+dae000_gamlen6131077.cl
+dae000_gamlen6139441.cl
+dae000_gamlen6139444.cl
+dae000_gamlen6145087.cl
+dae000_gamlen6149406.cl
 dae000_mother.cnv
 dae000_mother_blightlands_1.stg
 dae000_mother6001874.cl
 dae000_mother6004095.cl
+dae000_mother6004098.cl
+dae000_mother6099181.cl
+dae000_mother6103034.cl
+dae000_mother6121001.cl
+dae000_mother6136909.cl
 dae000cr_cassandra.utc
 dae000cr_flemeth.utc
 dae000cr_gamlen.utc
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000cr_mother.utc
 dae000ip_show_world_map.utp
 dae000pt_generic.ncs
@@ -228,6 +260,8 @@ dae000st_grandcleric.stg
 dae000st_grandcleric_anders.stg
 dae000st_grandclericseb.stg
 dae100_viscount.cnv
+dae100_viscount6101863.cl
+dae100_viscount6102067.cl
 dae100cr_viscount.utc
 dae100st_mother.stg
 dae111ip_letter_desk.ncs
@@ -247,12 +281,18 @@ mag321pt_bestservedcold.ncs
 mer100pt_missing_miners.ncs
 mer110pt_back_to_work.ncs
 mer120_hubert.cnv
+mer120_hubert6017814.cl
+mer120_hubert6059141.cl
+mer120_hubert6059408.cl
+mer120_hubert6070224.cl
+mer120_hubert6070233.cl
 mer120cr_hubert.utc
 mrl150pt_longway.ncs
 one100pt_gamlen.ncs
 pro000_colonel_ewald.cnv
 pro000_colonel_ewald6039937.cl
 pro000_colonel_ewald6040615.cl
+pro000_colonel_ewald6047374.cl
 pro000_guard.cnv
 pro000_wesley.cnv
 pro000cr_colonel_ewald.utc

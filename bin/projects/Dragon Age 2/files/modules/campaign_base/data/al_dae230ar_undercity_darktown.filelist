@@ -1,8 +1,8 @@
-; 357/376 (94%)
+; 371/376 (98%)
 ; 
 ; .ani - 109/114 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 0/14 (0%)
+;  .cl - 14/14 (100%)
 ; .cnv - 22/22 (100%)
 ; .evt - 95/95 (100%)
 ; .mmh - 1/1 (100%)
@@ -25,6 +25,8 @@ and130ip_anders_door.ncs
 and130ip_anders_door.utp
 and200pt_dissent.ncs
 and230_mage_girl.cnv
+and230_mage_girl6061847.cl
+and230_mage_girl6135803.cl
 and230cr_mage_girl.utc
 and230ip_at_dungeon.ncs
 and230ip_at_dungeon.utp
@@ -265,6 +267,7 @@ dae000_gen_turn_in_4.cnv
 dae000_oldmangossip.cnv
 dae000_sketch.cnv
 dae000_tomwise.cnv
+dae000_tomwise6167264.cl
 dae000cr_fereldan_f.utc
 dae000cr_gossip_old_m1.utc
 dae000cr_gossip_old_m2.utc
@@ -291,6 +294,8 @@ dae030cr_male_fereldan.utc
 dae030cr_sickly_fereldan_m.utc
 dae200_bran.cnv
 dae200_bran_st.stg
+dae200_bran6083828.cl
+dae200_bran6144556.cl
 dae200cr_bran.utc
 dae230ar_undercity_darktown.are
 dae230ar_undercity_darktown.ncs
@@ -329,6 +334,7 @@ mag120pt_enemies.ncs
 mag200pt_night_terrors.ncs
 mag230cr_evelina.utc
 mag320_evelina.cnv
+mag320_evelina6051874.cl
 mag320pt_otl_evelina.ncs
 mag320pt_otl_main.ncs
 mag320pt_showdown.ncs
@@ -338,8 +344,10 @@ mcr370st_anders_magecrisis.stg
 mer100pt_missing_miners.ncs
 mer200pt_stolen_goods.ncs
 mer210_coterie_contact.cnv
+mer210_coterie_contact6072495.cl
 mer210_seldrek.cnv
 mer210_seldrek_st.stg
+mer210_seldrek6033962.cl
 mer210cr_coterie_lieutenant.utc
 mer210cr_coterie_thug_1.utc
 mer210cr_coterie_thug_2.utc
@@ -356,10 +364,16 @@ qun200pt_following_qun.ncs
 qun200pt_missing_qunari.ncs
 qun230cr_guild_contact.cnv
 qun230cr_guild_contact.utc
+qun230cr_guild_contact6068697.cl
 qun230ip_to_smugglers_cut.utp
 qun230tr_contact_ambient.ncs
 qun230tr_contact_ambient.utt
 ser221_gascard.cnv
+ser221_gascard6111585.cl
+ser221_gascard6122238.cl
+ser221_gascard6122432.cl
+ser221_gascard6123440.cl
+ser221_gascard6134510.cl
 ser221cr_gascard.ncs
 ser221cr_gascard.utc
 ser221pt_remains.ncs

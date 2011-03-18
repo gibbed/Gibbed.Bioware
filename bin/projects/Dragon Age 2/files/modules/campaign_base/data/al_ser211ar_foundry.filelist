@@ -1,8 +1,8 @@
-; 83/103 (80%)
+; 100/103 (97%)
 ; 
 ; .ani - 33/34 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/17 (0%)
+;  .cl - 17/17 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 25/26 (96%)
 ; .ncs - 11/12 (91%)
@@ -80,11 +80,28 @@ ser211ip_dead_alessa.ncs
 ser211ip_mothers_ring.ncs
 ser211ip_to_lowtown.utp
 ser221_gascard.cnv
+ser221_gascard6111585.cl
+ser221_gascard6122238.cl
+ser221_gascard6122432.cl
+ser221_gascard6123440.cl
+ser221_gascard6134510.cl
 ser221_party_comment_1.stg
 ser221_party_comment_2.stg
 ser221_party_comment_3.stg
 ser221_party_comment_found.stg
 ser221_party_comments.cnv
+ser221_party_comments6122860.cl
+ser221_party_comments6128806.cl
+ser221_party_comments6128807.cl
+ser221_party_comments6163595.cl
+ser221_party_comments6163598.cl
+ser221_party_comments6163601.cl
+ser221_party_comments6163604.cl
+ser221_party_comments6163605.cl
+ser221_party_comments6163606.cl
+ser221_party_comments6163607.cl
+ser221_party_comments6209901.cl
+ser221_party_comments6209914.cl
 ser221cr_gascard.ncs
 ser221cr_gascard.utc
 ser221pt_remains.ncs

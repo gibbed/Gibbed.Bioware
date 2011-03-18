@@ -1,8 +1,8 @@
-; 77/80 (96%)
+; 80/80 (100%)
 ; 
 ; .ani - 17/17 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 6/6 (100%)
 ; .evt - 12/12 (100%)
 ; .ncs - 12/12 (100%)
@@ -76,6 +76,9 @@ mag311im_bsc_notes.uti
 mag311st_mage_conspirator.stg
 mag320_bsc_banter.cnv
 mag320_mage_conspirator.cnv
+mag320_mage_conspirator6040764.cl
+mag320_mage_conspirator6040829.cl
+mag320_mage_conspirator6040830.cl
 mag320cr_circle_mage.utc
 mag320cr_mage_1.utc
 mag320cr_mage_conspirator.utc

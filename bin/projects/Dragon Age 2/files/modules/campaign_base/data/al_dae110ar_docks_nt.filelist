@@ -1,8 +1,8 @@
-; 82/83 (98%)
+; 83/83 (100%)
 ; 
 ; .ani - 10/10 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/1 (0%)
+;  .cl - 1/1 (100%)
 ; .cnv - 7/7 (100%)
 ; .evt - 6/6 (100%)
 ; .mmh - 1/1 (100%)
@@ -78,6 +78,7 @@ lgt111pt_gxa_coa.ncs
 one100pt_loose_end_athe.ncs
 one110_pryce.cnv
 one110_pryce_st.stg
+one110_pryce6088395.cl
 one110cr_coterie_thug_1.utc
 one110cr_coterie_thug_2.utc
 one110cr_coterie_thug_3.utc

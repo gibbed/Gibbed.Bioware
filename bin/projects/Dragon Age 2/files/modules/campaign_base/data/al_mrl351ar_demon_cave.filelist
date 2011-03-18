@@ -1,8 +1,8 @@
-; 123/140 (87%)
+; 136/140 (97%)
 ; 
 ; .ani - 43/45 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 0/13 (0%)
+;  .cl - 13/13 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 36/37 (97%)
 ; .ncs - 17/18 (94%)
@@ -95,6 +95,12 @@ dae000pt_amb_sunder.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl000ar_house.ncs
 mrl000cr_frostaura.ncs
 mrl000cr_shadow.ncs
@@ -110,6 +116,9 @@ mrl310_merrill.cnv
 mrl310_merrill_pt1.stg
 mrl310_merrill_pt2.stg
 mrl310_merrill_pt3.stg
+mrl310_merrill6115551.cl
+mrl310_merrill6120064.cl
+mrl310_merrill6144353.cl
 mrl350cr_pridedemon.ncs
 mrl350ip_marethari_corpse.utp
 mrl350pt_newpath.ncs
@@ -118,6 +127,10 @@ mrl351_phantomelves.cnv
 mrl351_pridedemon.cnv
 mrl351_pridedemon.stg
 mrl351_pridedemon_drain.stg
+mrl351_pridedemon6165555.cl
+mrl351_pridedemon6165559.cl
+mrl351_pridedemon6170227.cl
+mrl351_pridedemon6170228.cl
 mrl351ar_demon_cave.are
 mrl351ar_demon_cave.ncs
 mrl351cr_fakechandan.utc

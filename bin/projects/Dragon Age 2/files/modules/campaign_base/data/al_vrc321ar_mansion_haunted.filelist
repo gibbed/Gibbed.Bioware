@@ -1,8 +1,8 @@
-; 156/160 (97%)
+; 160/160 (100%)
 ; 
 ; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/4 (0%)
+;  .cl - 4/4 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 18/18 (100%)
 ; .ncs - 31/31 (100%)
@@ -57,9 +57,13 @@ vrc000pt_n_rival_mid.ncs
 vrc221pt_family_matter.ncs
 vrc321_housekeeper.cnv
 vrc321_housekeeper.stg
+vrc321_housekeeper6085652.cl
 vrc321_party_barks.cnv
 vrc321_spooky_scenes.cnv
 vrc321_varric.cnv
+vrc321_varric6082563.cl
+vrc321_varric6084477.cl
+vrc321_varric6086796.cl
 vrc321ar_mansion_haunted.are
 vrc321ar_mansion_haunted.ncs
 vrc321cr_golem.ncs

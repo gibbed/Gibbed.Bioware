@@ -1,8 +1,8 @@
-; 44/47 (93%)
+; 47/47 (100%)
 ; 
 ; .ani - 14/14 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 10/10 (100%)
 ; .ncs - 8/8 (100%)
@@ -44,6 +44,9 @@ qun210ar_fq_random_enc.ncs
 qun210ar_javaris_encounter.ncs
 qun210cr_guard.cnv
 qun210cr_guard.stg
+qun210cr_guard6072075.cl
+qun210cr_guard6072125.cl
+qun210cr_guard6206325.cl
 qun210cr_random_thug.cnv
 qun210cr_random_thug.utc
 qun210cr_random_thug_leader.utc

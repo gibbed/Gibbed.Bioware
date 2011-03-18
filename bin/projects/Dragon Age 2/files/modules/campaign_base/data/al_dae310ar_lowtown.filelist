@@ -1,8 +1,8 @@
-; 155/168 (92%)
+; 168/168 (100%)
 ; 
 ; .ani - 45/45 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/13 (0%)
+;  .cl - 13/13 (100%)
 ; .cnv - 11/11 (100%)
 ; .evt - 40/40 (100%)
 ; .ncs - 20/20 (100%)
@@ -104,6 +104,7 @@ cod_hst_kirk_alienage.utp
 cod_hst_kirk_lowtown.utp
 cod_hst_vehnadahl.utp
 dae000_elegant.cnv
+dae000_elegant6166884.cl
 dae000_merchant_access_hf.cnv
 dae000_merchant_armor_hm.cnv
 dae000_merchant_tailor_hm.cnv
@@ -145,8 +146,11 @@ lgt320pt_shw_ors_main.ncs
 lgt323pt_shw_ors_blckop.ncs
 mag120pt_enemies.ncs
 mag311_keran.cnv
+mag311_keran6061817.cl
 mag311_nyssa.cnv
 mag311_nyssa_st.stg
+mag311_nyssa6041763.cl
+mag311_nyssa6050130.cl
 mag311cr_keran_civ.utc
 mag311cr_nyssa.utc
 mag311st_keran.stg
@@ -157,11 +161,20 @@ one100_party_comments.cnv
 one100pt_gamlen.ncs
 one100pt_magistrate.ncs
 one110_tree_minder.cnv
+one110_tree_minder6140859.cl
+one110_tree_minder6140860.cl
+one110_tree_minder6140861.cl
+one110_tree_minder6140862.cl
+one110_tree_minder6140863.cl
+one110_tree_minder6140864.cl
+one110_tree_minder6140865.cl
 one110cr_tree_minder.utc
 one110ip_ggt_tree.ncs
 one110ip_ggt_tree.utp
 one300cr_lia.utc
 one300dg_lia.cnv
+one300dg_lia6064519.cl
+one300dg_lia6064548.cl
 one300lia_aveline_st.stg
 pro000pt_main.ncs
 store_dae310_access.utm

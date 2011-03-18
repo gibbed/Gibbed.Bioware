@@ -1,6 +1,6 @@
-; 6157/6230 (98%)
+; 6195/6230 (99%)
 ; 
-; .anb - 829/867 (95%)
+; .anb - 867/867 (100%)
 ; .ani - 1390/1392 (99%)
 ; .evt - 1350/1351 (99%)
 ; .gad - 1388/1392 (99%)
@@ -1082,13 +1082,28 @@ art\vfx\combat\vfx_gib_hm_eye.mao
 art\vfx\combat\vfx_gib_hm_hed.mao
 art\vfx\combat\vfx_gib_hm_lgta.mmh
 art\vfx\combat\vfx_gib_hm_lgta.msh
+art\vfx\combat\vfx_gib_hm_lgta_lbrt.anb
+art\vfx\combat\vfx_gib_hm_lgta_ltr.anb
 art\vfx\combat\vfx_gib_hm_lgta_ltrb.anb
+art\vfx\combat\vfx_gib_hm_lgta_rblt.anb
 art\vfx\combat\vfx_gib_hm_lgta_rtl.anb
 art\vfx\combat\vfx_gib_hm_lgta_rtlb.anb
 art\vfx\combat\vfx_gib_hm_masc.mmh
 art\vfx\combat\vfx_gib_hm_masc.msh
+art\vfx\combat\vfx_gib_hm_masc_lbrt.anb
+art\vfx\combat\vfx_gib_hm_masc_ltr.anb
+art\vfx\combat\vfx_gib_hm_masc_ltrb.anb
+art\vfx\combat\vfx_gib_hm_masc_rblt.anb
+art\vfx\combat\vfx_gib_hm_masc_rtl.anb
+art\vfx\combat\vfx_gib_hm_masc_rtlb.anb
 art\vfx\combat\vfx_gib_hm_meda.mmh
 art\vfx\combat\vfx_gib_hm_meda.msh
+art\vfx\combat\vfx_gib_hm_meda_lbrt.anb
+art\vfx\combat\vfx_gib_hm_meda_ltr.anb
+art\vfx\combat\vfx_gib_hm_meda_ltrb.anb
+art\vfx\combat\vfx_gib_hm_meda_rblt.anb
+art\vfx\combat\vfx_gib_hm_meda_rtl.anb
+art\vfx\combat\vfx_gib_hm_meda_rtlb.anb
 art\vfx\combat\vfx_gib_hm_rob_lbrt.ani
 art\vfx\combat\vfx_gib_hm_rob_lbrt.gad
 art\vfx\combat\vfx_gib_hm_rob_ltr.ani
@@ -1105,8 +1120,20 @@ art\vfx\combat\vfx_gib_hm_roba.mmh
 art\vfx\combat\vfx_gib_hm_roba.msh
 art\vfx\combat\vfx_gib_hm_robc.mmh
 art\vfx\combat\vfx_gib_hm_robc.msh
+art\vfx\combat\vfx_gib_hm_robc_lbrt.anb
+art\vfx\combat\vfx_gib_hm_robc_ltr.anb
+art\vfx\combat\vfx_gib_hm_robc_ltrb.anb
+art\vfx\combat\vfx_gib_hm_robc_rblt.anb
+art\vfx\combat\vfx_gib_hm_robc_rtl.anb
+art\vfx\combat\vfx_gib_hm_robc_rtlb.anb
 art\vfx\combat\vfx_gib_hm_tmpa.mmh
 art\vfx\combat\vfx_gib_hm_tmpa.msh
+art\vfx\combat\vfx_gib_hm_tmpa_lbrt.anb
+art\vfx\combat\vfx_gib_hm_tmpa_ltr.anb
+art\vfx\combat\vfx_gib_hm_tmpa_ltrb.anb
+art\vfx\combat\vfx_gib_hm_tmpa_rblt.anb
+art\vfx\combat\vfx_gib_hm_tmpa_rtl.anb
+art\vfx\combat\vfx_gib_hm_tmpa_rtlb.anb
 art\vfx\combat\vfx_gib_human_bld_p.anb
 art\vfx\combat\vfx_gib_human_bld_p.impa.ani
 art\vfx\combat\vfx_gib_human_bld_p.impa.evt
@@ -1134,6 +1161,7 @@ art\vfx\combat\vfx_gib_ogre_bld_p.impa.ani
 art\vfx\combat\vfx_gib_ogre_bld_p.impa.evt
 art\vfx\combat\vfx_gib_ogre_bld_p.impa.gad
 art\vfx\combat\vfx_gib_ogre_bld_p.mmh
+art\vfx\combat\vfx_gib_ogre_p_v1.anb
 art\vfx\combat\vfx_gib_qun_lbrt.ani
 art\vfx\combat\vfx_gib_qun_lbrt.gad
 art\vfx\combat\vfx_gib_qun_ltr.ani
@@ -1152,10 +1180,20 @@ art\vfx\combat\vfx_gib_qunc_1.mao
 art\vfx\combat\vfx_gib_qunc_2.mao
 art\vfx\combat\vfx_gib_qunc_3.mao
 art\vfx\combat\vfx_gib_qunc_4.mao
+art\vfx\combat\vfx_gib_qunc_lbrt.anb
+art\vfx\combat\vfx_gib_qunc_ltr.anb
+art\vfx\combat\vfx_gib_qunc_ltrb.anb
+art\vfx\combat\vfx_gib_qunc_rblt.anb
+art\vfx\combat\vfx_gib_qunc_rtl.anb
+art\vfx\combat\vfx_gib_qunc_rtlb.anb
 art\vfx\combat\vfx_gib_qunw.mao
 art\vfx\combat\vfx_gib_qunw.mmh
 art\vfx\combat\vfx_gib_qunw.msh
+art\vfx\combat\vfx_gib_qunw_lbrt.anb
+art\vfx\combat\vfx_gib_qunw_ltr.anb
 art\vfx\combat\vfx_gib_qunw_ltrb.anb
+art\vfx\combat\vfx_gib_qunw_rblt.anb
+art\vfx\combat\vfx_gib_qunw_rtl.anb
 art\vfx\combat\vfx_gib_qunw_rtlb.anb
 art\vfx\combat\vfx_gib_rob_appc.mao
 art\vfx\combat\vfx_gib_undead_bld_p.anb

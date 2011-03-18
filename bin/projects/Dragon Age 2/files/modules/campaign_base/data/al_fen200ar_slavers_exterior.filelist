@@ -1,8 +1,8 @@
-; 32/34 (94%)
+; 34/34 (100%)
 ; 
 ; .ani - 10/10 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/2 (0%)
+;  .cl - 2/2 (100%)
 ; .cnv - 1/1 (100%)
 ; .evt - 6/6 (100%)
 ; .ncs - 10/10 (100%)
@@ -41,3 +41,5 @@ fen200ip_slaver_chest_1.utp
 fen200ip_to_slaver_hideout.utp
 fen200pt_bitterpill.ncs
 fen210_fenris.cnv
+fen210_fenris6108721.cl
+fen210_fenris6109421.cl

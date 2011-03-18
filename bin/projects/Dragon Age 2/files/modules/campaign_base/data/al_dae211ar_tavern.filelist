@@ -1,8 +1,8 @@
-; 338/385 (87%)
+; 355/385 (92%)
 ; 
 ; .ani - 117/133 (87%)
 ; .are - 1/1 (100%)
-;  .cl - 0/17 (0%)
+;  .cl - 17/17 (100%)
 ; .cnv - 18/18 (100%)
 ; .evt - 104/118 (88%)
 ; .ncs - 47/47 (100%)
@@ -257,10 +257,19 @@ dae010pt_amb_tavern.ncs
 dae011_badpoet_sta.cnv
 dae011_conspiracy_mob.cnv
 dae011_corff_sta.cnv
+dae011_corff_sta6140574.cl
+dae011_corff_sta6140575.cl
+dae011_corff_sta6140694.cl
+dae011_corff_sta6142579.cl
+dae011_corff_sta6149600.cl
+dae011_corff_sta6152750.cl
+dae011_corff_sta6152751.cl
+dae011_corff_sta6152752.cl
 dae011_drunk1_sta.cnv
 dae011_drunk2_sta.cnv
 dae011_gossips.cnv
 dae011_order_drink.cnv
+dae011_order_drink6205118.cl
 dae011_wench_mob.cnv
 dae011cr_bar_wench.utc
 dae011cr_bartender.utc
@@ -275,6 +284,7 @@ dae011ip_order_drink.ncs
 dae011ip_order_drink.utp
 dae011st_tavern_ambients.stg
 dae200_alistair_drunk.cnv
+dae200_alistair_drunk6135189.cl
 dae211ar_gamlens_house.ncs
 dae211ar_tavern.are
 dae211ar_tavern.ncs
@@ -322,6 +332,7 @@ lgt111pt_alistair_drunk.ncs
 lgt210pt_frame.ncs
 lgt211cr_alistair_drunk.utc
 lgt260_eau_tmp_roderick.cnv
+lgt260_eau_tmp_roderick6165096.cl
 lgt260cr_eau_tmp_roderick.utc
 lgt321cr_teagan.utc
 lgt321pt_alistair_king.ncs
@@ -338,6 +349,12 @@ qcr000pt_main.ncs
 rdr100pt_keepers.ncs
 rdr111cr_martin.utc
 rdr111dg_martin.cnv
+rdr111dg_martin6014337.cl
+rdr111dg_martin6014614.cl
+rdr111dg_martin6014874.cl
+rdr111dg_martin6015182.cl
+rdr111dg_martin6054832.cl
+rdr111dg_martin6054833.cl
 rdr111st_martin.stg
 rdr200st_martin.utm
 rdrip_store.utp

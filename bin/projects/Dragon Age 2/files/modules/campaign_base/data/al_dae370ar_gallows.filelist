@@ -1,8 +1,8 @@
-; 260/302 (86%)
+; 292/302 (96%)
 ; 
 ; .ani - 88/93 (94%)
 ; .are - 1/1 (100%)
-;  .cl - 2/34 (5%)
+;  .cl - 34/34 (100%)
 ; .cnv - 20/20 (100%)
 ; .evt - 78/83 (93%)
 ; .mmh - 1/1 (100%)
@@ -209,6 +209,13 @@ dae000ip_show_world_map.utp
 dae000pt_talkedto.ncs
 dae270pt_gallows.ncs
 dae300_cullen.cnv
+dae300_cullen6135346.cl
+dae300_cullen6140579.cl
+dae300_cullen6140593.cl
+dae300_cullen6140596.cl
+dae300_cullen6140599.cl
+dae300_cullen6140602.cl
+dae300_cullen6142067.cl
 dae300cr_cullen.utc
 dae300cr_solivitus.utc
 dae300crst_cullenaveline.stg
@@ -222,20 +229,36 @@ dae370ip_mage_store.utp
 dae370ip_weapon_store.utp
 lgt320im_mis_resp_sword_01.uti
 mag100_karras.cnv
+mag100_karras6034428.cl
+mag100_karras6034740.cl
+mag100_karras6034908.cl
 mag100cr_karras.utc
 mag100st_karras.stg
 mag110pt_wayward_son.ncs
 mag111pt_act_of_mercy.ncs
 mag120pt_enemies.ncs
 mag170_hugh.cnv
+mag170_hugh6080691.cl
 mag170_recruit01.cnv
 mag170_recruit02.cnv
 mag170_thrask.cnv
+mag170_thrask6020525.cl
+mag170_thrask6020529.cl
+mag170_thrask6020992.cl
+mag170_thrask6054044.cl
+mag170_thrask6054045.cl
+mag170_thrask6054046.cl
 mag170cr_thrask.utc
 mag170st_hugh.stg
 mag200_feynriel.cnv
+mag200_feynriel6023866.cl
+mag200_feynriel6023877.cl
+mag200_feynriel6023880.cl
 mag200_feynriel6023951.cl
+mag200_feynriel6034447.cl
+mag200_feynriel6034450.cl
 mag200_feynriel6034480.cl
+mag200_feynriel6205364.cl
 mag200cr_feynriel.utc
 mag200pt_night_terrors.ncs
 mag270cr_hugh.utc
@@ -246,7 +269,12 @@ mag320pt_otl_main.ncs
 mag320pt_showdown.ncs
 mag321pt_bestservedcold.ncs
 mag360_alain.cnv
+mag360_alain6044600.cl
+mag360_alain6044606.cl
 mag360_samson.cnv
+mag360_samson6042030.cl
+mag360_samson6044866.cl
+mag360_samson6044869.cl
 mag360cr_alain.utc
 mag360cr_samson.utc
 mag360st_alain.stg
@@ -255,6 +283,8 @@ mag360st_samson_cullen.stg
 mcr000pt_main.ncs
 mcr370_messenger.cnv
 mcr370_messenger_st.stg
+mcr370_messenger6068983.cl
+mcr370_messenger6071817.cl
 mcr370cr_mage_messenger.utc
 mcr370cr_templar_messenger.utc
 mrl350pt_newpath.ncs
@@ -266,6 +296,8 @@ one100it_ironwood.uti
 one200pt_herbalist.ncs
 one300cr_solivitus.ncs
 one300dg_solivitus.cnv
+one300dg_solivitus6048294.cl
+one300dg_solivitus6048303.cl
 one300ip_st_solivitus.ncs
 one300ip_st_solivitus.utp
 one300pt_herb_dragon.ncs

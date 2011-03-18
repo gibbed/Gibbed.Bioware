@@ -1,8 +1,8 @@
-; 291/321 (90%)
+; 306/321 (95%)
 ; 
 ; .ani - 97/105 (92%)
 ; .are - 1/1 (100%)
-;  .cl - 1/16 (6%)
+;  .cl - 16/16 (100%)
 ; .cnv - 18/18 (100%)
 ; .evt - 77/84 (91%)
 ; .ncs - 44/44 (100%)
@@ -191,16 +191,21 @@ ave000pt_gift_shield.ncs
 ave000pt_main.ncs
 ave100_ambush_1.cnv
 ave100_ambush_16106195.cl
+ave100_ambush_16106199.cl
 ave100_donnic.cnv
 ave100_donnic.stg
+ave100_donnic6105934.cl
 ave100cr_donnic.utc
 ave100pt_promotion.ncs
 ave100pt_start.ncs
 ave100st_ambush_1.stg
 ave121_brennan.cnv
 ave121_brennan.stg
+ave121_brennan6105808.cl
 ave121_jeven.cnv
 ave121_jeven.stg
+ave121_jeven6105496.cl
+ave121_jeven6106046.cl
 ave121cr_brennan.utc
 ave121cr_jeven.utc
 ave121ip_captain_door.ncs
@@ -258,7 +263,12 @@ dae021_keep_noblewoman3.utc
 dae021_keep_servant.utc
 dae021_keep_servant_male.utc
 dae100_bran.cnv
+dae100_bran6058937.cl
+dae100_bran6072440.cl
+dae100_bran6097613.cl
 dae100_viscount.cnv
+dae100_viscount6101863.cl
+dae100_viscount6102067.cl
 dae100cr_bran.utc
 dae100cr_viscount.utc
 dae121_bran_st.stg
@@ -300,6 +310,11 @@ spy121_jalen.stg
 vis100pt_offer.ncs
 vis100pt_rescue.ncs
 vis121_saemus.cnv
+vis121_saemus6071966.cl
+vis121_saemus6086695.cl
+vis121_saemus6100130.cl
+vis121_saemus6101159.cl
+vis121_saemus6101292.cl
 vis121cr_saemus.utc
 vis160cr_ginnis.utc
 zz_daept_debug.ncs

@@ -1,8 +1,8 @@
-; 168/206 (81%)
+; 189/206 (91%)
 ; 
 ; .ani - 50/65 (76%)
 ; .are - 1/1 (100%)
-;  .cl - 0/21 (0%)
+;  .cl - 21/21 (100%)
 ; .cnv - 10/10 (100%)
 ; .evt - 39/41 (95%)
 ; .mmh - 3/3 (100%)
@@ -109,6 +109,16 @@ art\vfx\cinematic\vfx_spark_imp_p.impa.evt
 art\vfx\cinematic\vfx_spark_imp_p.mmh
 cod_hst_qunari.utp
 dae000_arishok.cnv
+dae000_arishok6067624.cl
+dae000_arishok6067874.cl
+dae000_arishok6068103.cl
+dae000_arishok6068426.cl
+dae000_arishok6070876.cl
+dae000_arishok6074968.cl
+dae000_arishok6075356.cl
+dae000_arishok6078169.cl
+dae000_arishok6078174.cl
+dae000_arishok6079572.cl
 dae000_friend_turn_in.cnv
 dae000_party_night_comment.cnv
 dae000_sketch.cnv
@@ -123,6 +133,8 @@ dae110ip_at_to_trench_a.utp
 dae110ip_at_to_trench_b.utp
 dae210_gate_guard.cnv
 dae210_gate_guard.stg
+dae210_gate_guard6085047.cl
+dae210_gate_guard6209975.cl
 dae210ar_docks.ncs
 dae210ar_docks_nt.are
 dae210ar_docks_nt.ncs
@@ -145,12 +157,14 @@ lgt000pt_gangs.ncs
 lgt200cr_gang_1_docks.utc
 lgt200cr_gang_2_docks.utc
 lgt210_eau_senestra.cnv
+lgt210_eau_senestra6144873.cl
 lgt210cr_debt_thug1.utc
 lgt210cr_debt_thug2.utc
 lgt210cr_eau_senestra.utc
 lgt210cr_eau_thug3.utc
 lgt210pt_eau_debt.ncs
 lgt310_mis_burn_murder1.cnv
+lgt310_mis_burn_murder16152753.cl
 lgt310cr_mis_burn_murder1.utc
 lgt310ip_at_bandit_alley.utp
 lgt310ip_body_3.ncs
@@ -164,7 +178,14 @@ lgt310pt_fixer_3.ncs
 qcr000_arishok.cnv
 qcr000_arishok.stg
 qcr000_arishok_keep.stg
+qcr000_arishok6057084.cl
+qcr000_arishok6059659.cl
+qcr000_arishok6059669.cl
+qcr000_arishok6060093.cl
+qcr000_arishok6060149.cl
+qcr000_arishok6109125.cl
 qcr000_cut_arishok_response.cnv
+qcr000_cut_arishok_response6039425.cl
 qcr000pt_general.ncs
 qcr000pt_main.ncs
 qcr210cr_converted_elf.utc

@@ -1,8 +1,8 @@
-; 212/260 (81%)
+; 258/260 (99%)
 ; 
 ; .ani - 74/74 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 2/49 (4%)
+;  .cl - 48/49 (97%)
 ; .cnv - 20/21 (95%)
 ; .cut - 1/1 (100%)
 ; .evt - 66/66 (100%)
@@ -156,21 +156,62 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_thumb_ja
 ave100pt_promotion.ncs
 cod_hst_anderfels.utp
 dae000_adriano.cnv
+dae000_adriano6163669.cl
+dae000_adriano6163672.cl
 dae000_adriano6163675.cl
 dae000_brothel_gamlen.cnv
 dae000_cerimon.cnv
+dae000_cerimon6163678.cl
+dae000_cerimon6163681.cl
+dae000_cerimon6163684.cl
 dae000_cora.cnv
+dae000_cora6162357.cl
+dae000_cora6162360.cl
+dae000_cora6162363.cl
 dae000_denier.cnv
+dae000_denier6162499.cl
+dae000_denier6162503.cl
+dae000_denier6162507.cl
 dae000_hired_prostitute.cut
 dae000_katriela.cnv
+dae000_katriela6162658.cl
+dae000_katriela6162661.cl
+dae000_katriela6162664.cl
+dae000_katriela6166395.cl
 dae000_leonato.cnv
+dae000_leonato6162485.cl
+dae000_leonato6162489.cl
+dae000_leonato6162493.cl
 dae000_madam_lusine.cnv
+dae000_madam_lusine6151215.cl
+dae000_madam_lusine6151477.cl
+dae000_madam_lusine6151478.cl
+dae000_madam_lusine6152075.cl
+dae000_madam_lusine6152076.cl
+dae000_madam_lusine6152079.cl
+dae000_madam_lusine6152080.cl
 dae000_madam_lusine6152083.cl
+dae000_madam_lusine6152143.cl
+dae000_madam_lusine6152148.cl
+dae000_madam_lusine6152151.cl
+dae000_madam_lusine6154903.cl
+dae000_madam_lusine6154906.cl
 dae000_osric.cnv
+dae000_osric6162701.cl
+dae000_osric6162704.cl
+dae000_osric6162707.cl
 dae000_porfiria.cnv
 dae000_quintus.cnv
+dae000_quintus6153102.cl
+dae000_quintus6153130.cl
 dae000_sabina.cnv
+dae000_sabina6151869.cl
+dae000_sabina6151870.cl
+dae000_sabina6161449.cl
 dae000_serendipity.cnv
+dae000_serendipity6161356.cl
+dae000_serendipity6161359.cl
+dae000_serendipity6161362.cl
 dae000_surprises.cnv
 dae000cr_adriano.utc
 dae000cr_brothel_harlan.utc
@@ -216,11 +257,16 @@ isa100pt_fools.ncs
 lgt321pt_alistair_king.ncs
 mag110_samson.cnv
 mag110_samson.stg
+mag110_samson6016157.cl
+mag110_samson6018133.cl
+mag110_samson6025541.cl
+mag110_samson6049808.cl
 mag110cr_samson.utc
 mag110pt_wayward_son.ncs
 mag111pt_act_of_mercy.ncs
 mag321pt_bestservedcold.ncs
 mag360_thrask.cnv
+mag360_thrask6042373.cl
 mag360cr_thrask.utc
 mag360st_thrask.stg
 qun200pt_following_qun.ncs

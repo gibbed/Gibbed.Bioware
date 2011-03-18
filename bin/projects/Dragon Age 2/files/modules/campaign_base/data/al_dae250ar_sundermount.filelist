@@ -1,8 +1,8 @@
-; 179/196 (91%)
+; 194/196 (98%)
 ; 
 ; .ani - 51/52 (98%)
 ; .are - 1/1 (100%)
-;  .cl - 0/15 (0%)
+;  .cl - 15/15 (100%)
 ; .cnv - 13/13 (100%)
 ; .evt - 44/45 (97%)
 ; .ncs - 20/20 (100%)
@@ -143,10 +143,12 @@ lgt200cr_pride_abomination.utc
 lgt210_shp_kill_qunari3.cnv
 lgt210cr_shp_kill_qunari3.utc
 lgt220_mag_apost_apost2.cnv
+lgt220_mag_apost_apost26156740.cl
 lgt220cr_apost1.ncs
 lgt220cr_mag_apost_apost2.utc
 lgt220pt_bounty_hunter.ncs
 lgt250_way_dalish_conflict.cnv
+lgt250_way_dalish_conflict6147116.cl
 lgt250cr_way_dalish_hunter.utc
 lgt250cr_way_dalish_templar.utc
 lgt250ip_at_tomecave.utp
@@ -158,6 +160,12 @@ mag200pt_night_terrors.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl000cr_shadow.ncs
 mrl150_marethari.stg
 mrl150_marethaript2.stg
@@ -168,11 +176,16 @@ mrl200pt_hunteramulets.ncs
 mrl210_merrill.cnv
 mrl210_merrill_varterralpt1.stg
 mrl210_merrill_varterralpt2.stg
+mrl210_merrill6102111.cl
+mrl210_merrill6166844.cl
 mrl250cr_corpse.utc
 mrl250ip_at_elfcave.utp
 mrl250pt_mirrorimg.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100ip_st_ilen.ncs
 one100it_fang.uti
@@ -186,6 +199,8 @@ one200it_tattoo.uti
 one200pt_herbalist.ncs
 one300pt_murder_crows.ncs
 one350_terath.cnv
+one350_terath6087115.cl
+one350_terath6106360.cl
 one350cr_terath.utc
 seb000cr_change_loot.ncs
 sebcr_merc_archer.utc

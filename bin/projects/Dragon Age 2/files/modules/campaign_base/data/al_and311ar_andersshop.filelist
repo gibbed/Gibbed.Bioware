@@ -1,8 +1,8 @@
-; 47/49 (95%)
+; 49/49 (100%)
 ; 
 ; .ani - 17/17 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/2 (0%)
+;  .cl - 2/2 (100%)
 ; .cnv - 1/1 (100%)
 ; .evt - 13/13 (100%)
 ; .ncs - 6/6 (100%)
@@ -17,6 +17,8 @@ and000pt_gift_key.ncs
 and000pt_main.ncs
 and100pt_tranquility.ncs
 and111_lirene.cnv
+and111_lirene6044961.cl
+and111_lirene6094268.cl
 and111ar_andersshop.ncs
 and111cr_lirene.utc
 and111cr_shopgirl.utc

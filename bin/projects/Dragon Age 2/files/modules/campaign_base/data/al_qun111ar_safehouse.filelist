@@ -1,8 +1,8 @@
-; 94/101 (93%)
+; 101/101 (100%)
 ; 
 ; .ani - 37/37 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 3/10 (30%)
+;  .cl - 10/10 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 32/32 (100%)
 ; .mmh - 3/3 (100%)
@@ -91,6 +91,10 @@ qun110_petrice_aftermath.stg
 qun110_petrice_alley.stg
 qun110_petrice_intro.stg
 qun110_petrice_ketojan.stg
+qun110_petrice6018514.cl
+qun110_petrice6018555.cl
+qun110_petrice6036410.cl
+qun110_petrice6041266.cl
 qun110_varnell.cnv
 qun110cr_petrice.utc
 qun110cr_varnell.utc
@@ -98,7 +102,10 @@ qun111_ketojan.cnv
 qun111_ketojan_freed.stg
 qun111_ketojan_post_thug.stg
 qun111_ketojan6019013.cl
+qun111_ketojan6019022.cl
+qun111_ketojan6019031.cl
 qun111_ketojan6019040.cl
+qun111_ketojan6039000.cl
 qun111_ketojan6039003.cl
 qun111ar_safehouse.are
 qun111ar_safehouse.ncs

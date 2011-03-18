@@ -1,4 +1,4 @@
-; 39/42 (92%)
+; 42/42 (100%)
 ss_carta_thug_m.bnk
 ss_circlemages_f_1.bnk
 ss_circlemages_m_1.bnk
@@ -9,15 +9,18 @@ ss_cityelf_f_1.bnk
 ss_cityelf_m_1.bnk
 ss_coterie_assassin_f.bnk
 ss_coterie_assassin_m.bnk
+ss_coterie_mage_f.bnk
 ss_coterie_mage_m.bnk
 ss_coterie_thug_f.bnk
 ss_coterie_thug_m.bnk
 ss_crazy_f_1.bnk
+ss_crazy_m_1.bnk
 ss_crow_m_1.bnk
 ss_dalish_f_1.bnk
 ss_dalish_m_1.bnk
 ss_fereldan_f_1.bnk
 ss_fereldan_m_1.bnk
+ss_harlan.bnk
 ss_lowclass_thugs_f_1.bnk
 ss_lowclass_thugs_m_1.bnk
 ss_midclass_thugs_f_1.bnk

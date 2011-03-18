@@ -1,4 +1,4 @@
-; 14/21 (66%)
+; 15/21 (71%)
 ; 
 ; .ani - 9/9 (100%)
 ; .are - 1/1 (100%)
@@ -6,7 +6,7 @@
 ; .cnv - 0/1 (0%)
 ; .evt - 3/3 (100%)
 ; .ncs - 1/2 (50%)
-; .stg - 0/1 (0%)
+; .stg - 1/1 (100%)
 ; .utc - 0/2 (0%)
 ; .utp - 0/1 (0%)
 ; 
@@ -23,4 +23,5 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyejitter_qu
 art\characters\playercharacter\humanmale\animation\cindes\pose\mh_o.eyelids.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a.ani
 seb000_install.ncs
+seb201st_lady_harimann.stg
 seb222ar_ruin.are

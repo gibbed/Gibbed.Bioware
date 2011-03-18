@@ -1,8 +1,8 @@
-; 59/62 (95%)
+; 62/62 (100%)
 ; 
 ; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
 ; .cut - 1/1 (100%)
 ; .evt - 17/17 (100%)
@@ -64,6 +64,9 @@ mer140_bonepit_comments.cnv
 mer140ip_item_rubble.utp
 mer140ip_item_rubble_2.utp
 mer141_jansen.cnv
+mer141_jansen6031827.cl
+mer141_jansen6031852.cl
+mer141_jansen6031855.cl
 mer141ar_caverns.are
 mer141ar_caverns.ncs
 mer141cr_jansen.utc

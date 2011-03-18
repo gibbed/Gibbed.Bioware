@@ -1,8 +1,8 @@
-; 171/192 (89%)
+; 185/192 (96%)
 ; 
 ; .ani - 51/55 (92%)
 ; .are - 1/1 (100%)
-;  .cl - 0/14 (0%)
+;  .cl - 14/14 (100%)
 ; .cnv - 7/7 (100%)
 ; .evt - 43/46 (93%)
 ; .mmh - 1/1 (100%)
@@ -123,11 +123,18 @@ cod_bks_kirkwall_hist_4.utp
 cod_mgc_circle_history.utp
 dae000_bodhan.cnv
 dae000_bodhan_letter.cnv
+dae000_bodhan6129078.cl
+dae000_bodhan6146781.cl
 dae000_orana.cnv
 dae000_orana.stg
+dae000_orana6149008.cl
+dae000_orana6149011.cl
 dae000_pc_home_ambients.cnv
 dae000_sandal.cnv
 dae000_sandal_st.stg
+dae000_sandal6147779.cl
+dae000_sandal6148209.cl
+dae000_sandal6180615.cl
 dae000cr_orana.utc
 dae000ip_exit_house.ncs
 dae000ip_exit_player_house.utp
@@ -175,6 +182,13 @@ genpt_dog.ncs
 isa000pt_main.ncs
 isa300pt_wicked.ncs
 isa311_isabela.cnv
+isa311_isabela6091961.cl
+isa311_isabela6092148.cl
+isa311_isabela6092152.cl
+isa311_isabela6092153.cl
+isa311_isabela6092258.cl
+isa311_isabela6092378.cl
+isa311_isabela6116378.cl
 isa311st_isabella_end.stg
 mcr000pt_main.ncs
 mrl000pt_main.ncs

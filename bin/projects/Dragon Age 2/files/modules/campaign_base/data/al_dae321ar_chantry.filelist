@@ -1,8 +1,8 @@
-; 181/209 (86%)
+; 198/209 (94%)
 ; 
 ; .ani - 55/65 (84%)
 ; .are - 1/1 (100%)
-;  .cl - 0/17 (0%)
+;  .cl - 17/17 (100%)
 ; .cnv - 8/8 (100%)
 ; .evt - 51/52 (98%)
 ; .ncs - 39/39 (100%)
@@ -132,6 +132,22 @@ cod_mgc_chant_maker.utp
 cod_mgc_chant_schism.utp
 dae000cr_grand_cleric.cnv
 dae000cr_grand_cleric.utc
+dae000cr_grand_cleric6066109.cl
+dae000cr_grand_cleric6066113.cl
+dae000cr_grand_cleric6124673.cl
+dae000cr_grand_cleric6141056.cl
+dae000cr_grand_cleric6148090.cl
+dae000cr_grand_cleric6148135.cl
+dae000cr_grand_cleric6164469.cl
+dae000cr_grand_cleric6173592.cl
+dae000cr_grand_cleric6173595.cl
+dae000cr_grand_cleric6174436.cl
+dae000cr_grand_cleric6178459.cl
+dae000cr_grand_cleric6178462.cl
+dae000cr_grand_cleric6181903.cl
+dae000cr_grand_cleric6181906.cl
+dae000cr_grand_cleric6183957.cl
+dae000cr_grand_cleric6185495.cl
 dae000ip_party_picker.ncs
 dae000ip_party_picker.utp
 dae000pt_amb_actions.ncs
@@ -152,6 +168,7 @@ dae021cr_sister_samea.utc
 dae221cr_torelin.utc
 dae221ip_exit_keep.ncs
 dae300_petrice.cnv
+dae300_petrice6097850.cl
 dae321ar_brothel_nt.ncs
 dae321ar_chantry.are
 dae321ar_chantry.ncs

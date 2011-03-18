@@ -1,8 +1,8 @@
-; 359/402 (89%)
+; 402/402 (100%)
 ; 
 ; .ani - 101/101 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 7/50 (14%)
+;  .cl - 50/50 (100%)
 ; .cnv - 32/32 (100%)
 ; .evt - 90/90 (100%)
 ; .mmh - 4/4 (100%)
@@ -17,6 +17,7 @@
 act00pt_main.ncs
 and100pt_tranquility.ncs
 and110_refugee.cnv
+and110_refugee6090301.cl
 and110cr_angry_refugee.utc
 and110cr_street_archer.utc
 and110cr_street_thug.utc
@@ -227,6 +228,7 @@ cod_hst_kirk_lowtown.utp
 cod_hst_vehnadahl.utp
 cod_ltr_junk_propaganda.utp
 dae000_elegant.cnv
+dae000_elegant6166884.cl
 dae000_fem_priest_mob.cnv
 dae000_gen_turn_in_2.cnv
 dae000_gen_turn_in_3.cnv
@@ -285,11 +287,23 @@ dre000_cut_return_surface.cnv
 dre000_cut_return_surface6030202.cl
 dre000_varric.cnv
 dre000_varric_rockwraith.stg
+dre000_varric6027743.cl
 dre000_varric6028417.cl
 dre000_varric6029149.cl
 dre000_varric6029385.cl
+dre000_varric6030283.cl
+dre000_varric6030292.cl
+dre000_varric6034627.cl
 dre000_varric6036950.cl
+dre000_varric6207929.cl
 dre000_varric6208001.cl
+dre000_varric6208004.cl
+dre000_varric6208007.cl
+dre000_varric6208010.cl
+dre000_varric6208016.cl
+dre000_varric6208019.cl
+dre000_varric6208025.cl
+dre000_varric6208028.cl
 dre000_varric6208031.cl
 dre000st_cut_return_surface.stg
 dre000st_varric_enttomb.stg
@@ -307,9 +321,14 @@ lgt000cr_mage_turn_in_2.utc
 lgt000cr_ultra_turn_in.ncs
 lgt110_gxa_vgk_consprcy.ncs
 lgt110_gxa_vgk_silver_order.cnv
+lgt110_gxa_vgk_silver_order6116811.cl
+lgt110_gxa_vgk_silver_order6116986.cl
+lgt110_gxa_vgk_silver_order6117049.cl
 lgt110_urn_barker.cnv
 lgt110_urn_con_leader.cnv
 lgt110_urn_guard.cnv
+lgt110_urn_guard6133109.cl
+lgt110_urn_guard6170673.cl
 lgt110cr_gxa_vgk_slvr_or_gd.utc
 lgt110cr_gxa_vgk_slvr_order.utc
 lgt110cr_urn_barker.utc
@@ -328,7 +347,17 @@ lowtown_male_cityguard_mob.cnv
 lowtown_male_lowlife1_sta.cnv
 lowtown_male_urchin_sta.cnv
 mag110_arianni.cnv
+mag110_arianni6020484.cl
+mag110_arianni6020485.cl
+mag110_arianni6020488.cl
+mag110_arianni6020491.cl
+mag110_arianni6020496.cl
+mag110_arianni6020499.cl
+mag110_arianni6036792.cl
 mag110_vincento.cnv
+mag110_vincento6017111.cl
+mag110_vincento6017658.cl
+mag110_vincento6032991.cl
 mag110cr_arianni.utc
 mag110cr_guardsman.utc
 mag110cr_guardsman2.utc
@@ -345,11 +374,18 @@ mag110tr_vincentoarrest.ncs
 mag110tr_vincentoarrest.utt
 mag111pt_act_of_mercy.ncs
 mag170_thrask.cnv
+mag170_thrask6020525.cl
+mag170_thrask6020529.cl
+mag170_thrask6020992.cl
+mag170_thrask6054044.cl
+mag170_thrask6054045.cl
+mag170_thrask6054046.cl
 mag170cr_thrask.utc
 mag200pt_night_terrors.ncs
 mag320pt_otl_main.ncs
 mag320pt_showdown.ncs
 mer110_jansen.cnv
+mer110_jansen6032593.cl
 mer110cr_jansen.utc
 mer110cr_miner1.utc
 mer110cr_miner2.utc
@@ -361,6 +397,13 @@ mrl150_merrill_pt3.stg
 mrl150_merrill_pt4.stg
 mrl150_merrill_pt6.stg
 mrl150_merrill_pt7.stg
+mrl150_merrill6070451.cl
+mrl150_merrill6071783.cl
+mrl150_merrill6071916.cl
+mrl150_merrill6072770.cl
+mrl150_merrill6077659.cl
+mrl150_merrill6078227.cl
+mrl150_merrill6078285.cl
 mrl150pt_longway.ncs
 pro000pt_main.ncs
 store_dae110_access.utm

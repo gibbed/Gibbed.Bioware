@@ -1,8 +1,8 @@
-; 94/104 (90%)
+; 103/104 (99%)
 ; 
 ; .ani - 41/42 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/9 (0%)
+;  .cl - 9/9 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 35/35 (100%)
 ; .ncs - 7/7 (100%)
@@ -92,8 +92,17 @@ rdr110dg_party_comments.cnv
 rdr111ar_warehouse.are
 rdr111ar_warehouse.ncs
 rdr111dg_assistant.cnv
+rdr111dg_assistant6016624.cl
+rdr111dg_assistant6016676.cl
 rdr111dg_harbormaster.cnv
+rdr111dg_harbormaster6015965.cl
 rdr111dg_martin.cnv
+rdr111dg_martin6014337.cl
+rdr111dg_martin6014614.cl
+rdr111dg_martin6014874.cl
+rdr111dg_martin6015182.cl
+rdr111dg_martin6054832.cl
+rdr111dg_martin6054833.cl
 rdr111dg_raider_ambusher.cnv
 rdr111ip_at_docks.ncs
 rdr111ip_at_docks.utp

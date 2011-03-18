@@ -1,8 +1,8 @@
-; 349/366 (95%)
+; 359/366 (98%)
 ; 
 ; .ani - 115/120 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 0/10 (0%)
+;  .cl - 10/10 (100%)
 ; .cnv - 17/17 (100%)
 ; .evt - 98/100 (98%)
 ; .mmh - 1/1 (100%)
@@ -269,7 +269,12 @@ ave330tr_jeven_init.ncs
 ave330tr_jeven_init.utt
 ave331_jeven.cnv
 ave331_jeven.stg
+ave331_jeven6162381.cl
 ave331_post_fight.cnv
+ave331_post_fight6138789.cl
+ave331_post_fight6138799.cl
+ave331_post_fight6138815.cl
+ave331_post_fight6138831.cl
 ave331cr_insurgent_f.utc
 ave331cr_insurgent_f2.utc
 ave331cr_insurgent_f3.utc
@@ -287,6 +292,7 @@ cod_hst_seekers.utp
 cod_hst_tevinter.utp
 dae000_oldmangossip.cnv
 dae000_tomwise.cnv
+dae000_tomwise6167264.cl
 dae000cr_fereldan_f.utc
 dae000cr_gossip_old_m1.utc
 dae000cr_gossip_old_m2.utc
@@ -336,6 +342,9 @@ mag320pt_otl_main.ncs
 mag320pt_showdown.ncs
 mag321pt_bestservedcold.ncs
 mag330_walter.cnv
+mag330_walter6044519.cl
+mag330_walter6045786.cl
+mag330_walter6045962.cl
 mag330cr_cricket.utc
 mag330cr_walter.utc
 mag330ip_to_hideout.utp
@@ -351,6 +360,7 @@ one100_party_comments.cnv
 one100it_thug_note.uti
 one100pt_gamlen.ncs
 one130_thug.cnv
+one130_thug6133304.cl
 one130cr_mekel.utc
 one300cr_ggt_thug2.utc
 one300cr_ggt_thug3.utc

@@ -1,8 +1,8 @@
-; 133/150 (88%)
+; 149/150 (99%)
 ; 
 ; .ani - 49/49 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/16 (0%)
+;  .cl - 16/16 (100%)
 ; .cnv - 8/9 (88%)
 ; .evt - 40/40 (100%)
 ; .ncs - 20/20 (100%)
@@ -104,10 +104,15 @@ dae000ip_show_world_map_l.utp
 dae000pt_amb_sunder.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100_party_comments.cnv
 one100_solivitus.cnv
 one100_solivitus.stg
+one100_solivitus6048107.cl
+one100_solivitus6059911.cl
 one100ar_ironwood.ncs
 one100ar_ruin_ext.are
 one100ar_ruin_ext.ncs
@@ -117,11 +122,22 @@ one100cr_ilen.ncs
 one100cr_nabil.utc
 one100cr_solivitus.ncs
 one100dg_elren.cnv
+one100dg_elren6014248.cl
+one100dg_elren6060989.cl
 one100dg_kelder.cnv
+one100dg_kelder6055417.cl
 one100dg_lia.cnv
+one100dg_lia6013840.cl
 one100dg_nabil.cnv
 one100dg_nabil.stg
+one100dg_nabil6059782.cl
+one100dg_nabil6059783.cl
+one100dg_nabil6059784.cl
 one100dg_vanard.cnv
+one100dg_vanard6017476.cl
+one100dg_vanard6020937.cl
+one100dg_vanard6047283.cl
+one100dg_vanard6047400.cl
 one100ip_at_ruin_int.utp
 one100ip_ggt_trap.ncs
 one100ip_ironwood.ncs

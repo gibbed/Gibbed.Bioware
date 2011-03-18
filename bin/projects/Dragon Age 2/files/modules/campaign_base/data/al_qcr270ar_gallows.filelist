@@ -1,8 +1,8 @@
-; 106/138 (76%)
+; 123/138 (89%)
 ; 
 ; .ani - 40/54 (74%)
 ; .are - 1/1 (100%)
-;  .cl - 0/17 (0%)
+;  .cl - 17/17 (100%)
 ; .cnv - 7/7 (100%)
 ; .evt - 29/30 (96%)
 ; .mmh - 5/5 (100%)
@@ -100,16 +100,33 @@ pro000st_varric.stg
 qcr000_arishok.cnv
 qcr000_arishok.stg
 qcr000_arishok_keep.stg
+qcr000_arishok6057084.cl
+qcr000_arishok6059659.cl
+qcr000_arishok6059669.cl
+qcr000_arishok6060093.cl
+qcr000_arishok6060149.cl
+qcr000_arishok6109125.cl
 qcr000_aveline.cnv
+qcr000_aveline6054356.cl
+qcr000_aveline6054365.cl
 qcr000_cut_arishok_response.cnv
+qcr000_cut_arishok_response6039425.cl
 qcr000_cut2d_thechampion.cnv
+qcr000_cut2d_thechampion6025121.cl
 qcr000_fake_siege.cnv
 qcr000_varric.cnv
+qcr000_varric6043181.cl
+qcr000_varric6066265.cl
+qcr000_varric6066268.cl
+qcr000_varric6208237.cl
 qcr000pt_general.ncs
 qcr000pt_main.ncs
 qcr000st_aveline.stg
 qcr000tr_ambients_run.ncs
 qcr270_fake_meredith.cnv
+qcr270_fake_meredith6066322.cl
+qcr270_fake_meredith6066335.cl
+qcr270_fake_meredith6066339.cl
 qcr270ar_gallows.are
 qcr270ar_gallows.ncs
 qcr270cr_abomination.utc

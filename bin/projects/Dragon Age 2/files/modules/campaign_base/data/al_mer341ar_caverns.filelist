@@ -1,8 +1,8 @@
-; 22/25 (88%)
+; 25/25 (100%)
 ; 
 ; .ani - 8/8 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 1/1 (100%)
 ; .ncs - 4/4 (100%)
@@ -29,6 +29,9 @@ mer340cr_angry_miner.utc
 mer340cr_cavern_guard.utc
 mer341_earl.cnv
 mer341_jansen.cnv
+mer341_jansen6082978.cl
+mer341_jansen6082981.cl
+mer341_jansen6082984.cl
 mer341ar_caverns.are
 mer341cr_earl.utc
 mer341cr_jansen.utc

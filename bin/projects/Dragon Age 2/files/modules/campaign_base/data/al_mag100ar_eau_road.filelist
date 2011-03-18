@@ -1,8 +1,8 @@
-; 119/147 (80%)
+; 131/147 (89%)
 ; 
 ; .ani - 50/59 (84%)
 ; .are - 1/1 (100%)
-;  .cl - 0/12 (0%)
+;  .cl - 12/12 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 41/48 (85%)
 ; .mmh - 1/1 (100%)
@@ -113,8 +113,20 @@ dae000pt_talkedto.ncs
 mag000pt_otl_debug.ncs
 mag100_cullen.cnv
 mag100_cullen_karen_resolve.stg
+mag100_cullen6082257.cl
+mag100_cullen6082283.cl
+mag100_cullen6095081.cl
+mag100_cullen6095090.cl
+mag100_cullen6140937.cl
+mag100_cullen6205415.cl
 mag100_karras.cnv
+mag100_karras6034428.cl
+mag100_karras6034740.cl
+mag100_karras6034908.cl
 mag100_thrask.cnv
+mag100_thrask6031631.cl
+mag100_thrask6031743.cl
+mag100_thrask6034806.cl
 mag100ar_eau_road.are
 mag100ar_eau_road.ncs
 mag100ar_encounter.ncs

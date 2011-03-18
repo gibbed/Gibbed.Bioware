@@ -1,6 +1,6 @@
-; 2247/2559 (87%)
+; 2280/2559 (89%)
 ; 
-; .anb - 109/142 (76%)
+; .anb - 142/142 (100%)
 ; .ani - 816/855 (95%)
 ; .evt - 593/707 (83%)
 ; .gad - 729/855 (85%)
@@ -13,10 +13,13 @@ art\characters\creatures\darkspawnogre\animation\cindes\custom\meleeattackv1_fro
 art\characters\playercharacter\children\animation\blendtree\child.anb
 art\characters\playercharacter\children\animation\blendtree\child_exp_movement.anb
 art\characters\playercharacter\children\animation\blendtree\child_overlay.anb
+art\characters\playercharacter\children\animation\blendtree\child_paperdoll.anb
 art\characters\playercharacter\dwarfmale\animation\blendtree\combat_movement_varric_crossbow.anb
 art\characters\playercharacter\dwarfmale\animation\blendtree\dm_exp_idle.anb
 art\characters\playercharacter\dwarfmale\animation\blendtree\dm_exp_movement.anb
 art\characters\playercharacter\dwarfmale\animation\blendtree\pp_varric.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\varic_damage_reactions.anb
+art\characters\playercharacter\dwarfmale\animation\blendtree\varric_combat_face_additive.anb
 art\characters\playercharacter\dwarfmale\animation\blendtree\varric_crossbow_bowoverlay.anb
 art\characters\playercharacter\dwarfmale\animation\blendtree\varric_crossbow_combat.anb
 art\characters\playercharacter\dwarfmale\animation\exploration\idle\move_p.ani
@@ -270,16 +273,23 @@ art\characters\playercharacter\elfmale\animation\exploration\movement\mov_rf_p_r
 art\characters\playercharacter\elfmale\animation\exploration\movement\mov_wf.ani
 art\characters\playercharacter\elfmale\animation\exploration\movement\mov_wf.gad
 art\characters\playercharacter\elfmale\animation\exploration\movement\mov_wf_injured.ani
+art\characters\playercharacter\elfmale\animation\trooperarcher\blendtree\trooper.anb
+art\characters\playercharacter\elfmale\animation\trooperarcher\blendtree\trooper_movement.anb
+art\characters\playercharacter\elfmale\animation\trooperarcher\blendtree\trooper_overlay.anb
 art\characters\playercharacter\elfmale\animation\trooperarcher\flurry.ani
 art\characters\playercharacter\elfmale\animation\trooperarcher\flurry.evt
 art\characters\playercharacter\elfmale\animation\trooperarcher\flurry.gad
 art\characters\playercharacter\elfmale\animation\trooperarcher\powerattack.ani
 art\characters\playercharacter\elfmale\animation\trooperarcher\powerattack.evt
 art\characters\playercharacter\elfmale\animation\trooperarcher\powerattack.gad
+art\characters\playercharacter\elfmale\animation\trooperassasin\blendtree\trooperassasin_override.anb
 art\characters\playercharacter\elfmale\animation\trooperassasin\disengage.ani
 art\characters\playercharacter\elfmale\animation\trooperassasin\stealthactivate.ani
 art\characters\playercharacter\elfmale\animation\trooperassasin\stealthattackv1.ani
 art\characters\playercharacter\elfmale\animation\trooperassasin\stealthattackv2.ani
+art\characters\playercharacter\elfmale\animation\trooperwarrior\blendtree\trooper.anb
+art\characters\playercharacter\elfmale\animation\trooperwarrior\blendtree\trooper_movement.anb
+art\characters\playercharacter\elfmale\animation\trooperwarrior\blendtree\trooper_overlay.anb
 art\characters\playercharacter\elfmale\animation\trooperwarrior\enrage.ani
 art\characters\playercharacter\elfmale\animation\trooperwarrior\enrage.evt
 art\characters\playercharacter\elfmale\animation\trooperwarrior\enrage.gad
@@ -306,6 +316,7 @@ art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_
 art\characters\playercharacter\humanfemale\animation\ambient\dialogue\lean_back_wall_loop.gad
 art\characters\playercharacter\humanfemale\animation\blendtree\aveline.anb
 art\characters\playercharacter\humanfemale\animation\blendtree\aveline_exp_movement.anb
+art\characters\playercharacter\humanfemale\animation\blendtree\aveline_injured_movement.anb
 art\characters\playercharacter\humanfemale\animation\blendtree\aveline_overlay.anb
 art\characters\playercharacter\humanfemale\animation\blendtree\hf.anb
 art\characters\playercharacter\humanfemale\animation\blendtree\hf_exp_movement.anb
@@ -604,6 +615,7 @@ art\characters\playercharacter\humanmale\animation\ambient\pose\pose_fa_transiti
 art\characters\playercharacter\humanmale\animation\ambient\pose\pose_fa_transition.gad
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\basedualwield\blendtree\assassin.anb
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\basedualwield\blendtree\assassin_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\basedualwield\blendtree\assassin_overlay.anb
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_activate.ani
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_activate.evt
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_activate.gad
@@ -614,6 +626,7 @@ art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarse
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_atk_v2.evt
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ass_atk_v2.gad
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\blendtree\templarseeker_override.anb
+art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\blendtree\templarseeker2_override.anb
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\disengage.ani
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\disengage.evt
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\disengage.gad
@@ -622,6 +635,7 @@ art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarse
 art\characters\playercharacter\humanmale\animation\archetypes\assassin\templarseeker\ledgedropland.gad
 art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\blendtree\meredith.anb
 art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\blendtree\meredith_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\blendtree\meredith_override.anb
 art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\blendtree\meredith_pcoverride.anb
 art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\attackversion1.ani
 art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\attackversion2.ani
@@ -657,6 +671,7 @@ art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\comb
 art\characters\playercharacter\humanmale\animation\archetypes\boss\meredith\combat\whirlwind.ani
 art\characters\playercharacter\humanmale\animation\archetypes\commander\baseswordshield\blendtree\commander.anb
 art\characters\playercharacter\humanmale\animation\archetypes\commander\baseswordshield\blendtree\commander_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\commander\baseswordshield\blendtree\commander_overlay.anb
 art\characters\playercharacter\humanmale\animation\archetypes\commander\templarcaptain\blendtree\templarcaptain_override.anb
 art\characters\playercharacter\humanmale\animation\archetypes\commander\templarcaptain\combat\bufftwitch.ani
 art\characters\playercharacter\humanmale\animation\archetypes\commander\templarcaptain\combat\bufftwitch.evt
@@ -720,6 +735,7 @@ art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\abilities\tw_tal_crtstrk.gad
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\blendtree\trooper.anb
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\blendtree\trooper_overlay.anb
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv1.ani
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv1.evt
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\attackv1.gad
@@ -764,6 +780,7 @@ art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\co
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basebow\combat\walkforwardright.gad
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\blendtree\trooper.anb
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\blendtree\trooper_overlay.anb
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\ass_ent.ani
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\ass_ent.evt
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basedualwield\combat\ass_ent.gad
@@ -893,6 +910,7 @@ art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswords
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\baseswordshield\combat\walkforwardright.gad
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\blendtree\trooper.anb
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\blendtree\trooper_movement.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\blendtree\trooper_overlay.anb
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\attackv1.ani
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\attackv1.evt
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\attackv1.gad
@@ -929,6 +947,8 @@ art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohan
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkforwardleft.gad
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkforwardright.ani
 art\characters\playercharacter\humanmale\animation\archetypes\trooper\basetwohanded\combat\walkforwardright.gad
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\circlemage\blendtree\circlemage_override.anb
+art\characters\playercharacter\humanmale\animation\archetypes\trooper\templar\blendtree\templar_override.anb
 art\characters\playercharacter\humanmale\animation\blendtree\bow.anb
 art\characters\playercharacter\humanmale\animation\blendtree\bowoverlay.anb
 art\characters\playercharacter\humanmale\animation\blendtree\combat_face_additive.anb
@@ -936,11 +956,17 @@ art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_bow
 art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_dw.anb
 art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_mw.anb
 art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_sw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_swq.anb
 art\characters\playercharacter\humanmale\animation\blendtree\combat_movement_tw.anb
+art\characters\playercharacter\humanmale\animation\blendtree\dm_injured_movement.anb
 art\characters\playercharacter\humanmale\animation\blendtree\dw.anb
 art\characters\playercharacter\humanmale\animation\blendtree\dwoverlay.anb
+art\characters\playercharacter\humanmale\animation\blendtree\ef_injured_movement.anb
+art\characters\playercharacter\humanmale\animation\blendtree\em_injured_movement.anb
+art\characters\playercharacter\humanmale\animation\blendtree\hf_injured_movement.anb
 art\characters\playercharacter\humanmale\animation\blendtree\hm.anb
 art\characters\playercharacter\humanmale\animation\blendtree\hm_exp_movement.anb
+art\characters\playercharacter\humanmale\animation\blendtree\hm_injured_movement.anb
 art\characters\playercharacter\humanmale\animation\blendtree\hm_overlay.anb
 art\characters\playercharacter\humanmale\animation\blendtree\hm_paperdoll.anb
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_arms_crossed.anb
@@ -949,7 +975,9 @@ art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_co
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_crouching.anb
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_injured.anb
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_other.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_scared.anb
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_sitting.anb
+art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_sitting_table.anb
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_standing.anb
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_ambient_wall_lean_left.anb
 art\characters\playercharacter\humanmale\animation\blendtree\humanoid_damage_reactions.anb
@@ -965,9 +993,13 @@ art\characters\playercharacter\humanmale\animation\blendtree\pp_male_mage.anb
 art\characters\playercharacter\humanmale\animation\blendtree\pp_male_rogue.anb
 art\characters\playercharacter\humanmale\animation\blendtree\pp_male_warrior.anb
 art\characters\playercharacter\humanmale\animation\blendtree\pp_sebastian.anb
+art\characters\playercharacter\humanmale\animation\blendtree\qm_injured_movement.anb
 art\characters\playercharacter\humanmale\animation\blendtree\shielddefence_override.anb
+art\characters\playercharacter\humanmale\animation\blendtree\shielddefenceq_override.anb
 art\characters\playercharacter\humanmale\animation\blendtree\sw.anb
 art\characters\playercharacter\humanmale\animation\blendtree\swoverlay.anb
+art\characters\playercharacter\humanmale\animation\blendtree\swq.anb
+art\characters\playercharacter\humanmale\animation\blendtree\swqoverlay.anb
 art\characters\playercharacter\humanmale\animation\blendtree\tw.anb
 art\characters\playercharacter\humanmale\animation\blendtree\twoverlay.anb
 art\characters\playercharacter\humanmale\animation\cindes\ambient\compressed\cuddle_lying_male_loop.ani
@@ -2015,6 +2047,7 @@ art\characters\playercharacter\humanmale\animation\exploration\movement\runforwa
 art\characters\playercharacter\humanmale\animation\exploration\movement\runforward.gad
 art\characters\playercharacter\qunarimale\animation\blendtree\qm_exp_idle.anb
 art\characters\playercharacter\qunarimale\animation\blendtree\qm_exp_movement.anb
+art\characters\playercharacter\qunarimale\animation\blendtree\qm_overlay.anb
 art\characters\playercharacter\qunarimale\animation\blendtree\qunariarishok.anb
 art\characters\playercharacter\qunarimale\animation\blendtree\qunariarishok_movement.anb
 art\characters\playercharacter\qunarimale\animation\blendtree\qunariarishok_overlay.anb

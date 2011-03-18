@@ -1,8 +1,8 @@
-; 275/361 (76%)
+; 308/361 (85%)
 ; 
 ; .ani - 115/163 (70%)
 ; .are - 1/1 (100%)
-;  .cl - 0/33 (0%)
+;  .cl - 33/33 (100%)
 ; .cnv - 13/13 (100%)
 ; .evt - 93/98 (94%)
 ; .mmh - 7/7 (100%)
@@ -232,6 +232,16 @@ art\vfx\environment\vfx_steam_s_p.mmh
 art\vfx\models\vfx_vol_light_narrow_3.msh
 cod_hst_free_marches.utp
 dae000_arishok.cnv
+dae000_arishok6067624.cl
+dae000_arishok6067874.cl
+dae000_arishok6068103.cl
+dae000_arishok6068426.cl
+dae000_arishok6070876.cl
+dae000_arishok6074968.cl
+dae000_arishok6075356.cl
+dae000_arishok6078169.cl
+dae000_arishok6078174.cl
+dae000_arishok6079572.cl
 dae000cr_arishok.ncs
 dae000cr_arishok.utc
 dae000cr_cassandra.utc
@@ -247,11 +257,25 @@ pro000st_varric.stg
 qcr000_arishok.cnv
 qcr000_arishok.stg
 qcr000_arishok_keep.stg
+qcr000_arishok6057084.cl
+qcr000_arishok6059659.cl
+qcr000_arishok6059669.cl
+qcr000_arishok6060093.cl
+qcr000_arishok6060149.cl
+qcr000_arishok6109125.cl
 qcr000_aveline.cnv
+qcr000_aveline6054356.cl
+qcr000_aveline6054365.cl
 qcr000_cut_arishok_response.cnv
+qcr000_cut_arishok_response6039425.cl
 qcr000_cut2d_thechampion.cnv
+qcr000_cut2d_thechampion6025121.cl
 qcr000_fake_siege.cnv
 qcr000_varric.cnv
+qcr000_varric6043181.cl
+qcr000_varric6066265.cl
+qcr000_varric6066268.cl
+qcr000_varric6208237.cl
 qcr000pt_general.ncs
 qcr000pt_main.ncs
 qcr000st_aveline.stg
@@ -264,12 +288,21 @@ qcr220cr_noblewoman2.utc
 qcr220cr_noblewoman3.utc
 qcr220cr_templar.utc
 qcr221_cut_arishoks_address.cnv
+qcr221_cut_arishoks_address6042350.cl
 qcr221_cut_diplomatic_sol.cnv
+qcr221_cut_diplomatic_sol6042759.cl
+qcr221_cut_diplomatic_sol6201285.cl
 qcr221_cut_heroes_reward.stg
 qcr221_cut_heros_reward.cnv
+qcr221_cut_heros_reward6043148.cl
 qcr221_cut_isabelas_return.cnv
+qcr221_cut_isabelas_return6042635.cl
 qcr221_cut_qunari_defeated.cnv
+qcr221_cut_qunari_defeated6042785.cl
+qcr221_cut_qunari_defeated6205147.cl
+qcr221_cut_qunari_defeated6205150.cl
 qcr221_cut_qunari_withdraw.cnv
+qcr221_cut_qunari_withdraw6042771.cl
 qcr221_diplomatic_sol_st.stg
 qcr221ar_keep.are
 qcr221ar_keep.ncs

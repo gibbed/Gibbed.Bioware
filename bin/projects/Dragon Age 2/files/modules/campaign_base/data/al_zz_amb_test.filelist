@@ -1,8 +1,8 @@
-; 80/84 (95%)
+; 83/84 (98%)
 ; 
 ; .ani - 32/33 (96%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 23/23 (100%)
 ; .ncs - 14/14 (100%)
@@ -67,6 +67,9 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_one_chan
 ave100pt_promotion.ncs
 dae000cr_brothel_stumps.utc
 dae100_bran.cnv
+dae100_bran6058937.cl
+dae100_bran6072440.cl
+dae100_bran6097613.cl
 dae100cr_bran.utc
 dae121_bran_st.stg
 dae121st_bran.stg

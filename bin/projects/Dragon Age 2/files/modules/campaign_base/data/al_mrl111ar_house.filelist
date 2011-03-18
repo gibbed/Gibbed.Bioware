@@ -1,8 +1,8 @@
-; 174/204 (85%)
+; 180/204 (88%)
 ; 
 ; .ani - 80/92 (86%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 60/71 (84%)
 ; .ncs - 20/21 (95%)
@@ -168,6 +168,12 @@ mcr000pt_main.ncs
 mrl000_marethari.cnv
 mrl000_marethari_act2pt1.stg
 mrl000_marethari_act3.stg
+mrl000_marethari6068857.cl
+mrl000_marethari6117696.cl
+mrl000_marethari6129182.cl
+mrl000_marethari6129305.cl
+mrl000_marethari6129398.cl
+mrl000_marethari6129411.cl
 mrl000ar_house.ncs
 mrl000cr_frostaura.ncs
 mrl000cr_shadow.ncs

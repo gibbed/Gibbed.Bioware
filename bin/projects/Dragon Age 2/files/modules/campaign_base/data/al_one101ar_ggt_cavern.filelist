@@ -1,8 +1,8 @@
-; 64/71 (90%)
+; 70/71 (98%)
 ; 
 ; .ani - 25/25 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 3/4 (75%)
 ; .evt - 21/21 (100%)
 ; .ncs - 8/8 (100%)
@@ -60,6 +60,9 @@ dae000ip_show_world_map.utp
 dae000pt_amb_sunder.ncs
 mrl350pt_newpath.ncs
 one000_ilen.cnv
+one000_ilen6036925.cl
+one000_ilen6037381.cl
+one000_ilen6037668.cl
 one000pt_herbalist.ncs
 one100pt_gamlen.ncs
 one100pt_herb_ironwood.ncs
@@ -71,6 +74,9 @@ one101dg_smuggler.cnv
 one101st_charade_cavern.stg
 one140cr_charade.cnv
 one140cr_charade.utc
+one140cr_charade6098611.cl
+one140cr_charade6128483.cl
+one140cr_charade6137032.cl
 one140cr_veld.utc
 one140st_charade.stg
 one200pt_herbalist.ncs

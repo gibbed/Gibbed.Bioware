@@ -1,8 +1,8 @@
-; 235/274 (85%)
+; 274/274 (100%)
 ; 
 ; .ani - 64/64 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/39 (0%)
+;  .cl - 39/39 (100%)
 ; .cnv - 27/27 (100%)
 ; .evt - 60/60 (100%)
 ; .ncs - 26/26 (100%)
@@ -168,6 +168,8 @@ dae000cr_tranquil_em.utc
 dae000ip_show_world_map.utp
 dae000pt_talkedto.ncs
 dae200_cullen.cnv
+dae200_cullen6140255.cl
+dae200_cullen6140261.cl
 dae200cr_cullen.utc
 dae200cr_solivitus.utc
 dae200st_solivitus.utm
@@ -185,6 +187,7 @@ lgt000cr_mage_turn_in_1.utc
 lgt000cr_ultra_turn_in.ncs
 lgt000pt_baz_sketchy.ncs
 lgt210_eau_symp_templar.cnv
+lgt210_eau_symp_templar6144450.cl
 lgt210cr_eau_margitte.utc
 lgt210pt_eau_debt.ncs
 lgt210pt_frame.ncs
@@ -192,19 +195,29 @@ lgt210tr_frame_asst.ncs
 lgt210tr_frame_asst.utt
 lgt260_eau_tmp_asst_harbor.cnv
 lgt260_eau_tmp_dockworker.cnv
+lgt260_eau_tmp_dockworker6143602.cl
 lgt260_eau_tmp_ending.cnv
 lgt260_eau_tmp_lyrium_mess.cnv
+lgt260_eau_tmp_lyrium_mess6143643.cl
 lgt260cr_eau_asst_harbor.utc
 lgt260cr_eau_official.utc
 lgt260cr_eau_templar_capt.utc
 lgt260cr_eau_tmp_dockworker.utc
 lgt270ip_eau_docks_scroll.utp
 mag100_karras.cnv
+mag100_karras6034428.cl
+mag100_karras6034740.cl
+mag100_karras6034908.cl
 mag100cr_karras.utc
 mag100st_grace_outside.stg
 mag100st_karras.stg
 mag101_alain.cnv
+mag101_alain6032127.cl
 mag101_grace.cnv
+mag101_grace6034022.cl
+mag101_grace6034032.cl
+mag101_grace6034045.cl
+mag101_grace6035845.cl
 mag101cr_alain.utc
 mag101cr_grace.utc
 mag101st_grace_inside.stg
@@ -212,9 +225,16 @@ mag110pt_wayward_son.ncs
 mag111pt_act_of_mercy.ncs
 mag120pt_enemies.ncs
 mag170_hugh.cnv
+mag170_hugh6080691.cl
 mag170_recruit01.cnv
 mag170_recruit02.cnv
 mag170_thrask.cnv
+mag170_thrask6020525.cl
+mag170_thrask6020529.cl
+mag170_thrask6020992.cl
+mag170_thrask6054044.cl
+mag170_thrask6054045.cl
+mag170_thrask6054046.cl
 mag170cr_thrask.utc
 mag170st_hugh.stg
 mag200pt_night_terrors.ncs
@@ -229,6 +249,10 @@ one100it_gland.uti
 one100it_ironwood.uti
 one200cr_solivitus.ncs
 one200dg_solivitus.cnv
+one200dg_solivitus6048175.cl
+one200dg_solivitus6060325.cl
+one200dg_solivitus6060337.cl
+one200dg_solivitus6066476.cl
 one200ip_st_solivitus.ncs
 one200ip_st_solivitus.utp
 one200pt_herbalist.ncs
@@ -239,7 +263,22 @@ qun200pt_missing_qunari.ncs
 ser120pt_sacricfice.ncs
 ser221pt_remains.ncs
 ser270_emeric.cnv
+ser270_emeric6111272.cl
+ser270_emeric6112662.cl
+ser270_emeric6112663.cl
+ser270_emeric6112664.cl
+ser270_emeric6113348.cl
+ser270_emeric6113750.cl
+ser270_emeric6149276.cl
+ser270_emeric6149282.cl
+ser270_emeric6201565.cl
+ser270_emeric6201568.cl
+ser270_emeric6201571.cl
 ser270_templar.cnv
+ser270_templar6112544.cl
+ser270_templar6112564.cl
+ser270_templar6122497.cl
+ser270_templar6127400.cl
 ser270cr_emeric.utc
 ser270cr_templar.utc
 ser270pt_suspect.ncs

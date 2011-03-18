@@ -1,4 +1,4 @@
-; 43/62 (69%)
+; 45/62 (72%)
 ; 
 ; .ani - 23/26 (88%)
 ; .are - 1/1 (100%)
@@ -6,7 +6,7 @@
 ; .cnv - 0/2 (0%)
 ; .evt - 17/19 (89%)
 ; .ncs - 2/4 (50%)
-; .stg - 0/2 (0%)
+; .stg - 2/2 (100%)
 ; .utc - 0/1 (0%)
 ; .uti - 0/3 (0%)
 ; .utp - 0/1 (0%)
@@ -54,3 +54,5 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 seb000_install.ncs
 seb321ar_keep_nt.are
 seb321cr_rebel_mage.ncs
+seb321st_leliana.stg
+seb321st_rebel_mage.stg

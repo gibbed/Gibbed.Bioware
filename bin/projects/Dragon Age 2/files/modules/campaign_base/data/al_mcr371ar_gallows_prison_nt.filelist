@@ -1,8 +1,8 @@
-; 715/868 (82%)
+; 759/868 (87%)
 ; 
 ; .ani - 269/325 (82%)
 ; .are - 1/1 (100%)
-;  .cl - 0/45 (0%)
+;  .cl - 44/45 (97%)
 ; .cnv - 33/36 (91%)
 ; .cut - 1/1 (100%)
 ; .evt - 213/262 (81%)
@@ -546,9 +546,20 @@ dae000_fem_commoner2_mob.cnv
 dae000_male_commoner1_mob.cnv
 dae000_male_commoner2_mob.cnv
 dae000_meredith.cnv
+dae000_meredith6080973.cl
+dae000_meredith6085232.cl
+dae000_meredith6085235.cl
+dae000_meredith6085238.cl
+dae000_meredith6085300.cl
 dae000_orsino.cnv
+dae000_orsino6081360.cl
+dae000_orsino6085419.cl
+dae000_orsino6085456.cl
 dae000_sandal.cnv
 dae000_sandal_st.stg
+dae000_sandal6147779.cl
+dae000_sandal6148209.cl
+dae000_sandal6180615.cl
 dae000cr_commoner_f1.utc
 dae000cr_commoner_f2.utc
 dae000cr_commoner_m1.utc
@@ -643,8 +654,31 @@ mcr000pt_main.ncs
 mcr310cr_circle_highmage.utc
 mcr310cr_templar_trooper.utc
 mcr370_assignments.cnv
+mcr370_assignments6081680.cl
+mcr370_assignments6081689.cl
+mcr370_assignments6081698.cl
+mcr370_assignments6081707.cl
+mcr370_assignments6081716.cl
+mcr370_assignments6081725.cl
+mcr370_assignments6081734.cl
+mcr370_assignments6081743.cl
+mcr370_assignments6176719.cl
+mcr370_assignments6176725.cl
+mcr370_assignments6176731.cl
+mcr370_assignments6176737.cl
+mcr370_assignments6176743.cl
+mcr370_assignments6176749.cl
+mcr370_assignments6182062.cl
 mcr370_cut_attack_begins.cnv
+mcr370_cut_attack_begins6082061.cl
 mcr370_meredith.cnv
+mcr370_meredith6081086.cl
+mcr370_meredith6083020.cl
+mcr370_meredith6083573.cl
+mcr370_meredith6083616.cl
+mcr370_meredith6084398.cl
+mcr370_meredith6084413.cl
+mcr370_meredith6085968.cl
 mcr370_meredithcrazy_st.stg
 mcr370_meredithrally_st.stg
 mcr370_templar1.cnv
@@ -659,17 +693,27 @@ mcr370st_anders_magecrisis.stg
 mcr370st_assignments.stg
 mcr371_alain.cnv
 mcr371_cut_orsino_defiance.cnv
+mcr371_cut_orsino_defiance6077474.cl
 mcr371_db_harvester_warr.cut
 mcr371_emile_de_launcet.cnv
 mcr371_hostile_anders.cnv
+mcr371_hostile_anders6082092.cl
+mcr371_hostile_anders6082096.cl
 mcr371_hostile_aveline.cnv
+mcr371_hostile_aveline6132464.cl
 mcr371_hostile_fenris.cnv
+mcr371_hostile_fenris6082210.cl
 mcr371_hostile_merrill.cnv
 mcr371_hostile_merrill.stg
+mcr371_hostile_merrill6082142.cl
+mcr371_hostile_merrill6173438.cl
 mcr371_idunna.cnv
 mcr371_magesurrender_st.stg
 mcr371_merebeth_st.stg
 mcr371_orsino.cnv
+mcr371_orsino6081270.cl
+mcr371_orsino6083305.cl
+mcr371_orsino6083336.cl
 mcr371_post_harvester.cnv
 mcr371_scared_mage_f.cnv
 mcr371_scared_mage_f.utc

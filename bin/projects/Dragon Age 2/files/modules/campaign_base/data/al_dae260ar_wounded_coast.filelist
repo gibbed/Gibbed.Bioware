@@ -1,8 +1,8 @@
-; 170/191 (89%)
+; 189/191 (98%)
 ; 
 ; .ani - 45/46 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/19 (0%)
+;  .cl - 19/19 (100%)
 ; .cnv - 8/8 (100%)
 ; .evt - 36/37 (97%)
 ; .ncs - 21/21 (100%)
@@ -101,6 +101,16 @@ ave200_donnic_bar.stg
 ave200_donnic_patrol_1.stg
 ave200_donnic_patrol_2.stg
 ave200_donnic_post_patrol.stg
+ave200_donnic6110501.cl
+ave200_donnic6110700.cl
+ave200_donnic6110709.cl
+ave200_donnic6110712.cl
+ave200_donnic6110739.cl
+ave200_donnic6110748.cl
+ave200_donnic6111069.cl
+ave200_donnic6111070.cl
+ave200_donnic6111073.cl
+ave200_donnic6112154.cl
 ave200cr_donnic.utc
 ave200pt_long_road.ncs
 ave260cr_bandit.utc
@@ -121,6 +131,10 @@ ave260tr_long_road_smuggler.utt
 clf200pt_cliff_raiders.ncs
 clf260_fell_orden.cnv
 clf260_harley.cnv
+clf260_harley6069938.cl
+clf260_harley6069948.cl
+clf260_harley6088756.cl
+clf260_harley6093826.cl
 clf260cr_fell_orden.utc
 clf260cr_guard1.utc
 clf260cr_guard2.utc
@@ -153,6 +167,9 @@ lgt220cr_apost1.ncs
 lgt220cr_mag_apost_apost3.utc
 lgt220pt_bounty_hunter.ncs
 lgt260_way_blood_mage.cnv
+lgt260_way_blood_mage6148354.cl
+lgt260_way_blood_mage6148363.cl
+lgt260_way_blood_mage6148375.cl
 lgt260cr_way_apostate_1.utc
 lgt260cr_way_apostate_2.utc
 lgt260cr_way_bloodmage_1.utc
@@ -169,6 +186,8 @@ lgt260pt_way_blood_mage.ncs
 lgt260tr_convo_trigger.ncs
 lgt260tr_way_blood_mage.utt
 lgt310_mis_burn_rival_thug.cnv
+lgt310_mis_burn_rival_thug6152772.cl
+lgt310_mis_burn_rival_thug6152781.cl
 lgt310cr_mis_burn_rival_thu.utc
 lgt310ip_body_4.ncs
 lgt310ip_body_4.utp

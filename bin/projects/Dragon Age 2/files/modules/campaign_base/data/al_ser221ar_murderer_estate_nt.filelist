@@ -1,8 +1,8 @@
-; 110/136 (80%)
+; 130/136 (95%)
 ; 
 ; .ani - 38/41 (92%)
 ; .are - 1/1 (100%)
-;  .cl - 0/20 (0%)
+;  .cl - 20/20 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 27/30 (90%)
 ; .ncs - 18/18 (100%)
@@ -81,13 +81,33 @@ dre120pt_main.ncs
 ser000pt_debug.ncs
 ser120pt_sacricfice.ncs
 ser221_gamlen.cnv
+ser221_gamlen6123411.cl
+ser221_gamlen6123412.cl
 ser221_gascard.cnv
+ser221_gascard6111585.cl
+ser221_gascard6122238.cl
+ser221_gascard6122432.cl
+ser221_gascard6123440.cl
+ser221_gascard6134510.cl
 ser221_party_comment_1.stg
 ser221_party_comment_2.stg
 ser221_party_comment_3.stg
 ser221_party_comment_found.stg
 ser221_party_comments.cnv
+ser221_party_comments6122860.cl
+ser221_party_comments6128806.cl
+ser221_party_comments6128807.cl
+ser221_party_comments6163595.cl
+ser221_party_comments6163598.cl
+ser221_party_comments6163601.cl
+ser221_party_comments6163604.cl
+ser221_party_comments6163605.cl
+ser221_party_comments6163606.cl
+ser221_party_comments6163607.cl
+ser221_party_comments6209901.cl
+ser221_party_comments6209914.cl
 ser221_quentin.cnv
+ser221_quentin6128860.cl
 ser221ar_murderer_estate_nt.are
 ser221ar_murderer_estate_nt.ncs
 ser221cr_gascard.ncs

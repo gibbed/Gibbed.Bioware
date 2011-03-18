@@ -1,8 +1,8 @@
-; 79/87 (90%)
+; 83/87 (95%)
 ; 
 ; .ani - 36/38 (94%)
 ; .are - 1/1 (100%)
-;  .cl - 0/4 (0%)
+;  .cl - 4/4 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 27/29 (93%)
 ; .ncs - 5/5 (100%)
@@ -76,9 +76,13 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_ad_transitio
 mag000pt_otl_debug.ncs
 mag230cr_evelina.utc
 mag320_evelina.cnv
+mag320_evelina6051874.cl
 mag320pt_otl_evelina.ncs
 mag320pt_otl_main.ncs
 mag330_walter.cnv
+mag330_walter6044519.cl
+mag330_walter6045786.cl
+mag330_walter6045962.cl
 mag330cr_cricket.utc
 mag330cr_evelina.ncs
 mag330cr_evelina.utc

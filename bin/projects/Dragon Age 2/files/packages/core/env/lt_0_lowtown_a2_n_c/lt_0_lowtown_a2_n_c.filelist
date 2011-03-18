@@ -1,6 +1,6 @@
-; 103/1248 (8%)
+; 125/1248 (10%)
 ; 
-; .anb - 0/22 (0%)
+; .anb - 22/22 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 19/19 (100%)
 ; .mmh - 65/65 (100%)
@@ -19,6 +19,7 @@ lt_0_lowtown_a2_n_c_1_0.msh
 lt_0_lowtown_a2_n_c_10_0.mao
 lt_0_lowtown_a2_n_c_10_0.mmh
 lt_0_lowtown_a2_n_c_10_0.msh
+lt_0_lowtown_a2_n_c_11_0.anb
 lt_0_lowtown_a2_n_c_11_0.mao
 lt_0_lowtown_a2_n_c_11_0.mmh
 lt_0_lowtown_a2_n_c_11_0.msh
@@ -34,21 +35,28 @@ lt_0_lowtown_a2_n_c_14_0.msh
 lt_0_lowtown_a2_n_c_15_0.mao
 lt_0_lowtown_a2_n_c_15_0.mmh
 lt_0_lowtown_a2_n_c_15_0.msh
+lt_0_lowtown_a2_n_c_19_0.anb
 lt_0_lowtown_a2_n_c_19_0_lc.mmh
 lt_0_lowtown_a2_n_c_19_0_ll.mmh
 lt_0_lowtown_a2_n_c_2_0.mao
 lt_0_lowtown_a2_n_c_2_0.mmh
 lt_0_lowtown_a2_n_c_2_0.msh
+lt_0_lowtown_a2_n_c_20_0.anb
 lt_0_lowtown_a2_n_c_20_0_lc.mmh
 lt_0_lowtown_a2_n_c_20_0_ll.mmh
+lt_0_lowtown_a2_n_c_21_0.anb
 lt_0_lowtown_a2_n_c_21_0_lc.mmh
 lt_0_lowtown_a2_n_c_21_0_ll.mmh
+lt_0_lowtown_a2_n_c_25_0.anb
 lt_0_lowtown_a2_n_c_25_0_lc.mmh
 lt_0_lowtown_a2_n_c_25_0_ll.mmh
+lt_0_lowtown_a2_n_c_26_0.anb
 lt_0_lowtown_a2_n_c_26_0_lc.mmh
 lt_0_lowtown_a2_n_c_26_0_ll.mmh
+lt_0_lowtown_a2_n_c_27_0.anb
 lt_0_lowtown_a2_n_c_27_0_lc.mmh
 lt_0_lowtown_a2_n_c_27_0_ll.mmh
+lt_0_lowtown_a2_n_c_28_0.anb
 lt_0_lowtown_a2_n_c_28_0_lc.mmh
 lt_0_lowtown_a2_n_c_28_0_ll.mmh
 lt_0_lowtown_a2_n_c_29_0_lc.mmh
@@ -56,31 +64,43 @@ lt_0_lowtown_a2_n_c_29_0_ll.mmh
 lt_0_lowtown_a2_n_c_3_0.mao
 lt_0_lowtown_a2_n_c_3_0.mmh
 lt_0_lowtown_a2_n_c_3_0.msh
+lt_0_lowtown_a2_n_c_32_0.anb
 lt_0_lowtown_a2_n_c_32_0_lc.mmh
 lt_0_lowtown_a2_n_c_32_0_ll.mmh
+lt_0_lowtown_a2_n_c_33_0.anb
 lt_0_lowtown_a2_n_c_33_0_lc.mmh
 lt_0_lowtown_a2_n_c_33_0_ll.mmh
+lt_0_lowtown_a2_n_c_34_0.anb
 lt_0_lowtown_a2_n_c_34_0_lc.mmh
 lt_0_lowtown_a2_n_c_34_0_ll.mmh
+lt_0_lowtown_a2_n_c_35_0.anb
 lt_0_lowtown_a2_n_c_35_0_lc.mmh
 lt_0_lowtown_a2_n_c_35_0_ll.mmh
+lt_0_lowtown_a2_n_c_36_0.anb
 lt_0_lowtown_a2_n_c_36_0_lc.mmh
 lt_0_lowtown_a2_n_c_36_0_ll.mmh
+lt_0_lowtown_a2_n_c_37_0.anb
 lt_0_lowtown_a2_n_c_37_0_lc.mmh
 lt_0_lowtown_a2_n_c_37_0_ll.mmh
+lt_0_lowtown_a2_n_c_38_0.anb
 lt_0_lowtown_a2_n_c_38_0_lc.mmh
 lt_0_lowtown_a2_n_c_38_0_ll.mmh
 lt_0_lowtown_a2_n_c_4_0.mao
 lt_0_lowtown_a2_n_c_4_0.mmh
 lt_0_lowtown_a2_n_c_4_0.msh
+lt_0_lowtown_a2_n_c_42_0.anb
 lt_0_lowtown_a2_n_c_42_0_lc.mmh
 lt_0_lowtown_a2_n_c_42_0_ll.mmh
+lt_0_lowtown_a2_n_c_43_0.anb
 lt_0_lowtown_a2_n_c_43_0_lc.mmh
 lt_0_lowtown_a2_n_c_43_0_ll.mmh
+lt_0_lowtown_a2_n_c_44_0.anb
 lt_0_lowtown_a2_n_c_44_0_lc.mmh
 lt_0_lowtown_a2_n_c_44_0_ll.mmh
+lt_0_lowtown_a2_n_c_45_0.anb
 lt_0_lowtown_a2_n_c_45_0_lc.mmh
 lt_0_lowtown_a2_n_c_45_0_ll.mmh
+lt_0_lowtown_a2_n_c_46_0.anb
 lt_0_lowtown_a2_n_c_46_0_lc.mmh
 lt_0_lowtown_a2_n_c_46_0_ll.mmh
 lt_0_lowtown_a2_n_c_5_0.mao
@@ -88,8 +108,10 @@ lt_0_lowtown_a2_n_c_5_0.mmh
 lt_0_lowtown_a2_n_c_5_0.msh
 lt_0_lowtown_a2_n_c_51_0_lc.mmh
 lt_0_lowtown_a2_n_c_51_0_ll.mmh
+lt_0_lowtown_a2_n_c_52_0.anb
 lt_0_lowtown_a2_n_c_52_0_lc.mmh
 lt_0_lowtown_a2_n_c_52_0_ll.mmh
+lt_0_lowtown_a2_n_c_53_0.anb
 lt_0_lowtown_a2_n_c_53_0_lc.mmh
 lt_0_lowtown_a2_n_c_53_0_ll.mmh
 lt_0_lowtown_a2_n_c_6_0.mao

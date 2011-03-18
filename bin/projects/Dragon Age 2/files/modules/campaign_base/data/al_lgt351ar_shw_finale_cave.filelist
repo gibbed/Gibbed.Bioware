@@ -1,8 +1,8 @@
-; 83/88 (94%)
+; 88/88 (100%)
 ; 
 ; .ani - 25/25 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/5 (0%)
+;  .cl - 5/5 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 21/21 (100%)
 ; .ncs - 27/27 (100%)
@@ -80,7 +80,12 @@ lgt000pt_ultra_4_03.ncs
 lgt251cr_bancroft.utc
 lgt310pt_shw_mer_main.ncs
 lgt311_shw_mer_agatha.cnv
+lgt311_shw_mer_agatha6156495.cl
 lgt311_shw_mer_mettin.cnv
+lgt311_shw_mer_mettin6156393.cl
+lgt311_shw_mer_mettin6156521.cl
+lgt311_shw_mer_mettin6156533.cl
+lgt311_shw_mer_mettin6156567.cl
 lgt311cr_shw_mer_agatha.utc
 lgt311cr_shw_mer_mettin.utc
 lgt351ar_shw_finale_cave.are

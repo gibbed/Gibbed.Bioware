@@ -1,8 +1,8 @@
-; 87/99 (87%)
+; 93/99 (93%)
 ; 
 ; .ani - 28/31 (90%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 7/7 (100%)
 ; .evt - 20/23 (86%)
 ; .ncs - 11/11 (100%)
@@ -65,9 +65,14 @@ qun210cr_commoner.utc
 qun210cr_guard.cnv
 qun210cr_guard.stg
 qun210cr_guard.utc
+qun210cr_guard6072075.cl
+qun210cr_guard6072125.cl
+qun210cr_guard6206325.cl
 qun211_braggart.cnv
 qun211_braggart.stg
 qun211_braggart_after_fight.stg
+qun211_braggart6075460.cl
+qun211_braggart6075663.cl
 qun211_party_comment.cnv
 qun211ar_poison_encounter.are
 qun211ar_poison_encounter.ncs
@@ -79,6 +84,7 @@ qun211cr_crazy_woman.utc
 qun211cr_elf_warrior.cnv
 qun211cr_elf_warrior.stg
 qun211cr_elf_warrior.utc
+qun211cr_elf_warrior6072190.cl
 qun211cr_final1.utc
 qun211cr_final2.utc
 qun211cr_henchman.cnv

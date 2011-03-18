@@ -1,8 +1,8 @@
-; 86/93 (92%)
+; 92/93 (98%)
 ; 
 ; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 6/7 (85%)
 ; .evt - 22/22 (100%)
 ; .ncs - 25/25 (100%)
@@ -86,9 +86,15 @@ lgt300cr_gang_4_ht.utc
 lgt300cr_gang_5_ht.utc
 lgt300cr_jakeson_hall.utc
 lgt320_mis_resp_swordhunter.cnv
+lgt320_mis_resp_swordhunter6150262.cl
+lgt320_mis_resp_swordhunter6150265.cl
+lgt320_mis_resp_swordhunter6150321.cl
 lgt320_shw_ors_black_op.cnv
 lgt320_shw_ors_marlein.cnv
+lgt320_shw_ors_marlein6154743.cl
+lgt320_shw_ors_marlein6156376.cl
 lgt320_shw_ors_secret_meet.cnv
+lgt320_shw_ors_secret_meet6156354.cl
 lgt320_shw_ors_secret_nob.cnv
 lgt320ar_gang_hideout_ht.are
 lgt320pt_mis_resp_deman.ncs

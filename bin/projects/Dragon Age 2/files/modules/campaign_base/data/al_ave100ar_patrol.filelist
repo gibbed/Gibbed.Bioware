@@ -1,8 +1,8 @@
-; 47/53 (88%)
+; 49/53 (92%)
 ; 
 ; .ani - 15/17 (88%)
 ; .are - 1/1 (100%)
-;  .cl - 1/3 (33%)
+;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 9/11 (81%)
 ; .ncs - 9/9 (100%)
@@ -39,8 +39,10 @@ ave000pt_gift_shield.ncs
 ave000pt_main.ncs
 ave100_ambush_1.cnv
 ave100_ambush_16106195.cl
+ave100_ambush_16106199.cl
 ave100_donnic.cnv
 ave100_donnic.stg
+ave100_donnic6105934.cl
 ave100ar_patrol.are
 ave100ar_patrol.ncs
 ave100cr_raider_assassin.utc

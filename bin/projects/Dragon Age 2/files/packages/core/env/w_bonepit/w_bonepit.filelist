@@ -1,6 +1,6 @@
-; 812/1939 (41%)
+; 816/1939 (42%)
 ; 
-; .anb - 0/4 (0%)
+; .anb - 4/4 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 257/257 (100%)
 ; .mmh - 298/298 (100%)
@@ -366,6 +366,7 @@ w_bonepit_2_0.mmh
 w_bonepit_2_0.msh
 w_bonepit_2_0_lc.mmh
 w_bonepit_2_0_ll.mmh
+w_bonepit_20_0.anb
 w_bonepit_20_0.mao
 w_bonepit_20_0.mmh
 w_bonepit_20_0.msh
@@ -560,6 +561,7 @@ w_bonepit_254_0.msh
 w_bonepit_255_0.mao
 w_bonepit_255_0.mmh
 w_bonepit_255_0.msh
+w_bonepit_26_0.anb
 w_bonepit_26_0.mao
 w_bonepit_26_0.mmh
 w_bonepit_26_0.msh
@@ -568,6 +570,7 @@ w_bonepit_26_0_ll.mmh
 w_bonepit_27_0.mao
 w_bonepit_27_0.mmh
 w_bonepit_27_0.msh
+w_bonepit_28_0.anb
 w_bonepit_28_0.mao
 w_bonepit_28_0.mmh
 w_bonepit_28_0.msh
@@ -608,6 +611,7 @@ w_bonepit_36_0.mmh
 w_bonepit_36_0.msh
 w_bonepit_36_0_lc.mmh
 w_bonepit_36_0_ll.mmh
+w_bonepit_37_0.anb
 w_bonepit_37_0.mao
 w_bonepit_37_0.mmh
 w_bonepit_37_0.msh

@@ -1,8 +1,8 @@
-; 38/44 (86%)
+; 42/44 (95%)
 ; 
 ; .ani - 16/17 (94%)
 ; .are - 1/1 (100%)
-;  .cl - 0/4 (0%)
+;  .cl - 4/4 (100%)
 ; .cnv - 2/2 (100%)
 ; .evt - 12/13 (92%)
 ; .ncs - 3/3 (100%)
@@ -45,6 +45,10 @@ ser130ar_emeric_encounter.are
 ser130ar_emeric_encounter.ncs
 ser131ip_to_darktown_2.utp
 ser191_emeric.cnv
+ser191_emeric6108136.cl
+ser191_emeric6108145.cl
+ser191_emeric6108146.cl
+ser191_emeric6120098.cl
 ser191cr_emeric.utc
 ser191st_emeric.stg
 ser191st_emeric_turn_in.stg

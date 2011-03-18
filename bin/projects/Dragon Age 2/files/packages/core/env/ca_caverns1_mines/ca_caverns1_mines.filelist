@@ -1,6 +1,6 @@
-; 17/1163 (1%)
+; 18/1163 (1%)
 ; 
-; .anb - 0/1 (0%)
+; .anb - 1/1 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 1/1 (100%)
 ; .mmh - 16/16 (100%)
@@ -11,6 +11,7 @@ ca_caverns1_mines_24421_lc.mmh
 ca_caverns1_mines_24421_ll.mmh
 ca_caverns1_mines_24422_lc.mmh
 ca_caverns1_mines_24422_ll.mmh
+ca_caverns1_mines_24423.anb
 ca_caverns1_mines_24423_lc.mmh
 ca_caverns1_mines_24423_ll.mmh
 ca_caverns1_mines_24424_lc.mmh

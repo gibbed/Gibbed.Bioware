@@ -1,6 +1,6 @@
-; 816/1983 (41%)
+; 818/1983 (41%)
 ; 
-; .anb - 0/2 (0%)
+; .anb - 2/2 (100%)
 ; .gff - 0/1 (0%)
 ; .mao - 257/257 (100%)
 ; .mmh - 302/302 (100%)
@@ -572,6 +572,7 @@ w_bonepitdestroyed_a3_26_0_ll.mmh
 w_bonepitdestroyed_a3_27_0.mao
 w_bonepitdestroyed_a3_27_0.mmh
 w_bonepitdestroyed_a3_27_0.msh
+w_bonepitdestroyed_a3_28_0.anb
 w_bonepitdestroyed_a3_28_0.mao
 w_bonepitdestroyed_a3_28_0.mmh
 w_bonepitdestroyed_a3_28_0.msh
@@ -612,6 +613,7 @@ w_bonepitdestroyed_a3_36_0.mmh
 w_bonepitdestroyed_a3_36_0.msh
 w_bonepitdestroyed_a3_36_0_lc.mmh
 w_bonepitdestroyed_a3_36_0_ll.mmh
+w_bonepitdestroyed_a3_37_0.anb
 w_bonepitdestroyed_a3_37_0.mao
 w_bonepitdestroyed_a3_37_0.mmh
 w_bonepitdestroyed_a3_37_0.msh

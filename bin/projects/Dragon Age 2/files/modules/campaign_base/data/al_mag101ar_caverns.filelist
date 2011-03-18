@@ -1,8 +1,8 @@
-; 97/103 (94%)
+; 103/103 (100%)
 ; 
 ; .ani - 30/30 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/6 (0%)
+;  .cl - 6/6 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 25/25 (100%)
 ; .ncs - 15/15 (100%)
@@ -73,9 +73,15 @@ mag000pt_otl_debug.ncs
 mag100ip_corpse_1.utp
 mag100st_grace_outside.stg
 mag101_alain.cnv
+mag101_alain6032127.cl
 mag101_aombanter.cnv
 mag101_decimus.cnv
+mag101_decimus6037865.cl
 mag101_grace.cnv
+mag101_grace6034022.cl
+mag101_grace6034032.cl
+mag101_grace6034045.cl
+mag101_grace6035845.cl
 mag101ar_caverns.are
 mag101ar_caverns.ncs
 mag101cr_alain.utc

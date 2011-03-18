@@ -1,8 +1,8 @@
-; 71/98 (72%)
+; 74/98 (75%)
 ; 
 ; .ani - 27/39 (69%)
 ; .are - 1/1 (100%)
-;  .cl - 0/3 (0%)
+;  .cl - 3/3 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 22/34 (64%)
 ; .ncs - 10/10 (100%)
@@ -77,7 +77,10 @@ fen200ip_blood_sacrafice.ncs
 fen200ip_second_ambush_exit.ncs
 fen200pt_bitterpill.ncs
 fen210_dying_magister.cnv
+fen210_dying_magister6108547.cl
 fen210_tevinter_ambusher.cnv
 fen210_tevinter_ambusher2.cnv
+fen210_tevinter_ambusher26108639.cl
+fen210_tevinter_ambusher6108295.cl
 fen210st_tevniter_ambusher.stg
 fen210stg_dying_magister.stg

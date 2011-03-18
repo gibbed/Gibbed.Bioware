@@ -1,8 +1,8 @@
-; 108/120 (90%)
+; 117/120 (97%)
 ; 
 ; .ani - 44/45 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/9 (0%)
+;  .cl - 9/9 (100%)
 ; .cnv - 4/5 (80%)
 ; .evt - 34/35 (97%)
 ; .mmh - 1/1 (100%)
@@ -108,8 +108,15 @@ nat300ip_item_chest.utp
 nat300ip_lore_item_chest.utp
 nat300pt_find_nathaniel.ncs
 nat380_nathaniel.cnv
+nat380_nathaniel6066182.cl
+nat380_nathaniel6068261.cl
+nat380_nathaniel6068341.cl
+nat380_nathaniel6071023.cl
 nat380_sibling.cnv
+nat380_sibling6067979.cl
+nat380_sibling6068026.cl
 nat380_temmerin.cnv
+nat380_temmerin6067366.cl
 nat380cr_nathaniel.utc
 nat380cr_ogre.utc
 nat380cr_temmerin.utc
@@ -119,4 +126,6 @@ nat380tr_sibling_fight.ncs
 nat380tr_sibling_fight.utt
 one200pt_fools_gold.ncs
 one280_merin.cnv
+one280_merin6104369.cl
+one280_merin6105434.cl
 one280cr_merin.utc

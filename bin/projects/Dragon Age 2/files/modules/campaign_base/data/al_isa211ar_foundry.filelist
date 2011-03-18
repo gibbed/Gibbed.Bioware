@@ -1,8 +1,8 @@
-; 99/110 (90%)
+; 110/110 (100%)
 ; 
 ; .ani - 40/40 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/11 (0%)
+;  .cl - 11/11 (100%)
 ; .cnv - 4/4 (100%)
 ; .evt - 34/34 (100%)
 ; .ncs - 11/11 (100%)
@@ -95,10 +95,21 @@ isa200cr_tevinter_mage.utc
 isa200im_letter.uti
 isa200pt_thief.ncs
 isa211_isabela.cnv
+isa211_isabela6069398.cl
+isa211_isabela6069399.cl
+isa211_isabela6070107.cl
+isa211_isabela6070113.cl
+isa211_isabela6081849.cl
+isa211_isabela6081984.cl
+isa211_isabela6081985.cl
+isa211_isabela6202148.cl
+isa211_isabela6202151.cl
+isa211_isabela6202154.cl
 isa211_party_reaction.cnv
 isa211_qunari_ambush.cnv
 isa211_qunari_ambusher2.utc
 isa211_walleyedsam.cnv
+isa211_walleyedsam6070007.cl
 isa211ar_foundry.are
 isa211ar_foundry.ncs
 isa211cr_walleyedsam.utc

@@ -1,8 +1,8 @@
-; 260/282 (92%)
+; 272/282 (96%)
 ; 
 ; .ani - 84/89 (94%)
 ; .are - 1/1 (100%)
-;  .cl - 0/12 (0%)
+;  .cl - 12/12 (100%)
 ; .cnv - 16/16 (100%)
 ; .evt - 68/73 (93%)
 ; .ncs - 41/41 (100%)
@@ -176,8 +176,11 @@ ave300cr_donnic.utc
 ave300pt_favour_fault.ncs
 ave310_brennan.cnv
 ave310_brennan.stg
+ave310_brennan6136218.cl
 ave310_donnic.cnv
 ave310_donnic.stg
+ave310_donnic6062076.cl
+ave310_donnic6062077.cl
 ave310cr_brennan.utc
 ave321cr_gen_guardsman.utc
 ave321cr_guardsman1.utc
@@ -203,6 +206,11 @@ dae000_keep_noble_sta.cnv
 dae000_keep_noblewoman_sta.cnv
 dae000_keep_servant_1_sta.cnv
 dae000_meredith.cnv
+dae000_meredith6080973.cl
+dae000_meredith6085232.cl
+dae000_meredith6085235.cl
+dae000_meredith6085238.cl
+dae000_meredith6085300.cl
 dae000_templar_knight.cnv
 dae000cr_templar_knight.utc
 dae000ip_party_picker.ncs
@@ -232,10 +240,14 @@ dae021_keep_noblewoman3.utc
 dae021_keep_servant.utc
 dae200_bran.cnv
 dae200_bran_st.stg
+dae200_bran6083828.cl
+dae200_bran6144556.cl
 dae200cr_bran.utc
 dae221ip_exit_keep.ncs
 dae300_alistair_king.cnv
+dae300_alistair_king6133510.cl
 dae300_bran.cnv
+dae300_bran6143439.cl
 dae300cr_bran.utc
 dae300cr_meredith.utc
 dae321ar_brothel_nt.ncs

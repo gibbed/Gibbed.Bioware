@@ -1,8 +1,8 @@
-; 46/50 (92%)
+; 50/50 (100%)
 ; 
 ; .ani - 16/16 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/4 (0%)
+;  .cl - 4/4 (100%)
 ; .cnv - 3/3 (100%)
 ; .evt - 12/12 (100%)
 ; .ncs - 9/9 (100%)
@@ -47,6 +47,9 @@ qun210ar_javaris_encounter.are
 qun210ar_javaris_encounter.ncs
 qun210cr_guard.cnv
 qun210cr_guard.stg
+qun210cr_guard6072075.cl
+qun210cr_guard6072125.cl
+qun210cr_guard6206325.cl
 qun210cr_javaris_guard.utc
 qun210cr_random_thug.cnv
 qun210tr_follower_amb.ncs
@@ -56,3 +59,4 @@ qun220cr_javaris.cnv
 qun220cr_javaris.ncs
 qun220cr_javaris.stg
 qun220cr_javaris.utc
+qun220cr_javaris6068902.cl

@@ -1,8 +1,8 @@
-; 93/107 (86%)
+; 107/107 (100%)
 ; 
 ; .ani - 34/34 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 0/14 (0%)
+;  .cl - 14/14 (100%)
 ; .cnv - 5/5 (100%)
 ; .evt - 27/27 (100%)
 ; .ncs - 12/12 (100%)
@@ -77,7 +77,15 @@ best_served_dae000_meredith.stg
 cod_bks_tranquil.utp
 cod_hst_kirk_arch_1a_8.utp
 dae000_meredith.cnv
+dae000_meredith6080973.cl
+dae000_meredith6085232.cl
+dae000_meredith6085235.cl
+dae000_meredith6085238.cl
+dae000_meredith6085300.cl
 dae000_orsino.cnv
+dae000_orsino6081360.cl
+dae000_orsino6085419.cl
+dae000_orsino6085456.cl
 dae000_templar_knight.cnv
 dae000cr_templar_knight.utc
 dae300cr_meredith.utc
@@ -93,7 +101,13 @@ mag320pt_showdown.ncs
 mag321pt_bestservedcold.ncs
 mag370_meredith.cnv
 mag370_meredith_st.stg
+mag370_meredith6037401.cl
+mag370_meredith6040637.cl
+mag370_meredith6046873.cl
+mag370_meredith6092164.cl
 mag371_elsa.cnv
+mag371_elsa6041139.cl
+mag371_elsa6041750.cl
 mag371ar_gallows_templar.are
 mag371ar_gallows_templar.ncs
 mag371cr_elsa.utc

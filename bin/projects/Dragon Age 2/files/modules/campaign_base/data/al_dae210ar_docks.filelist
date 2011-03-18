@@ -1,8 +1,8 @@
-; 157/175 (89%)
+; 173/175 (98%)
 ; 
 ; .ani - 39/40 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 0/16 (0%)
+;  .cl - 16/16 (100%)
 ; .cnv - 17/17 (100%)
 ; .evt - 32/33 (96%)
 ; .ncs - 28/28 (100%)
@@ -87,6 +87,16 @@ art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs
 cod_hst_kirk_arch_1a_5.utp
 cod_hst_qunari.utp
 dae000_arishok.cnv
+dae000_arishok6067624.cl
+dae000_arishok6067874.cl
+dae000_arishok6068103.cl
+dae000_arishok6068426.cl
+dae000_arishok6070876.cl
+dae000_arishok6074968.cl
+dae000_arishok6075356.cl
+dae000_arishok6078169.cl
+dae000_arishok6078174.cl
+dae000_arishok6079572.cl
 dae000_fem_commoner2_mob.cnv
 dae000_fem_priest_mob.cnv
 dae000_gen_turn_in_5.cnv
@@ -124,6 +134,8 @@ dae100cr_qunari_warrior4.utc
 dae110ip_store4.utp
 dae210_gate_guard.cnv
 dae210_gate_guard.stg
+dae210_gate_guard6085047.cl
+dae210_gate_guard6209975.cl
 dae210ar_docks.are
 dae210ar_docks.ncs
 dae210ar_docks_nt.ncs
@@ -145,7 +157,11 @@ docks_scene_dockworkers.cnv
 lgt000cr_merch_turn_in_6.utc
 lgt000cr_ultra_turn_in.ncs
 lgt210_magu_selby.cnv
+lgt210_magu_selby6142017.cl
+lgt210_magu_selby6142025.cl
 lgt210_qun_blk_qunari.cnv
+lgt210_qun_blk_qunari6142300.cl
+lgt210_qun_blk_qunari6142389.cl
 lgt210cr_magu_selby.utc
 lgt210cr_qun_blk_qunari.utc
 lgt210ip_selby_board.ncs
