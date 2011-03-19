@@ -1,4 +1,4 @@
-; 539/554 (97%)
+; 549/554 (99%)
 t1_mub_bk1.tnt
 t1_mub_bk2.tnt
 t1_mub_bk3.tnt
@@ -104,6 +104,7 @@ t1_skn_d01.tnt
 t1_skn_d02.tnt
 t1_skn_d03.tnt
 t1_skn_d04.tnt
+t1_skn_d05.tnt
 t1_skn_d06.tnt
 t1_skn_d07.tnt
 t1_skn_d08.tnt
@@ -130,6 +131,9 @@ t1_skn_h10.tnt
 t1_skn_h11.tnt
 t1_skn_h12.tnt
 t1_skn_q01.tnt
+t1_skn_t01.tnt
+t1_skn_t02.tnt
+t1_skn_t03.tnt
 t1_stb_blk.tnt
 t1_stb_bln.tnt
 t1_stb_dbl.tnt
@@ -184,6 +188,7 @@ t3_arm_pl2.tnt
 t3_arm_pl3.tnt
 t3_arm_pl4.tnt
 t3_arm_rev.tnt
+t3_arm_rgb.tnt
 t3_arm_rlr.tnt
 t3_arm_rst.tnt
 t3_arm_sla.tnt
@@ -236,6 +241,7 @@ t3_dey_am1.tnt
 t3_dey_am2.tnt
 t3_dey_am3.tnt
 t3_dey_bl1.tnt
+t3_dey_bl2.tnt
 t3_dey_bl3.tnt
 t3_dey_bl4.tnt
 t3_dey_gn3.tnt
@@ -244,6 +250,7 @@ t3_dey_gy1.tnt
 t3_dey_gy2.tnt
 t3_dey_gy3.tnt
 t3_dey_te1.tnt
+t3_dey_te2.tnt
 t3_dey_te3.tnt
 t3_dog_d01.tnt
 t3_dog_d02.tnt
@@ -375,6 +382,9 @@ t3_psp_b02.tnt
 t3_psp_b03.tnt
 t3_psp_qun.tnt
 t3_rgb.tnt
+t3_rob_apo.tnt
+t3_rob_blo.tnt
+t3_rob_cir.tnt
 t3_rob_cot.tnt
 t3_rob_dal.tnt
 t3_rob_kwl.tnt
