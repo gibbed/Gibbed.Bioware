@@ -1,11 +1,11 @@
-; 47/62 (75%)
+; 50/62 (80%)
 ; 
 ; .ani - 24/26 (92%)
 ; .are - 1/1 (100%)
 ;  .cl - 0/3 (0%)
-; .cnv - 0/2 (0%)
+; .cnv - 2/2 (100%)
 ; .evt - 18/19 (94%)
-; .ncs - 2/4 (50%)
+; .ncs - 3/4 (75%)
 ; .stg - 2/2 (100%)
 ; .utc - 0/1 (0%)
 ; .uti - 0/3 (0%)
@@ -54,7 +54,10 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim2_reverse.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim2_reverse.evt
 seb000_install.ncs
+seb321_leliana.cnv
+seb321_rebel_mage.cnv
 seb321ar_keep_nt.are
+seb321ar_keep_nt.ncs
 seb321cr_rebel_mage.ncs
 seb321st_leliana.stg
 seb321st_rebel_mage.stg

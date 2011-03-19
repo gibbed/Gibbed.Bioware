@@ -1,6 +1,10 @@
-; 5/18 (27%)
+; 9/18 (50%)
 tbe_dog_act2.ncs
 tbe_place_tome.ncs
 tbe_quest_given.ncs
 tbe100ar_emporium.ncs
+tbe100ip_mirror_transformat.ncs
+tbe100ip_store_magic_good.ncs
 tbe100pt_emporium.ncs
+zz_dog_debug.ncs
+zz_tbe_debug.ncs

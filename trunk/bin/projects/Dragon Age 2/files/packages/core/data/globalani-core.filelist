@@ -1,9 +1,9 @@
-; 2438/2559 (95%)
+; 2439/2559 (95%)
 ; 
 ; .anb - 142/142 (100%)
 ; .ani - 817/855 (95%)
 ; .evt - 663/707 (93%)
-; .gad - 816/855 (95%)
+; .gad - 817/855 (95%)
 ; 
 art\characters\creatures\corpse\animation\combat\ready.ani
 art\characters\creatures\corpse\animation\combat\ready.evt
@@ -1787,6 +1787,7 @@ art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\lef
 art\characters\playercharacter\humanmale\animation\combat\rogue\dual weapons\left_down_lhand.gad
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\left_up.ani
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\left_up.evt
+art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\left_up.gad
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.ani
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.evt
 art\characters\playercharacter\humanmale\animation\combat\warrior\shield and weapon\rdy.gad

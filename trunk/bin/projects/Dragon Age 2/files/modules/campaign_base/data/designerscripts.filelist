@@ -1,7 +1,7 @@
-; 828/886 (93%)
+; 829/886 (93%)
 ; 
 ; .ncc - 1/5 (20%)
-; .ncs - 827/881 (93%)
+; .ncs - 828/881 (93%)
 ; 
 act00pt_main.ncs
 and000pt_gift_amulet.ncs
@@ -774,6 +774,7 @@ zz_carpt_debug.ncs
 zz_cbev.ncs
 zz_combat_demo.ncs
 zz_combat_demo_ar.ncs
+zz_dae.ncs
 zz_dae_debug.ncs
 zz_daept_debug.ncs
 zz_demo_plot_flags.ncs
