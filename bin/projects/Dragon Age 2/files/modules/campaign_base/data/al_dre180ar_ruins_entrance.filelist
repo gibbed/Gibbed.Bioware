@@ -1,6 +1,6 @@
-; 504/521 (96%)
+; 514/521 (98%)
 ; 
-; .ani - 178/192 (92%)
+; .ani - 188/192 (97%)
 ; .are - 1/1 (100%)
 ;  .cl - 70/70 (100%)
 ; .cnv - 23/23 (100%)
@@ -331,7 +331,17 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_butt.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_signal_to_wait_look_behind.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_signal_to_wait_look_behind.evt
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_follower_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_follower_m_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_pcfem_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_thief_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_varric_.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_player.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.ani
 art\cinematics\act1\cs_fp_closedsneer.ani
+art\cinematics\additional animation\cs_genericmale_additionalanimation.ani
+art\cinematics\additional animation\cs_genericmale_additionalanimation4.ani
+art\cinematics\additional animation\cs_genericmale_additionalanimation6.ani
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\animation\dsopen_v2.ani
 art\vfx\cinematic\vfx_lightbeam01_p.dura.ani
 art\vfx\cinematic\vfx_lightbeam01_p.dura.evt

@@ -1,9 +1,9 @@
-; 6197/6230 (99%)
+; 6199/6230 (99%)
 ; 
 ; .anb - 867/867 (100%)
 ; .ani - 1390/1392 (99%)
 ; .evt - 1350/1351 (99%)
-; .gad - 1388/1392 (99%)
+; .gad - 1390/1392 (99%)
 ; .mao - 185/203 (91%)
 ; .mmh - 911/919 (99%)
 ; .msh - 106/106 (100%)
@@ -1045,6 +1045,7 @@ art\vfx\combat\vfx_gib_hlk_p.justfeet.ces.ani
 art\vfx\combat\vfx_gib_hlk_p.justfeet.ces.gad
 art\vfx\combat\vfx_gib_hlk_p.justfeet.dur.ani
 art\vfx\combat\vfx_gib_hlk_p.justfeet.dur.gad
+art\vfx\combat\vfx_gib_hlk_p.justfeet.gad
 art\vfx\combat\vfx_gib_hlk_p.justfeet.imp.ani
 art\vfx\combat\vfx_gib_hlk_p.justfeet.imp.gad
 art\vfx\combat\vfx_gib_hlk_p.justlegs.ani
@@ -1052,6 +1053,7 @@ art\vfx\combat\vfx_gib_hlk_p.justlegs.ces.ani
 art\vfx\combat\vfx_gib_hlk_p.justlegs.ces.gad
 art\vfx\combat\vfx_gib_hlk_p.justlegs.dur.ani
 art\vfx\combat\vfx_gib_hlk_p.justlegs.dur.gad
+art\vfx\combat\vfx_gib_hlk_p.justlegs.gad
 art\vfx\combat\vfx_gib_hlk_p.justlegs.imp.ani
 art\vfx\combat\vfx_gib_hlk_p.justlegs.imp.gad
 art\vfx\combat\vfx_gib_hlk_p.mao

@@ -1,39 +1,51 @@
-; 90/143 (62%)
+; 111/143 (77%)
 ; 
 ; .gff - 1/1 (100%)
 ; .mao - 17/17 (100%)
 ; .mmh - 55/55 (100%)
 ; .msh - 16/16 (100%)
-; .phy - 0/16 (0%)
-; .rml - 1/38 (2%)
+; .phy - 16/16 (100%)
+; .rml - 6/38 (15%)
 ; 
 ht_0_hightownexplosion_n.rml
 ht_0_hightownexplosion_n_0_0.mao
 ht_0_hightownexplosion_n_0_0.mmh
 ht_0_hightownexplosion_n_0_0.msh
+ht_0_hightownexplosion_n_0_0.phy
 ht_0_hightownexplosion_n_1_0.mao
 ht_0_hightownexplosion_n_1_0.mmh
 ht_0_hightownexplosion_n_1_0.msh
+ht_0_hightownexplosion_n_1_0.phy
 ht_0_hightownexplosion_n_10_0.mao
 ht_0_hightownexplosion_n_10_0.mmh
 ht_0_hightownexplosion_n_10_0.msh
+ht_0_hightownexplosion_n_10_0.phy
 ht_0_hightownexplosion_n_11_0.mao
 ht_0_hightownexplosion_n_11_0.mmh
 ht_0_hightownexplosion_n_11_0.msh
+ht_0_hightownexplosion_n_11_0.phy
+ht_0_hightownexplosion_n_11_0.rml
 ht_0_hightownexplosion_n_12_0.mao
 ht_0_hightownexplosion_n_12_0.mmh
 ht_0_hightownexplosion_n_12_0.msh
+ht_0_hightownexplosion_n_12_0.phy
+ht_0_hightownexplosion_n_12_0.rml
 ht_0_hightownexplosion_n_12_0_lc.mmh
 ht_0_hightownexplosion_n_12_0_ll.mmh
 ht_0_hightownexplosion_n_13_0.mao
 ht_0_hightownexplosion_n_13_0.mmh
 ht_0_hightownexplosion_n_13_0.msh
+ht_0_hightownexplosion_n_13_0.phy
+ht_0_hightownexplosion_n_13_0.rml
 ht_0_hightownexplosion_n_14_0.mao
 ht_0_hightownexplosion_n_14_0.mmh
 ht_0_hightownexplosion_n_14_0.msh
+ht_0_hightownexplosion_n_14_0.phy
+ht_0_hightownexplosion_n_14_0.rml
 ht_0_hightownexplosion_n_15_0.mao
 ht_0_hightownexplosion_n_15_0.mmh
 ht_0_hightownexplosion_n_15_0.msh
+ht_0_hightownexplosion_n_15_0.phy
 ht_0_hightownexplosion_n_16_0_lc.mmh
 ht_0_hightownexplosion_n_16_0_ll.mmh
 ht_0_hightownexplosion_n_17_0_lc.mmh
@@ -41,6 +53,7 @@ ht_0_hightownexplosion_n_17_0_ll.mmh
 ht_0_hightownexplosion_n_2_0.mao
 ht_0_hightownexplosion_n_2_0.mmh
 ht_0_hightownexplosion_n_2_0.msh
+ht_0_hightownexplosion_n_2_0.phy
 ht_0_hightownexplosion_n_20_0_lc.mmh
 ht_0_hightownexplosion_n_20_0_ll.mmh
 ht_0_hightownexplosion_n_21_0_lc.mmh
@@ -56,6 +69,7 @@ ht_0_hightownexplosion_n_29_0_ll.mmh
 ht_0_hightownexplosion_n_3_0.mao
 ht_0_hightownexplosion_n_3_0.mmh
 ht_0_hightownexplosion_n_3_0.msh
+ht_0_hightownexplosion_n_3_0.phy
 ht_0_hightownexplosion_n_30_0_lc.mmh
 ht_0_hightownexplosion_n_30_0_ll.mmh
 ht_0_hightownexplosion_n_33_0_lc.mmh
@@ -71,6 +85,8 @@ ht_0_hightownexplosion_n_37_0_ll.mmh
 ht_0_hightownexplosion_n_4_0.mao
 ht_0_hightownexplosion_n_4_0.mmh
 ht_0_hightownexplosion_n_4_0.msh
+ht_0_hightownexplosion_n_4_0.phy
+ht_0_hightownexplosion_n_4_0.rml
 ht_0_hightownexplosion_n_42_0_lc.mmh
 ht_0_hightownexplosion_n_42_0_ll.mmh
 ht_0_hightownexplosion_n_44_0_lc.mmh
@@ -80,20 +96,25 @@ ht_0_hightownexplosion_n_45_0_ll.mmh
 ht_0_hightownexplosion_n_5_0.mao
 ht_0_hightownexplosion_n_5_0.mmh
 ht_0_hightownexplosion_n_5_0.msh
+ht_0_hightownexplosion_n_5_0.phy
 ht_0_hightownexplosion_n_51_0_lc.mmh
 ht_0_hightownexplosion_n_51_0_ll.mmh
 ht_0_hightownexplosion_n_6_0.mao
 ht_0_hightownexplosion_n_6_0.mmh
 ht_0_hightownexplosion_n_6_0.msh
+ht_0_hightownexplosion_n_6_0.phy
 ht_0_hightownexplosion_n_7_0.mao
 ht_0_hightownexplosion_n_7_0.mmh
 ht_0_hightownexplosion_n_7_0.msh
+ht_0_hightownexplosion_n_7_0.phy
 ht_0_hightownexplosion_n_8_0.mao
 ht_0_hightownexplosion_n_8_0.mmh
 ht_0_hightownexplosion_n_8_0.msh
+ht_0_hightownexplosion_n_8_0.phy
 ht_0_hightownexplosion_n_9_0.mao
 ht_0_hightownexplosion_n_9_0.mmh
 ht_0_hightownexplosion_n_9_0.msh
+ht_0_hightownexplosion_n_9_0.phy
 ht_0_hightownexplosion_n_ll.mmh
 ht_0_hightownexplosion_n_mmi.gff
 sky_ht_0_hightownexplosion_n.mao
