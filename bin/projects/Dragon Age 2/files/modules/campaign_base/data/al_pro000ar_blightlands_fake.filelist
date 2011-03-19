@@ -1,11 +1,11 @@
-; 513/533 (96%)
+; 517/533 (96%)
 ; 
-; .ani - 215/226 (95%)
+; .ani - 217/226 (96%)
 ; .are - 1/1 (100%)
 ;  .cl - 46/50 (92%)
 ; .cnv - 22/25 (88%)
 ; .cut - 5/5 (100%)
-; .evt - 146/148 (98%)
+; .evt - 148/148 (100%)
 ; .mmh - 26/26 (100%)
 ; .msh - 9/9 (100%)
 ; .ncs - 17/17 (100%)
@@ -61,6 +61,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
@@ -106,6 +108,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_wal
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_forward_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_forward_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani

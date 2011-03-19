@@ -1,10 +1,10 @@
-; 368/400 (92%)
+; 376/400 (94%)
 ; 
-; .ani - 114/131 (87%)
+; .ani - 118/131 (90%)
 ; .are - 1/1 (100%)
 ;  .cl - 26/26 (100%)
 ; .cnv - 23/23 (100%)
-; .evt - 99/114 (86%)
+; .evt - 103/114 (90%)
 ; .ncs - 51/51 (100%)
 ; .stg - 24/24 (100%)
 ; .utc - 23/23 (100%)
@@ -55,11 +55,17 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_wa
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.evt
@@ -225,6 +231,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_other.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hold_object_front.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hold_object_front.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_psych_self.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_psych_self.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_thumb_jab_back_and_side.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_thumb_jab_back_and_side.evt
 ave200pt_long_road.ncs

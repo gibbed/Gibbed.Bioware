@@ -1,10 +1,10 @@
-; 355/385 (92%)
+; 363/385 (94%)
 ; 
-; .ani - 117/133 (87%)
+; .ani - 121/133 (90%)
 ; .are - 1/1 (100%)
 ;  .cl - 17/17 (100%)
 ; .cnv - 18/18 (100%)
-; .evt - 104/118 (88%)
+; .evt - 108/118 (91%)
 ; .ncs - 47/47 (100%)
 ; .stg - 23/23 (100%)
 ; .utc - 19/19 (100%)
@@ -56,6 +56,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_wa
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.evt
@@ -67,6 +71,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_ge
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_self.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_self.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.evt
@@ -234,6 +240,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_other.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hold_object_front.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hold_object_front.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_psych_self.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_psych_self.evt
 cod_bks_first_children.utp
 cod_hst_rivain.utp
 cod_hst_seekers.utp

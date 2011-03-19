@@ -1,22 +1,29 @@
-; 63/236 (26%)
+; 76/236 (32%)
 art\levels\races\darkspawn\props\prp_ogreskull_0.pwk
 art\levels\races\design\prp_chesta_0.pwk
 art\levels\races\design\prp_chestb_0.pwk
 art\levels\races\design\prp_chestc_0.pwk
 art\levels\races\design\prp_rubble_0.pwk
+art\levels\races\design\trap_floorlever_6.pwk
 art\levels\races\dwarf\common\int\deeproads\dr1a_stonedefault_1.pwk
 art\levels\races\dwarf\common\int\deeproads\dr1a_stonedefault_3.pwk
+art\levels\races\dwarf\common\int\deeproads\trap_1dwarven_12.pwk
 art\levels\races\elf\props\alienage\prp_basket_0.pwk
 art\levels\races\elf\props\alienage\prp_tikia_0.pwk
 art\levels\races\elf\props\alienage\prp_tikib_0.pwk
+art\levels\races\elf\props\plotspecifc\prp_eluvian_0.pwk
+art\levels\races\elf\props\plotspecifc\prp_eluvianbroke_0.pwk
 art\levels\races\elf\props\plotspecifc\prp_eluviancrack_0.pwk
 art\levels\races\ferelden\kirkgallows\int\4co_gallowsint\dr1a_door_1.pwk
+art\levels\races\ferelden\kirkgallows\int\4co_gallowsint\trap_gallowpad_12.pwk
 art\levels\races\ferelden\kirkhigh\ext\4co_hightown\gt1a_portculgate_0.pwk
+art\levels\races\ferelden\kirkhigh\ext\4co_hightown\trap_pad_12.pwk
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\dr1a_simple_1.pwk
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\dr2a_simple_1.pwk
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\trap_floortile_12.pwk
 art\levels\races\ferelden\kirklow\ext\4co_lowtown\gt2a_lowtowngate_1.pwk
 art\levels\races\ferelden\kirklow\int\4co_lowtown\dr1c_default_1.pwk
+art\levels\races\ferelden\kirklow\int\4co_lowtown\dr1c_default_3.pwk
 art\levels\races\ferelden\kirklow\int\4co_lowtown\trap_lowtownint_12.pwk
 art\levels\races\ferelden\props\higherclass\prp_pota_0.pwk
 art\levels\races\ferelden\props\higherclass\prp_potc_0.pwk
@@ -24,16 +31,20 @@ art\levels\races\ferelden\props\lowerclass\prp_barrelbasic_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_barrelred_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_barreltiny_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_barrelwht_0.pwk
+art\levels\races\ferelden\props\lowerclass\prp_containera_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_cratelg_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_cratelgred_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_cratesm_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_cratesmred_0.pwk
+art\levels\races\ferelden\props\lowerclass\prp_cratesmwht_0.pwk
 art\levels\races\ferelden\props\lowerclass\prp_trapdoorlid_0.pwk
 art\levels\races\ferelden\props\middleclass\prp_cartempty_0.pwk
 art\levels\races\ferelden\props\middleclass\prp_grainsack_0.pwk
 art\levels\races\ferelden\props\middleclass\prp_lute_0.pwk
 art\levels\races\ferelden\props\middleclass\prp_nicechair_0.pwk
+art\levels\races\ferelden\props\middleclass\prp_nicerchair_0.pwk
 art\levels\races\ferelden\props\middleclass\prp_sidetable_0.pwk
+art\levels\races\ferelden\props\middleclass\prp_table_0.pwk
 art\levels\races\ferelden\props\plotspecifc\prp_alchemic_0.pwk
 art\levels\races\ferelden\props\plotspecifc\prp_codexcity_0.pwk
 art\levels\races\ferelden\props\plotspecifc\prp_codexwild_0.pwk
@@ -45,6 +56,7 @@ art\levels\races\natural\kirkcave\setint\caveinterior\dr1a_slab_3.pwk
 art\levels\races\natural\kirkcave\setint\caveinterior\trap_pressureston_12.pwk
 art\levels\races\proxy\props\4tools\inv_ball_5_0.pwk
 art\levels\races\proxy\props\4tools\inv_ball1_0.pwk
+art\levels\races\proxy\props\4tools\inv_ball2_0.pwk
 art\levels\races\proxy\props\4tools\inv_ball4_0.pwk
 art\levels\races\proxy\props\4tools\inv_box_25x_25_0.pwk
 art\levels\races\proxy\props\4tools\inv_box_5x_5_0.pwk
@@ -59,6 +71,7 @@ art\levels\races\proxy\props\4tools\inv_wall4x3_0.pwk
 art\levels\races\proxy\props\4tools\inv_wall6x3_0.pwk
 art\levels\races\proxy\props\4tools\inv_wall8x3_0.pwk
 art\levels\races\proxy\props\4tools\vis_ball12_0.pwk
+art\levels\races\proxy\props\4tools\vis_blades_0.pwk
 art\levels\races\proxy\props\4tools\vis_spike_0.pwk
 art\levels\races\proxy\props\door\prp_door_1.pwk
 art\levels\races\proxy\props\door\prp_door_2.pwk

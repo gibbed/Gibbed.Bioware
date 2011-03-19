@@ -1,6 +1,6 @@
-; 67/68 (98%)
+; 68/68 (100%)
 ; 
-; .ani - 25/26 (96%)
+; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 7/7 (100%)
 ; .cnv - 2/2 (100%)
@@ -14,6 +14,7 @@ art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_male.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani

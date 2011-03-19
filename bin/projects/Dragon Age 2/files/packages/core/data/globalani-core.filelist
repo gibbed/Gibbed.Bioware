@@ -1,8 +1,8 @@
-; 2280/2559 (89%)
+; 2282/2559 (89%)
 ; 
 ; .anb - 142/142 (100%)
-; .ani - 816/855 (95%)
-; .evt - 593/707 (83%)
+; .ani - 817/855 (95%)
+; .evt - 594/707 (84%)
 ; .gad - 729/855 (85%)
 ; 
 art\characters\creatures\corpse\animation\combat\ready.ani
@@ -1463,6 +1463,8 @@ art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v5.ani
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v5.evt
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_range_attack_v5.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_ready.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\archer_ready.evt
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v1.ani
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v1.evt
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\attk_v1.gad

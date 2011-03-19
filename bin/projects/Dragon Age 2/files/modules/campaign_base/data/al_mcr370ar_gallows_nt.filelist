@@ -1,12 +1,12 @@
-; 499/558 (89%)
+; 505/558 (90%)
 ; 
-; .ani - 181/227 (79%)
+; .ani - 184/227 (81%)
 ; .are - 1/1 (100%)
 ;  .cl - 59/60 (98%)
 ; .cnv - 27/31 (87%)
 ; .cut - 2/2 (100%)
 ; .dds - 1/1 (100%)
-; .evt - 133/140 (95%)
+; .evt - 136/140 (97%)
 ; .mmh - 20/20 (100%)
 ; .msh - 6/6 (100%)
 ; .ncs - 23/24 (95%)
@@ -53,6 +53,10 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collaps
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_carver.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_malepc.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\brother_collapse_help_up_malepc.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
@@ -79,6 +83,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_enter.ani

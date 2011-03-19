@@ -1,10 +1,11 @@
-; 190/232 (81%)
+; 197/232 (84%)
 ; 
 ; .ncc - 2/2 (100%)
-; .ncs - 188/230 (81%)
+; .ncs - 195/230 (84%)
 ; 
 ability_core.ncs
 active.ncs
+addmoney.ncs
 addparty.ncs
 addtacticpreset.ncs
 addtalent.ncs
@@ -24,8 +25,11 @@ bowlingforferelden.ncs
 bug.ncs
 chargen.ncs
 cheat.ncs
+cod_bks_chantry_hist.ncs
 cod_bks_fifth_blight.ncs
 cod_bks_fifth_blight_2.ncs
+cod_hst_kirk_arch_1a.ncs
+cod_ltr_servantletter_.ncs
 countcreatures.ncs
 craft.ncs
 createitem.ncs
@@ -86,6 +90,8 @@ genip_crafting_station.ncs
 genip_party_storage.ncs
 genip_pressure_plate.ncs
 genip_trap.ncs
+genip_trap_switch.ncs
+genpt_crafting.ncs
 genpt_follower_approval.ncs
 genpt_party_rand_banter.ncs
 genpt_personality.ncs
@@ -105,6 +111,7 @@ ip_restrict_attribute.ncs
 ip_restrict_class.ncs
 ip_restrict_class_war_rog.ncs
 ip_restrict_follower.ncs
+ip_restrict_level.ncs
 ip_restrict_player.ncs
 ip_restrict_status.ncs
 ip_restrict_weapon_style.ncs

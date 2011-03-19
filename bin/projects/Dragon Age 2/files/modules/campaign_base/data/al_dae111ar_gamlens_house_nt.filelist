@@ -1,10 +1,10 @@
-; 436/452 (96%)
+; 450/452 (99%)
 ; 
-; .ani - 151/160 (94%)
+; .ani - 159/160 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 46/46 (100%)
 ; .cnv - 12/12 (100%)
-; .evt - 129/136 (94%)
+; .evt - 135/136 (99%)
 ; .mmh - 4/4 (100%)
 ; .msh - 3/3 (100%)
 ; .ncs - 34/34 (100%)
@@ -27,6 +27,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneeli
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingpose2.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_enter.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_enter.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
@@ -40,6 +42,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.a
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
@@ -96,6 +100,16 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_exit_kill.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_exit_kill.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_exit_kill.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_exit_kill.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani

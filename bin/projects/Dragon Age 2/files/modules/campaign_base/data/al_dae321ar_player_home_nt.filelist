@@ -1,6 +1,6 @@
-; 185/192 (96%)
+; 186/192 (96%)
 ; 
-; .ani - 51/55 (92%)
+; .ani - 52/55 (94%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 7/7 (100%)
@@ -22,6 +22,7 @@ and330st_base_justice_post1.stg
 and330st_base_justice_post2.stg
 and330st_base_justice_start.stg
 art\characters\creatures\mubari\animation\sleep.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani

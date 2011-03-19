@@ -1,10 +1,10 @@
-; 193/197 (97%)
+; 195/197 (98%)
 ; 
-; .ani - 51/53 (96%)
+; .ani - 52/53 (98%)
 ; .are - 1/1 (100%)
 ;  .cl - 24/24 (100%)
 ; .cnv - 16/16 (100%)
-; .evt - 41/43 (95%)
+; .evt - 42/43 (97%)
 ; .ncs - 19/19 (100%)
 ; .stg - 10/10 (100%)
 ; .utc - 18/18 (100%)
@@ -44,6 +44,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeate
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt

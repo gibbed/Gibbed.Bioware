@@ -1,6 +1,6 @@
-; 169/184 (91%)
+; 170/184 (92%)
 ; 
-; .ani - 49/63 (77%)
+; .ani - 50/63 (79%)
 ; .are - 1/1 (100%)
 ;  .cl - 18/18 (100%)
 ; .cnv - 10/10 (100%)
@@ -14,6 +14,7 @@
 ; .utt - 2/2 (100%)
 ; 
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt

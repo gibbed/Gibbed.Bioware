@@ -1,11 +1,11 @@
-; 721/749 (96%)
+; 731/749 (97%)
 ; 
-; .ani - 288/303 (95%)
+; .ani - 293/303 (96%)
 ; .are - 1/1 (100%)
 ;  .cl - 56/60 (93%)
 ; .cnv - 28/31 (90%)
 ; .cut - 3/3 (100%)
-; .evt - 203/209 (97%)
+; .evt - 208/209 (99%)
 ; .mmh - 32/32 (100%)
 ; .msh - 9/9 (100%)
 ; .ncs - 44/44 (100%)
@@ -65,6 +65,10 @@ art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_die_fl
 art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_diepose_aveline.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\wesley_hurt_aveline.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_2arm_shrug.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_2arm_shrug.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_gesture_left.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_gesture_left.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.evt
@@ -79,6 +83,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_blink.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
@@ -86,6 +92,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.ani
@@ -150,6 +158,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_clasped_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_forward_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_forward_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani

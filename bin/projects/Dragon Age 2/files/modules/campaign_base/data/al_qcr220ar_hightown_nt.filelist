@@ -1,10 +1,10 @@
-; 267/313 (85%)
+; 274/313 (87%)
 ; 
-; .ani - 96/129 (74%)
+; .ani - 100/129 (77%)
 ; .are - 1/1 (100%)
 ;  .cl - 25/25 (100%)
 ; .cnv - 15/15 (100%)
-; .evt - 79/92 (85%)
+; .evt - 82/92 (89%)
 ; .mmh - 8/8 (100%)
 ; .msh - 2/2 (100%)
 ; .ncs - 11/11 (100%)
@@ -14,6 +14,7 @@
 ; .utt - 1/1 (100%)
 ; 
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt
@@ -25,6 +26,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_d
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_rotateback.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_rotateback.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
@@ -61,6 +64,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_run.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_run.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_dead_loop.ani
@@ -81,6 +86,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_groun
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_around.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_around.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani

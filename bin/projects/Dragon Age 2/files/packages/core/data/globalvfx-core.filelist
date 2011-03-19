@@ -1,10 +1,10 @@
-; 6195/6230 (99%)
+; 6197/6230 (99%)
 ; 
 ; .anb - 867/867 (100%)
 ; .ani - 1390/1392 (99%)
 ; .evt - 1350/1351 (99%)
 ; .gad - 1388/1392 (99%)
-; .mao - 183/203 (90%)
+; .mao - 185/203 (91%)
 ; .mmh - 911/919 (99%)
 ; .msh - 106/106 (100%)
 ; 
@@ -5953,6 +5953,7 @@ art\vfx\materials\vfx_d_heatnoise.mao
 art\vfx\materials\vfx_d_shockwave.mao
 art\vfx\materials\vfx_d_shockwave_add.mao
 art\vfx\materials\vfx_d_shockwave_blend.mao
+art\vfx\materials\vfx_d_speed_blend.mao
 art\vfx\materials\vfx_distor_si.mao
 art\vfx\materials\vfx_distor_si_blend.mao
 art\vfx\materials\vfx_distortion_ball.mao
@@ -5976,6 +5977,7 @@ art\vfx\materials\vfx_flare01_add.mao
 art\vfx\materials\vfx_flare01_blend.mao
 art\vfx\materials\vfx_flare01a_add.mao
 art\vfx\materials\vfx_flash.mao
+art\vfx\materials\vfx_half_dot.mao
 art\vfx\materials\vfx_half_dot_blend.mao
 art\vfx\materials\vfx_leaf_01.mao
 art\vfx\materials\vfx_lightning_add.mao

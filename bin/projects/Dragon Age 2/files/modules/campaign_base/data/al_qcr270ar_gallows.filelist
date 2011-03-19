@@ -1,6 +1,6 @@
-; 123/138 (89%)
+; 124/138 (89%)
 ; 
-; .ani - 40/54 (74%)
+; .ani - 41/54 (75%)
 ; .are - 1/1 (100%)
 ;  .cl - 17/17 (100%)
 ; .cnv - 7/7 (100%)
@@ -16,6 +16,7 @@ act00pt_main.ncs
 art\characters\creatures\arh_abm_rev\animation\a_die_lp_v1.ani
 art\characters\creatures\arh_abm_rev\animation\a_die_v1.ani
 art\characters\creatures\arh_abm_rev\animation\a_die_v1.evt
+art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_forward_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_left.evt

@@ -1,6 +1,6 @@
-; 396/405 (97%)
+; 397/405 (98%)
 ; 
-; .ani - 131/135 (97%)
+; .ani - 132/135 (97%)
 ; .are - 1/1 (100%)
 ;  .cl - 48/49 (97%)
 ; .cnv - 13/14 (92%)
@@ -21,6 +21,7 @@ art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.evt
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_knckbck.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_knckbck.evt
 art\characters\creatures\mubari\animation\sleep.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\pose_f.ani

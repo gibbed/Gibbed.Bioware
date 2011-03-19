@@ -1,10 +1,10 @@
-; 182/206 (88%)
+; 186/206 (90%)
 ; 
-; .ani - 80/92 (86%)
+; .ani - 82/92 (89%)
 ; .are - 1/1 (100%)
 ;  .cl - 6/6 (100%)
 ; .cnv - 2/2 (100%)
-; .evt - 60/71 (84%)
+; .evt - 62/71 (87%)
 ; .ncs - 20/21 (95%)
 ; .stg - 6/6 (100%)
 ; .utp - 7/7 (100%)
@@ -71,6 +71,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_poi
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.evt
@@ -100,6 +102,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_forwar
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_left.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_right.ani

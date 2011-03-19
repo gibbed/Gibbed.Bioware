@@ -1,9 +1,9 @@
-; 144/171 (84%)
+; 148/171 (86%)
 ; 
-; .ani - 61/75 (81%)
+; .ani - 63/75 (84%)
 ; .are - 1/1 (100%)
 ; .cnv - 1/1 (100%)
-; .evt - 46/59 (77%)
+; .evt - 48/59 (81%)
 ; .mmh - 3/3 (100%)
 ; .msh - 3/3 (100%)
 ; .ncs - 18/18 (100%)
@@ -18,6 +18,8 @@ art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\fingers_r_open.ani
@@ -70,6 +72,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_forwar
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_left.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_large_3.ani

@@ -1,10 +1,10 @@
-; 198/209 (94%)
+; 201/209 (96%)
 ; 
-; .ani - 55/65 (84%)
+; .ani - 57/65 (87%)
 ; .are - 1/1 (100%)
 ;  .cl - 17/17 (100%)
 ; .cnv - 8/8 (100%)
-; .evt - 51/52 (98%)
+; .evt - 52/52 (100%)
 ; .ncs - 39/39 (100%)
 ; .stg - 11/11 (100%)
 ; .utc - 7/7 (100%)
@@ -34,6 +34,9 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exchange_give.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sebastian_crouch_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sebastian_crouch_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sebastian_crouch_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_pointing.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_pointing.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.ani
