@@ -1,6 +1,6 @@
-; 524/533 (98%)
+; 528/533 (99%)
 ; 
-; .ani - 217/226 (96%)
+; .ani - 221/226 (97%)
 ; .are - 1/1 (100%)
 ;  .cl - 50/50 (100%)
 ; .cnv - 25/25 (100%)
@@ -316,14 +316,18 @@ art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl2_pcopening.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl2_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopening.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopeningmage.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_f_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopening.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\sister_pcopening.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_aveline_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_brother_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim_sis.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_ogre_victim_brother.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_ogre_victim_sis.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_player_victim.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_sister_victim_sis.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_wesley_victim.ani
 art\cinematics\additional animation\cs_sail_cycle.ani
 art\cinematics\deathblows\ogre\cs_db_carver_ogremage.ani

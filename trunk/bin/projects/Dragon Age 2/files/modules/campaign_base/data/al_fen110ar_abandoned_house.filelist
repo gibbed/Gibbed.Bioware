@@ -1,6 +1,6 @@
-; 107/114 (93%)
+; 114/114 (100%)
 ; 
-; .ani - 41/48 (85%)
+; .ani - 48/48 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 7/7 (100%)
 ; .cnv - 5/5 (100%)
@@ -76,6 +76,13 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim2_reverse.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.evt
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_fenris_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower1_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower2_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower3_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunt_cap_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunter_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_player_fenrintro.ani
 art\vfx\cinematic\vfx_blood_dripping_c.impa.ani
 art\vfx\cinematic\vfx_blood_dripping_c.impa.evt
 art\vfx\cinematic\vfx_blood_dripping_c.mmh

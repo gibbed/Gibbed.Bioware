@@ -1,6 +1,6 @@
-; 196/204 (96%)
+; 204/204 (100%)
 ; 
-; .ani - 54/62 (87%)
+; .ani - 62/62 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 16/16 (100%)
 ; .cnv - 8/8 (100%)
@@ -120,6 +120,14 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_other.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_self_2.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_self_2.evt
+art\cinematics\follower plots\sebastian\cs_cleric_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_hench1f_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_hench2_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_hench3_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_letter_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_letter2_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_player_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_sebastian_sebastianintro.ani
 cod_bks_chantry_hist_1.utp
 cod_bks_sermons.utp
 cod_hst_parvollen.utp

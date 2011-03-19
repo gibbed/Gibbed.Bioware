@@ -1,6 +1,6 @@
-; 345/379 (91%)
+; 357/379 (94%)
 ; 
-; .ani - 111/135 (82%)
+; .ani - 123/135 (91%)
 ; .are - 1/1 (100%)
 ;  .cl - 17/17 (100%)
 ; .cnv - 17/17 (100%)
@@ -219,6 +219,18 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hold_obj
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_hold_object_front.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_psych_self.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_psych_self.evt
+art\cinematics\_crit path\followerintros\cs_bartender_isa_intro.ani
+art\cinematics\_crit path\followerintros\cs_drunk1_isa_intro.ani
+art\cinematics\_crit path\followerintros\cs_drunk2_isa_intro.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_goon1.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_goon2.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_hench1.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_hench2f.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_hench3.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_isabella.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_lucky_.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_player.ani
+art\cinematics\_crit path\followerintros\cs_wench_isa_intro.ani
 art\vfx\cinematic\vfx_blood_b_splatters_p.impa.ani
 art\vfx\cinematic\vfx_blood_b_splatters_p.impa.evt
 art\vfx\cinematic\vfx_blood_b_splatters_p.mmh

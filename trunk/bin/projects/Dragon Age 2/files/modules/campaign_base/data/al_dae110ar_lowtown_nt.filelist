@@ -1,6 +1,6 @@
-; 331/340 (97%)
+; 338/340 (99%)
 ; 
-; .ani - 102/110 (92%)
+; .ani - 109/110 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 30/30 (100%)
 ; .cnv - 17/17 (100%)
@@ -189,6 +189,13 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_other.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.evt
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_fenris_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower1_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower2_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower3_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunt_cap_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunter_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_player_fenrintro.ani
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\animation\dsopen_v2.ani
 art\vfx\cinematic\vfx_blood_dripping_c.impa.ani
 art\vfx\cinematic\vfx_blood_dripping_c.impa.evt

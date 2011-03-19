@@ -1,6 +1,6 @@
-; 309/361 (85%)
+; 310/361 (85%)
 ; 
-; .ani - 116/163 (71%)
+; .ani - 117/163 (71%)
 ; .are - 1/1 (100%)
 ;  .cl - 33/33 (100%)
 ; .cnv - 13/13 (100%)
@@ -209,6 +209,7 @@ art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoul
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_exit.evt
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_loop.ani
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_2.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.ani
 art\cinematics\act1\cs_fp_smile.ani
 art\levels\4cinematics\qunari\prp_qunarirelic.mmh
 art\levels\4cinematics\qunari\prp_qunarirelic.msh
