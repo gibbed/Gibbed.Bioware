@@ -1,9 +1,9 @@
-; 258/260 (99%)
+; 260/260 (100%)
 ; 
 ; .ani - 74/74 (100%)
 ; .are - 1/1 (100%)
-;  .cl - 48/49 (97%)
-; .cnv - 20/21 (95%)
+;  .cl - 49/49 (100%)
+; .cnv - 21/21 (100%)
 ; .cut - 1/1 (100%)
 ; .evt - 66/66 (100%)
 ; .ncs - 19/19 (100%)
@@ -245,6 +245,8 @@ dae120cr_amb_dwarf_3.utc
 dae121ip_at_brothel_high.utp
 dae121ip_at_hightown.ncs
 dae200cr_brothel_gamlen.utc
+dae221_viscount_chantry.cnv
+dae221_viscount_chantry6154257.cl
 dae221ar_brothel_nt.are
 dae221ar_brothel_nt.ncs
 dae221ar_chantry.ncs

@@ -1,9 +1,9 @@
-; 283/293 (96%)
+; 285/293 (97%)
 ; 
 ; .ani - 86/94 (91%)
 ; .are - 1/1 (100%)
-;  .cl - 34/35 (97%)
-; .cnv - 9/10 (90%)
+;  .cl - 35/35 (100%)
+; .cnv - 10/10 (100%)
 ; .evt - 76/76 (100%)
 ; .ncs - 39/39 (100%)
 ; .stg - 17/17 (100%)
@@ -218,6 +218,8 @@ dae021cr_male_worshipper.utc
 dae021cr_sister_colinda.utc
 dae021cr_sister_lorena.utc
 dae021cr_sister_samea.utc
+dae221_viscount_chantry.cnv
+dae221_viscount_chantry6154257.cl
 dae221ar_brothel_nt.ncs
 dae221ar_chantry.are
 dae221ar_chantry.ncs

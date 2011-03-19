@@ -1,9 +1,9 @@
-; 117/120 (97%)
+; 118/120 (98%)
 ; 
 ; .ani - 44/45 (97%)
 ; .are - 1/1 (100%)
 ;  .cl - 9/9 (100%)
-; .cnv - 4/5 (80%)
+; .cnv - 5/5 (100%)
 ; .evt - 34/35 (97%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 8/8 (100%)
@@ -108,6 +108,7 @@ nat300ip_item_chest.utp
 nat300ip_lore_item_chest.utp
 nat300pt_find_nathaniel.ncs
 nat380_nathaniel.cnv
+nat380_nathaniel_banter.cnv
 nat380_nathaniel6066182.cl
 nat380_nathaniel6068261.cl
 nat380_nathaniel6068341.cl

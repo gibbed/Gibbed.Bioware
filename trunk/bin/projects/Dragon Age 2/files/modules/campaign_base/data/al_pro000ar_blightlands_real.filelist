@@ -1,9 +1,9 @@
-; 731/749 (97%)
+; 738/749 (98%)
 ; 
 ; .ani - 293/303 (96%)
 ; .are - 1/1 (100%)
-;  .cl - 56/60 (93%)
-; .cnv - 28/31 (90%)
+;  .cl - 60/60 (100%)
+; .cnv - 31/31 (100%)
 ; .cut - 3/3 (100%)
 ; .evt - 208/209 (99%)
 ; .mmh - 32/32 (100%)
@@ -618,6 +618,11 @@ pro000_athenril6049428.cl
 pro000_athenril6049471.cl
 pro000_athenril6049474.cl
 pro000_aveline.cnv
+pro000_aveline_intro.cnv
+pro000_aveline_intro6109325.cl
+pro000_aveline_intro6109368.cl
+pro000_aveline_intro6109371.cl
+pro000_aveline_intro6109378.cl
 pro000_aveline6047232.cl
 pro000_aveline6177136.cl
 pro000_captain_wright.cnv
@@ -672,6 +677,8 @@ pro000_opening6207373.cl
 pro000_refugee_angry.cnv
 pro000_refugee_female.cnv
 pro000_refugee_male.cnv
+pro000_soldier_leader.cnv
+pro000_soldier1.cnv
 pro000_varric.cnv
 pro000_varric_cass.cnv
 pro000_varric_cass6208370.cl

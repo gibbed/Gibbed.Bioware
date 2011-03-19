@@ -1,6 +1,6 @@
-; 687/740 (92%)
+; 734/740 (99%)
 ; 
-; .cnv - 629/682 (92%)
+; .cnv - 676/682 (99%)
 ; .gda - 58/58 (100%)
 ; 
 and100_anders.cnv
@@ -18,6 +18,7 @@ ave121_brennan.cnv
 ave121_jeven.cnv
 ave200_aveline_bar.cnv
 ave200_donnic.cnv
+ave200_party_comment.cnv
 ave221_brennan.cnv
 ave310_brennan.cnv
 ave310_donnic.cnv
@@ -54,11 +55,14 @@ dae000_flemeth.cnv
 dae000_foreshadow.cnv
 dae000_friend_turn_in.cnv
 dae000_gamlen.cnv
+dae000_gen_player_turn_in.cnv
 dae000_gen_turn_in_1.cnv
 dae000_gen_turn_in_2.cnv
 dae000_gen_turn_in_3.cnv
 dae000_gen_turn_in_4.cnv
 dae000_gen_turn_in_5.cnv
+dae000_hate_enemies.cnv
+dae000_hate_follower_react.cnv
 dae000_ineria.cnv
 dae000_junar.cnv
 dae000_katriela.cnv
@@ -81,6 +85,9 @@ dae000_male_templar_mob.cnv
 dae000_maren.cnv
 dae000_merchant_access_hf.cnv
 dae000_merchant_armor_hm.cnv
+dae000_merchant_dm_mob.cnv
+dae000_merchant_generic_hm.cnv
+dae000_merchant_hm_mob.cnv
 dae000_merchant_mage_hf.cnv
 dae000_merchant_rare_em.cnv
 dae000_merchant_tailor_hm.cnv
@@ -95,6 +102,7 @@ dae000_paivel.cnv
 dae000_party_night_comment.cnv
 dae000_pc_home_ambients.cnv
 dae000_pickpocket_scene.cnv
+dae000_player_generic_find.cnv
 dae000_porfiria.cnv
 dae000_quintus.cnv
 dae000_sabina.cnv
@@ -141,6 +149,7 @@ dae200_saemus.cnv
 dae200cr_captain_wright.cnv
 dae200cr_viscount.cnv
 dae210_gate_guard.cnv
+dae221_viscount_chantry.cnv
 dae300_alistair_king.cnv
 dae300_bran.cnv
 dae300_cullen.cnv
@@ -198,6 +207,7 @@ fen210_orana.cnv
 fen210_tevinter_ambusher.cnv
 fen210_tevinter_ambusher2.cnv
 fen310_fenris.cnv
+fen310_party_comment.cnv
 fen310_varania.cnv
 follower_banter.cnv
 follower_barks.cnv
@@ -295,6 +305,7 @@ lgt310_mis_burn_dump.cnv
 lgt310_mis_burn_murder1.cnv
 lgt310_mis_burn_murder2.cnv
 lgt310_mis_burn_rival_thug.cnv
+lgt310_shw_ors_informant.cnv
 lgt311_shw_mer_agatha.cnv
 lgt311_shw_mer_intro.cnv
 lgt311_shw_mer_mettin.cnv
@@ -303,13 +314,23 @@ lgt320_shw_ors_black_op.cnv
 lgt320_shw_ors_marlein.cnv
 lgt320_shw_ors_secret_meet.cnv
 lgt320_shw_ors_secret_nob.cnv
+lgt320_shw_ors_secret_thug.cnv
 lgt360_mag_orlanna.cnv
+lowtown_argument.cnv
+lowtown_fem_alien_elf_2_mob.cnv
 lowtown_fem_alienage1_sta.cnv
+lowtown_fem_cityguard_mob.cnv
+lowtown_fem_lowlife_mob.cnv
 lowtown_fem_prostitute_sta.cnv
+lowtown_fem_urchin_mob.cnv
+lowtown_guard_chase.cnv
 lowtown_male_alienage1_sta.cnv
+lowtown_male_alienage2_mob.cnv
 lowtown_male_beggar_sta.cnv
 lowtown_male_cityguard_mob.cnv
+lowtown_male_drunk_mob.cnv
 lowtown_male_lowlife1_sta.cnv
+lowtown_male_lowlife2_mob.cnv
 lowtown_male_urchin_sta.cnv
 mag100_cullen.cnv
 mag100_karras.cnv
@@ -382,10 +403,12 @@ mcr370_cut_animate_guardian.cnv
 mcr370_cut_arrival_gallows.cnv
 mcr370_cut_attack_begins.cnv
 mcr370_cut_epilogue.cnv
+mcr370_cut_marriage.cnv
 mcr370_cut_meredith_dies.cnv
 mcr370_cut_meredith_idol.cnv
 mcr370_cut_player_rules.cnv
 mcr370_cut_player_survives.cnv
+mcr370_desten.cnv
 mcr370_guardsman.cnv
 mcr370_meredith.cnv
 mcr370_messenger.cnv
@@ -396,8 +419,11 @@ mcr370_templar1.cnv
 mcr370_templar2.cnv
 mcr370_varric.cnv
 mcr371_alain.cnv
+mcr371_angry_mage_m.cnv
+mcr371_arthuris.cnv
 mcr371_cut_orsino_defiance.cnv
 mcr371_emile_de_launcet.cnv
+mcr371_harvester_resurect.cnv
 mcr371_hostile_anders.cnv
 mcr371_hostile_aveline.cnv
 mcr371_hostile_fenris.cnv
@@ -411,6 +437,7 @@ mer110_jansen.cnv
 mer120_hubert.cnv
 mer140_bonepit_comments.cnv
 mer141_jansen.cnv
+mer200_ambush_leader.cnv
 mer210_coterie_contact.cnv
 mer210_seldrek.cnv
 mer210_smith.cnv
@@ -419,9 +446,11 @@ mer221_sabin.cnv
 mer231_brekker.cnv
 mer240_jansen.cnv
 mer320_hubert.cnv
+mer340_bonepit_comments.cnv
 mer340_cowan.cnv
 mer341_earl.cnv
 mer341_jansen.cnv
+montage_subs_demohack.cnv
 mrl000_marethari.cnv
 mrl150_cut_amulet_ritual.cnv
 mrl150_cut_merrill_intro.cnv
@@ -434,12 +463,18 @@ mrl310_merrill.cnv
 mrl310_party_comments.cnv
 mrl351_phantomelves.cnv
 mrl351_pridedemon.cnv
+narrative_banter.cnv
+narrative_flemeth.cnv
+narrative_varric.cnv
+narrative_varric_demo.cnv
 nat320_delilah.cnv
 nat380_nathaniel.cnv
+nat380_nathaniel_banter.cnv
 nat380_party_banter.cnv
 nat380_sibling.cnv
 nat380_temmerin.cnv
 one000_ilen.cnv
+one100_ht_banter.cnv
 one100_party_comments.cnv
 one100_solivitus.cnv
 one100dg_elren.cnv
@@ -447,6 +482,7 @@ one100dg_kelder.cnv
 one100dg_lia.cnv
 one100dg_nabil.cnv
 one100dg_vanard.cnv
+one101_orders_followers.cnv
 one101dg_smuggler.cnv
 one110_gustav.cnv
 one110_meeran.cnv
@@ -475,8 +511,10 @@ one300dg_vanard.cnv
 one350_terath.cnv
 one350_variel.cnv
 one350_vinell.cnv
+prm000_varric_crest.cnv
 pro000_athenril.cnv
 pro000_aveline.cnv
+pro000_aveline_intro.cnv
 pro000_captain_wright.cnv
 pro000_colonel_ewald.cnv
 pro000_cut_act_of_mercy.cnv
@@ -494,6 +532,8 @@ pro000_opening_pc.cnv
 pro000_refugee_angry.cnv
 pro000_refugee_female.cnv
 pro000_refugee_male.cnv
+pro000_soldier_leader.cnv
+pro000_soldier1.cnv
 pro000_varric.cnv
 pro000_varric_cass.cnv
 pro000_wesley.cnv
@@ -573,6 +613,9 @@ ser270_emeric.cnv
 ser270_templar.cnv
 sib100_father_contact.cnv
 sib111_mother.cnv
+sib131_letter_react.cnv
+sib131_slave_a.cnv
+sib131_slaver_guard.cnv
 sib131_slaver_lord.cnv
 sse_ss_ambient_f.gda
 sse_ss_ambient_m.gda
@@ -653,6 +696,7 @@ zz_amb_test.cnv
 zz_and_debug.cnv
 zz_approval_debug.cnv
 zz_ave_debug.cnv
+zz_beggar_test.cnv
 zz_bet_debug.cnv
 zz_car_debug.cnv
 zz_dae_debug.cnv
@@ -661,6 +705,7 @@ zz_facefx_test.cnv
 zz_fen_debug.cnv
 zz_fol_debug.cnv
 zz_follower_test.cnv
+zz_followers_banter.cnv
 zz_isa_debug.cnv
 zz_lgt_1_debug.cnv
 zz_lgt_2_debug.cnv
@@ -687,6 +732,8 @@ zz_start_dre.cnv
 zz_start_mcr.cnv
 zz_start_qcr.cnv
 zz_stever_test.cnv
+zz_suhwan_test.cnv
+zz_test_general.cnv
 zz_vault_debug.cnv
 zz_vis_debug.cnv
 zz_vrc_debug.cnv

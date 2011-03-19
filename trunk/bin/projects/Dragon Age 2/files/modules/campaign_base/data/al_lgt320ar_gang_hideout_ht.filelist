@@ -1,9 +1,9 @@
-; 92/93 (98%)
+; 93/93 (100%)
 ; 
 ; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 6/6 (100%)
-; .cnv - 6/7 (85%)
+; .cnv - 7/7 (100%)
 ; .evt - 22/22 (100%)
 ; .ncs - 25/25 (100%)
 ; .utc - 5/5 (100%)
@@ -96,6 +96,7 @@ lgt320_shw_ors_marlein6156376.cl
 lgt320_shw_ors_secret_meet.cnv
 lgt320_shw_ors_secret_meet6156354.cl
 lgt320_shw_ors_secret_nob.cnv
+lgt320_shw_ors_secret_thug.cnv
 lgt320ar_gang_hideout_ht.are
 lgt320pt_mis_resp_deman.ncs
 lgt320pt_shw_ors_main.ncs

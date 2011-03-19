@@ -1,9 +1,9 @@
-; 190/200 (95%)
+; 194/200 (97%)
 ; 
 ; .ani - 70/73 (95%)
 ; .are - 1/1 (100%)
-;  .cl - 13/14 (92%)
-; .cnv - 13/16 (81%)
+;  .cl - 14/14 (100%)
+; .cnv - 16/16 (100%)
 ; .evt - 58/61 (95%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
@@ -160,9 +160,13 @@ mcr000pt_general.ncs
 mcr000pt_main.ncs
 mcr370st_assignments.stg
 mcr371_alain.cnv
+mcr371_angry_mage_m.cnv
+mcr371_arthuris.cnv
 mcr371_cut_orsino_defiance.cnv
 mcr371_cut_orsino_defiance6077474.cl
 mcr371_emile_de_launcet.cnv
+mcr371_harvester_resurect.cnv
+mcr371_harvester_resurect6217085.cl
 mcr371_hostile_anders.cnv
 mcr371_hostile_anders6082092.cl
 mcr371_hostile_anders6082096.cl

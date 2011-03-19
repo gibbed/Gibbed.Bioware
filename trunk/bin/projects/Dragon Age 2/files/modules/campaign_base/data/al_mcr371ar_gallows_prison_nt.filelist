@@ -1,9 +1,9 @@
-; 786/868 (90%)
+; 790/868 (91%)
 ; 
 ; .ani - 283/325 (87%)
 ; .are - 1/1 (100%)
-;  .cl - 44/45 (97%)
-; .cnv - 33/36 (91%)
+;  .cl - 45/45 (100%)
+; .cnv - 36/36 (100%)
 ; .cut - 1/1 (100%)
 ; .evt - 226/262 (86%)
 ; .mmh - 5/5 (100%)
@@ -719,10 +719,14 @@ mcr370cr_mage_escort.utc
 mcr370st_anders_magecrisis.stg
 mcr370st_assignments.stg
 mcr371_alain.cnv
+mcr371_angry_mage_m.cnv
+mcr371_arthuris.cnv
 mcr371_cut_orsino_defiance.cnv
 mcr371_cut_orsino_defiance6077474.cl
 mcr371_db_harvester_warr.cut
 mcr371_emile_de_launcet.cnv
+mcr371_harvester_resurect.cnv
+mcr371_harvester_resurect6217085.cl
 mcr371_hostile_anders.cnv
 mcr371_hostile_anders6082092.cl
 mcr371_hostile_anders6082096.cl

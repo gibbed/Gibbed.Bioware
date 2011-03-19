@@ -1,9 +1,9 @@
-; 149/150 (99%)
+; 150/150 (100%)
 ; 
 ; .ani - 49/49 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 16/16 (100%)
-; .cnv - 8/9 (88%)
+; .cnv - 9/9 (100%)
 ; .evt - 40/40 (100%)
 ; .ncs - 20/20 (100%)
 ; .stg - 7/7 (100%)
@@ -108,6 +108,7 @@ one000_ilen6036925.cl
 one000_ilen6037381.cl
 one000_ilen6037668.cl
 one000pt_herbalist.ncs
+one100_ht_banter.cnv
 one100_party_comments.cnv
 one100_solivitus.cnv
 one100_solivitus.stg

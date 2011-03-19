@@ -1,9 +1,9 @@
-; 334/340 (98%)
+; 336/340 (98%)
 ; 
 ; .ani - 113/115 (98%)
 ; .are - 1/1 (100%)
-;  .cl - 27/28 (96%)
-; .cnv - 18/19 (94%)
+;  .cl - 28/28 (100%)
+; .cnv - 19/19 (100%)
 ; .evt - 87/89 (97%)
 ; .ncs - 37/37 (100%)
 ; .stg - 11/11 (100%)
@@ -304,6 +304,8 @@ dae200cr_viscount.utc
 dae200cr_viscount6087158.cl
 dae200cr_viscount6087368.cl
 dae200cr_viscount6087393.cl
+dae221_viscount_chantry.cnv
+dae221_viscount_chantry6154257.cl
 dae221ar_brothel_nt.ncs
 dae221ar_chantry.ncs
 dae221ar_keep.are
