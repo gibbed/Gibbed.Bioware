@@ -1,10 +1,10 @@
-; 257/261 (98%)
+; 259/261 (99%)
 ; 
-; .ani - 61/63 (96%)
+; .ani - 62/63 (98%)
 ; .are - 1/1 (100%)
 ;  .cl - 27/27 (100%)
 ; .cnv - 25/25 (100%)
-; .evt - 52/54 (96%)
+; .evt - 53/54 (98%)
 ; .ncs - 29/29 (100%)
 ; .stg - 9/9 (100%)
 ; .utc - 37/37 (100%)
@@ -124,6 +124,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.a
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.evt
 art\characters\playercharacter\qunarimale\animation\cindes\custom\arishok_collapse_enter.ani
 art\characters\playercharacter\qunarimale\animation\cindes\custom\arishok_collapse_enter.evt
+art\characters\playercharacter\qunarimale\animation\cindes\custom\arishok_collapse_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\custom\arishok_collapse_loop.evt
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_1.ani
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_2.ani
 cod_hst_qunari.utp

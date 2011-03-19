@@ -1,11 +1,11 @@
-; 126/141 (89%)
+; 132/141 (93%)
 ; 
-; .ani - 42/54 (77%)
+; .ani - 45/54 (83%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 10/10 (100%)
 ; .dds - 1/1 (100%)
-; .evt - 32/35 (91%)
+; .evt - 35/35 (100%)
 ; .mmh - 2/2 (100%)
 ; .ncs - 12/12 (100%)
 ; .stg - 6/6 (100%)
@@ -21,12 +21,18 @@ art\characters\creatures\ashwraith\animation\ras_appr.ani
 art\characters\creatures\ashwraith\animation\ras_appr.evt
 art\characters\creatures\ashwraith\animation\ras_die_v1.ani
 art\characters\creatures\ashwraith\animation\ras_die_v1.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_enter.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_enter.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_in.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_in.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.ani

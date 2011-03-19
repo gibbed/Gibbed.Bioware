@@ -1,10 +1,10 @@
-; 53/80 (66%)
+; 61/80 (76%)
 ; 
-; .ani - 27/31 (87%)
+; .ani - 31/31 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 0/5 (0%)
 ; .cnv - 0/4 (0%)
-; .evt - 19/23 (82%)
+; .evt - 23/23 (100%)
 ; .ncs - 1/2 (50%)
 ; .stg - 5/6 (83%)
 ; .utc - 0/4 (0%)
@@ -22,10 +22,18 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_acti
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_gesture_2hands.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_gesture_2hands.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_gesture_right_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_gesture_right_2.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_stagger_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\drunk_stagger_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_drunk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_2.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_2.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_small_4.ani

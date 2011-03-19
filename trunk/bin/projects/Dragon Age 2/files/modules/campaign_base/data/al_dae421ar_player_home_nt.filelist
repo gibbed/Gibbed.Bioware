@@ -1,6 +1,6 @@
-; 100/103 (97%)
+; 101/103 (98%)
 ; 
-; .ani - 36/38 (94%)
+; .ani - 37/38 (97%)
 ; .are - 1/1 (100%)
 ;  .cl - 5/5 (100%)
 ; .cnv - 2/2 (100%)
@@ -16,6 +16,7 @@
 ; 
 act00pt_main.ncs
 art\characters\creatures\mubari\animation\sleep.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani

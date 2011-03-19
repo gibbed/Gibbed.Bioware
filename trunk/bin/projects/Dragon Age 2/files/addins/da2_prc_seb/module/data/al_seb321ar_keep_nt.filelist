@@ -1,10 +1,10 @@
-; 45/62 (72%)
+; 47/62 (75%)
 ; 
-; .ani - 23/26 (88%)
+; .ani - 24/26 (92%)
 ; .are - 1/1 (100%)
 ;  .cl - 0/3 (0%)
 ; .cnv - 0/2 (0%)
-; .evt - 17/19 (89%)
+; .evt - 18/19 (94%)
 ; .ncs - 2/4 (50%)
 ; .stg - 2/2 (100%)
 ; .utc - 0/1 (0%)
@@ -19,6 +19,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\punched_from_front_fall.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\punched_from_front_fall.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_reaction.ani

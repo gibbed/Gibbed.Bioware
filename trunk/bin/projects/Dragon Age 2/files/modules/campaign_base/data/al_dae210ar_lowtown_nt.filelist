@@ -1,10 +1,10 @@
-; 291/293 (99%)
+; 293/293 (100%)
 ; 
-; .ani - 83/84 (98%)
+; .ani - 84/84 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 44/44 (100%)
 ; .cnv - 13/13 (100%)
-; .evt - 71/72 (98%)
+; .evt - 72/72 (100%)
 ; .ncs - 34/34 (100%)
 ; .stg - 15/15 (100%)
 ; .utc - 11/11 (100%)
@@ -51,6 +51,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_med
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throw_retrieval.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throw_retrieval.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_forward_1.ani

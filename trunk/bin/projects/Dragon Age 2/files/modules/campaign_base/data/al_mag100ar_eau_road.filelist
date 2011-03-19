@@ -1,10 +1,10 @@
-; 131/147 (89%)
+; 145/147 (98%)
 ; 
-; .ani - 50/59 (84%)
+; .ani - 58/59 (98%)
 ; .are - 1/1 (100%)
 ;  .cl - 12/12 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 41/48 (85%)
+; .evt - 47/48 (97%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 12/12 (100%)
@@ -15,12 +15,16 @@
 ; 
 act00pt_main.ncs
 and100pt_tranquility.ncs
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_enter.ani
+art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_45_walk.ani
@@ -49,6 +53,16 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_exit_kill.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_exit_kill.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_exit_kill.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_exit_kill.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.ani

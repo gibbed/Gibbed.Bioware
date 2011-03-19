@@ -1,16 +1,20 @@
-; 49/53 (92%)
+; 53/53 (100%)
 ; 
-; .ani - 15/17 (88%)
+; .ani - 17/17 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
-; .evt - 9/11 (81%)
+; .evt - 11/11 (100%)
 ; .ncs - 9/9 (100%)
 ; .stg - 2/2 (100%)
 ; .utc - 3/3 (100%)
 ; .utp - 1/1 (100%)
 ; .utt - 4/4 (100%)
 ; 
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani

@@ -1,10 +1,10 @@
-; 272/282 (96%)
+; 280/282 (99%)
 ; 
-; .ani - 84/89 (94%)
+; .ani - 88/89 (98%)
 ; .are - 1/1 (100%)
 ;  .cl - 12/12 (100%)
 ; .cnv - 16/16 (100%)
-; .evt - 68/73 (93%)
+; .evt - 72/73 (98%)
 ; .ncs - 41/41 (100%)
 ; .stg - 6/6 (100%)
 ; .utc - 31/31 (100%)
@@ -16,6 +16,10 @@ art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_2arm_shrug.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_2arm_shrug.evt
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_gesture_left.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_gesture_left.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
@@ -28,6 +32,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani
@@ -40,6 +46,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_forward_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_forward_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani

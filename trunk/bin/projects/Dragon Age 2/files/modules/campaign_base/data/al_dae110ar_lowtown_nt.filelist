@@ -1,10 +1,10 @@
-; 325/340 (95%)
+; 331/340 (97%)
 ; 
-; .ani - 99/110 (90%)
+; .ani - 102/110 (92%)
 ; .are - 1/1 (100%)
 ;  .cl - 30/30 (100%)
 ; .cnv - 17/17 (100%)
-; .evt - 84/88 (95%)
+; .evt - 87/88 (98%)
 ; .mmh - 4/4 (100%)
 ; .ncs - 31/31 (100%)
 ; .stg - 15/15 (100%)
@@ -26,6 +26,12 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\2hand_stop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\2hand_stop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\conspire_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.evt

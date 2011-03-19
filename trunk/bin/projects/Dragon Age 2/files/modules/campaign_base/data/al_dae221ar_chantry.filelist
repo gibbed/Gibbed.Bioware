@@ -1,10 +1,10 @@
-; 278/293 (94%)
+; 283/293 (96%)
 ; 
-; .ani - 83/94 (88%)
+; .ani - 86/94 (91%)
 ; .are - 1/1 (100%)
 ;  .cl - 34/35 (97%)
 ; .cnv - 9/10 (90%)
-; .evt - 74/76 (97%)
+; .evt - 76/76 (100%)
 ; .ncs - 39/39 (100%)
 ; .stg - 17/17 (100%)
 ; .utc - 11/11 (100%)
@@ -45,11 +45,16 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeate
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sebastian_crouch_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sebastian_crouch_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sebastian_crouch_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_beseech.ani

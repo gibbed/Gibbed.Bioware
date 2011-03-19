@@ -1,10 +1,10 @@
-; 118/128 (92%)
+; 120/128 (93%)
 ; 
-; .ani - 45/50 (90%)
+; .ani - 46/50 (92%)
 ; .are - 1/1 (100%)
 ;  .cl - 10/10 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 39/44 (88%)
+; .evt - 40/44 (90%)
 ; .ncs - 6/6 (100%)
 ; .stg - 5/5 (100%)
 ; .utc - 2/2 (100%)
@@ -28,6 +28,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_run.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_run.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani

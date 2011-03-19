@@ -1,10 +1,10 @@
-; 223/229 (97%)
+; 227/229 (99%)
 ; 
-; .ani - 81/84 (96%)
+; .ani - 83/84 (98%)
 ; .are - 1/1 (100%)
 ;  .cl - 29/29 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 56/59 (94%)
+; .evt - 58/59 (98%)
 ; .ncs - 12/12 (100%)
 ; .stg - 12/12 (100%)
 ; .utc - 20/20 (100%)
@@ -17,6 +17,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_desc
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\stairs_descend_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
@@ -50,6 +52,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeate
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt

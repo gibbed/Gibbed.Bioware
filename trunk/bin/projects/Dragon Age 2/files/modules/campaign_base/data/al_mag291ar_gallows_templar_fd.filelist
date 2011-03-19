@@ -1,10 +1,10 @@
-; 294/306 (96%)
+; 296/306 (96%)
 ; 
-; .ani - 94/100 (94%)
+; .ani - 95/100 (95%)
 ; .are - 1/1 (100%)
 ;  .cl - 29/29 (100%)
 ; .cnv - 13/13 (100%)
-; .evt - 82/88 (93%)
+; .evt - 83/88 (94%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 27/27 (100%)
 ; .stg - 12/12 (100%)
@@ -98,6 +98,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_forwar
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_left.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_pacing_excited.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_generic_large_3.ani

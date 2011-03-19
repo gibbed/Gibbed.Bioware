@@ -1,6 +1,6 @@
-; 189/200 (94%)
+; 190/200 (95%)
 ; 
-; .ani - 69/73 (94%)
+; .ani - 70/73 (95%)
 ; .are - 1/1 (100%)
 ;  .cl - 13/14 (92%)
 ; .cnv - 13/16 (81%)
@@ -14,6 +14,7 @@
 ; .utp - 3/3 (100%)
 ; 
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani

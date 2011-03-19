@@ -1,4 +1,4 @@
-; 3632/3743 (97%)
+; 3634/3743 (97%)
 art\characters\creatures\arh_abm_rev\c_abm_body.mao
 art\characters\creatures\arh_abm_rev\c_abm_head.mao
 art\characters\creatures\arh_abm_rev\c_arh_body.mao
@@ -3549,6 +3549,7 @@ art\vfx\materials\vfx_d_heatnoise.mao
 art\vfx\materials\vfx_d_shockwave.mao
 art\vfx\materials\vfx_d_shockwave_add.mao
 art\vfx\materials\vfx_d_shockwave_blend.mao
+art\vfx\materials\vfx_d_speed_blend.mao
 art\vfx\materials\vfx_debris_blurred.mao
 art\vfx\materials\vfx_distor_si.mao
 art\vfx\materials\vfx_distor_si_blend.mao
@@ -3575,6 +3576,7 @@ art\vfx\materials\vfx_flare01_blend.mao
 art\vfx\materials\vfx_flare01a_add.mao
 art\vfx\materials\vfx_flash.mao
 art\vfx\materials\vfx_gaping_wound.mao
+art\vfx\materials\vfx_half_dot.mao
 art\vfx\materials\vfx_half_dot_blend.mao
 art\vfx\materials\vfx_leaf_01.mao
 art\vfx\materials\vfx_lightbeam.mao

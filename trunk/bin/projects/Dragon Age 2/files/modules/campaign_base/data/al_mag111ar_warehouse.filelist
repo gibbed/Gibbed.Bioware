@@ -1,10 +1,10 @@
-; 47/55 (85%)
+; 49/55 (89%)
 ; 
-; .ani - 11/15 (73%)
+; .ani - 12/15 (80%)
 ; .are - 1/1 (100%)
 ;  .cl - 1/1 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 7/11 (63%)
+; .evt - 8/11 (72%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 7/7 (100%)
 ; .stg - 1/1 (100%)
@@ -13,6 +13,8 @@
 ; .utp - 4/4 (100%)
 ; .utt - 2/2 (100%)
 ; 
+art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_female.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
