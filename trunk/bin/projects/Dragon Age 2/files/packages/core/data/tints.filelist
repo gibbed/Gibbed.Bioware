@@ -1,4 +1,4 @@
-; 549/554 (99%)
+; 553/554 (99%)
 t1_mub_bk1.tnt
 t1_mub_bk2.tnt
 t1_mub_bk3.tnt
@@ -222,6 +222,8 @@ t3_cor_b03.tnt
 t3_cor_h01.tnt
 t3_cor_h02.tnt
 t3_cor_h03.tnt
+t3_crd_lt1.tnt
+t3_crd_lt2.tnt
 t3_csp_b01.tnt
 t3_csp_b02.tnt
 t3_csp_b03.tnt
@@ -333,6 +335,7 @@ t3_har_org.tnt
 t3_har_rbr.tnt
 t3_har_red.tnt
 t3_har_wht.tnt
+t3_hey.tnt
 t3_hey_am1.tnt
 t3_hey_am2.tnt
 t3_hey_am3.tnt
@@ -431,6 +434,7 @@ t3_shl_pur.tnt
 t3_shl_rfi.tnt
 t3_smg.tnt
 t3_tra.tnt
+t3_tst_rgb.tnt
 t3_wdg_b00.tnt
 t3_wdg_b01.tnt
 t3_wdg_bb1.tnt
