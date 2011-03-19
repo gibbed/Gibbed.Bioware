@@ -1,7 +1,13 @@
-; 6/12 (50%)
+; 12/12 (100%)
 tbe100_mirror.cnv
 tbe100_xenon.cnv
 tbe100_xenon_golem.cnv
 tbe100_xenon_urchin.cnv
 zz_dog_debug.cnv
+zz_one000_barber.cnv
+zz_one000_barker.cnv
+zz_one000_crafter.cnv
+zz_one000_merchant.cnv
 zz_tbe_debug.cnv
+zz_tbe100_barber.cnv
+zz_tbe100_barber_flyer.cnv
