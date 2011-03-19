@@ -1,16 +1,17 @@
-; 21/23 (91%)
+; 22/23 (95%)
 ; 
 ; .dds - 9/9 (100%)
 ; .fdl - 0/1 (0%)
 ; .mmh - 5/5 (100%)
 ; .msh - 5/5 (100%)
-; .phy - 2/3 (66%)
+; .phy - 3/3 (100%)
 ; 
 art\characters\playercharacter\humanmale\arm_vael.mmh
 art\characters\playercharacter\humanmale\arm_vael.msh
 art\characters\playercharacter\humanmale\arm_vael.phy
 art\characters\playercharacter\humanmale\hlh_vael.mmh
 art\characters\playercharacter\humanmale\hlh_vael.msh
+art\characters\playercharacter\humanmale\hlh_vael.phy
 art\characters\playercharacter\humanmale\hm_har_vael.mmh
 art\characters\playercharacter\humanmale\hm_har_vael.msh
 art\characters\playercharacter\humanmale\hm_har_vael.phy

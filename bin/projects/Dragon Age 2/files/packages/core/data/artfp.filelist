@@ -1,11 +1,11 @@
-; 19633/22840 (85%)
+; 19684/22840 (86%)
 ; 
 ; .anb - 391/391 (100%)
 ; .ani - 2113/3165 (66%)
 ; .dds - 3585/3957 (90%)
-; .evt - 1659/2325 (71%)
+; .evt - 1660/2325 (71%)
 ; .fdl - 2/2 (100%)
-; .gad - 2063/3165 (65%)
+; .gad - 2113/3165 (66%)
 ; .mao - 1/1 (100%)
 ; .mmh - 3842/3857 (99%)
 ; .msh - 3544/3544 (100%)
@@ -1057,7 +1057,10 @@ art\characters\creatures\gallowsgateguard\animation\blendtree\gateguardian_spear
 art\characters\creatures\gallowsgateguard\animation\blendtree\gateguardian_spider.anb
 art\characters\creatures\gallowsgateguard\animation\blendtree\gateguardian_spider_movement.anb
 art\characters\creatures\gallowsgateguard\animation\custom enter\second_enter.ani
+art\characters\creatures\gallowsgateguard\animation\custom enter\second_enter.evt
+art\characters\creatures\gallowsgateguard\animation\custom enter\second_enter.gad
 art\characters\creatures\gallowsgateguard\animation\custom enter\second_enter_lp.ani
+art\characters\creatures\gallowsgateguard\animation\custom enter\second_enter_lp.gad
 art\characters\creatures\gallowsgateguard\animation\dual\dualattkback.ani
 art\characters\creatures\gallowsgateguard\animation\dual\dualattkback.evt
 art\characters\creatures\gallowsgateguard\animation\dual\dualattkback.gad
@@ -10316,22 +10319,39 @@ art\characters\weapons\zzdao\w_lsw_ls01a.mmh
 art\characters\weapons\zzdao\w_lsw_ls01a.msh
 art\characters\weapons\zzdao\w_lsw_ls01a.phy
 art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_follower_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_follower_.gad
 art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_follower_m_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_follower_m_.gad
 art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_pcfem_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_pcfem_.gad
 art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_thief_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_thief_.gad
 art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_varric_.ani
+art\cinematics\_crit path\1_deep roads expedition\dre000_cut_varric_intro\cs_varricintro_varric_.gad
 art\cinematics\_crit path\followerintros\cs_bartender_isa_intro.ani
+art\cinematics\_crit path\followerintros\cs_bartender_isa_intro.gad
 art\cinematics\_crit path\followerintros\cs_drunk1_isa_intro.ani
+art\cinematics\_crit path\followerintros\cs_drunk1_isa_intro.gad
 art\cinematics\_crit path\followerintros\cs_drunk2_isa_intro.ani
+art\cinematics\_crit path\followerintros\cs_drunk2_isa_intro.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_goon1.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_goon1.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_goon2.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_goon2.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_hench1.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_hench1.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_hench2f.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_hench2f.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_hench3.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_hench3.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_isabella.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_isabella.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_lucky_.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_lucky_.gad
 art\cinematics\_crit path\followerintros\cs_isa_intro_player.ani
+art\cinematics\_crit path\followerintros\cs_isa_intro_player.gad
 art\cinematics\_crit path\followerintros\cs_wench_isa_intro.ani
+art\cinematics\_crit path\followerintros\cs_wench_isa_intro.gad
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex.ani
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex.gad
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex2.ani
@@ -10531,6 +10551,7 @@ art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopening.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopeningmage.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\hurl3_pcopeningmage.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_f_pcopeningmage.ani
+art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_f_pcopeningmage.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopening.ani
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopening.gad
 art\cinematics\_crit path\prologue\pro000cs_opening_pc\player_pcopeningmage.ani
@@ -10544,15 +10565,19 @@ art\cinematics\_crit path\prologue\pro000cs_victim\cs_brother_victim.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim_sis.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_mother_victim_sis.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_ogre_victim_brother.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_ogre_victim_brother.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_ogre_victim_sis.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_ogre_victim_sis.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_player_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_player_victim.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_sister_victim_sis.ani
+art\cinematics\_crit path\prologue\pro000cs_victim\cs_sister_victim_sis.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_wesley_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_wesley_victim.gad
 art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.gad
 art\cinematics\act1\cs_fp_closedsneer.ani
 art\cinematics\act1\cs_fp_closedsneer.gad
 art\cinematics\act1\cs_fp_gritteeth.ani
@@ -10570,8 +10595,11 @@ art\cinematics\act1\cs_fp_smirk.gad
 art\cinematics\act1\cs_fp_yell.ani
 art\cinematics\act1\cs_fp_yell.gad
 art\cinematics\additional animation\cs_genericmale_additionalanimation.ani
+art\cinematics\additional animation\cs_genericmale_additionalanimation.gad
 art\cinematics\additional animation\cs_genericmale_additionalanimation4.ani
+art\cinematics\additional animation\cs_genericmale_additionalanimation4.gad
 art\cinematics\additional animation\cs_genericmale_additionalanimation6.ani
+art\cinematics\additional animation\cs_genericmale_additionalanimation6.gad
 art\cinematics\additional animation\cs_sail_cycle.ani
 art\cinematics\additional animation\cs_sail_cycle.gad
 art\cinematics\deathblows\highdragon\c_highdragon.tal_swp.ani
@@ -10609,28 +10637,51 @@ art\cinematics\deathblows\rockgolem\db_pc_rockwarr.gad
 art\cinematics\deathblows\rockgolem\db_rock_rockmage.ani
 art\cinematics\deathblows\rockgolem\db_rock_rockmage.gad
 art\cinematics\follower plots\anders\act1\cs_anders_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_anders_andersintro.gad
 art\cinematics\follower plots\anders\act1\cs_aveline_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_aveline_andersintro.gad
 art\cinematics\follower plots\anders\act1\cs_father_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_father_andersintro.gad
 art\cinematics\follower plots\anders\act1\cs_follower_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_follower_andersintro.gad
 art\cinematics\follower plots\anders\act1\cs_follower2_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_follower2_andersintro.gad
 art\cinematics\follower plots\anders\act1\cs_mother_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_mother_andersintro.gad
 art\cinematics\follower plots\anders\act1\cs_patient_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_patient_andersintro.gad
 art\cinematics\follower plots\anders\act1\cs_player_andersintro.ani
+art\cinematics\follower plots\anders\act1\cs_player_andersintro.gad
 art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_fenris_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_fenris_fenrintro.gad
 art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower1_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower1_fenrintro.gad
 art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower2_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower2_fenrintro.gad
 art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower3_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_follower3_fenrintro.gad
 art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunt_cap_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunt_cap_fenrintro.gad
 art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunter_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_hunter_fenrintro.gad
 art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_player_fenrintro.ani
+art\cinematics\follower plots\fenris\act 1\fen110cs_fenris_intro\cs_player_fenrintro.gad
 art\cinematics\follower plots\sebastian\cs_cleric_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_cleric_sebastianintro.gad
 art\cinematics\follower plots\sebastian\cs_hench1f_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_hench1f_sebastianintro.gad
 art\cinematics\follower plots\sebastian\cs_hench2_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_hench2_sebastianintro.gad
 art\cinematics\follower plots\sebastian\cs_hench3_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_hench3_sebastianintro.gad
 art\cinematics\follower plots\sebastian\cs_letter_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_letter_sebastianintro.gad
 art\cinematics\follower plots\sebastian\cs_letter2_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_letter2_sebastianintro.gad
 art\cinematics\follower plots\sebastian\cs_player_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_player_sebastianintro.gad
 art\cinematics\follower plots\sebastian\cs_sebastian_sebastianintro.ani
+art\cinematics\follower plots\sebastian\cs_sebastian_sebastianintro.gad
 art\cinematics\props\bookinquisb.mmh
 art\cinematics\props\bookinquisb.msh
 art\cinematics\props\bookinquisb_dagger.mmh

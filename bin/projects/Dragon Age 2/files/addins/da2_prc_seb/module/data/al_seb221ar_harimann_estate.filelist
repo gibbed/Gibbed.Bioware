@@ -1,11 +1,11 @@
-; 61/80 (76%)
+; 66/80 (82%)
 ; 
 ; .ani - 31/31 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 0/5 (0%)
-; .cnv - 0/4 (0%)
+; .cnv - 4/4 (100%)
 ; .evt - 23/23 (100%)
-; .ncs - 1/2 (50%)
+; .ncs - 2/2 (100%)
 ; .stg - 5/6 (83%)
 ; .utc - 0/4 (0%)
 ; .utp - 0/4 (0%)
@@ -65,7 +65,12 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_long_2.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_generic_long_2.evt
 seb000_install.ncs
+seb221_brett_harimann.cnv
+seb221_flora_harimann.cnv
+seb221_random_servants.cnv
+seb221_ruxton_harimann.cnv
 seb221ar_harimann_estate.are
+seb221ar_harimann_estate.ncs
 seb221st_flora_1.stg
 seb221st_flora_2.stg
 seb221st_flora_drunk.stg

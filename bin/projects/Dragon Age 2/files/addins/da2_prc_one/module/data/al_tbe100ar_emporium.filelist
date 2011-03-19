@@ -1,19 +1,22 @@
-; 29/33 (87%)
+; 33/33 (100%)
 ; 
 ; .are - 1/1 (100%)
-; .cnv - 2/4 (50%)
-; .ncs - 2/4 (50%)
+; .cnv - 4/4 (100%)
+; .ncs - 4/4 (100%)
 ; .utc - 2/2 (100%)
 ; .utm - 6/6 (100%)
 ; .utp - 16/16 (100%)
 ; 
 tbe100_mirror.cnv
 tbe100_xenon.cnv
+tbe100_xenon_golem.cnv
+tbe100_xenon_urchin.cnv
 tbe100ar_emporium.are
 tbe100ar_emporium.ncs
 tbe100cr_golem.utc
 tbe100cr_urchin.utc
 tbe100ip_free_weapons.utp
+tbe100ip_mirror_transformat.ncs
 tbe100ip_mirror_transformat.utp
 tbe100ip_shop_codex.utp
 tbe100ip_shop_codex_10.utp
@@ -26,6 +29,7 @@ tbe100ip_shop_codex_7.utp
 tbe100ip_shop_codex_8.utp
 tbe100ip_shop_codex_9.utp
 tbe100ip_store_crafted_good.utp
+tbe100ip_store_magic_good.ncs
 tbe100ip_store_magic_good.utp
 tbe100ip_to_world_map.utp
 tbe100ip_xenon.utp
