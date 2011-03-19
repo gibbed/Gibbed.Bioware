@@ -1,9 +1,9 @@
-; 505/558 (90%)
+; 508/558 (91%)
 ; 
 ; .ani - 184/227 (81%)
 ; .are - 1/1 (100%)
-;  .cl - 59/60 (98%)
-; .cnv - 27/31 (87%)
+;  .cl - 60/60 (100%)
+; .cnv - 29/31 (93%)
 ; .cut - 2/2 (100%)
 ; .dds - 1/1 (100%)
 ; .evt - 136/140 (97%)
@@ -438,6 +438,8 @@ mcr370_cut_attack_begins.cnv
 mcr370_cut_attack_begins6082061.cl
 mcr370_cut_epilogue.cnv
 mcr370_cut_epilogue6086868.cl
+mcr370_cut_marriage.cnv
+mcr370_cut_marriage6098256.cl
 mcr370_cut_meredith_dies.cnv
 mcr370_cut_meredith_dies6081067.cl
 mcr370_cut_meredith_idol.cnv
@@ -446,6 +448,7 @@ mcr370_cut_player_rules.cnv
 mcr370_cut_player_rules6086395.cl
 mcr370_cut_player_survives.cnv
 mcr370_cut_player_survives6098263.cl
+mcr370_desten.cnv
 mcr370_guardsman.cnv
 mcr370_meredith.cnv
 mcr370_meredith6081086.cl

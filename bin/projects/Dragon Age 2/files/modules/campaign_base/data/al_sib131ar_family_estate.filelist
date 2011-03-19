@@ -1,7 +1,7 @@
-; 26/29 (89%)
+; 29/29 (100%)
 ; 
 ; .are - 1/1 (100%)
-; .cnv - 1/4 (25%)
+; .cnv - 4/4 (100%)
 ; .ncs - 4/4 (100%)
 ; .stg - 1/1 (100%)
 ; .utc - 3/3 (100%)
@@ -20,7 +20,10 @@ gen00flst_beth_carv_will.stg
 sib100im_giftbet_portrait.uti
 sib100im_tobriusdocs.uti
 sib100pt_birthright.ncs
+sib131_letter_react.cnv
+sib131_slave_a.cnv
 sib131_slaver_chest.utp
+sib131_slaver_guard.cnv
 sib131_slaver_lord.cnv
 sib131ar_exit_estate.utp
 sib131ar_exit_estate2.utp

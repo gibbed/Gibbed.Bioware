@@ -1,8 +1,8 @@
-; 76/77 (98%)
+; 77/77 (100%)
 ; 
 ; .ani - 29/29 (100%)
 ; .are - 1/1 (100%)
-; .cnv - 0/1 (0%)
+; .cnv - 1/1 (100%)
 ; .cut - 3/3 (100%)
 ; .dds - 1/1 (100%)
 ; .evt - 23/23 (100%)
@@ -87,6 +87,7 @@ fx_lava_add.mao
 mer100pt_missing_miners.ncs
 mer300cr_high_dragon.utc
 mer300cs_high_dragon_reveal.cut
+mer340_bonepit_comments.cnv
 mer340_cowan_st.stg
 mer340cr_high_dragon.ncs
 one300it_fire.uti

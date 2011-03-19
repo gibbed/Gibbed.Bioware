@@ -1,9 +1,9 @@
-; 397/405 (98%)
+; 399/405 (98%)
 ; 
 ; .ani - 132/135 (97%)
 ; .are - 1/1 (100%)
-;  .cl - 48/49 (97%)
-; .cnv - 13/14 (92%)
+;  .cl - 49/49 (100%)
+; .cnv - 14/14 (100%)
 ; .evt - 106/109 (97%)
 ; .mmh - 3/3 (100%)
 ; .msh - 2/2 (100%)
@@ -320,6 +320,8 @@ dae200cr_mother.utc
 dae200cr_sandal.utc
 dae200pt_find_mansion.ncs
 dae200st_mother.stg
+dae221_viscount_chantry.cnv
+dae221_viscount_chantry6154257.cl
 dae221ar_brothel_nt.ncs
 dae221ar_chantry.ncs
 dae221ar_keep.ncs

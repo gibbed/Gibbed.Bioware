@@ -1,6 +1,6 @@
-; 171/172 (99%)
+; 172/172 (100%)
 ; 
-; .cnv - 18/19 (94%)
+; .cnv - 19/19 (100%)
 ; .ncs - 76/76 (100%)
 ; .stg - 72/72 (100%)
 ; .utc - 5/5 (100%)
@@ -149,6 +149,7 @@ mrl000pt_main.ncs
 mrl150pt_longway.ncs
 mrl250pt_mirrorimg.ncs
 mrl350pt_newpath.ncs
+narrative_banter.cnv
 one000pt_herbalist.ncs
 one100pt_herb_ironwood.ncs
 one100pt_loose_end_meer.ncs
