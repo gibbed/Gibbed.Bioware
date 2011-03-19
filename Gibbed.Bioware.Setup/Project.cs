@@ -40,7 +40,7 @@ namespace Gibbed.Bioware.Setup
 
         public Dictionary<ulong, string> FileHashLookup { get; private set; }
         public Dictionary<uint, string> TypeHashLookup { get; private set; }
-        public Dictionary<uint, string> GDAHashLookup { get; private set; }
+        public Dictionary<uint, string> ColumnHashLookup { get; private set; }
         
         internal Manager Manager;
 
@@ -49,7 +49,7 @@ namespace Gibbed.Bioware.Setup
             this.Dependencies = new List<string>();
             this.FileHashLookup = new Dictionary<ulong, string>();
             this.TypeHashLookup = new Dictionary<uint, string>();
-            this.GDAHashLookup = new Dictionary<uint, string>();
+            this.ColumnHashLookup = new Dictionary<uint, string>();
             this.Loaded = false;
         }
 
@@ -64,212 +64,71 @@ namespace Gibbed.Bioware.Setup
         public void Reload()
         {
             this.Loaded = true;
-            this.LoadFileLists();
-            this.LoadTypeLists();
-            this.LoadGDALists();
+            this.LoadLists("*.filelist", this.FileHashLookup, s => s.HashFNV64());
+            this.LoadLists("*.typelist", this.TypeHashLookup, s => s.HashFNV32());
+            this.LoadLists("*.columnlist", this.ColumnHashLookup, s => s.HashCRC32());
         }
 
-        private void LoadFileLists()
+        public string GetFileName(ulong hash)
         {
-            this.FileHashLookup.Clear();
-
-            foreach (var name in this.Dependencies)
+            if (this.FileHashLookup.ContainsKey(hash) == true)
             {
-                var dependency = this.Manager[name];
-                if (dependency != null)
-                {
-                    this.LoadFileListsFrom(dependency.ListsPath);
-                }
+                return this.FileHashLookup[hash];
             }
 
-            this.LoadFileListsFrom(this.ListsPath);
+            return null;
         }
 
-        private void LoadFileListsFrom(string basePath)
+        public string GetFileNameDefault(ulong hash)
         {
-            if (Directory.Exists(basePath) == false)
-            {
-                return;
-            }
-
-            foreach (string listPath in Directory.GetFiles(basePath, "*.filelist", SearchOption.AllDirectories))
-            {
-                using (var input = File.Open(listPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-                {
-                    var reader = new StreamReader(input);
-
-                    while (true)
-                    {
-                        string line = reader.ReadLine();
-                        if (line == null)
-                        {
-                            break;
-                        }
-                        else if (line.StartsWith(";") == true)
-                        {
-                            continue;
-                        }
-
-                        line = line.Trim();
-                        if (line.Length <= 0)
-                        {
-                            continue;
-                        }
-
-                        line = line.Replace('/', '\\');
-                        line = line.ToLowerInvariant();
-
-                        //uint hash = Path.GetFileName(line).HashFileName();
-                        ulong hash = line.HashFNV64();
-
-                        if (this.FileHashLookup.ContainsKey(hash) == true &&
-                            this.FileHashLookup[hash] != line)
-                        {
-                            string otherLine = this.FileHashLookup[hash];
-                            throw new InvalidOperationException(
-                                string.Format(
-                                    "duplicate hash ('{0}' vs '{1}')",
-                                    line,
-                                    otherLine));
-                        }
-
-                        this.FileHashLookup[hash] = line; // .Add(hash, line);
-                    }
-
-                    reader.Close();
-                }
-            }
+            return this.GetFileName(hash) ?? hash.ToString("X16");
         }
-
-        private void LoadTypeLists()
+        
+        public string GetTypeName(uint hash)
         {
-            this.TypeHashLookup.Clear();
-
-            foreach (var name in this.Dependencies)
+            if (this.TypeHashLookup.ContainsKey(hash) == true)
             {
-                var dependency = this.Manager[name];
-                if (dependency != null)
-                {
-                    this.LoadTypeListsFrom(dependency.ListsPath);
-                }
+                return this.TypeHashLookup[hash];
             }
 
-            this.LoadTypeListsFrom(this.ListsPath);
+            return null;
         }
 
-        private void LoadTypeListsFrom(string basePath)
+        public string GetTypeNameDefault(uint hash)
         {
-            if (Directory.Exists(basePath) == false)
-            {
-                return;
-            }
-
-            foreach (string listPath in Directory.GetFiles(basePath, "*.typelist", SearchOption.AllDirectories))
-            {
-                using (var input = File.Open(listPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-                {
-                    TextReader reader = new StreamReader(input);
-
-                    while (true)
-                    {
-                        string line = reader.ReadLine();
-                        if (line == null)
-                        {
-                            break;
-                        }
-                        else if (line.StartsWith(";") == true)
-                        {
-                            continue;
-                        }
-
-                        line = line.Trim();
-                        if (line.Length <= 0)
-                        {
-                            continue;
-                        }
-
-                        //uint hash = Path.GetFileName(line).HashFileName();
-                        uint hash = line.HashFNV32();
-
-                        if (this.TypeHashLookup.ContainsKey(hash) &&
-                            this.TypeHashLookup[hash] != line)
-                        {
-                            string otherLine = this.TypeHashLookup[hash];
-                            throw new InvalidOperationException("duplicate hash");
-                        }
-
-                        this.TypeHashLookup[hash] = line; // .Add(hash, line);
-                    }
-
-                    reader.Close();
-                }
-            }
+            return this.GetTypeName(hash) ?? hash.ToString("X8");
         }
 
-        private void LoadGDALists()
+        public string GetExtensionName(uint hash)
         {
-            this.GDAHashLookup.Clear();
-
-            foreach (var name in this.Dependencies)
+            if (this.TypeHashLookup.ContainsKey(hash) == true)
             {
-                var dependency = this.Manager[name];
-                if (dependency != null)
-                {
-                    this.LoadGDAListsFrom(dependency.ListsPath);
-                }
+                return "." + this.TypeHashLookup[hash];
             }
 
-            this.LoadGDAListsFrom(this.ListsPath);
+            return null;
         }
 
-        private void LoadGDAListsFrom(string basePath)
+        public string GetExtensionNameDefault(uint hash)
         {
-            if (Directory.Exists(basePath) == false)
+            return this.GetExtensionName(hash) ?? hash.ToString("X8");
+        }
+        
+        public string GetGDAName(uint hash)
+        {
+            if (this.ColumnHashLookup.ContainsKey(hash) == true)
             {
-                return;
+                return this.TypeHashLookup[hash];
             }
 
-            foreach (string listPath in Directory.GetFiles(basePath, "*.gdalist", SearchOption.AllDirectories))
-            {
-                using (var input = File.Open(listPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-                {
-                    TextReader reader = new StreamReader(input);
-
-                    while (true)
-                    {
-                        string line = reader.ReadLine();
-                        if (line == null)
-                        {
-                            break;
-                        }
-                        else if (line.StartsWith(";") == true)
-                        {
-                            continue;
-                        }
-
-                        line = line.Trim();
-                        if (line.Length <= 0)
-                        {
-                            continue;
-                        }
-
-                        uint hash = line.HashCRC32();
-
-                        if (this.GDAHashLookup.ContainsKey(hash) &&
-                            this.GDAHashLookup[hash] != line)
-                        {
-                            string otherLine = this.GDAHashLookup[hash];
-                            throw new InvalidOperationException("duplicate hash");
-                        }
-
-                        this.GDAHashLookup[hash] = line; // .Add(hash, line);
-                    }
-
-                    reader.Close();
-                }
-            }
+            return null;
         }
 
+        public string GetGDANameDefault(uint hash)
+        {
+            return this.GetGDAName(hash) ?? hash.ToString("X8");
+        }
+        
         internal static Project Create(string path, Manager manager)
         {
             var project = new Project();
@@ -394,5 +253,92 @@ namespace Gibbed.Bioware.Setup
         {
             return this.Name;
         }
+
+        #region LoadLists
+        private void LoadLists<TType>(
+            string filter,
+            Dictionary<TType, string> hashes,
+            Func<string, TType> hasher)
+        {
+            hashes.Clear();
+
+            foreach (var name in this.Dependencies)
+            {
+                var dependency = this.Manager[name];
+                if (dependency != null)
+                {
+                    LoadListsFrom(
+                        dependency.ListsPath,
+                        filter,
+                        hashes,
+                        hasher);
+                }
+            }
+
+            LoadListsFrom(
+                this.ListsPath,
+                filter,
+                hashes,
+                hasher);
+        }
+        #endregion
+        #region LoadListsFrom
+        private static void LoadListsFrom<TType>(
+            string basePath,
+            string filter,
+            Dictionary<TType, string> hashes,
+            Func<string, TType> hasher)
+        {
+            if (Directory.Exists(basePath) == false)
+            {
+                return;
+            }
+
+            foreach (string listPath in Directory.GetFiles(basePath, filter, SearchOption.AllDirectories))
+            {
+                using (var input = File.Open(listPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    var reader = new StreamReader(input);
+
+                    while (true)
+                    {
+                        string line = reader.ReadLine();
+                        if (line == null)
+                        {
+                            break;
+                        }
+                        else if (line.StartsWith(";") == true)
+                        {
+                            continue;
+                        }
+
+                        line = line.Trim();
+                        if (line.Length <= 0)
+                        {
+                            continue;
+                        }
+
+                        line = line.Replace('/', '\\');
+                        line = line.ToLowerInvariant();
+
+                        TType hash = hasher(line);
+
+                        if (hashes.ContainsKey(hash) == true &&
+                            hashes[hash] != line)
+                        {
+                            string otherLine = hashes[hash];
+                            throw new InvalidOperationException(
+                                string.Format(
+                                    "duplicate hash ('{0}' vs '{1}')",
+                                    line,
+                                    otherLine));
+                        }
+
+                        hashes[hash] = line;
+                    }
+                }
+            }
+        }
+        #endregion
     }
 }
