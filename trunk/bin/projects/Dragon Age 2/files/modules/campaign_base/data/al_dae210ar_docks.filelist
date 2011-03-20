@@ -1,10 +1,10 @@
-; 173/175 (98%)
+; 175/175 (100%)
 ; 
-; .ani - 39/40 (97%)
+; .ani - 40/40 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 16/16 (100%)
 ; .cnv - 17/17 (100%)
-; .evt - 32/33 (96%)
+; .evt - 33/33 (100%)
 ; .ncs - 28/28 (100%)
 ; .stg - 2/2 (100%)
 ; .utc - 26/26 (100%)
@@ -19,6 +19,8 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forw
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_sweep_left_hand.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_throne_sweep_left_hand.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.ani

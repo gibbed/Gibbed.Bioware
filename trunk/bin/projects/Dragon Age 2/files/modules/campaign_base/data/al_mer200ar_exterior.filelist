@@ -1,6 +1,6 @@
-; 36/37 (97%)
+; 37/37 (100%)
 ; 
-; .ani - 14/15 (93%)
+; .ani - 15/15 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 1/1 (100%)
 ; .cnv - 2/2 (100%)
@@ -12,6 +12,7 @@
 ; 
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_dead.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani

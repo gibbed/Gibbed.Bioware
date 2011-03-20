@@ -1,10 +1,10 @@
-; 305/307 (99%)
+; 307/307 (100%)
 ; 
-; .ani - 67/68 (98%)
+; .ani - 68/68 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 37/37 (100%)
 ; .cnv - 31/31 (100%)
-; .evt - 59/60 (98%)
+; .evt - 60/60 (100%)
 ; .ncs - 43/43 (100%)
 ; .stg - 11/11 (100%)
 ; .utc - 35/35 (100%)
@@ -80,6 +80,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_shrug.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_shrug.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_thank_the_maker.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_thank_the_maker.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\body_spit_side_left.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\body_spit_side_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\follower_hm_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\follower_hm_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down.ani

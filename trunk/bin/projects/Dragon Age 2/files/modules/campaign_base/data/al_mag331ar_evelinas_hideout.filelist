@@ -1,15 +1,17 @@
-; 85/87 (97%)
+; 87/87 (100%)
 ; 
-; .ani - 37/38 (97%)
+; .ani - 38/38 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 4/4 (100%)
 ; .cnv - 2/2 (100%)
-; .evt - 28/29 (96%)
+; .evt - 29/29 (100%)
 ; .ncs - 5/5 (100%)
 ; .stg - 3/3 (100%)
 ; .utc - 4/4 (100%)
 ; .utp - 1/1 (100%)
 ; 
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\cower_enter.ani

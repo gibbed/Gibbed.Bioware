@@ -1,9 +1,9 @@
-; 2439/2559 (95%)
+; 2445/2559 (95%)
 ; 
 ; .anb - 142/142 (100%)
-; .ani - 817/855 (95%)
-; .evt - 663/707 (93%)
-; .gad - 817/855 (95%)
+; .ani - 819/855 (95%)
+; .evt - 665/707 (94%)
+; .gad - 819/855 (95%)
 ; 
 art\characters\creatures\corpse\animation\combat\ready.ani
 art\characters\creatures\corpse\animation\combat\ready.evt
@@ -1268,6 +1268,9 @@ art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.gad
 art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.ani
 art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.evt
 art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\combo_finish.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\combo_finish.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\combo_finish.gad
 art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison.ani
 art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison.evt
 art\characters\playercharacter\humanmale\animation\combat\mage\crushing_prison.gad
@@ -1416,6 +1419,9 @@ art\characters\playercharacter\humanmale\animation\combat\mage\ready.gad
 art\characters\playercharacter\humanmale\animation\combat\mage\runfront.ani
 art\characters\playercharacter\humanmale\animation\combat\mage\runfront.evt
 art\characters\playercharacter\humanmale\animation\combat\mage\runfront.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\turn_left_180.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\turn_left_180.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\turn_left_180.gad
 art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage.ani
 art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage.evt
 art\characters\playercharacter\humanmale\animation\combat\reactions\additive_damage.gad

@@ -1,12 +1,12 @@
-; 508/558 (91%)
+; 510/558 (91%)
 ; 
-; .ani - 184/227 (81%)
+; .ani - 185/227 (81%)
 ; .are - 1/1 (100%)
 ;  .cl - 60/60 (100%)
 ; .cnv - 29/31 (93%)
 ; .cut - 2/2 (100%)
 ; .dds - 1/1 (100%)
-; .evt - 136/140 (97%)
+; .evt - 137/140 (97%)
 ; .mmh - 20/20 (100%)
 ; .msh - 6/6 (100%)
 ; .ncs - 23/24 (95%)
@@ -98,6 +98,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_loop
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throat_slit_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani

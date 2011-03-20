@@ -1,10 +1,10 @@
-; 132/134 (98%)
+; 134/134 (100%)
 ; 
-; .ani - 48/49 (97%)
+; .ani - 49/49 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 10/10 (100%)
 ; .cnv - 6/6 (100%)
-; .evt - 41/42 (97%)
+; .evt - 42/42 (100%)
 ; .ncs - 14/14 (100%)
 ; .stg - 6/6 (100%)
 ; .utc - 6/6 (100%)
@@ -81,6 +81,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\body_confused.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_confused.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_look_behind_both_ways.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\body_look_behind_both_ways.evt
+art\characters\playercharacter\humanmale\animation\cindes\pose\body_spit_side_left.ani
+art\characters\playercharacter\humanmale\animation\cindes\pose\body_spit_side_left.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down_less.ani

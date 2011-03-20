@@ -1,10 +1,10 @@
-; 555/560 (99%)
+; 557/560 (99%)
 ; 
-; .ani - 162/165 (98%)
+; .ani - 163/165 (98%)
 ; .are - 1/1 (100%)
 ;  .cl - 72/72 (100%)
 ; .cnv - 35/35 (100%)
-; .evt - 129/131 (98%)
+; .evt - 130/131 (99%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 54/54 (100%)
@@ -127,6 +127,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_reaction.ani

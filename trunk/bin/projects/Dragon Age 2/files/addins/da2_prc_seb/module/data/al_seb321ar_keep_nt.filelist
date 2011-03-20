@@ -1,10 +1,10 @@
-; 53/62 (85%)
+; 56/62 (90%)
 ; 
-; .ani - 24/26 (92%)
+; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
-; .evt - 18/19 (94%)
+; .evt - 19/19 (100%)
 ; .ncs - 3/4 (75%)
 ; .stg - 2/2 (100%)
 ; .utc - 0/1 (0%)
@@ -19,12 +19,15 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\punched_from_front_fall.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\punched_from_front_fall.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_dualwield_persuade_reaction_dead.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\urgent_run_enter.ani

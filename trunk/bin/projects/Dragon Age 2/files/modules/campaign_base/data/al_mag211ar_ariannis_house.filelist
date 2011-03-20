@@ -1,10 +1,10 @@
-; 158/160 (98%)
+; 160/160 (100%)
 ; 
-; .ani - 56/57 (98%)
+; .ani - 57/57 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 13/13 (100%)
 ; .cnv - 7/7 (100%)
-; .evt - 50/51 (98%)
+; .evt - 51/51 (100%)
 ; .ncs - 16/16 (100%)
 ; .stg - 6/6 (100%)
 ; .utc - 8/8 (100%)
@@ -49,6 +49,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.evt

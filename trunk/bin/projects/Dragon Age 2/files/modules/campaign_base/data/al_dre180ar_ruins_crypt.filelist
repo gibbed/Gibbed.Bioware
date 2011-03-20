@@ -1,12 +1,12 @@
-; 537/544 (98%)
+; 543/544 (99%)
 ; 
-; .ani - 198/202 (98%)
+; .ani - 201/202 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 70/70 (100%)
 ; .cnv - 23/23 (100%)
 ; .cut - 3/3 (100%)
 ; .dds - 1/1 (100%)
-; .evt - 156/159 (98%)
+; .evt - 159/159 (100%)
 ; .mmh - 6/6 (100%)
 ; .msh - 2/2 (100%)
 ; .ncs - 29/29 (100%)
@@ -118,6 +118,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_medium_reaction.ani
@@ -127,6 +129,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knee_to_groin_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\look_left_turn.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\persuade_die.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\persuade_die.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\punch_haymaker_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\punch_haymaker_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
@@ -139,6 +143,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_weightshift.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_weightshift.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_and_walk.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_and_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani

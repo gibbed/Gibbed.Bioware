@@ -1,11 +1,11 @@
-; 790/868 (91%)
+; 839/868 (96%)
 ; 
-; .ani - 283/325 (87%)
+; .ani - 309/325 (95%)
 ; .are - 1/1 (100%)
 ;  .cl - 45/45 (100%)
 ; .cnv - 36/36 (100%)
 ; .cut - 1/1 (100%)
-; .evt - 226/262 (86%)
+; .evt - 249/262 (95%)
 ; .mmh - 5/5 (100%)
 ; .msh - 4/4 (100%)
 ; .ncs - 78/78 (100%)
@@ -54,6 +54,8 @@ art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ev
 art\characters\playercharacter\elffemale\animation\cindes\dialogue\sitting_table_clasped_2_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.ani
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\cuddle_lying_female_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\cuddle_lying_female_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.ani
@@ -93,6 +95,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_d
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_up_side.ani
@@ -190,6 +194,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hold_at_knifepoint_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hold_at_knifepoint_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.ani
@@ -201,11 +209,21 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_fain
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throat_slit_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throw_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_beckon.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_beckon.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_drink.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_1.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_2.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_wave.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_wave.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
@@ -225,6 +243,12 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_grou
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\mage_combat_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
@@ -243,13 +267,21 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_adjust_talk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_3_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_3_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_3_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_gesture_head.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_gesture_head.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_lean_forward_look_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_lean_forward_look_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_talk_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_talk_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
@@ -259,15 +291,30 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drink
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_cheers.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_drink.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_drink.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_standing_cheer.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_standing_cheer.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drunk_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drunk_drink.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_cry.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_cry.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_legs_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_legs_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_adjust.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_adjust.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_2_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_drink.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_enter_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_enter_2.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
@@ -541,6 +588,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_chest_nervous.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.evt
+art\cinematics\act3\romances\anders\cs_anders_andersrom.ani
+art\cinematics\act3\romances\anders\cs_pcfem_andersrom.ani
 art\cinematics\deathblows\meatgolem\cs_gibhed_meatwarr.ani
 art\cinematics\deathblows\meatgolem\cs_golem_meatwarr.ani
 art\cinematics\deathblows\meatgolem\cs_pc_meatwarr.ani

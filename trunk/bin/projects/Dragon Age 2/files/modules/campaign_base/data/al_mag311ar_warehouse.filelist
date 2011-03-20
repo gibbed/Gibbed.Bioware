@@ -1,10 +1,10 @@
-; 151/159 (94%)
+; 155/159 (97%)
 ; 
-; .ani - 58/62 (93%)
+; .ani - 60/62 (96%)
 ; .are - 1/1 (100%)
 ;  .cl - 8/8 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 47/51 (92%)
+; .evt - 49/51 (96%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 14/14 (100%)
@@ -33,12 +33,16 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_left_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_sleep_on_table_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_sleep_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_pointing.ani

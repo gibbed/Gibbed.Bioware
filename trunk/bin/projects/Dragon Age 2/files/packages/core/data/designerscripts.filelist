@@ -1,7 +1,7 @@
-; 197/232 (84%)
+; 198/232 (85%)
 ; 
 ; .ncc - 2/2 (100%)
-; .ncs - 195/230 (84%)
+; .ncs - 196/230 (85%)
 ; 
 ability_core.ncs
 active.ncs
@@ -77,6 +77,7 @@ gen00pt_class_race_gend.ncs
 gen00pt_combat.ncs
 gen00pt_combos.ncs
 gen00pt_generic_actions.ncs
+gen00pt_money.ncs
 gen00pt_party.ncs
 gen00pt_random.ncs
 gen00pt_skills.ncs

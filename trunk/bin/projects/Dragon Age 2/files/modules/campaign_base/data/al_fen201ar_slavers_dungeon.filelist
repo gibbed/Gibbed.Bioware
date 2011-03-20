@@ -1,10 +1,10 @@
-; 62/69 (89%)
+; 69/69 (100%)
 ; 
-; .ani - 21/25 (84%)
+; .ani - 25/25 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 4/4 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 16/19 (84%)
+; .evt - 19/19 (100%)
 ; .ncs - 7/7 (100%)
 ; .stg - 2/2 (100%)
 ; .utc - 2/2 (100%)
@@ -15,10 +15,15 @@ and000im_gft_amulet.uti
 and000ip_amulet_container.utp
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\weapon_x_pos.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_l_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_l_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_90_walk.ani
@@ -31,6 +36,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\threaten_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\head_look_down.evt

@@ -1,10 +1,10 @@
-; 136/140 (97%)
+; 138/140 (98%)
 ; 
-; .ani - 43/45 (95%)
+; .ani - 44/45 (97%)
 ; .are - 1/1 (100%)
 ;  .cl - 13/13 (100%)
 ; .cnv - 4/4 (100%)
-; .evt - 36/37 (97%)
+; .evt - 37/37 (100%)
 ; .ncs - 17/18 (94%)
 ; .stg - 9/9 (100%)
 ; .utc - 10/10 (100%)
@@ -44,6 +44,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeate
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_pose.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_right_enter.ani

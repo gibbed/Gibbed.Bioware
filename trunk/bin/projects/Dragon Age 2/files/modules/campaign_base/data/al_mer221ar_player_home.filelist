@@ -1,10 +1,10 @@
-; 73/80 (91%)
+; 80/80 (100%)
 ; 
-; .ani - 28/32 (87%)
+; .ani - 32/32 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 5/5 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 22/25 (88%)
+; .evt - 25/25 (100%)
 ; .ncs - 7/7 (100%)
 ; .stg - 4/4 (100%)
 ; .utc - 3/3 (100%)
@@ -23,8 +23,15 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.an
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_below_belt_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_below_belt_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_dead.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_pose_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_punched_left.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_punched_left.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_backhand_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\slap_backhand_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani

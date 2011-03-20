@@ -1,6 +1,6 @@
-; 371/376 (98%)
+; 375/376 (99%)
 ; 
-; .ani - 109/114 (95%)
+; .ani - 113/114 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 22/22 (100%)
@@ -84,6 +84,7 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_l_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\elbow_r_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\head_overturn_r.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
@@ -125,6 +126,7 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_ge
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_no_way.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\rogue_deadly_strike_dead.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_dismissive.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.ani
@@ -254,6 +256,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_butt.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_chest_nervous.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_chest_nervous.evt
+art\cinematics\act3\romances\anders\cs_anders_andersrom.ani
+art\cinematics\act3\romances\anders\cs_pcfem_andersrom.ani
 art\levels\races\ferelden\kirklow\int\4co_lowtown\animation\4co_lowtown_int_door.open.ani
 art\vfx\cinematic\vfx_anders_romance_hand_c.impa.ani
 art\vfx\cinematic\vfx_anders_romance_hand_c.impa.evt

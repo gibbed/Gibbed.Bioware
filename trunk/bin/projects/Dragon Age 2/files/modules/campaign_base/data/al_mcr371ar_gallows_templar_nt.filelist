@@ -1,10 +1,10 @@
-; 194/200 (97%)
+; 196/200 (98%)
 ; 
-; .ani - 70/73 (95%)
+; .ani - 71/73 (97%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 16/16 (100%)
-; .evt - 58/61 (95%)
+; .evt - 59/61 (96%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 17/17 (100%)
@@ -31,6 +31,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_left_wal
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hold_at_knifepoint_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hold_at_knifepoint_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneeling_faint_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throat_slit_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_throw_dead_loop.ani
