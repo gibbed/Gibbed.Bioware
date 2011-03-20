@@ -1,6 +1,6 @@
-; 375/376 (99%)
+; 376/376 (100%)
 ; 
-; .ani - 113/114 (99%)
+; .ani - 114/114 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 22/22 (100%)
@@ -258,6 +258,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_chest_nervous.evt
 art\cinematics\act3\romances\anders\cs_anders_andersrom.ani
 art\cinematics\act3\romances\anders\cs_pcfem_andersrom.ani
+art\cinematics\act3\romances\anders\cs_pcmale_andersrom.ani
 art\levels\races\ferelden\kirklow\int\4co_lowtown\animation\4co_lowtown_int_door.open.ani
 art\vfx\cinematic\vfx_anders_romance_hand_c.impa.ani
 art\vfx\cinematic\vfx_anders_romance_hand_c.impa.evt

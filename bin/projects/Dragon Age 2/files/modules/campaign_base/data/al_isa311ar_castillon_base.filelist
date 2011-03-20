@@ -1,16 +1,22 @@
-; 122/128 (95%)
+; 128/128 (100%)
 ; 
-; .ani - 47/50 (94%)
+; .ani - 50/50 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 10/10 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 41/44 (93%)
+; .evt - 44/44 (100%)
 ; .ncs - 6/6 (100%)
 ; .stg - 5/5 (100%)
 ; .utc - 2/2 (100%)
 ; .uti - 2/2 (100%)
 ; .utp - 3/3 (100%)
 ; 
+art\characters\playercharacter\humanfemale\animation\cindes\pose\2arm_clenchfists.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\2arm_clenchfists.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_interact_low.ani

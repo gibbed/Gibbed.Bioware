@@ -1,4 +1,4 @@
-; 3634/3743 (97%)
+; 3653/3743 (97%)
 art\characters\creatures\arh_abm_rev\c_abm_body.mao
 art\characters\creatures\arh_abm_rev\c_abm_head.mao
 art\characters\creatures\arh_abm_rev\c_arh_body.mao
@@ -3458,6 +3458,7 @@ art\vfx\combat\vfx_gib_rob_appc.mao
 art\vfx\materials\chunky\vfs_grenade_bottle.mao
 art\vfx\materials\chunky\vfx_c_branch.mao
 art\vfx\materials\chunky\vfx_c_branch_weapon.mao
+art\vfx\materials\chunky\vfx_c_crack_tile_add.mao
 art\vfx\materials\chunky\vfx_c_crsh_pris.mao
 art\vfx\materials\chunky\vfx_c_crsh_pris_blend.mao
 art\vfx\materials\chunky\vfx_c_d_clear.mao
@@ -3496,6 +3497,7 @@ art\vfx\materials\chunky\vfx_mer_sword_glow.mao
 art\vfx\materials\chunky\vfx_shield.mao
 art\vfx\materials\chunky\vfx_shield_blend.mao
 art\vfx\materials\chunky\vfx_tube.mao
+art\vfx\materials\chunky\vfx_tube_blend_slow.mao
 art\vfx\materials\decal\vfx_projdecal.mao
 art\vfx\materials\decal\vfx_projdecal_blob_shadow.mao
 art\vfx\materials\gui\vfx_gui_combo.mao
@@ -3528,24 +3530,33 @@ art\vfx\materials\level_fx\vfx_lvl_smoke01.mao
 art\vfx\materials\level_fx\vfx_lvl_smoke02.mao
 art\vfx\materials\level_fx\vfx_lvl_splash.mao
 art\vfx\materials\level_fx\vfx_lvl_stars.mao
+art\vfx\materials\vfx_arc_cl.mao
 art\vfx\materials\vfx_blood_dec1.mao
 art\vfx\materials\vfx_blood_dec2.mao
 art\vfx\materials\vfx_blood_dir02.mao
 art\vfx\materials\vfx_blood_pool.mao
+art\vfx\materials\vfx_blood_sh_si.mao
+art\vfx\materials\vfx_blood_sh_si_add.mao
 art\vfx\materials\vfx_blood_whispy.mao
 art\vfx\materials\vfx_blood02.mao
 art\vfx\materials\vfx_bub_burst.mao
 art\vfx\materials\vfx_cen_splash.mao
+art\vfx\materials\vfx_crack_add.mao
+art\vfx\materials\vfx_crack_cyc_add.mao
 art\vfx\materials\vfx_crack_decal.mao
 art\vfx\materials\vfx_crack_decal_add.mao
 art\vfx\materials\vfx_crack_decal_add_02.mao
 art\vfx\materials\vfx_crack_tile.mao
+art\vfx\materials\vfx_crater_full.mao
+art\vfx\materials\vfx_crater_half.mao
 art\vfx\materials\vfx_cyc_add.mao
+art\vfx\materials\vfx_cyc_dark.mao
 art\vfx\materials\vfx_d_blast.mao
 art\vfx\materials\vfx_d_blast_nodecay.mao
 art\vfx\materials\vfx_d_forcevert_add.mao
 art\vfx\materials\vfx_d_forcevert_blend.mao
 art\vfx\materials\vfx_d_heatnoise.mao
+art\vfx\materials\vfx_d_impact_add.mao
 art\vfx\materials\vfx_d_shockwave.mao
 art\vfx\materials\vfx_d_shockwave_add.mao
 art\vfx\materials\vfx_d_shockwave_blend.mao
@@ -3571,13 +3582,17 @@ art\vfx\materials\vfx_fire_ring_fb.mao
 art\vfx\materials\vfx_fire_ring_fb_add.mao
 art\vfx\materials\vfx_fire_sin.mao
 art\vfx\materials\vfx_fire_sin_blend.mao
+art\vfx\materials\vfx_fire_whispy.mao
 art\vfx\materials\vfx_flare01_add.mao
 art\vfx\materials\vfx_flare01_blend.mao
 art\vfx\materials\vfx_flare01a_add.mao
 art\vfx\materials\vfx_flash.mao
 art\vfx\materials\vfx_gaping_wound.mao
+art\vfx\materials\vfx_glyph_paralysis.mao
+art\vfx\materials\vfx_glyph_repulsion.mao
 art\vfx\materials\vfx_half_dot.mao
 art\vfx\materials\vfx_half_dot_blend.mao
+art\vfx\materials\vfx_icecrystals01.mao
 art\vfx\materials\vfx_leaf_01.mao
 art\vfx\materials\vfx_lightbeam.mao
 art\vfx\materials\vfx_lightning_add.mao
@@ -3589,6 +3604,7 @@ art\vfx\materials\vfx_link_smo_dark.mao
 art\vfx\materials\vfx_link_smo_fb.mao
 art\vfx\materials\vfx_markerlight.mao
 art\vfx\materials\vfx_markofdeath.mao
+art\vfx\materials\vfx_rain.mao
 art\vfx\materials\vfx_shockwave_add.mao
 art\vfx\materials\vfx_shockwave_blend.mao
 art\vfx\materials\vfx_sleep_z.mao
@@ -3601,6 +3617,7 @@ art\vfx\materials\vfx_smoke_puffy_glow.mao
 art\vfx\materials\vfx_smoke_puffy_vista.mao
 art\vfx\materials\vfx_smoke_puffy2.mao
 art\vfx\materials\vfx_smoke_soft.mao
+art\vfx\materials\vfx_smoke_soft_add.mao
 art\vfx\materials\vfx_smoke_thick.mao
 art\vfx\materials\vfx_smoke_whispy.mao
 art\vfx\materials\vfx_smoke_whispy_add.mao
@@ -3609,11 +3626,13 @@ art\vfx\materials\vfx_streak01_add.mao
 art\vfx\materials\vfx_tear_dis.mao
 art\vfx\materials\vfx_twirl.mao
 art\vfx\materials\vfx_twirl_add.mao
+art\vfx\materials\vfx_water_decal_add.mao
 art\vfx\materials\vfx_web_debris_blend.mao
 art\vfx\materials\vfx_web_fb_blend.mao
 art\vfx\materials\vfx_wis_smo_add.mao
 art\vfx\materials\vfx_wis_smo_blend.mao
 art\vfx\materials\vfx_wispy_cs.mao
+art\vfx\materials\weapontrail\vfx_wt_talent.mao
 art\vfx\materials\weapontrail\weapontrail_streaks.mao
 art\vfx\models\vfx_debris_02.mao
 art\vfx\models\vfx_debris_03.mao

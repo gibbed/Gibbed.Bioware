@@ -1,6 +1,6 @@
-; 76/77 (98%)
+; 77/77 (100%)
 ; 
-; .ani - 25/26 (96%)
+; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 1/1 (100%)
 ; .cnv - 2/2 (100%)
@@ -13,6 +13,7 @@
 ; 
 art\characters\creatures\highdragon\animation\combat\rearup.ani
 art\characters\creatures\highdragon\animation\combat\rearup.evt
+art\characters\creatures\pridedemon\animation\rdy.ani
 art\characters\creatures\pridedemon\animation\tal_stomp.ani
 art\characters\creatures\pridedemon\animation\tal_stomp.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani

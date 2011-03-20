@@ -1,11 +1,11 @@
-; 701/731 (95%)
+; 722/731 (98%)
 ; 
-; .ani - 267/288 (92%)
+; .ani - 279/288 (96%)
 ; .are - 1/1 (100%)
 ;  .cl - 22/22 (100%)
 ; .cnv - 24/24 (100%)
 ; .dds - 1/1 (100%)
-; .evt - 219/228 (96%)
+; .evt - 228/228 (100%)
 ; .mmh - 6/6 (100%)
 ; .msh - 3/3 (100%)
 ; .ncs - 71/71 (100%)
@@ -52,9 +52,23 @@ art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\hands_on_face_enter.ani
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\hands_on_face_enter.evt
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\hands_on_face_exit.ani
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\hands_on_face_exit.evt
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\hands_on_face_loop.ani
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\sitting_table_clasped_2_exit.ani
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\sitting_table_clasped_2_exit.evt
 art\characters\playercharacter\elffemale\animation\cindes\dialogue\sitting_table_clasped_2_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_kill_master_action.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_kill_master_action.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_enter.ani
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_enter.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_exit.ani
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_exit.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_loop.ani
 art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.ani
 art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\cuddle_lying_female_loop.ani
@@ -72,6 +86,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_bac
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\leaning_back_low_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\sitting_table_clasped_1_loop.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\sitting_table_clasped_2_exit.ani
+art\characters\playercharacter\humanfemale\animation\cindes\dialogue\sitting_table_clasped_2_exit.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
@@ -125,12 +141,16 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.an
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\cuddle_lying_male_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\cuddle_lying_male_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\idunna_prostitute_action_stand_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\bless_loop.ani
@@ -516,6 +536,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.a
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.evt
 art\cinematics\act3\romances\anders\cs_anders_andersrom.ani
 art\cinematics\act3\romances\anders\cs_pcfem_andersrom.ani
+art\cinematics\act3\romances\anders\cs_pcmale_andersrom.ani
 art\levels\4cinematics\ferelden\prp_bottlewine.mmh
 art\levels\4cinematics\ferelden\prp_bottlewine.msh
 art\levels\races\ferelden\kirklow\int\4co_lowtown\animation\4co_lowtown_int_door.closed.ani

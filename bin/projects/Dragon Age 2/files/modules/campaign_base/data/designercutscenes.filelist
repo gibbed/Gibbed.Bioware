@@ -1,6 +1,6 @@
-; 534/922 (57%)
+; 535/922 (58%)
 ; 
-; .cut - 70/432 (16%)
+; .cut - 71/432 (16%)
 ; .stg - 464/490 (94%)
 ; 
 2p_200_one280_iwan.stg
@@ -514,6 +514,7 @@ sib100st_father_contact.stg
 sib111st_mother.stg
 spy121_jalen.stg
 ss_sebastian.cut
+test2.cut
 vrc211st_hugin.stg
 vrc221st_bartrand.stg
 vrc221st_bartrand_fake.stg

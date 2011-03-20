@@ -1,10 +1,10 @@
-; 312/361 (86%)
+; 324/361 (89%)
 ; 
-; .ani - 118/163 (72%)
+; .ani - 126/163 (77%)
 ; .are - 1/1 (100%)
 ;  .cl - 33/33 (100%)
 ; .cnv - 13/13 (100%)
-; .evt - 94/98 (95%)
+; .evt - 98/98 (100%)
 ; .mmh - 7/7 (100%)
 ; .msh - 2/2 (100%)
 ; .ncs - 17/17 (100%)
@@ -31,8 +31,15 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.an
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\righthand_clench_fist.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\unequipped_weapons_toward.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.evt
+art\characters\playercharacter\humanmale\animation\cindes\ambient\am_mer_tw.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\am_mer_tw.evt
+art\characters\playercharacter\humanmale\animation\cindes\ambient\dg_tk_begging.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\dg_tk_begging.evt
+art\characters\playercharacter\humanmale\animation\cindes\ambient\dg_tk_nervous.ani
+art\characters\playercharacter\humanmale\animation\cindes\ambient\dg_tk_nervous.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_approach.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_approach.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\arishok_kill_mage.ani
@@ -47,6 +54,9 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\escort_away_act
 art\characters\playercharacter\humanmale\animation\cindes\custom\escort_away_action_2.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\escort_away_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\escort_away_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\humanfemale_ambient_cheerwinning_2_monique.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\humanmale_ambient_cheerwinning_2_darren.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\humanmale_ambient_cheerwinning_2_ian.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\qunari_sit_forward_throne_exit.ani
@@ -210,6 +220,8 @@ art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoul
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_exit.ani
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_exit.evt
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.evt
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_2.ani
 art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.ani
 art\cinematics\act1\cs_fp_smile.ani

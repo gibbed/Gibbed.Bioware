@@ -1,4 +1,4 @@
-; 250/445 (56%)
+; 267/445 (60%)
 bakedlowlod.psh.fxo
 bink.vsh.fxo
 binkalpha.psh.fxo
@@ -150,6 +150,23 @@ reticle.vsh.fxo
 reticletint.psh.fxo
 screenspace.psh.fxo
 screenspace.vsh.fxo
+sf_cxform.psh.fxo
+sf_cxformmul.psh.fxo
+sf_d_glyph.vsh.fxo
+sf_d_strip.vsh.fxo
+sf_d_xy16ic32.vsh.fxo
+sf_d_xy16icf32.vsh.fxo
+sf_d_xy16icf32_t2.vsh.fxo
+sf_depth.psh.fxo
+sf_glyph.vsh.fxo
+sf_solid.psh.fxo
+sf_strip.vsh.fxo
+sf_text.psh.fxo
+sf_textcolor.psh.fxo
+sf_textcolormult.psh.fxo
+sf_xy16ic32.vsh.fxo
+sf_xy16icf32.vsh.fxo
+sf_xy16icf32_t2.vsh.fxo
 skin_depth.psh.fxo
 skin_depth.vsh.fxo
 skin_depth_debug.vsh.fxo

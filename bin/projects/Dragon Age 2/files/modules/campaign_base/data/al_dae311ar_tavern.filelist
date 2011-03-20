@@ -1,6 +1,6 @@
-; 373/374 (99%)
+; 374/374 (100%)
 ; 
-; .ani - 126/127 (99%)
+; .ani - 127/127 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 20/20 (100%)
 ; .cnv - 19/19 (100%)
@@ -32,6 +32,7 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_u
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\unequipped_weapons_toward.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani

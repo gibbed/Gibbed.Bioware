@@ -1,10 +1,10 @@
-; 275/277 (99%)
+; 277/277 (100%)
 ; 
-; .ani - 98/99 (98%)
+; .ani - 99/99 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 43/43 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 76/77 (98%)
+; .evt - 77/77 (100%)
 ; .ncs - 25/25 (100%)
 ; .stg - 13/13 (100%)
 ; .utc - 11/11 (100%)
@@ -33,6 +33,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose2.ani

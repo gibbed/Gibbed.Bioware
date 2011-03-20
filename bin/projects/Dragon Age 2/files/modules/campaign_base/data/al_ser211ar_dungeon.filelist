@@ -1,10 +1,10 @@
-; 137/146 (93%)
+; 145/146 (99%)
 ; 
-; .ani - 40/44 (90%)
+; .ani - 44/44 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 20/20 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 31/35 (88%)
+; .evt - 35/35 (100%)
 ; .ncs - 13/14 (92%)
 ; .stg - 9/9 (100%)
 ; .utc - 8/8 (100%)
@@ -17,6 +17,14 @@ art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.ani
 art\characters\creatures\hurlock\animation\sword_shield\hurlock_sw_die_v1.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_catch_and_hold.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_catch_and_hold.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_walk_and_die.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_walk_and_die.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani

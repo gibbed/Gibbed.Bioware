@@ -1,10 +1,10 @@
-; 288/313 (92%)
+; 294/313 (93%)
 ; 
-; .ani - 107/129 (82%)
+; .ani - 110/129 (85%)
 ; .are - 1/1 (100%)
 ;  .cl - 25/25 (100%)
 ; .cnv - 15/15 (100%)
-; .evt - 89/92 (96%)
+; .evt - 92/92 (100%)
 ; .mmh - 8/8 (100%)
 ; .msh - 2/2 (100%)
 ; .ncs - 11/11 (100%)
@@ -34,6 +34,10 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.an
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\wrist_r_twist_out.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragged_human_female.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragged_human_female.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\dragging_qunari.ani
@@ -195,6 +199,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_fo
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_enter.ani
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_enter.evt
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.evt
 art\levels\4cinematics\qunari\prp_qunarirelic.mmh
 art\levels\4cinematics\qunari\prp_qunarirelic.msh
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\animation\ddopen_v2.ani

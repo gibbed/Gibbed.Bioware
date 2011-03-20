@@ -1,10 +1,10 @@
-; 167/169 (98%)
+; 169/169 (100%)
 ; 
-; .ani - 55/56 (98%)
+; .ani - 56/56 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 19/19 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 49/50 (98%)
+; .evt - 50/50 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 16/16 (100%)
@@ -23,6 +23,8 @@ art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt

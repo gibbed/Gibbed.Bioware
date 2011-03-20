@@ -1,6 +1,6 @@
-; 83/84 (98%)
+; 84/84 (100%)
 ; 
-; .ani - 32/33 (96%)
+; .ani - 33/33 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 3/3 (100%)
 ; .cnv - 2/2 (100%)
@@ -16,6 +16,7 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\unequipped_weapons_toward.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_behind_back_enter.ani

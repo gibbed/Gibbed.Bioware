@@ -1,7 +1,7 @@
-; 198/232 (85%)
+; 207/232 (89%)
 ; 
 ; .ncc - 2/2 (100%)
-; .ncs - 196/230 (85%)
+; .ncs - 205/230 (89%)
 ; 
 ability_core.ncs
 active.ncs
@@ -49,12 +49,14 @@ dae_monster_modal.ncs
 dae_monster_singletarget.ncs
 dae_rogue_aoe_duration.ncs
 dae_rogue_aoe_instant.ncs
+dae_rogue_decoy.ncs
 dae_rogue_modal.ncs
 dae_rogue_singletarget.ncs
 dae_warrior_aoe_duration.ncs
 dae_warrior_aoe_instant.ncs
 dae_warrior_modal.ncs
 dae_warrior_singletarget.ncs
+damagetarget.ncs
 dbg_setattrib.ncs
 dbg_settag.ncs
 die.ncs
@@ -81,6 +83,7 @@ gen00pt_money.ncs
 gen00pt_party.ncs
 gen00pt_random.ncs
 gen00pt_skills.ncs
+gen00pt_specializations.ncs
 gen00pt_vault.ncs
 gen00tr_talk.ncs
 genev_item_acquired.ncs
@@ -105,6 +108,7 @@ getflag.ncs
 getinventory.ncs
 hasachievement.ncs
 healplayer.ncs
+hirefollower.ncs
 immortals.ncs
 injury.ncs
 invisibletoai.ncs
@@ -114,6 +118,8 @@ ip_restrict_class_war_rog.ncs
 ip_restrict_follower.ncs
 ip_restrict_level.ncs
 ip_restrict_player.ncs
+ip_restrict_race.ncs
+ip_restrict_spec.ncs
 ip_restrict_status.ncs
 ip_restrict_weapon_style.ncs
 kbfield.ncs
@@ -138,6 +144,7 @@ projectile.ncs
 qa_useobject.ncs
 qbar.ncs
 removetalent.ncs
+rescalearea.ncs
 restore.ncs
 rules_core.ncs
 scale.ncs
@@ -147,6 +154,7 @@ setcombatresult.ncs
 setflag.ncs
 setskillchecks.ncs
 setss.ncs
+showabilitylist.ncs
 showeffects.ncs
 showstats.ncs
 showstrid.ncs
@@ -184,6 +192,7 @@ zz_clearfx.ncs
 zz_clearvfx.ncs
 zz_deathblow.ncs
 zz_enable.ncs
+zz_ev_placeable.ncs
 zz_getinfo.ncs
 zz_getnearestinfo.ncs
 zz_goto.ncs
