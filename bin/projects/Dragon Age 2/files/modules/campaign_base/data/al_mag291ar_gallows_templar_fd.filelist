@@ -1,10 +1,10 @@
-; 296/306 (96%)
+; 298/306 (97%)
 ; 
-; .ani - 95/100 (95%)
+; .ani - 96/100 (96%)
 ; .are - 1/1 (100%)
 ;  .cl - 29/29 (100%)
 ; .cnv - 13/13 (100%)
-; .evt - 83/88 (94%)
+; .evt - 84/88 (95%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 27/27 (100%)
 ; .stg - 12/12 (100%)
@@ -75,6 +75,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hands_on_face_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_wary.ani

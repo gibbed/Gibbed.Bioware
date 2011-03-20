@@ -1,10 +1,10 @@
-; 74/98 (75%)
+; 98/98 (100%)
 ; 
-; .ani - 27/39 (69%)
+; .ani - 39/39 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 3/3 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 22/34 (64%)
+; .evt - 34/34 (100%)
 ; .ncs - 10/10 (100%)
 ; .stg - 2/2 (100%)
 ; .utc - 5/5 (100%)
@@ -14,6 +14,30 @@ art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_enter.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_enter.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_exit.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_exit.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_head_smash_1.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_head_smash_1.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_head_smash_2.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_head_smash_2.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_loop.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_action_loop.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_enter.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_enter.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_exit.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_exit.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_head_smash_1.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_head_smash_1.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_head_smash_2.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_head_smash_2.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_loop.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_interrogation_reaction_loop.evt
+art\characters\playercharacter\elfmale\animation\cindes\pose\follower_em_enter.ani
+art\characters\playercharacter\elfmale\animation\cindes\pose\follower_em_enter.evt
+art\characters\playercharacter\elfmale\animation\cindes\pose\follower_em_loop.ani
+art\characters\playercharacter\elfmale\animation\cindes\pose\follower_em_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\wesley_deadloop_wesley.ani

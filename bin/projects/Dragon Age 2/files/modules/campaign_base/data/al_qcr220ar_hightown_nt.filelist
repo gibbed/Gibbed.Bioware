@@ -1,10 +1,10 @@
-; 274/313 (87%)
+; 288/313 (92%)
 ; 
-; .ani - 100/129 (77%)
+; .ani - 107/129 (82%)
 ; .are - 1/1 (100%)
 ;  .cl - 25/25 (100%)
 ; .cnv - 15/15 (100%)
-; .evt - 82/92 (89%)
+; .evt - 89/92 (96%)
 ; .mmh - 8/8 (100%)
 ; .msh - 2/2 (100%)
 ; .ncs - 11/11 (100%)
@@ -45,6 +45,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_1h_sw.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\charge_2h_sw.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_loop.ani
@@ -52,6 +54,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_staff.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_staff.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\draw_sword.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
@@ -69,6 +73,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_ru
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\kneel_defeated_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v1_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\knife_stab_v2_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
@@ -78,6 +84,10 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_on_ground_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\order_forward.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\persuade_die.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\persuade_die.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_front.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_front.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\run_fall_look_back.ani
@@ -86,8 +96,12 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_groun
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_and_walk.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_and_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_around.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_around.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stabbed_back_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stabbed_back_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_ascend_male.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\stairs_descend_male.ani

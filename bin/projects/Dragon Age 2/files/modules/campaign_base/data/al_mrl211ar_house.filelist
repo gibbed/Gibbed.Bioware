@@ -1,10 +1,10 @@
-; 186/206 (90%)
+; 196/206 (95%)
 ; 
-; .ani - 82/92 (89%)
+; .ani - 87/92 (94%)
 ; .are - 1/1 (100%)
 ;  .cl - 6/6 (100%)
 ; .cnv - 2/2 (100%)
-; .evt - 62/71 (87%)
+; .evt - 67/71 (94%)
 ; .ncs - 20/21 (95%)
 ; .stg - 7/7 (100%)
 ; .utp - 6/6 (100%)
@@ -32,6 +32,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.ani
@@ -69,17 +71,25 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_forward_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\left_hand_point_left.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_talk_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_talk_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_ground_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_cry.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_injured_cry.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_2_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_welcome.evt

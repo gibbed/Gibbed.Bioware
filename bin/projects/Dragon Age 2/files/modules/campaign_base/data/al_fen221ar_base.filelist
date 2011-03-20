@@ -1,9 +1,9 @@
-; 149/172 (86%)
+; 163/172 (94%)
 ; 
-; .ani - 63/75 (84%)
+; .ani - 70/75 (93%)
 ; .are - 1/1 (100%)
 ; .cnv - 1/1 (100%)
-; .evt - 48/59 (81%)
+; .evt - 55/59 (93%)
 ; .mmh - 3/3 (100%)
 ; .msh - 3/3 (100%)
 ; .ncs - 18/18 (100%)
@@ -18,6 +18,8 @@ art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.ani
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
@@ -36,18 +38,28 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_rig
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_back_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\handshake_large_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_adjust_talk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_adjust_talk.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_1_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_3_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_3_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_forward_3_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_gesture_head.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_gesture_head.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_lean_forward_look_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_lean_forward_look_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_talk_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_bench_talk_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_exit.ani
@@ -57,6 +69,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drink
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_cheers.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_legs_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_legs_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani

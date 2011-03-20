@@ -1,10 +1,10 @@
-; 338/340 (99%)
+; 340/340 (100%)
 ; 
-; .ani - 109/110 (99%)
+; .ani - 110/110 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 30/30 (100%)
 ; .cnv - 17/17 (100%)
-; .evt - 87/88 (98%)
+; .evt - 88/88 (100%)
 ; .mmh - 4/4 (100%)
 ; .ncs - 31/31 (100%)
 ; .stg - 15/15 (100%)
@@ -67,6 +67,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_ge
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_right.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_headache.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_and_walk.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sneaking_peek_and_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_left_loop.ani

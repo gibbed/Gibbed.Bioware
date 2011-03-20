@@ -1,10 +1,10 @@
-; 145/147 (98%)
+; 147/147 (100%)
 ; 
-; .ani - 58/59 (98%)
+; .ani - 59/59 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 12/12 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 47/48 (97%)
+; .evt - 48/48 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 12/12 (100%)
@@ -48,6 +48,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.ani

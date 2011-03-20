@@ -1,10 +1,10 @@
-; 67/69 (97%)
+; 69/69 (100%)
 ; 
-; .ani - 19/20 (95%)
+; .ani - 20/20 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 2/2 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 14/15 (93%)
+; .evt - 15/15 (100%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 10/10 (100%)
 ; .stg - 1/1 (100%)
@@ -27,6 +27,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_f
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\pushed_from_front.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stabbed_back_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stabbed_back_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_back_1_step.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\walk_back_1_step.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\2arm_stop.ani

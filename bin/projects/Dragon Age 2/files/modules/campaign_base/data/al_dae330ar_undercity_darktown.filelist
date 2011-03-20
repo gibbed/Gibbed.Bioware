@@ -1,10 +1,10 @@
-; 361/366 (98%)
+; 365/366 (99%)
 ; 
-; .ani - 116/120 (96%)
+; .ani - 119/120 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 10/10 (100%)
 ; .cnv - 17/17 (100%)
-; .evt - 99/100 (99%)
+; .evt - 100/100 (100%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 41/41 (100%)
 ; .stg - 24/24 (100%)
@@ -66,6 +66,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transit
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_front_down.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_rotateback.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_tochest.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_l_up_side.ani
@@ -260,6 +262,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_butt.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_chest_nervous.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_chest_nervous.evt
+art\cinematics\act3\romances\anders\cs_anders_andersrom.ani
+art\cinematics\act3\romances\anders\cs_pcfem_andersrom.ani
 art\levels\races\ferelden\kirklow\int\4co_lowtown\animation\4co_lowtown_int_door.open.ani
 art\vfx\cinematic\vfx_anders_romance_hand_c.impa.ani
 art\vfx\cinematic\vfx_anders_romance_hand_c.impa.evt

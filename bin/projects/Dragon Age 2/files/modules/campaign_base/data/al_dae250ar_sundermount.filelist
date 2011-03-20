@@ -1,10 +1,10 @@
-; 194/196 (98%)
+; 196/196 (100%)
 ; 
-; .ani - 51/52 (98%)
+; .ani - 52/52 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 15/15 (100%)
 ; .cnv - 13/13 (100%)
-; .evt - 44/45 (97%)
+; .evt - 45/45 (100%)
 ; .ncs - 20/20 (100%)
 ; .stg - 8/8 (100%)
 ; .utc - 21/21 (100%)
@@ -47,6 +47,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_dead_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lying_injured_v2_dead_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\twist_look_left_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani

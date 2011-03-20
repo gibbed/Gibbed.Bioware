@@ -1,10 +1,10 @@
-; 350/374 (93%)
+; 373/374 (99%)
 ; 
-; .ani - 114/127 (89%)
+; .ani - 126/127 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 20/20 (100%)
 ; .cnv - 19/19 (100%)
-; .evt - 99/110 (90%)
+; .evt - 110/110 (100%)
 ; .ncs - 47/47 (100%)
 ; .stg - 24/24 (100%)
 ; .utc - 19/19 (100%)
@@ -54,11 +54,21 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_wa
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\exit_right_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_action_enter.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_beckon.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_beckon.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_drink.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_1.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_1.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_order_2.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_wave.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_bar_wave.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\lean_on_table_loop.ani
@@ -71,11 +81,24 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_drink.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_drink.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_standing_cheer.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drinking_standing_cheer.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drunk_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_drunk_drink.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_sleep_on_table_exit.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_sleep_on_table_exit.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_adjust.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_adjust.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_clasped_1_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_drink.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_drink.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_enter_2.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_enter_2.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_table_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_beseech.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_beseech.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\talk_pointing.ani

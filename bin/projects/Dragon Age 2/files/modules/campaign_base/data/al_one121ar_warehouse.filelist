@@ -1,16 +1,18 @@
-; 72/74 (97%)
+; 74/74 (100%)
 ; 
-; .ani - 21/22 (95%)
+; .ani - 22/22 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 8/8 (100%)
 ; .cnv - 4/4 (100%)
-; .evt - 17/18 (94%)
+; .evt - 18/18 (100%)
 ; .ncs - 8/8 (100%)
 ; .stg - 1/1 (100%)
 ; .utc - 1/1 (100%)
 ; .uti - 1/1 (100%)
 ; .utp - 10/10 (100%)
 ; 
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\receive_and_inspect_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\wander_back_mirror.ani

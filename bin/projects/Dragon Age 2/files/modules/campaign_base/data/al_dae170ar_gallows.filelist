@@ -1,10 +1,10 @@
-; 356/360 (98%)
+; 360/360 (100%)
 ; 
-; .ani - 114/116 (98%)
+; .ani - 116/116 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 34/34 (100%)
 ; .cnv - 23/23 (100%)
-; .evt - 102/104 (98%)
+; .evt - 104/104 (100%)
 ; .mmh - 2/2 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 22/22 (100%)
@@ -71,6 +71,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\grab_reaction
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\grovel_floor_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_enter.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_female_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\hugging_human_male_enter.ani
@@ -94,6 +96,8 @@ art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_ge
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_forward.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_point_left.evt
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stabbed_back_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\dialogue\stabbed_back_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\step_aside_right_exit.ani

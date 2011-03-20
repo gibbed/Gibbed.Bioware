@@ -1,8 +1,8 @@
-; 691/725 (95%)
+; 692/725 (95%)
 ; 
 ; .cre - 7/7 (100%)
 ; .cur - 72/72 (100%)
-; .dds - 611/645 (94%)
+; .dds - 612/645 (94%)
 ; .ttf - 1/1 (100%)
 ; 
 ach_comp_armor.dds
@@ -37,6 +37,7 @@ ach_oth_champion.dds
 ach_oth_mercenary.dds
 ach_oth_smuggler.dds
 ach_secret.dds
+ach_soc_approval_max.dds
 ach_soc_bigwigs.dds
 ach_soc_gift.dds
 ach_soc_narrative.dds
