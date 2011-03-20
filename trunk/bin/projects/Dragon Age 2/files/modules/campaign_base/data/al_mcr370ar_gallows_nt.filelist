@@ -1,12 +1,12 @@
-; 510/558 (91%)
+; 517/558 (92%)
 ; 
-; .ani - 185/227 (81%)
+; .ani - 189/227 (83%)
 ; .are - 1/1 (100%)
 ;  .cl - 60/60 (100%)
 ; .cnv - 29/31 (93%)
 ; .cut - 2/2 (100%)
 ; .dds - 1/1 (100%)
-; .evt - 137/140 (97%)
+; .evt - 140/140 (100%)
 ; .mmh - 20/20 (100%)
 ; .msh - 6/6 (100%)
 ; .ncs - 23/24 (95%)
@@ -31,6 +31,7 @@ art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.an
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\custom\cassandra_book_hold_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_gesture_both_hands.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_gesture_both_hands.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\noble_loop.ani
@@ -43,6 +44,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_w
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
@@ -57,6 +60,10 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.
 art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\help_up_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\injured_supported_carver.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\injured_supported_carver.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\injured_supported_malepc.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\injured_supported_malepc.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt

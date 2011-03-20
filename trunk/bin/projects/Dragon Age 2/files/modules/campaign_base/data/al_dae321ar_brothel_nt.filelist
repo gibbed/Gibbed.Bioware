@@ -1,11 +1,11 @@
-; 326/332 (98%)
+; 332/332 (100%)
 ; 
-; .ani - 96/99 (96%)
+; .ani - 99/99 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 62/62 (100%)
 ; .cnv - 24/24 (100%)
 ; .cut - 1/1 (100%)
-; .evt - 87/90 (96%)
+; .evt - 90/90 (100%)
 ; .ncs - 18/18 (100%)
 ; .stg - 6/6 (100%)
 ; .utc - 24/24 (100%)
@@ -18,6 +18,8 @@ art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\pose\2arm_clenchfists.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\2arm_clenchfists.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\body_curtsey.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
@@ -33,6 +35,10 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_c
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\chest_kick_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_interact_low.ani

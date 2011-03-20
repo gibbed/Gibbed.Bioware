@@ -1,10 +1,10 @@
-; 89/93 (95%)
+; 93/93 (100%)
 ; 
-; .ani - 31/33 (93%)
+; .ani - 33/33 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 6/6 (100%)
 ; .cnv - 2/2 (100%)
-; .evt - 26/28 (92%)
+; .evt - 28/28 (100%)
 ; .ncs - 8/8 (100%)
 ; .stg - 3/3 (100%)
 ; .utc - 6/6 (100%)
@@ -21,8 +21,12 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_feynriel_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_varian.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_varian.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\knifepoint_actions_varian_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_abrupt_stop.evt

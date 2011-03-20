@@ -1,10 +1,10 @@
-; 557/560 (99%)
+; 559/560 (99%)
 ; 
-; .ani - 163/165 (98%)
+; .ani - 164/165 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 72/72 (100%)
 ; .cnv - 35/35 (100%)
-; .evt - 130/131 (99%)
+; .evt - 131/131 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 54/54 (100%)
@@ -36,6 +36,8 @@ art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shou
 art\characters\playercharacter\dwarfmale\animation\cindes\custom\arm_around_shoulder_reaction_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\enter_walk_elf_female.ani
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\enter_walk_elf_female.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\mother_kneelingaction1.ani

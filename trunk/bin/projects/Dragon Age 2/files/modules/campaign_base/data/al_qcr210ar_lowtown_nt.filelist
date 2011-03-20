@@ -1,10 +1,10 @@
-; 170/184 (92%)
+; 172/184 (93%)
 ; 
-; .ani - 50/63 (79%)
+; .ani - 51/63 (80%)
 ; .are - 1/1 (100%)
 ;  .cl - 18/18 (100%)
 ; .cnv - 10/10 (100%)
-; .evt - 39/40 (97%)
+; .evt - 40/40 (100%)
 ; .mmh - 6/6 (100%)
 ; .msh - 2/2 (100%)
 ; .ncs - 14/14 (100%)
@@ -92,6 +92,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_fo
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_enter.ani
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_enter.evt
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.evt
 art\levels\4cinematics\qunari\prp_qunarirelic.mmh
 art\levels\4cinematics\qunari\prp_qunarirelic.msh
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\animation\ddopen_v2.ani

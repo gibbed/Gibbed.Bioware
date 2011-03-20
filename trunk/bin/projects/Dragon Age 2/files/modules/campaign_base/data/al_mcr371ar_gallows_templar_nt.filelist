@@ -1,10 +1,10 @@
-; 196/200 (98%)
+; 200/200 (100%)
 ; 
-; .ani - 71/73 (97%)
+; .ani - 73/73 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 16/16 (100%)
-; .evt - 59/61 (96%)
+; .evt - 61/61 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 17/17 (100%)
@@ -15,8 +15,12 @@
 ; 
 act00pt_main.ncs
 art\characters\playercharacter\dwarfmale\animation\cindes\additive\head_forward.ani
+art\characters\playercharacter\elfmale\animation\cindes\pose\2arm_clasphands.ani
+art\characters\playercharacter\elfmale\animation\cindes\pose\2arm_clasphands.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_look_around_sway.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt

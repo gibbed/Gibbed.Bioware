@@ -1,10 +1,10 @@
-; 336/340 (98%)
+; 340/340 (100%)
 ; 
-; .ani - 113/115 (98%)
+; .ani - 115/115 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 28/28 (100%)
 ; .cnv - 19/19 (100%)
-; .evt - 87/89 (97%)
+; .evt - 89/89 (100%)
 ; .ncs - 37/37 (100%)
 ; .stg - 11/11 (100%)
 ; .utc - 26/26 (100%)
@@ -41,8 +41,12 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_action_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\death_cradle_reaction_loop.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose2.ani

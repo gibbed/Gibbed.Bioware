@@ -1,10 +1,10 @@
-; 51/55 (92%)
+; 55/55 (100%)
 ; 
-; .ani - 13/15 (86%)
+; .ani - 15/15 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 1/1 (100%)
 ; .cnv - 3/3 (100%)
-; .evt - 9/11 (81%)
+; .evt - 11/11 (100%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 7/7 (100%)
 ; .stg - 1/1 (100%)
@@ -15,6 +15,10 @@
 ; 
 art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_female.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_female.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_sailor.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_sailor.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_sailor_mirror.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\abomination_sailor_mirror.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani

@@ -1,10 +1,10 @@
-; 298/306 (97%)
+; 306/306 (100%)
 ; 
-; .ani - 96/100 (96%)
+; .ani - 100/100 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 29/29 (100%)
 ; .cnv - 13/13 (100%)
-; .evt - 84/88 (95%)
+; .evt - 88/88 (100%)
 ; .mmh - 1/1 (100%)
 ; .ncs - 27/27 (100%)
 ; .stg - 12/12 (100%)
@@ -45,6 +45,14 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_tochest
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\anders_writing.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_mage_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_mage_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_mage_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_mage_reaction.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_sword_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_sword_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_sword_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\feynriel_execution_sword_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.ani

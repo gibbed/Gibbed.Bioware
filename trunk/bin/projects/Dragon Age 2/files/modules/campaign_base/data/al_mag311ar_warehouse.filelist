@@ -1,10 +1,10 @@
-; 155/159 (97%)
+; 159/159 (100%)
 ; 
-; .ani - 60/62 (96%)
+; .ani - 62/62 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 8/8 (100%)
 ; .cnv - 5/5 (100%)
-; .evt - 49/51 (96%)
+; .evt - 51/51 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 14/14 (100%)
@@ -20,6 +20,10 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hugging_kill_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hugging_kill_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\hugging_kill_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\hugging_kill_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_exit.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_one_knee_interact_low.ani

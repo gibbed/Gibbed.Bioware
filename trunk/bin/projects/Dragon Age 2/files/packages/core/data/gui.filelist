@@ -1,8 +1,8 @@
-; 692/725 (95%)
+; 710/725 (97%)
 ; 
 ; .cre - 7/7 (100%)
 ; .cur - 72/72 (100%)
-; .dds - 612/645 (94%)
+; .dds - 630/645 (97%)
 ; .ttf - 1/1 (100%)
 ; 
 ach_comp_armor.dds
@@ -13,10 +13,12 @@ ach_comp_enchant.dds
 ach_comp_funding.dds
 ach_comp_gold.dds
 ach_comp_level_1.dds
+ach_comp_level_2.dds
 ach_comp_ruler.dds
 ach_comp_spec.dds
 ach_exp_caverns.dds
 ach_exp_codex.dds
+ach_exp_codex_plot.dds
 ach_exp_containers.dds
 ach_exp_craft_nodes.dds
 ach_exp_deep_roads.dds
@@ -25,28 +27,40 @@ ach_exp_gallows.dds
 ach_exp_mansion.dds
 ach_exp_night.dds
 ach_exp_wilderness.dds
+ach_kill_arishok.dds
 ach_kill_combo.dds
 ach_kill_dragon.dds
 ach_kill_hybris.dds
+ach_kill_knockout.dds
+ach_kill_meredith.dds
 ach_kill_rock.dds
 ach_kill_strider.dds
 ach_kill_style.dds
 ach_kill_upgrade.dds
 ach_kill_wtf.dds
 ach_oth_champion.dds
+ach_oth_complete.dds
+ach_oth_mages.dds
 ach_oth_mercenary.dds
 ach_oth_smuggler.dds
+ach_oth_templars.dds
 ach_secret.dds
 ach_soc_approval_max.dds
 ach_soc_bigwigs.dds
+ach_soc_friend.dds
 ach_soc_gift.dds
+ach_soc_investigate.dds
+ach_soc_lover.dds
 ach_soc_narrative.dds
 ach_soc_recruit.dds
+ach_soc_respect.dds
+ach_soc_rival.dds
 ach_soc_romance_1.dds
 adder_of_antiva.dds
 air_of_confidence.dds
 amulet_durasblueflame.dds
 amulet_ivofamilycrest.dds
+amulet_of_ashes.dds
 apostates_courage.dds
 area_transition.cur
 area_transition_pressed.cur
@@ -385,6 +399,9 @@ mage_stonefist.dds
 mage_tempest.dds
 mage_vitalforce.dds
 mage_wintersgrasp.dds
+map_day_1280x1024.dds
+map_night_1280x1024.dds
+map_wilderness_1280x1024.dds
 marksman_knockbolt.dds
 marksman_rapidfire.dds
 marksman_selfsong.dds
@@ -570,6 +587,7 @@ target_pressed.cur
 the_antivan_garrote.dds
 the_lion_of_orlais.dds
 thefarcliffskrkwl.dds
+theirons.dds
 topple.cur
 topple_pressed.cur
 transparent.dds

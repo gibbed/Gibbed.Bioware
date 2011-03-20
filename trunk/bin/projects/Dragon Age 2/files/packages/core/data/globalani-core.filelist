@@ -1,9 +1,9 @@
-; 2445/2559 (95%)
+; 2466/2559 (96%)
 ; 
 ; .anb - 142/142 (100%)
-; .ani - 819/855 (95%)
-; .evt - 665/707 (94%)
-; .gad - 819/855 (95%)
+; .ani - 826/855 (96%)
+; .evt - 672/707 (95%)
+; .gad - 826/855 (96%)
 ; 
 art\characters\creatures\corpse\animation\combat\ready.ani
 art\characters\creatures\corpse\animation\combat\ready.evt
@@ -419,6 +419,9 @@ art\characters\playercharacter\humanfemale\animation\exploration\idle\pause.gad
 art\characters\playercharacter\humanfemale\animation\exploration\idle\pause_injured.ani
 art\characters\playercharacter\humanfemale\animation\exploration\idle\pause_injured.evt
 art\characters\playercharacter\humanfemale\animation\exploration\idle\pause_injured.gad
+art\characters\playercharacter\humanfemale\animation\exploration\idle\posev1.ani
+art\characters\playercharacter\humanfemale\animation\exploration\idle\posev1.evt
+art\characters\playercharacter\humanfemale\animation\exploration\idle\posev1.gad
 art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv1.ani
 art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv1.evt
 art\characters\playercharacter\humanfemale\animation\exploration\idle\twitchv1.gad
@@ -1265,9 +1268,15 @@ art\characters\playercharacter\humanmale\animation\combat\facial anims\combat_fa
 art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.ani
 art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.evt
 art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt_death.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt_death.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\arcane_bolt_death.gad
 art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.ani
 art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.evt
 art\characters\playercharacter\humanmale\animation\combat\mage\attack_fail.gad
+art\characters\playercharacter\humanmale\animation\combat\mage\attack_v1.ani
+art\characters\playercharacter\humanmale\animation\combat\mage\attack_v1.evt
+art\characters\playercharacter\humanmale\animation\combat\mage\attack_v1.gad
 art\characters\playercharacter\humanmale\animation\combat\mage\combo_finish.ani
 art\characters\playercharacter\humanmale\animation\combat\mage\combo_finish.evt
 art\characters\playercharacter\humanmale\animation\combat\mage\combo_finish.gad
@@ -1536,6 +1545,9 @@ art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1.
 art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_enter.ani
 art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_enter.evt
 art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_enter.gad
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_exit.ani
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_exit.evt
+art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_exit.gad
 art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_loop.ani
 art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v1_loop.gad
 art\characters\playercharacter\humanmale\animation\combat\reactions\rct_kdwn_v2.ani
@@ -1668,6 +1680,9 @@ art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rain_of_a
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rdy.ani
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rdy.evt
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rdy.gad
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rdy_flrsh.ani
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rdy_flrsh.evt
+art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_rdy_flrsh.gad
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_reversal.ani
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_reversal.evt
 art\characters\playercharacter\humanmale\animation\combat\rogue\bow\bw_reversal.gad
@@ -2279,6 +2294,9 @@ art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_
 art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_whirlwind_lp.ani
 art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_whirlwind_lp.evt
 art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_ability_whirlwind_lp.gad
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_attk_v1.ani
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_attk_v1.evt
+art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_attk_v1.gad
 art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_charge.ani
 art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_charge.evt
 art\characters\playercharacter\qunarimale\animation\combat\arishock\ari_charge.gad
@@ -2393,6 +2411,9 @@ art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_run
 art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_tw_v1.ani
 art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_tw_v1.evt
 art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_tw_v1.gad
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_twitch_v2.ani
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_twitch_v2.evt
+art\characters\playercharacter\qunarimale\animation\combat\trooperbase\troop_twitch_v2.gad
 art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_die_v1.ani
 art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_die_v1.evt
 art\characters\playercharacter\qunarimale\animation\combat\trooperbase\trooper_die_v1.gad

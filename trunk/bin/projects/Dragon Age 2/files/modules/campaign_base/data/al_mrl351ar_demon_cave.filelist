@@ -1,6 +1,6 @@
-; 138/140 (98%)
+; 139/140 (99%)
 ; 
-; .ani - 44/45 (97%)
+; .ani - 45/45 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 13/13 (100%)
 ; .cnv - 4/4 (100%)
@@ -13,6 +13,7 @@
 act00pt_main.ncs
 art\characters\creatures\pridedemon\animation\cast.ani
 art\characters\creatures\pridedemon\animation\cast.evt
+art\characters\creatures\pridedemon\animation\rdy.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani

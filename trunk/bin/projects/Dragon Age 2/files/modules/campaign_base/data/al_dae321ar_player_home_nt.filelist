@@ -1,10 +1,10 @@
-; 186/192 (96%)
+; 192/192 (100%)
 ; 
-; .ani - 52/55 (94%)
+; .ani - 55/55 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 7/7 (100%)
-; .evt - 43/46 (93%)
+; .evt - 46/46 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 28/28 (100%)
@@ -27,13 +27,19 @@ art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.ani
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
+art\characters\playercharacter\humanfemale\animation\cindes\pose\2arm_clenchfists.ani
+art\characters\playercharacter\humanfemale\animation\cindes\pose\2arm_clenchfists.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_45_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_right_45_walk.ani

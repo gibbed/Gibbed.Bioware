@@ -1,6 +1,6 @@
-; 103/104 (99%)
+; 104/104 (100%)
 ; 
-; .ani - 41/42 (97%)
+; .ani - 42/42 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 9/9 (100%)
 ; .cnv - 5/5 (100%)
@@ -18,6 +18,7 @@ art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\unequipped_weapons_toward.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\right_hand_gesture_self.ani

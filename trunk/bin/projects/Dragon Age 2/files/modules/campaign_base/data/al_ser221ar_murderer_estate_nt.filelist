@@ -1,10 +1,10 @@
-; 132/136 (97%)
+; 136/136 (100%)
 ; 
-; .ani - 39/41 (95%)
+; .ani - 41/41 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 20/20 (100%)
 ; .cnv - 4/4 (100%)
-; .evt - 28/30 (93%)
+; .evt - 30/30 (100%)
 ; .ncs - 18/18 (100%)
 ; .stg - 9/9 (100%)
 ; .utc - 2/2 (100%)
@@ -14,6 +14,10 @@
 act00pt_main.ncs
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_front_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\crouch_squat_exit.ani

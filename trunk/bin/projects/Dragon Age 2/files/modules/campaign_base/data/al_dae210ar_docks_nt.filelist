@@ -1,10 +1,10 @@
-; 192/206 (93%)
+; 194/206 (94%)
 ; 
-; .ani - 52/65 (80%)
+; .ani - 53/65 (81%)
 ; .are - 1/1 (100%)
 ;  .cl - 21/21 (100%)
 ; .cnv - 10/10 (100%)
-; .evt - 40/41 (97%)
+; .evt - 41/41 (100%)
 ; .mmh - 3/3 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 29/29 (100%)
@@ -100,6 +100,8 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_fo
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_enter.ani
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_enter.evt
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.ani
+art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.evt
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_2.ani
 art\levels\4cinematics\qunari\prp_qunarirelic.mmh
 art\levels\4cinematics\qunari\prp_qunarirelic.msh

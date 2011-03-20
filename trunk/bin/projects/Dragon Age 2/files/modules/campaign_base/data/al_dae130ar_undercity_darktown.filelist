@@ -1,6 +1,6 @@
-; 325/326 (99%)
+; 326/326 (100%)
 ; 
-; .ani - 105/106 (99%)
+; .ani - 106/106 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 9/9 (100%)
 ; .cnv - 17/17 (100%)
@@ -231,6 +231,7 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_2.a
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_2.evt
 art\cinematics\act3\romances\anders\cs_anders_andersrom.ani
 art\cinematics\act3\romances\anders\cs_pcfem_andersrom.ani
+art\cinematics\act3\romances\anders\cs_pcmale_andersrom.ani
 art\cinematics\follower plots\anders\act1\cs_anders_andersintro.ani
 art\cinematics\follower plots\anders\act1\cs_aveline_andersintro.ani
 art\cinematics\follower plots\anders\act1\cs_father_andersintro.ani

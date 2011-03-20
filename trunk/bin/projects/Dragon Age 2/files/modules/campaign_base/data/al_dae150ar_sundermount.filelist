@@ -1,11 +1,11 @@
-; 359/368 (97%)
+; 362/368 (98%)
 ; 
-; .ani - 94/101 (93%)
+; .ani - 96/101 (95%)
 ; .are - 1/1 (100%)
 ;  .cl - 33/33 (100%)
 ; .cnv - 25/25 (100%)
 ; .cut - 0/1 (0%)
-; .evt - 86/87 (98%)
+; .evt - 87/87 (100%)
 ; .mmh - 4/4 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 32/32 (100%)
@@ -17,6 +17,8 @@
 ; .utt - 4/4 (100%)
 ; 
 act00pt_main.ncs
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_enter.ani
+art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_enter.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\pose\follower_dm_loop.evt
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_enter.ani
@@ -36,6 +38,7 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_w
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a_female_weightshift_medium.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_i.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\unequipped_weapons_toward.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_enter.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_enter.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\bloodmage_cast_exit.ani

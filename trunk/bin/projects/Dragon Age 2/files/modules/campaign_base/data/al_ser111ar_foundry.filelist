@@ -1,16 +1,20 @@
-; 28/32 (87%)
+; 32/32 (100%)
 ; 
-; .ani - 10/12 (83%)
+; .ani - 12/12 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 1/1 (100%)
 ; .cnv - 2/2 (100%)
-; .evt - 5/7 (71%)
+; .evt - 7/7 (100%)
 ; .ncs - 4/4 (100%)
 ; .stg - 1/1 (100%)
 ; .utc - 1/1 (100%)
 ; .uti - 1/1 (100%)
 ; .utp - 2/2 (100%)
 ; 
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\sitting_chair_loop.ani

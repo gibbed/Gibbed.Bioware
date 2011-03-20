@@ -1,7 +1,7 @@
-; 8/14 (57%)
+; 9/14 (64%)
 ; 
 ; .cre - 7/7 (100%)
-; .dds - 1/7 (14%)
+; .dds - 2/7 (28%)
 ; 
 da2_prc_seb_de-de.cre
 da2_prc_seb_en-us.cre
@@ -10,4 +10,5 @@ da2_prc_seb_fr-fr.cre
 da2_prc_seb_it-it.cre
 da2_prc_seb_pl-pl.cre
 da2_prc_seb_ru-ru.cre
+prty_seb.dds
 seb_module.dds

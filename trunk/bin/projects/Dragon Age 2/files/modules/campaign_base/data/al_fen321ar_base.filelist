@@ -1,9 +1,9 @@
-; 162/171 (94%)
+; 171/171 (100%)
 ; 
-; .ani - 70/75 (93%)
+; .ani - 75/75 (100%)
 ; .are - 1/1 (100%)
 ; .cnv - 1/1 (100%)
-; .evt - 55/59 (93%)
+; .evt - 59/59 (100%)
 ; .mmh - 3/3 (100%)
 ; .msh - 3/3 (100%)
 ; .ncs - 18/18 (100%)
@@ -18,6 +18,13 @@ art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_gesture_right.evt
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.ani
 art\characters\playercharacter\dwarfmale\animation\cindes\varric\sitting_loop.evt
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_kill_master_action.ani
+art\characters\playercharacter\elfmale\animation\cindes\custom\fenris_kill_master_action.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_enter.ani
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_enter.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_exit.ani
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_exit.evt
+art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_pacing_loop.ani
 art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.ani
 art\characters\playercharacter\elfmale\animation\cindes\dialogue\fenris_wine.evt
 art\characters\playercharacter\humanfemale\animation\cindes\custom\paranoid_meredith_loop.ani
@@ -28,6 +35,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\fingers_r_ope
 art\characters\playercharacter\humanmale\animation\cindes\additive\fingers_r_open.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\head_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\idunna_prostitute_action_stand_loop.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\velasco_prostitute_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_walk.ani

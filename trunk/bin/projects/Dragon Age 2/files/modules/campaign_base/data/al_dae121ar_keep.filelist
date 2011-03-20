@@ -1,10 +1,10 @@
-; 318/321 (99%)
+; 321/321 (100%)
 ; 
-; .ani - 103/105 (98%)
+; .ani - 105/105 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 16/16 (100%)
 ; .cnv - 18/18 (100%)
-; .evt - 83/84 (98%)
+; .evt - 84/84 (100%)
 ; .ncs - 44/44 (100%)
 ; .stg - 11/11 (100%)
 ; .utc - 24/24 (100%)
@@ -29,6 +29,9 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\unequipped_weapons_toward.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\escort_away_action_1.ani

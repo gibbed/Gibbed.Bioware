@@ -1,11 +1,11 @@
-; 742/749 (99%)
+; 744/749 (99%)
 ; 
-; .ani - 297/303 (98%)
+; .ani - 298/303 (98%)
 ; .are - 1/1 (100%)
 ;  .cl - 60/60 (100%)
 ; .cnv - 31/31 (100%)
 ; .cut - 3/3 (100%)
-; .evt - 208/209 (99%)
+; .evt - 209/209 (100%)
 ; .mmh - 32/32 (100%)
 ; .msh - 9/9 (100%)
 ; .ncs - 44/44 (100%)
@@ -92,6 +92,8 @@ art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_left.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_right.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\hand_l_fist_clench.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_sparring_action.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\aveline_wall_move_item.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_action.ani

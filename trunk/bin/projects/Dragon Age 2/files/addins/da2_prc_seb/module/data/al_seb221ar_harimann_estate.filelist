@@ -1,4 +1,4 @@
-; 71/80 (88%)
+; 80/80 (100%)
 ; 
 ; .ani - 31/31 (100%)
 ; .are - 1/1 (100%)
@@ -6,9 +6,9 @@
 ; .cnv - 4/4 (100%)
 ; .evt - 23/23 (100%)
 ; .ncs - 2/2 (100%)
-; .stg - 5/6 (83%)
-; .utc - 0/4 (0%)
-; .utp - 0/4 (0%)
+; .stg - 6/6 (100%)
+; .utc - 4/4 (100%)
+; .utp - 4/4 (100%)
 ; 
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
@@ -76,8 +76,17 @@ seb221_ruxton_harimann.cnv
 seb221_ruxton_harimann6177191.cl
 seb221ar_harimann_estate.are
 seb221ar_harimann_estate.ncs
+seb221at_to_ruin.utp
+seb221cr_brett_harimann.utc
+seb221cr_elf_servant.utc
+seb221cr_flora_harimann.utc
+seb221cr_ruxton_harimann.utc
+seb221ip_at_hightown.utp
+seb221ip_door_block_barrel.utp
+seb221ip_door_block_chair.utp
 seb221st_flora_1.stg
 seb221st_flora_2.stg
 seb221st_flora_drunk.stg
+seb221st_harimann.stg
 seb221st_harimann_brett.stg
 seb221st_ruxton.stg

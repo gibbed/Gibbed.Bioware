@@ -1,10 +1,10 @@
-; 401/405 (99%)
+; 405/405 (100%)
 ; 
-; .ani - 133/135 (98%)
+; .ani - 135/135 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 49/49 (100%)
 ; .cnv - 14/14 (100%)
-; .evt - 107/109 (98%)
+; .evt - 109/109 (100%)
 ; .mmh - 3/3 (100%)
 ; .msh - 2/2 (100%)
 ; .ncs - 38/38 (100%)
@@ -46,6 +46,8 @@ art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_k.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_ki_transition.evt
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.ani
+art\characters\playercharacter\humanmale\animation\cindes\additive\arm_r_side_down.evt
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_blink.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_closed.ani
 art\characters\playercharacter\humanmale\animation\cindes\additive\eyes_down.ani
@@ -57,6 +59,8 @@ art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reac
 art\characters\playercharacter\humanmale\animation\cindes\custom\hug_friend_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_action.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_action.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_reaction.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\isabela_post_sex_reaction.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.ani
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_dieaction1.evt
 art\characters\playercharacter\humanmale\animation\cindes\custom\sibling_diepose1.ani

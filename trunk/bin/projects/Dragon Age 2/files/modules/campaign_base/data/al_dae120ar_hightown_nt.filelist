@@ -1,10 +1,10 @@
-; 154/156 (98%)
+; 156/156 (100%)
 ; 
-; .ani - 42/43 (97%)
+; .ani - 43/43 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 15/15 (100%)
 ; .cnv - 8/8 (100%)
-; .evt - 36/37 (97%)
+; .evt - 37/37 (100%)
 ; .mmh - 1/1 (100%)
 ; .msh - 1/1 (100%)
 ; .ncs - 19/19 (100%)
@@ -19,6 +19,8 @@ act00pt_main.ncs
 and120st_chantry.stg
 and120tr_anders.ncs
 and120tr_anders.utt
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\enter_walk_elf_female.ani
+art\characters\playercharacter\elffemale\animation\cindes\dialogue\enter_walk_elf_female.evt
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\lean_back_wall_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\pose_a.evt

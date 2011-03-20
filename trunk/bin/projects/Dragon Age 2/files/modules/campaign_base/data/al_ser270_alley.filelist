@@ -1,10 +1,10 @@
-; 114/122 (93%)
+; 122/122 (100%)
 ; 
-; .ani - 42/46 (91%)
+; .ani - 46/46 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 17/17 (100%)
 ; .cnv - 4/4 (100%)
-; .evt - 37/41 (90%)
+; .evt - 41/41 (100%)
 ; .ncs - 6/6 (100%)
 ; .stg - 4/4 (100%)
 ; .utc - 2/2 (100%)
@@ -21,6 +21,14 @@ art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.
 art\characters\playercharacter\elffemale\animation\cindes\pose\follower_ef_loop.evt
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.ani
 art\characters\playercharacter\humanfemale\animation\cindes\pose\follower_hf_loop.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_catch_and_hold.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_catch_and_hold.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_quentin.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_stand_up.evt
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_walk_and_die.ani
+art\characters\playercharacter\humanmale\animation\cindes\custom\zombie_mom_walk_and_die.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.ani
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_left_20_walk.evt
 art\characters\playercharacter\humanmale\animation\cindes\dialogue\enter_run.ani

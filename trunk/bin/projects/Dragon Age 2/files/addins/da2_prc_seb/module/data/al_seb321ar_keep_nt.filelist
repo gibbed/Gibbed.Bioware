@@ -1,4 +1,4 @@
-; 56/62 (90%)
+; 61/62 (98%)
 ; 
 ; .ani - 26/26 (100%)
 ; .are - 1/1 (100%)
@@ -7,9 +7,9 @@
 ; .evt - 19/19 (100%)
 ; .ncs - 3/4 (75%)
 ; .stg - 2/2 (100%)
-; .utc - 0/1 (0%)
-; .uti - 0/3 (0%)
-; .utp - 0/1 (0%)
+; .utc - 1/1 (100%)
+; .uti - 3/3 (100%)
+; .utp - 1/1 (100%)
 ; 
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.ani
 art\characters\playercharacter\humanfemale\animation\cindes\dialogue\enter_walk_female.evt
@@ -57,6 +57,9 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshif
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim2_reverse.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_a_weightshift_medium_trim2_reverse.evt
 seb000_install.ncs
+seb000im_leliana_boots.uti
+seb000im_leliana_chest.uti
+seb000im_leliana_gloves.uti
 seb321_leliana.cnv
 seb321_leliana6180900.cl
 seb321_leliana6197850.cl
@@ -64,6 +67,8 @@ seb321_rebel_mage.cnv
 seb321_rebel_mage6180875.cl
 seb321ar_keep_nt.are
 seb321ar_keep_nt.ncs
+seb321cr_leliana.utc
 seb321cr_rebel_mage.ncs
+seb321ip_at_hightown.utp
 seb321st_leliana.stg
 seb321st_rebel_mage.stg
