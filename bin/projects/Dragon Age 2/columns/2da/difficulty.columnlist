@@ -1,4 +1,4 @@
-; 12/22 (54%)
+; 13/22 (59%)
 id
 label
 strref
@@ -8,7 +8,7 @@ healthmod
 damagemod
 attackmod
 regenerationmod
-; C73195BE
+cooldownmod
 ; A3B6334B
 ; DC6C4EAB
 ; B0F98CF2
