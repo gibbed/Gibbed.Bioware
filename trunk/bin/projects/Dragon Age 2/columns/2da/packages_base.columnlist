@@ -1,4 +1,4 @@
-; 29/48 (60%)
+; 38/48 (79%)
 id
 label
 packagetype
@@ -36,14 +36,14 @@ ability_17
 ability_18
 ability_19
 ; AF5C82CA
-; B647B38B
-; 9D6AE048
-; 8471D109
-; CB3047CE
-; D22B768F
-; F906254C
-; E01D140D
-; 678508C2
-; 7E9E3983
+passive_1
+passive_2
+passive_3
+passive_4
+passive_5
+passive_6
+passive_7
+passive_8
+passive_9
 ; B05F0CFB
 ; A9443DBA

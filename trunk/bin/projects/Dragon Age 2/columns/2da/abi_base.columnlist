@@ -1,4 +1,4 @@
-; 50/115 (43%)
+; 67/115 (58%)
 id
 label
 string_name
@@ -13,18 +13,18 @@ icon
 ; 99F338A8
 ; 80E809E9
 ; 0CA45F1D
-; 390B1E40
-; 38681C66
+prereq_investment
+prereq_level
 ; 535458ED
 ; 2150237A
 ; 78790B2E
 ; 0A7D70B9
 ; AFE104A2
 ; B6FA35E3
-; D300F4D9
-; F82DA71A
-; E136965B
-; AE77009C
+upgrade_1
+upgrade_2
+upgrade_3
+upgrade_4
 ; 7FB0AE9F
 ; 549DFD5C
 flags
@@ -34,7 +34,7 @@ type_cost
 type_use
 cost
 cooldown
-; 8FFE20D3
+cooldown_group
 ; 91C88311
 target_type
 target_auto
@@ -84,16 +84,16 @@ effect_7
 effect_8
 effect_9
 effect_10
-; B647B38B
-; 9D6AE048
-; 8471D109
-; CB3047CE
-; D22B768F
-; F906254C
-; E01D140D
-; 678508C2
-; 7E9E3983
-; 148031FD
+passive_1
+passive_2
+passive_3
+passive_4
+passive_5
+passive_6
+passive_7
+passive_8
+passive_9
+passive_10
 float_1
 float_2
 float_3
