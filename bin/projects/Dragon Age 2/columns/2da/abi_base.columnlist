@@ -1,8 +1,8 @@
-; 46/115 (40%)
+; 50/115 (43%)
 id
 label
 string_name
-; BC010484
+string_description
 ; 1ABD6665
 icon
 ; BE5E5317
@@ -41,10 +41,10 @@ target_auto
 target_range
 ; 650E5503
 projectile
-; FA57C0D4
-; 53A8A258
+projectile_secondary
+aoe_primary
 ; 11FF8752
-; 35785102
+aoe_secondary
 ; 84C3D6DA
 animation
 ; D050C209

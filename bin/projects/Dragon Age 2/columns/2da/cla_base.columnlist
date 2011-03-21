@@ -1,4 +1,4 @@
-; 16/23 (69%)
+; 17/23 (73%)
 id
 label
 namestrref
@@ -13,7 +13,7 @@ package
 ; 34E302CF
 minlevel
 tacticpreset
-; B59AE9C3
+primaryattribute
 baseclass
 classability
 specroot

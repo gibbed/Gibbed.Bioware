@@ -1,4 +1,4 @@
-; 5/12 (41%)
+; 7/12 (58%)
 id
 label
 namestrref
@@ -7,7 +7,7 @@ map
 ; 4DB1C3C9
 ; EFA7EE54
 guihandle
-; 943FB9BE
-; B68042C1
+primarytransition
+secondarytransition
 ; AFFEE486
 ; 6D543B36

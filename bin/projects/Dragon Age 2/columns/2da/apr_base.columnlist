@@ -1,4 +1,4 @@
-; 30/102 (29%)
+; 32/102 (31%)
 id
 label
 string_ref
@@ -79,8 +79,8 @@ blood_decal
 ; 613EE075
 ; 1C13CB44
 bloodpool
-; 2C6B1C7F
-; 8606D68B
+defaultweapon
+defaultarmor
 corpsemodel
 ; 98BFB469
 codex

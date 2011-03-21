@@ -1,4 +1,4 @@
-; 8/13 (61%)
+; 10/13 (76%)
 id
 label
 titlestrref
@@ -10,5 +10,5 @@ preferrange
 prefermelee
 ; 7199C127
 ; 24C118DC
-; CC521B39
-; F2CD797A
+defaultattack
+avoidaoe
