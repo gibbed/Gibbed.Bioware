@@ -1,11 +1,11 @@
-; 20597/22840 (90%)
+; 20683/22840 (90%)
 ; 
 ; .anb - 391/391 (100%)
-; .ani - 2438/3165 (77%)
+; .ani - 2481/3165 (78%)
 ; .dds - 3585/3957 (90%)
 ; .evt - 1920/2325 (82%)
 ; .fdl - 2/2 (100%)
-; .gad - 2438/3165 (77%)
+; .gad - 2481/3165 (78%)
 ; .mao - 1/1 (100%)
 ; .mmh - 3845/3857 (99%)
 ; .msh - 3544/3544 (100%)
@@ -11456,8 +11456,74 @@ art\cinematics\_crit path\prologue\pro000cs_victim\cs_sister_victim_sis.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_sister_victim_sis.gad
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_wesley_victim.ani
 art\cinematics\_crit path\prologue\pro000cs_victim\cs_wesley_victim.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_arishok_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_arishok_arishokaddress.gad
 art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.ani
 art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench2f_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench2f_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench3_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench3_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_noble1_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_noble1_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_noble2f_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_noble2f_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_player_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_player_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_qunguard_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_qunguard_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\arishok address\cs_viscounthead_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_viscounthead_arishokaddress.gad
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower1_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower1_meredithsintro.gad
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower2_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower2_meredithsintro.gad
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower3_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower3_meredithsintro.gad
+art\cinematics\_crit path\qunari crisis\hightown\cs_mage_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_mage_meredithsintro.gad
+art\cinematics\_crit path\qunari crisis\hightown\cs_meredith_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_meredith_meredithsintro.gad
+art\cinematics\_crit path\qunari crisis\hightown\cs_player_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_player_meredithsintro.gad
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_arishok_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_arishok_isabellasreturn.gad
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower1_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower1_isabellasreturn.gad
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower2_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower2_isabellasreturn.gad
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower3_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower3_isabellasreturn.gad
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_isabella_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_isabella_isabellasreturn.gad
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_player_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_player_isabellasreturn.gad
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_qnari_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_qnari_isabellasreturn.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_arishok_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_arishok_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_aveline_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_aveline_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_pc_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_pc_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari1_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari2_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier1_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier2_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier3_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier3_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier4_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier4_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier5_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier5_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_high_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_high_arishokresponse.gad
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_low_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_low_arishokresponse.gad
 art\cinematics\act1\cs_fp_closedsneer.ani
 art\cinematics\act1\cs_fp_closedsneer.gad
 art\cinematics\act1\cs_fp_gritteeth.ani
@@ -11504,12 +11570,32 @@ art\cinematics\act3\romances\merrill\rom000cs_merrill_pcfem.ani
 art\cinematics\act3\romances\merrill\rom000cs_merrill_pcfem.gad
 art\cinematics\act3\romances\merrill\rom000cs_merrill_pcmale.ani
 art\cinematics\act3\romances\merrill\rom000cs_merrill_pcmale.gad
+art\cinematics\additional animation\cs_femnoblei_cinematicanim.ani
+art\cinematics\additional animation\cs_femnoblei_cinematicanim.gad
+art\cinematics\additional animation\cs_femnobleii_cinematicanim.ani
+art\cinematics\additional animation\cs_femnobleii_cinematicanim.gad
+art\cinematics\additional animation\cs_femnobleiii_cinematicanim.ani
+art\cinematics\additional animation\cs_femnobleiii_cinematicanim.gad
+art\cinematics\additional animation\cs_femnobleiv_cinematicanim.ani
+art\cinematics\additional animation\cs_femnobleiv_cinematicanim.gad
 art\cinematics\additional animation\cs_genericmale_additionalanimation.ani
 art\cinematics\additional animation\cs_genericmale_additionalanimation.gad
 art\cinematics\additional animation\cs_genericmale_additionalanimation4.ani
 art\cinematics\additional animation\cs_genericmale_additionalanimation4.gad
 art\cinematics\additional animation\cs_genericmale_additionalanimation6.ani
 art\cinematics\additional animation\cs_genericmale_additionalanimation6.gad
+art\cinematics\additional animation\cs_malenoblei_cinematicanim.ani
+art\cinematics\additional animation\cs_malenoblei_cinematicanim.gad
+art\cinematics\additional animation\cs_malenobleii_cinematicanim.ani
+art\cinematics\additional animation\cs_malenobleii_cinematicanim.gad
+art\cinematics\additional animation\cs_malenobleiii_cinematicanim.ani
+art\cinematics\additional animation\cs_malenobleiii_cinematicanim.gad
+art\cinematics\additional animation\cs_malenobleiv_cinematicanim.ani
+art\cinematics\additional animation\cs_malenobleiv_cinematicanim.gad
+art\cinematics\additional animation\cs_malenoblev_cinematicanim.ani
+art\cinematics\additional animation\cs_malenoblev_cinematicanim.gad
+art\cinematics\additional animation\cs_qun_crossedarms_cinematicanim.ani
+art\cinematics\additional animation\cs_qun_crossedarms_cinematicanim.gad
 art\cinematics\additional animation\cs_sail_cycle.ani
 art\cinematics\additional animation\cs_sail_cycle.gad
 art\cinematics\deathblows\highdragon\c_highdragon.tal_swp.ani
