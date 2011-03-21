@@ -1,4 +1,4 @@
-; 12/23 (52%)
+; 13/23 (56%)
 id
 label
 ; 4F47185C
@@ -9,7 +9,7 @@ damagemod
 attackmod
 ; 92DE7C30
 effectchance
-; 2877AC96
+effectresistance
 color
 ; 11E44951
 ; 30BA8D42

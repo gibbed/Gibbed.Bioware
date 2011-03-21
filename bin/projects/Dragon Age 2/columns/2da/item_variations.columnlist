@@ -1,4 +1,4 @@
-; 10/14 (71%)
+; 11/14 (78%)
 id
 label
 namestrref
@@ -7,7 +7,7 @@ namestrref
 modelpath
 model
 item
-; D55B738D
+materialgroup
 fullface
 equipmask
 quiver

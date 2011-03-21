@@ -1,4 +1,4 @@
-; 12/35 (34%)
+; 15/35 (42%)
 id
 label
 namestrref
@@ -18,17 +18,17 @@ float1
 ; 7687CE29
 ; 6F9CFF68
 basecost
-; 7E6164E8
+baseduration
 ; D9EE1EB5
 procchance
 ; 53A8A258
-; 75784CDE
+conditionscript
 ; 5A6EE720
 ; 6A326B95
 ; 8315103D
 projectile
 ; F431799B
-; B0CAB20B
+abilityid
 ; BAAF8BAC
 ; 0E47D2D8
 weightrogue

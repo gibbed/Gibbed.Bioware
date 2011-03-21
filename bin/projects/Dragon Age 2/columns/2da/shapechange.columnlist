@@ -1,4 +1,4 @@
-; 7/24 (29%)
+; 10/24 (41%)
 id
 label
 appearance
@@ -11,11 +11,11 @@ appearance
 ; 3A5F893E
 crust
 tacticstable
-; C8CDBFDF
+strengthbase
 ; 876ABA3A
-; 491EDD39
+dexteritybase
 ; C6D03CB3
-; A9649107
+constitutionbase
 ; 57518B89
 armorbase
 ; 06EAADA8

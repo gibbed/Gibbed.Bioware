@@ -1,4 +1,4 @@
-; 9/15 (60%)
+; 11/15 (73%)
 id
 label
 abbreviation
@@ -8,9 +8,9 @@ description
 tooltip
 appearance
 ; A0841511
-; 05D015F0
+backgroundtable
 classtable
 playerrace
-; 233FA0BD
+raceability
 ; A19DEB47
 ; 8AB0B884

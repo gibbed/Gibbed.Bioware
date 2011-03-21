@@ -1,11 +1,11 @@
-; 3/10 (30%)
+; 7/10 (70%)
 id
 label
 strref
-; 56BB2EC7
-; 706DADFC
+conditionbase
+conditionparameter
 ; BCC74707
-; 2A1AF533
-; DEB3D930
+followerai
+conditionfollower
 ; 1F36EA4E
 ; 0A7453A1
