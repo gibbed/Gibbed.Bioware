@@ -1,4 +1,4 @@
-; 5/9 (55%)
+; 6/9 (66%)
 id
 label
 shortform
@@ -6,5 +6,5 @@ shortform
 ; 64F597B2
 ; A5268526
 locked
-; 1ADF21B5
-ai_razeed
+tooltiporder
+tooltipcolor
