@@ -1,7 +1,7 @@
-; 16/21 (76%)
+; 19/21 (90%)
 id
 label
-; BA96D7D8
+chancetreasure
 ; E25DA6C1
 chanceparent
 ; 0E439882
@@ -12,8 +12,8 @@ table2
 table3
 table4
 table5
-; 5EE02CDD
-; 0D387BA7
+chanceequipment
+filterequipment
 weapontable
 weaponprops
 armortable

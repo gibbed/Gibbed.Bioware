@@ -1,4 +1,4 @@
-; 15/35 (42%)
+; 17/35 (48%)
 id
 label
 namestrref
@@ -21,7 +21,7 @@ basecost
 baseduration
 ; D9EE1EB5
 procchance
-; 53A8A258
+aoe_primary
 conditionscript
 ; 5A6EE720
 ; 6A326B95
@@ -33,4 +33,4 @@ abilityid
 ; 0E47D2D8
 weightrogue
 weightmage
-; 4A43371C
+propertyflags
