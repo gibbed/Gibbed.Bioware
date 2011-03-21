@@ -1,4 +1,4 @@
-; 25/102 (24%)
+; 30/102 (29%)
 id
 label
 string_ref
@@ -20,8 +20,8 @@ modeltree
 ; DE80B418
 ; 75F492EC
 ; 4375DAC6
-; D56E6E09
-; 367842F0
+overridetree
+ambientoverride
 ; 9FB2E367
 blendcurves
 weaponscale
@@ -60,8 +60,8 @@ targetable
 ; 6E8DFB3E
 ; C1E55312
 ; 7796CA7F
-; C847DE53
-; AD719366
+creature_type
+creature_group
 ; 6DFD1BAE
 ; 98147E3D
 ; 88D2A3E7
@@ -100,4 +100,4 @@ grouptype
 ; 655EA6F7
 blood_type
 impact_table
-; 6A602FBC
+deathblow_table

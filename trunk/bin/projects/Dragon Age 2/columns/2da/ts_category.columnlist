@@ -1,4 +1,4 @@
-; 14/21 (66%)
+; 16/21 (76%)
 id
 label
 ; BA96D7D8
@@ -18,5 +18,5 @@ weapontable
 weaponprops
 armortable
 armorprops
-; 63783A7A
-; 226EE2E6
+accessorytable
+accessoryprops

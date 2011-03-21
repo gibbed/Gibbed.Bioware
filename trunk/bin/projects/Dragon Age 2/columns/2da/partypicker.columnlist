@@ -1,10 +1,10 @@
-; 7/10 (70%)
+; 9/10 (90%)
 id
 label
 tag
 blendtree
-; A1A48550
-; FCA8F41D
+addanimation
+removeanimation
 addsound
 removesound
 stature

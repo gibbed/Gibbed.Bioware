@@ -1,21 +1,21 @@
-; 14/25 (56%)
+; 20/25 (80%)
 id
 label
 string_name
 ; 1ABD6665
 hostile
 affect_plot
-; 3A364B38
+affect_immortal
 instant
 temporary
 permanent
 ; 9512145E
-; 03BA723C
-; 289721FF
-; 318C10BE
+animation1
+animation2
+animation3
 icon
-; DF67E39C
-; 9F07EF17
+immunity_ability
+immunity_effect
 simple
 flags
 priority

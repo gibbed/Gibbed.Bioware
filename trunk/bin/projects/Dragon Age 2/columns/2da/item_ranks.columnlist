@@ -1,4 +1,4 @@
-; 5/8 (62%)
+; 6/8 (75%)
 id
 label
 namestrref
@@ -6,4 +6,4 @@ namestrref
 costmodifier
 reqscale
 ; 41A0E8F8
-; C1558B72
+guicolor

@@ -1,7 +1,7 @@
-; 9/19 (47%)
+; 11/19 (57%)
 id
 additive
-; 9EEF0FD9
+additive_facing
 ; E70C7275
 minor_front
 ; A944062B
@@ -16,5 +16,5 @@ major
 major_facing
 ; BA147319
 extreme
-; 384EC621
+extreme_facing
 ; 48F5B89B

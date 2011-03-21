@@ -1,4 +1,4 @@
-; 9/22 (40%)
+; 12/22 (54%)
 id
 stepup
 pausetime
@@ -18,6 +18,6 @@ shakeroll
 ; 4D6B181E
 ; F0C007C8
 rumbletime
-; 5A7DD593
-; F37B78BE
-; 151367DE
+rumbleintensity
+rumblebalance
+rumblepattern

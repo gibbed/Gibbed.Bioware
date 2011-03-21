@@ -1,7 +1,7 @@
-; 8/48 (16%)
+; 29/48 (60%)
 id
 label
-; 6AEFEA07
+packagetype
 weaponstyle
 slotslocked
 minlevel
@@ -10,31 +10,31 @@ minlevel
 class
 rules
 ; E4FC3A39
-; EF6B9A6A
+followerbehavior
 ; DA23A8BF
 tacticstable
 ; 39626B1E
 ; 4B29674F
 ; BB5D8D26
-; A246BC67
-; 896BEFA4
-; 9070DEE5
-; DF314822
-; C62A7963
-; ED072AA0
-; F41C1BE1
-; 7384072E
-; 6A9F366F
-; 76F4848D
-; 6FEFB5CC
-; 44C2E60F
-; 5DD9D74E
-; 12984189
-; 0B8370C8
-; 20AE230B
-; 39B5124A
-; BE2D0E85
-; A7363FC4
+ability_1
+ability_2
+ability_3
+ability_4
+ability_5
+ability_6
+ability_7
+ability_8
+ability_9
+ability_10
+ability_11
+ability_12
+ability_13
+ability_14
+ability_15
+ability_16
+ability_17
+ability_18
+ability_19
 ; AF5C82CA
 ; B647B38B
 ; 9D6AE048

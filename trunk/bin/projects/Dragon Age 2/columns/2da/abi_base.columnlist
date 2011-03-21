@@ -1,4 +1,4 @@
-; 44/115 (38%)
+; 46/115 (40%)
 id
 label
 string_name
@@ -51,8 +51,8 @@ animation
 ; B77347EA
 ; 420BEBDD
 ; 25393883
-; CF0ECDF0
-; 27EE1AA3
+animation_base
+animation_override
 ; FAE02D96
 ; 86538AF0
 draw_weapon

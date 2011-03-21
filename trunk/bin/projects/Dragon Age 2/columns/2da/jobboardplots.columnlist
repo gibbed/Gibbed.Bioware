@@ -1,11 +1,11 @@
-; 6/14 (42%)
+; 9/14 (64%)
 id
 plotref
 guid
 boardid
-; 47A19152
-; 9623699D
-; 861798A2
+notificationflag
+visibleflag
+acceptedflag
 offerid
 acceptstrref
 ; 5C28FD06

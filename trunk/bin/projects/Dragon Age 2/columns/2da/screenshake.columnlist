@@ -1,12 +1,12 @@
-; 3/11 (27%)
+; 6/11 (54%)
 id
 label
 ; F8E81947
 ; E1F32806
 ; 5E39000F
 ; 4722314E
-; 4F8DD48B
-; 66740AA5
+rumble_duration
+rumble_intensity
 ; 1ECC6D3B
 rumble_type
-; 35EF464E
+rumble_iterations
