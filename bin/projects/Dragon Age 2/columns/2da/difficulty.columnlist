@@ -1,0 +1,23 @@
+; 12/22 (54%)
+id
+label
+strref
+descstrref
+friendlyfire
+healthmod
+damagemod
+attackmod
+regenerationmod
+; C73195BE
+; A3B6334B
+; DC6C4EAB
+; B0F98CF2
+reactivelimit
+trapdmgscale
+; 5B8BE0B6
+; 06025956
+aiabilityusemod
+; 12A66788
+; BBD735CA
+; BBC129FA
+; 6CED7BB6

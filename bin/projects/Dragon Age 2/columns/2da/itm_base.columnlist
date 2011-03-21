@@ -1,0 +1,26 @@
+; 15/25 (60%)
+id
+label
+namestrref
+descstrref
+; A980657E
+type
+radialgroup
+; D5B0AE22
+; 55F844C4
+; 7083F7D4
+; A4C2C80B
+; 48859B70
+; 9CC4A4AF
+weaponoffset
+; 2F6F585B
+style
+projectile
+stacksize
+sortorder
+; 6722BF88
+runeslots
+quiver
+powerscale
+; 42F209A3
+costmodifier

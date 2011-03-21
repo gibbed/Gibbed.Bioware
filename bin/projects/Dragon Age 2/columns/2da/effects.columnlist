@@ -1,0 +1,26 @@
+; 14/25 (56%)
+id
+label
+string_name
+; 1ABD6665
+hostile
+affect_plot
+; 3A364B38
+instant
+temporary
+permanent
+; 9512145E
+; 03BA723C
+; 289721FF
+; 318C10BE
+icon
+; DF67E39C
+; 9F07EF17
+simple
+flags
+priority
+; 575426CC
+; A779831E
+; 735BE3B7
+ignore_death
+camera_follow
