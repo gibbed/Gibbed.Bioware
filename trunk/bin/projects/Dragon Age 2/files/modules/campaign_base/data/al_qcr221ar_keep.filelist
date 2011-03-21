@@ -1,6 +1,6 @@
-; 324/361 (89%)
+; 361/361 (100%)
 ; 
-; .ani - 126/163 (77%)
+; .ani - 163/163 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 33/33 (100%)
 ; .cnv - 13/13 (100%)
@@ -223,8 +223,45 @@ art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoul
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.ani
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.evt
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\guard_stairs_loop_2.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_arishok_arishokaddress.ani
 art\cinematics\_crit path\qunari crisis\arishok address\cs_hench1_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench2f_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_hench3_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_noble1_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_noble2f_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_player_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_qunguard_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\arishok address\cs_viscounthead_arishokaddress.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_arishok_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower1_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower2_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_follower3_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_isabella_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_player_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\isabellasreturn\cs_qnari_isabellasreturn.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_arishok_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_aveline_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_pc_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier3_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier4_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier5_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_high_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_low_arishokresponse.ani
 art\cinematics\act1\cs_fp_smile.ani
+art\cinematics\additional animation\cs_femnoblei_cinematicanim.ani
+art\cinematics\additional animation\cs_femnobleii_cinematicanim.ani
+art\cinematics\additional animation\cs_femnobleiii_cinematicanim.ani
+art\cinematics\additional animation\cs_femnobleiv_cinematicanim.ani
+art\cinematics\additional animation\cs_malenoblei_cinematicanim.ani
+art\cinematics\additional animation\cs_malenobleii_cinematicanim.ani
+art\cinematics\additional animation\cs_malenobleiii_cinematicanim.ani
+art\cinematics\additional animation\cs_malenobleiv_cinematicanim.ani
+art\cinematics\additional animation\cs_malenoblev_cinematicanim.ani
+art\cinematics\additional animation\cs_qun_crossedarms_cinematicanim.ani
 art\levels\4cinematics\qunari\prp_qunarirelic.mmh
 art\levels\4cinematics\qunari\prp_qunarirelic.msh
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\animation\ddclosed.ani

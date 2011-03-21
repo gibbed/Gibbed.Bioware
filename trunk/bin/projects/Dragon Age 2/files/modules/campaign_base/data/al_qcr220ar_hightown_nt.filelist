@@ -1,6 +1,6 @@
-; 294/313 (93%)
+; 312/313 (99%)
 ; 
-; .ani - 110/129 (85%)
+; .ani - 128/129 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 25/25 (100%)
 ; .cnv - 15/15 (100%)
@@ -201,6 +201,24 @@ art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoul
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_loop.ani
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.ani
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.evt
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower1_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower2_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_follower3_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_mage_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_meredith_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\hightown\cs_player_meredithsintro.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_arishok_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_aveline_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_pc_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier3_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier4_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier5_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_high_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_low_arishokresponse.ani
 art\levels\4cinematics\qunari\prp_qunarirelic.mmh
 art\levels\4cinematics\qunari\prp_qunarirelic.msh
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\animation\ddopen_v2.ani

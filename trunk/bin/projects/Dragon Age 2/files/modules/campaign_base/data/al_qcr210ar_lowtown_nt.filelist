@@ -1,6 +1,6 @@
-; 172/184 (93%)
+; 184/184 (100%)
 ; 
-; .ani - 51/63 (80%)
+; .ani - 63/63 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 18/18 (100%)
 ; .cnv - 10/10 (100%)
@@ -94,6 +94,18 @@ art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoul
 art\characters\playercharacter\qunarimale\animation\cindes\custom\sword_on_shoulder_loop.ani
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.ani
 art\characters\playercharacter\qunarimale\animation\cindes\dialogue\book_hand_off_action_loop.evt
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_arishok_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_aveline_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_pc_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_qunari2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier1_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier2_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier3_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier4_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_soldier5_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_high_arishokresponse.ani
+art\cinematics\_crit path\qunari crisis\quanari compound\cs_spear1_low_arishokresponse.ani
 art\levels\4cinematics\qunari\prp_qunarirelic.mmh
 art\levels\4cinematics\qunari\prp_qunarirelic.msh
 art\levels\races\ferelden\kirkhigh\int\4co_hightownint\animation\ddopen_v2.ani
