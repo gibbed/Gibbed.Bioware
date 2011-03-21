@@ -28,7 +28,7 @@ upgrade_4
 ; 7FB0AE9F
 ; 549DFD5C
 flags
-rewind_step
+type_category
 ; C04C7DA3
 type_cost
 type_use

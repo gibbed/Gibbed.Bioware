@@ -1,60 +1,60 @@
-; 1/59 (1%)
+; 58/59 (98%)
 id
 ; B765B67B
-; A9DFCC3A
-; FD2AC972
-; FEF1EE90
-; D7B267A6
-; 01B77E26
-; CAC083D2
-; 8BD9A432
-; FCD5E8E3
-; 30974A04
-; 5B8821C2
-; 3435C1CD
-; C78943D0
-; D56C6081
-; 03697901
-; A7467088
-; CD0B9156
-; 7E6AACAE
-; C2C0A7FC
-; BC958755
-; C5EFC467
-; D0A12710
-; D4D99D9C
-; 02DC841C
-; 83C421BE
-; F0BA7D8A
-; D12E3EE9
-; 25DD016B
-; 4FDFB3D1
-; E076FE1B
-; 8511C55D
-; 4D0F3011
-; 953A403E
-; 15119939
-; D19B6526
-; 9434FC1E
-; EDFB862E
-; 5862061B
-; AA35EBE3
-; 4D284D74
-; 75B15ACB
-; DA181701
-; BF7F2C47
-; 50126932
-; 696AC472
-; 7E42A0B2
-; 0C38F715
-; 04530B4A
-; C298296E
-; ABCE47A2
-; 0EE6F032
-; 69D5F810
-; 8F702909
-; E77056BF
-; 0F530D2F
-; 4D57A926
-; 02F8D4EB
-; 16AA5315
+dae110ar_lowtown
+dae110ar_lowtown_nt
+dae110ar_docks
+dae110ar_docks_nt
+dae120ar_hightown
+dae120ar_hightown_nt
+dae130ar_undercity_darktown
+dae111ar_gamlens_house_nt
+dae170ar_gallows
+dae210ar_lowtown
+dae210ar_lowtown_nt
+dae210ar_docks
+dae210ar_docks_nt
+dae220ar_hightown
+dae220ar_hightown_nt
+dae230ar_undercity_darktown
+dae221ar_player_home_nt
+dae270ar_gallows
+dae310ar_lowtown
+dae310ar_lowtown_nt
+dae310ar_docks
+dae310ar_docks_nt
+dae320ar_hightown
+dae320ar_hightown_nt
+dae330ar_undercity_darktown
+dae321ar_player_home_nt
+dae370ar_gallows
+dae121ar_keep
+dae221ar_keep
+dae321ar_keep
+dae111ar_tavern
+dae111ar_tavern_nt
+dae211ar_tavern
+dae211ar_tavern_nt
+dae311ar_tavern
+dae311ar_tavern_nt
+dae121ar_chantry
+dae221ar_chantry
+dae321ar_chantry
+fen121ar_base
+fen221ar_base
+fen321ar_base
+mrl111ar_house
+mrl211ar_house
+mrl311ar_house
+dae140ar_bone_pit
+dae150ar_sundermount
+dae160ar_wounded_coast
+dre180ar_deep_roads
+dae240ar_bone_pit
+dae250ar_sundermount
+dae260ar_wounded_coast
+dae280ar_deep_roads
+dae340ar_bone_pit
+dae350ar_sundermount
+dae360ar_wounded_coast
+dae380ar_deep_roads

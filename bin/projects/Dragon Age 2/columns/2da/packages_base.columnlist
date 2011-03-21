@@ -1,4 +1,4 @@
-; 38/48 (79%)
+; 40/48 (83%)
 id
 label
 packagetype
@@ -13,8 +13,8 @@ rules
 followerbehavior
 ; DA23A8BF
 tacticstable
-; 39626B1E
-; 4B29674F
+al_talents
+al_attributes
 ; BB5D8D26
 ability_1
 ability_2

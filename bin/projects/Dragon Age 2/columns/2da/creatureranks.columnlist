@@ -1,4 +1,4 @@
-; 13/23 (56%)
+; 14/23 (60%)
 id
 label
 ; 4F47185C
@@ -11,7 +11,7 @@ attackmod
 effectchance
 effectresistance
 color
-; 11E44951
+fdeathblow
 ; 30BA8D42
 isboss
 rating
