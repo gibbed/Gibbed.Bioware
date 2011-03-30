@@ -1,16 +1,25 @@
-; 1144/1153 (99%)
+; 1153/1153 (100%)
 ; 
 ; .anb - 1/1 (100%)
 ; .gff - 1/1 (100%)
 ; .mao - 1/1 (100%)
 ; .mmh - 2/2 (100%)
-; .rml - 1/10 (10%)
+; .rml - 10/10 (100%)
 ; .vlm - 1138/1138 (100%)
 ; 
+ca_cavern1_haunted_24421.rml
+ca_cavern1_haunted_24422.rml
 ca_cavern1_haunted_24423.anb
 ca_cavern1_haunted_24423.rml
+ca_cavern1_haunted_24424.rml
+ca_cavern1_haunted_24425.rml
+ca_cavern1_haunted_24426.rml
+ca_cavern1_haunted_24427.rml
+ca_cavern1_haunted_26035.rml
 ca_cavern1_haunted_26035_lc.mmh
 ca_cavern1_haunted_26035_ll.mmh
+ca_cavern1_haunted_26037.rml
+ca_cavern1_haunted_26038.rml
 ca_cavern1_haunted_mmi.gff
 sky_ca_cavern1_haunted.mao
 vxca_cavern1_haunted_cjo_0_0.vlm

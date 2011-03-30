@@ -1,11 +1,11 @@
-; 20683/22840 (90%)
+; 20775/22840 (90%)
 ; 
 ; .anb - 391/391 (100%)
-; .ani - 2481/3165 (78%)
-; .dds - 3585/3957 (90%)
+; .ani - 2526/3165 (79%)
+; .dds - 3587/3957 (90%)
 ; .evt - 1920/2325 (82%)
 ; .fdl - 2/2 (100%)
-; .gad - 2481/3165 (78%)
+; .gad - 2526/3165 (79%)
 ; .mao - 1/1 (100%)
 ; .mmh - 3845/3857 (99%)
 ; .msh - 3544/3544 (100%)
@@ -11232,6 +11232,64 @@ art\cinematics\_crit path\followerintros\cs_isa_intro_player.ani
 art\cinematics\_crit path\followerintros\cs_isa_intro_player.gad
 art\cinematics\_crit path\followerintros\cs_wench_isa_intro.ani
 art\cinematics\_crit path\followerintros\cs_wench_isa_intro.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_barge_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_barge_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower1_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower1_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower2_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower2_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower3_varric_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower3_varric_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage1.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage1.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage2f_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage2f_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage3_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage3_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_meredeth_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_meredeth_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_orsino_alt_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_orsino_alt_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_pc_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_pc_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_templar1.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_templar1.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_templar2.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_templar2.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody1_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody1_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody2_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody2_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody3_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody3_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody4_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody4_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody5_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody5_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody6_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody6_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody7_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody7_.gad
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody8_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody8_.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_abomination_sacredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_abomination_sacredmage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_ffollower_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_ffollower_scaredmage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_mage_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mage_scaredmage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower1_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower1_scaredmage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower2_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower2_scaredmage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_player_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_player_scaredmage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar1_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar1_scaredmage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar2_scardemage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar2_scardemage.gad
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar3_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar3_scaredmage.gad
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex.ani
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex.gad
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_anders_chant_ex2.ani
@@ -11248,6 +11306,38 @@ art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant_ex.gad
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant_ex2.ani
 art\cinematics\_crit path\mage crisis\mcr310cs_chantry_explosion\cs_player_chant_ex2.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredacti.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredidies.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredidol.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredacti.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredidies.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredidol.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredacti.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredidies.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredidol.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_gguard_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_gguard_meredacti.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredacti.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredidies.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredidol.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredacti.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredidies.gad
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredidol.gad
 art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerflees.ani
 art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerflees.gad
 art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerrules.ani
@@ -11698,6 +11788,8 @@ art\effects\cloudshadows\w_encounter1\cloud1.dds
 art\effects\cloudshadows\w_encounter1\cloud2.dds
 art\effects\cloudshadows\w_encounter2\cloud1.dds
 art\effects\cloudshadows\w_encounter2\cloud2.dds
+art\effects\cloudshadows\w_encounter2_camp\cloud1.dds
+art\effects\cloudshadows\w_encounter2_camp\cloud2.dds
 art\effects\cloudshadows\w_encounter3\cloud1.dds
 art\effects\cloudshadows\w_encounter3\cloud2.dds
 art\effects\cloudshadows\w_sundermount\cloud1.dds

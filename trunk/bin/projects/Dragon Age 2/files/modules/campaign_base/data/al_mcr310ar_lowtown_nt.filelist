@@ -1,6 +1,6 @@
-; 722/731 (98%)
+; 731/731 (100%)
 ; 
-; .ani - 279/288 (96%)
+; .ani - 288/288 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 22/22 (100%)
 ; .cnv - 24/24 (100%)
@@ -534,6 +534,15 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_scratch_chest_nervous.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_stop_1.evt
+art\cinematics\_crit path\mage crisis\lowtown\cs_abomination_sacredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_ffollower_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mage_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower1_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower2_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_player_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar1_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar2_scardemage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar3_scaredmage.ani
 art\cinematics\act3\romances\anders\cs_anders_andersrom.ani
 art\cinematics\act3\romances\anders\cs_pcfem_andersrom.ani
 art\cinematics\act3\romances\anders\cs_pcmale_andersrom.ani

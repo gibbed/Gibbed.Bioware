@@ -1,6 +1,6 @@
-; 517/558 (92%)
+; 553/558 (99%)
 ; 
-; .ani - 189/227 (83%)
+; .ani - 225/227 (99%)
 ; .are - 1/1 (100%)
 ;  .cl - 60/60 (100%)
 ; .cnv - 29/31 (93%)
@@ -261,6 +261,42 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_self_1.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_point_forward_1.evt
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_barge_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower1_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower2_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_follower3_varric_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage1.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage2f_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_mage3_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_meredeth_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_orsino_alt_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_pc_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_templar1.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrive_templar2.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody1_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody2_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody3_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody4_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody5_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody6_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody7_.ani
+art\cinematics\_crit path\mage crisis\gallows arrival\gallowsarrivedeadbody8_.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow1_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow2_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_follow3_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_gguard_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_meredith_meredidol.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredacti.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredidies.ani
+art\cinematics\_crit path\mage crisis\meredith fight\cs_player_meredidol.ani
 art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerflees.ani
 art\cinematics\_crit path\mage crisis\rulesflees\cs_aveline_mcr370_playerrules.ani
 art\cinematics\_crit path\mage crisis\rulesflees\cs_follower_mcr370_playerflees.ani
