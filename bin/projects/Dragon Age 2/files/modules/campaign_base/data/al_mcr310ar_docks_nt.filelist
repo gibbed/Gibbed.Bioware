@@ -1,6 +1,6 @@
-; 132/141 (93%)
+; 141/141 (100%)
 ; 
-; .ani - 45/54 (83%)
+; .ani - 54/54 (100%)
 ; .are - 1/1 (100%)
 ;  .cl - 14/14 (100%)
 ; .cnv - 10/10 (100%)
@@ -93,6 +93,15 @@ art\characters\playercharacter\humanmale\animation\cindes\pose\pose_f.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\pose_f.evt
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_other.ani
 art\characters\playercharacter\humanmale\animation\cindes\pose\rightarm_gesture_other.evt
+art\cinematics\_crit path\mage crisis\lowtown\cs_abomination_sacredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_ffollower_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mage_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower1_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_mfollower2_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_player_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar1_scaredmage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar2_scardemage.ani
+art\cinematics\_crit path\mage crisis\lowtown\cs_templar3_scaredmage.ani
 art\vfx\cinematic\vfx_abom_trans_sw_p.impa.ani
 art\vfx\cinematic\vfx_abom_trans_sw_p.impa.evt
 art\vfx\cinematic\vfx_abom_trans_sw_p.mmh
