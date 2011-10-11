@@ -64,13 +64,13 @@
     <Compile Include="SaveProgress.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SaveProgress.designer.cs">
+    <Compile Include="SaveProgress.Designer.cs">
       <DependentUpon>SaveProgress.cs</DependentUpon>
     </Compile>
     <Compile Include="Viewer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Viewer.designer.cs">
+    <Compile Include="Viewer.Designer.cs">
       <DependentUpon>Viewer.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
