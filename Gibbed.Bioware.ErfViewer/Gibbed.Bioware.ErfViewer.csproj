@@ -64,7 +64,7 @@
     <Compile Include="SaveProgress.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SaveProgress.Designer.cs">
+    <Compile Include="SaveProgress.designer.cs">
       <DependentUpon>SaveProgress.cs</DependentUpon>
     </Compile>
     <Compile Include="Viewer.cs">
