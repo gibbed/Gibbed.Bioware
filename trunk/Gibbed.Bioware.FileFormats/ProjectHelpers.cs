@@ -13,7 +13,7 @@ namespace Gibbed.Bioware.FileFormats
         {
             return manager.LoadLists(
                     "*.filelist",
-                    s => Path.GetFileName(s).HashFNV64(),
+                    s => s.HashFNV64(),
                     s => s.ToLowerInvariant());
         }
 
@@ -22,7 +22,7 @@ namespace Gibbed.Bioware.FileFormats
         {
             return project.LoadLists(
                     "*.filelist",
-                    s => Path.GetFileName(s).HashFNV64(),
+                    s => s.HashFNV64(),
                     s => s.ToLowerInvariant());
         }
 
