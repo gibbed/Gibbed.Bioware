@@ -25,6 +25,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using Gibbed.Bioware.FileFormats;
 using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
@@ -38,7 +39,9 @@ namespace Gibbed.Bioware.ErfViewer
             this.modeStatusLabel.Text = "";
         }
 
-        private Setup.Manager Manager;
+        private ProjectData.Manager Manager;
+        public ProjectData.HashList<ulong> FileHashLookup { get; private set; }
+        public ProjectData.HashList<uint> TypeHashLookup { get; private set; }
 
         private void OnLoad(object sender, EventArgs e)
         {
@@ -49,7 +52,7 @@ namespace Gibbed.Bioware.ErfViewer
         {
             try
             {
-                this.Manager = Setup.Manager.Load();
+                this.Manager = ProjectData.Manager.Load();
                 this.projectComboBox.Items.AddRange(this.Manager.ToArray());
                 this.SetProject(this.Manager.ActiveProject);
             }
@@ -68,13 +71,15 @@ namespace Gibbed.Bioware.ErfViewer
             }
         }
 
-        private void SetProject(Setup.Project project)
+        private void SetProject(ProjectData.Project project)
         {
             if (project != null)
             {
                 try
                 {
-                    project.Load();
+                    this.FileHashLookup = project.LoadListsFileNames();
+                    this.TypeHashLookup = project.LoadListsTypeNames();
+                    
                     this.openDialog.InitialDirectory = project.InstallPath;
                     this.saveKnownFileListDialog.InitialDirectory = project.ListsPath;
                 }
@@ -115,21 +120,16 @@ namespace Gibbed.Bioware.ErfViewer
                 var knownNode = new TreeNode("Known", 1, 1);
                 var unknownNode = new TreeNode("Unknown", 1, 1);
 
-                var fileLookup = 
-                    this.Manager.ActiveProject == null ? null : this.Manager.ActiveProject.FileHashLookup;
-                var typeLookup =
-                    this.Manager.ActiveProject == null ? null : this.Manager.ActiveProject.TypeHashLookup;
-
                 long knownCount = 0;
                 long unknownCount = 0;
                 foreach (var entry in this.Archive.Entries
-                    .OrderBy(k => k, new EntryComparer(fileLookup)))
+                    .OrderBy(k => k, new EntryComparer(this.FileHashLookup)))
                 {
                     TreeNode node = null;
 
-                    if (entry.Name != null || (fileLookup != null && fileLookup.ContainsKey(entry.NameHash) == true))
+                    if (entry.Name != null || this.FileHashLookup.Contains(entry.NameHash) == true)
                     {
-                        var fileName = entry.Name ?? fileLookup[entry.NameHash];
+                        var fileName = entry.Name ?? this.FileHashLookup[entry.NameHash];
                         var pathName = Path.GetDirectoryName(fileName);
                         TreeNodeCollection parentNodes = knownNode.Nodes;
 
@@ -166,12 +166,12 @@ namespace Gibbed.Bioware.ErfViewer
                         string fileName;
                         string typeName;
 
-                        if (typeLookup != null && typeLookup.ContainsKey(entry.TypeHash) == true)
+                        if (this.TypeHashLookup.Contains(entry.TypeHash) == true)
                         {
                             fileName =
                                 entry.NameHash.ToString("X16") + "." +
-                                typeLookup[entry.TypeHash];
-                            typeName = "." + typeLookup[entry.TypeHash];
+                                this.TypeHashLookup[entry.TypeHash];
+                            typeName = "." + this.TypeHashLookup[entry.TypeHash];
                         }
                         else
                         {
@@ -304,13 +304,12 @@ namespace Gibbed.Bioware.ErfViewer
 
                 saving = new List<ERF.Entry>();
                 
-                var nodes = new List<TreeNode>();
-                nodes.Add(root);
+                var nodes = new Queue<TreeNode>();
+                nodes.Enqueue(root);
 
                 while (nodes.Count > 0)
                 {
-                    var node = nodes[0];
-                    nodes.RemoveAt(0);
+                    var node = nodes.Dequeue();
 
                     if (node.Nodes.Count > 0)
                     {
@@ -318,7 +317,7 @@ namespace Gibbed.Bioware.ErfViewer
                         {
                             if (child.Nodes.Count > 0)
                             {
-                                nodes.Add(child);
+                                nodes.Enqueue(child);
                             }
                             else
                             {
@@ -328,7 +327,6 @@ namespace Gibbed.Bioware.ErfViewer
                     }
                 }
 
-                lookup = this.Manager.ActiveProject == null ? null : this.Manager.ActiveProject.FileHashLookup;
                 basePath = this.saveFilesDialog.SelectedPath;
             }
 
@@ -341,8 +339,8 @@ namespace Gibbed.Bioware.ErfViewer
                         input,
                         this.Archive,
                         saving,
-                        lookup,
-                        this.Manager.ActiveProject == null ? null : this.Manager.ActiveProject.TypeHashLookup,
+                        this.FileHashLookup,
+                        this.TypeHashLookup,
                         basePath,
                         settings);
                 }
@@ -360,9 +358,6 @@ namespace Gibbed.Bioware.ErfViewer
             {
                 string basePath = this.saveFilesDialog.SelectedPath;
 
-                Dictionary<ulong, string> lookup =
-                    this.Manager.ActiveProject == null ? null : this.Manager.ActiveProject.FileHashLookup;
-
                 SaveProgress.SaveAllSettings settings;
                 settings.SaveOnlyKnownFiles = this.saveOnlyKnownFilesMenuItem.Checked;
                 settings.DontOverwriteFiles = this.dontOverwriteFilesMenuItem.Checked;
@@ -374,8 +369,8 @@ namespace Gibbed.Bioware.ErfViewer
                         input,
                         this.Archive,
                         null,
-                        lookup,
-                        this.Manager.ActiveProject == null ? null : this.Manager.ActiveProject.TypeHashLookup,
+                        this.FileHashLookup,
+                        this.TypeHashLookup,
                         basePath,
                         settings);
                 }
@@ -399,7 +394,7 @@ namespace Gibbed.Bioware.ErfViewer
         private void OnProjectSelect(object sender, EventArgs e)
         {
             this.projectComboBox.Invalidate();
-            var project = this.projectComboBox.SelectedItem as Setup.Project;
+            var project = this.projectComboBox.SelectedItem as ProjectData.Project;
             if (project == null)
             {
                 this.projectComboBox.Items.Remove(this.projectComboBox.SelectedItem);
@@ -412,122 +407,11 @@ namespace Gibbed.Bioware.ErfViewer
         {
             if (this.Manager.ActiveProject != null)
             {
-                this.Manager.ActiveProject.Reload();
+                this.FileHashLookup = this.Manager.ActiveProject.LoadListsFileNames();
+                this.TypeHashLookup = this.Manager.ActiveProject.LoadListsTypeNames();
             }
 
             this.BuildFileTree();
-        }
-
-        private void SaveKnownFileList(string outputPath)
-        {
-            var names = new List<string>();
-            string headerLine = null;
-
-            if (this.Archive != null &&
-                this.Manager.ActiveProject != null)
-            {
-                int count = 0;
-                foreach (var entry in this.Archive.Entries)
-                {
-                    string name = entry.Name;
-
-                    if (name == null)
-                    {
-                        if (this.Manager.ActiveProject.FileHashLookup.ContainsKey(entry.NameHash) == true)
-                        {
-                            name = this.Manager.ActiveProject.FileHashLookup[entry.NameHash];
-                        }
-                    }
-
-                    if (name != null && names.Contains(name) == false)
-                    {
-                        names.Add(name);
-                        count++;
-                    }
-                }
-
-                headerLine = string.Format("{0}/{1} ({2}%)",
-                    count, this.Archive.Entries.Count,
-                    (int)Math.Floor(((float)count / (float)this.Archive.Entries.Count) * 100));
-            }
-
-            names.Sort();
-
-            using (var output = new StreamWriter(outputPath))
-            {
-                if (headerLine != null)
-                {
-                    output.WriteLine("; {0}", headerLine);
-                }
-
-                foreach (string name in names)
-                {
-                    output.WriteLine(name);
-                }
-            }
-        }
-
-        private void OnSaveKnownFileList(object sender, EventArgs e)
-        {
-            if (this.saveKnownFileListDialog.ShowDialog() != DialogResult.OK)
-            {
-                return;
-            }
-
-            this.SaveKnownFileList(this.saveKnownFileListDialog.FileName);
-        }
-
-        private void OnSaveKnownFileListToDefaultLocation(object sender, EventArgs e)
-        {
-            if (this.Archive == null)
-            {
-                MessageBox.Show(
-                    "No open archive.",
-                    "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            else if (this.Manager.ActiveProject == null)
-            {
-                MessageBox.Show(
-                    "No active project.",
-                    "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            // case insensitive, but who cares eh?
-
-            var inputPath = this.openDialog.FileName.ToLowerInvariant();
-            var installPath = this.Manager.ActiveProject.InstallPath.ToLowerInvariant();
-
-            if (inputPath.StartsWith(installPath) == false)
-            {
-                MessageBox.Show(
-                    "This archive is not within the install directory.",
-                    "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            var baseName = inputPath.Substring(installPath.Length + 1);
-            
-            string outputPath;
-            outputPath = Path.Combine(this.Manager.ActiveProject.ListsPath, "files");
-            outputPath = Path.Combine(outputPath, baseName);
-            outputPath = Path.ChangeExtension(outputPath, ".filelist");
-
-            if (MessageBox.Show(
-                "Save to\n" + outputPath + "\n?",
-                "Question",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question) == DialogResult.No)
-            {
-                return;
-            }
-
-            Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
-            this.SaveKnownFileList(outputPath);
         }
     }
 }

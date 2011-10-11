@@ -56,9 +56,7 @@ namespace Gibbed.Bioware.ErfViewer
             this.projectComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.openButton = new System.Windows.Forms.ToolStripButton();
             this.saveAllButton = new System.Windows.Forms.ToolStripButton();
-            this.reloadListsButton = new System.Windows.Forms.ToolStripSplitButton();
-            this.saveKnownListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveKnownListToDefaultLocationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reloadListsButton = new System.Windows.Forms.ToolStripButton();
             this.settingsButton = new System.Windows.Forms.ToolStripDropDownButton();
             this.saveOnlyKnownFilesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dontOverwriteFilesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -121,29 +119,12 @@ namespace Gibbed.Bioware.ErfViewer
             // 
             // reloadListsButton
             // 
-            this.reloadListsButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saveKnownListToolStripMenuItem,
-            this.saveKnownListToDefaultLocationToolStripMenuItem});
             this.reloadListsButton.Image = global::Gibbed.Bioware.ErfViewer.Properties.Resources.ReloadLists;
             this.reloadListsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.reloadListsButton.Name = "reloadListsButton";
-            this.reloadListsButton.Size = new System.Drawing.Size(101, 22);
+            this.reloadListsButton.Size = new System.Drawing.Size(89, 22);
             this.reloadListsButton.Text = "&Reload Lists";
-            this.reloadListsButton.ButtonClick += new System.EventHandler(this.OnReloadLists);
-            // 
-            // saveKnownListToolStripMenuItem
-            // 
-            this.saveKnownListToolStripMenuItem.Name = "saveKnownListToolStripMenuItem";
-            this.saveKnownListToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
-            this.saveKnownListToolStripMenuItem.Text = "Save Known &List";
-            this.saveKnownListToolStripMenuItem.Click += new System.EventHandler(this.OnSaveKnownFileList);
-            // 
-            // saveKnownListToDefaultLocationToolStripMenuItem
-            // 
-            this.saveKnownListToDefaultLocationToolStripMenuItem.Name = "saveKnownListToDefaultLocationToolStripMenuItem";
-            this.saveKnownListToDefaultLocationToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
-            this.saveKnownListToDefaultLocationToolStripMenuItem.Text = "Save Known List to &default location";
-            this.saveKnownListToDefaultLocationToolStripMenuItem.Click += new System.EventHandler(this.OnSaveKnownFileListToDefaultLocation);
+            this.reloadListsButton.Click += new System.EventHandler(this.OnReloadLists);
             // 
             // settingsButton
             // 
@@ -281,14 +262,12 @@ namespace Gibbed.Bioware.ErfViewer
         private System.Windows.Forms.ToolStripDropDownButton settingsButton;
         private System.Windows.Forms.ToolStripMenuItem saveOnlyKnownFilesMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dontOverwriteFilesMenuItem;
-        private System.Windows.Forms.ToolStripSplitButton reloadListsButton;
-        private System.Windows.Forms.ToolStripMenuItem saveKnownListToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveKnownFileListDialog;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel infoStatusLabel;
         private System.Windows.Forms.ToolStripStatusLabel modeStatusLabel;
         private System.Windows.Forms.ToolStripStatusLabel spacerStatusLabel;
-        private System.Windows.Forms.ToolStripMenuItem saveKnownListToDefaultLocationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripButton reloadListsButton;
     }
 }
 

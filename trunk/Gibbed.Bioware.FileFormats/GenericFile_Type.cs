@@ -25,7 +25,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Gibbed.Helpers;
+using Gibbed.IO;
 using GFF = Gibbed.Bioware.FileFormats.GenericFileFormat;
 
 namespace Gibbed.Bioware.FileFormats
@@ -131,7 +131,7 @@ namespace Gibbed.Bioware.FileFormats
 
                     structDef.Fields.Add(fieldDef);
 
-                    if (fieldDef.Flags.HasFlag(GFF.FieldFlags.IsList) == true)
+                    if ((fieldDef.Flags & GFF.FieldFlags.IsList) != 0)
                     {
                         offset += 4;
                     }
@@ -498,6 +498,38 @@ namespace Gibbed.Bioware.FileFormats
                         {
                             return this.StringTable[(int)dataOffset];
                         }
+                    }
+
+                    case GFF.FieldType.TalkString:
+                    {
+                        var tlk = new GFF.Builtins.TalkString();
+                        tlk.Id = input.ReadValueU32(LittleEndian);
+
+                        var dataOffset = input.ReadValueU32(LittleEndian);
+                        if (dataOffset == 0xFFFFFFFF)
+                        {
+                            tlk.String = null;
+                        }
+                        else if (dataOffset == 0)
+                        {
+                            tlk.String = "";
+                        }
+                        else
+                        {
+                            if (this.FileVersion < 1)
+                            {
+                                input.Seek(dataOffset, SeekOrigin.Begin);
+                                var count = input.ReadValueU32(LittleEndian);
+                                tlk.String = input.ReadString(count * 2, true,
+                                    LittleEndian == true ? Encoding.Unicode : Encoding.BigEndianUnicode);
+                            }
+                            else
+                            {
+                                tlk.String = this.StringTable[(int)dataOffset];
+                            }
+                        }
+
+                        return tlk;
                     }
 
                     case GFF.FieldType.Structure:

@@ -24,7 +24,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Gibbed.Helpers;
+using Gibbed.IO;
 using GFF = Gibbed.Bioware.FileFormats.OldGenericFileFormat;
 
 namespace Gibbed.Bioware.FileFormats
@@ -378,7 +378,6 @@ namespace Gibbed.Bioware.FileFormats
 
         private struct StructFormat
         {
-            public uint Type;
             public uint DataOrDataOffset;
             public uint FieldCount;
         }
