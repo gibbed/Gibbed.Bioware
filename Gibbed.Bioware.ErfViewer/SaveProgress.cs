@@ -28,7 +28,7 @@ using System.Threading;
 using System.Windows.Forms;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
-using Microsoft.WindowsAPICodePack.Taskbar;
+//using Microsoft.WindowsAPICodePack.Taskbar;
 using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
@@ -53,10 +53,10 @@ namespace Gibbed.Bioware.ErfViewer
 			this.statusLabel.Text = status;
 			this.progressBar.Value = percent;
 
-            if (TaskbarManager.IsPlatformSupported == true)
+            /*if (TaskbarManager.IsPlatformSupported == true)
             {
                 TaskbarManager.Instance.SetProgressValue(percent, 100);
-            }
+            }*/
 		}
 
 		delegate void SaveDoneDelegate();
