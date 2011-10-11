@@ -37,7 +37,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
 
         public bool IsList
         {
-            get { return this.Flags.HasFlag(FieldFlags.IsList); }
+            get { return (this.Flags & FieldFlags.IsList) != 0; }
             set
             {
                 if (value == true)
@@ -53,7 +53,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
 
         public bool IsReference
         {
-            get { return this.Flags.HasFlag(FieldFlags.IsReference); }
+            get { return (this.Flags & FieldFlags.IsReference) != 0; }
             set
             {
                 if (value == true)

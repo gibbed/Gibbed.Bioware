@@ -25,7 +25,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Gibbed.Helpers;
+using Gibbed.IO;
 using GFF = Gibbed.Bioware.FileFormats.GenericFileFormat;
 
 namespace Gibbed.Bioware.FileFormats
@@ -317,7 +317,7 @@ namespace Gibbed.Bioware.FileFormats
             def.Id = 0;
             def.Offset = 0;
 
-            if (flags.HasFlag(GFF.FieldFlags.IsStructure) == true)
+            if ((flags & GFF.FieldFlags.IsStructure) != 0)
             {
                 flags &= ~GFF.FieldFlags.IsStructure;
                 def.Type = GFF.FieldType.Structure;
@@ -393,19 +393,21 @@ namespace Gibbed.Bioware.FileFormats
                             var dataOffset = input.ReadValueU32(LittleEndian);
                             if (dataOffset == 0xFFFFFFFF)
                             {
-                                return "";
-                            }
-
-                            if (this.FileVersion < 1)
-                            {
-                                input.Seek(dataOffset, SeekOrigin.Begin);
-                                var length = input.ReadValueU32(LittleEndian);
-                                list.Add(input.ReadString(length * 2, true,
-                                    LittleEndian == true ? Encoding.Unicode : Encoding.BigEndianUnicode));
+                                list.Add(null);
                             }
                             else
                             {
-                                list.Add(this.StringTable[(int)dataOffset]);
+                                if (this.FileVersion < 1)
+                                {
+                                    input.Seek(dataOffset, SeekOrigin.Begin);
+                                    var length = input.ReadValueU32(LittleEndian);
+                                    list.Add(input.ReadString(length * 2, true,
+                                        LittleEndian == true ? Encoding.Unicode : Encoding.BigEndianUnicode));
+                                }
+                                else
+                                {
+                                    list.Add(this.StringTable[(int)dataOffset]);
+                                }
                             }
 
                             itemOffset += 4;
@@ -452,7 +454,12 @@ namespace Gibbed.Bioware.FileFormats
             }
             else
             {
-                if (def.IsReference == true)
+                if (def.IsReference == true &&
+                    def.Type == GFF.FieldType.Generic)
+                {
+                    return this.ExportGeneric(state);
+                }
+                else if (def.IsReference == true)
                 {
                     var referenceOffset = input.ReadValueU32(LittleEndian);
                     if (referenceOffset == 0xFFFFFFFF)
@@ -469,6 +476,11 @@ namespace Gibbed.Bioware.FileFormats
 
                 switch (def.Type)
                 {
+                    case GFF.FieldType.Generic:
+                    {
+                        throw new FormatException();
+                    }
+
                     case GFF.FieldType.String:
                     {
                         var dataOffset = input.ReadValueU32(LittleEndian);

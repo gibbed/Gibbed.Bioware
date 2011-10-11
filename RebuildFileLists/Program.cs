@@ -23,9 +23,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Gibbed.Bioware.FileFormats;
 using NDesk.Options;
-using Setup = Gibbed.Bioware.Setup;
+using ProjectData = Gibbed.ProjectData;
 
 namespace RebuildFileLists
 {
@@ -90,15 +91,21 @@ namespace RebuildFileLists
                 return;
             }
 
-            var manager = Setup.Manager.Load();
+            Console.WriteLine("Loading project...");
+
+            var manager = ProjectData.Manager.Load();
             if (manager.ActiveProject == null)
             {
                 Console.WriteLine("Nothing to do: no active project loaded.");
                 return;
             }
 
-            var installPath = manager.ActiveProject.InstallPath;
-            var listsPath = manager.ActiveProject.ListsPath;
+            var project = manager.ActiveProject;
+            var fileNames = project.LoadListsFileNames();
+            var typeNames = project.LoadListsTypeNames();
+
+            var installPath = project.InstallPath;
+            var listsPath = project.ListsPath;
 
             if (installPath == null)
             {
@@ -115,13 +122,19 @@ namespace RebuildFileLists
             var inputPaths = new List<string>();
             /* would have added just the root paths
              * but that nets the addins directory too... */
+            /*
             inputPaths.AddRange(Directory.GetFiles(Path.Combine(installPath, "modules"), "*.erf", SearchOption.AllDirectories));
             inputPaths.AddRange(Directory.GetFiles(Path.Combine(installPath, "modules"), "*.rim", SearchOption.AllDirectories));
             inputPaths.AddRange(Directory.GetFiles(Path.Combine(installPath, "packages"), "*.erf", SearchOption.AllDirectories));
             inputPaths.AddRange(Directory.GetFiles(Path.Combine(installPath, "packages"), "*.rim", SearchOption.AllDirectories));
+            */
+            inputPaths.AddRange(Directory.GetFiles(installPath, "*.erf", SearchOption.AllDirectories));
+            inputPaths.AddRange(Directory.GetFiles(installPath, "*.crf", SearchOption.AllDirectories));
+            inputPaths.AddRange(Directory.GetFiles(installPath, "*.rim", SearchOption.AllDirectories));
 
-            long totalCount = 0;
-            long totalKnownCount = 0;
+            var outputPaths = new List<string>();
+
+            var breakdowns = new Breakdowns();
 
             Console.WriteLine("Processing...");
             foreach (var inputpath in inputPaths)
@@ -135,47 +148,71 @@ namespace RebuildFileLists
                 Console.WriteLine(outputPath);
                 outputPath = Path.Combine(listsPath, outputPath);
 
+                if (outputPaths.Contains(outputPath) == true)
+                {
+                    throw new InvalidOperationException();
+                }
+
+                outputPaths.Add(outputPath);
+
                 var erf = new EncapsulatedResourceFile();
                 using (var input = File.OpenRead(inputpath))
                 {
                     erf.Deserialize(input);
                 }
 
-                var names = new List<string>();
-                string headerLine = null;
+                var localBreakdowns = new Breakdowns();
 
-                int count = 0;
+                var names = new List<string>();
                 foreach (var entry in erf.Entries)
                 {
                     string name = entry.Name;
 
                     if (name == null)
                     {
-                        if (manager.ActiveProject.FileHashLookup.ContainsKey(entry.NameHash) == true)
+                        name = fileNames[entry.NameHash];
+                    }
+
+                    var type = typeNames[entry.TypeHash] ?? entry.TypeHash.ToString("X8");
+
+                    if (name != null)
+                    {
+                        name = name.ToLowerInvariant();
+                        if (names.Contains(name) == false)
                         {
-                            name = manager.ActiveProject.FileHashLookup[entry.NameHash];
+                            names.Add(name);
+
+                            localBreakdowns[type].Known++;
                         }
                     }
 
-                    if (name != null && names.Contains(name) == false)
-                    {
-                        names.Add(name);
-                        count++;
-                    }
+                    localBreakdowns[type].Total++;
                 }
 
-                headerLine = string.Format("{0}/{1} ({2}%)",
-                    count, erf.Entries.Count,
-                    (int)Math.Floor(((float)count / (float)erf.Entries.Count) * 100));
+                breakdowns += localBreakdowns;
 
                 names.Sort();
 
                 Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
                 using (var output = new StreamWriter(outputPath))
                 {
-                    if (headerLine != null)
+                    var breakdown = localBreakdowns.ToBreakdown();
+
+                    output.WriteLine("; {0}", breakdown);
+
+                    if (breakdown.Known == 0 ||
+                        localBreakdowns.Entries.Count != 1)
                     {
-                        output.WriteLine("; {0}", headerLine);
+                        output.WriteLine("; ");
+
+                        int padding = localBreakdowns.Entries.Max(e => e.Key.Length);
+                        foreach (var kvp in localBreakdowns.Entries.OrderBy(e => e.Key))
+                        {
+                            output.WriteLine("; {0} - {1}",
+                                kvp.Key.PadLeft(padding),
+                                kvp.Value.ToString());
+                        }
+                        output.WriteLine("; ");
                     }
 
                     foreach (string name in names)
@@ -183,16 +220,38 @@ namespace RebuildFileLists
                         output.WriteLine(name);
                     }
                 }
-
-                totalCount += erf.Entries.Count;
-                totalKnownCount += count;
             }
 
             using (var output = new StreamWriter(Path.Combine(Path.Combine(listsPath, "files"), "status.txt")))
             {
-                output.WriteLine("{0}/{1} ({2}%)",
-                    totalKnownCount, totalCount,
-                    (int)Math.Floor(((float)totalKnownCount / (float)totalCount) * 100));
+                output.WriteLine("{0}", breakdowns.ToBreakdown());
+
+                int padding = breakdowns.Entries.Max(e => e.Key.Length);
+
+                var incomplete = breakdowns.Entries.Where(e => e.Value.Percent < 100.0);
+                var complete = breakdowns.Entries.Where(e => e.Value.Percent >= 100.0);
+
+                if (incomplete.Count() > 0)
+                {
+                    output.WriteLine();
+                    foreach (var kvp in incomplete.OrderBy(e => e.Value.Percent))
+                    {
+                        output.WriteLine("{0} - {1}",
+                            kvp.Key.PadLeft(padding),
+                            kvp.Value.ToString());
+                    }
+                }
+
+                if (complete.Count() > 0)
+                {
+                    output.WriteLine();
+                    foreach (var kvp in complete.OrderBy(e => e.Key))
+                    {
+                        output.WriteLine("{0} - {1}",
+                            kvp.Key.PadLeft(padding),
+                            kvp.Value.ToString());
+                    }
+                }
             }
         }
     }

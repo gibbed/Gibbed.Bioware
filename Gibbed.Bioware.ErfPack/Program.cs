@@ -25,7 +25,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Gibbed.Bioware.FileFormats;
-using Gibbed.Helpers;
+using Gibbed.IO;
 using NDesk.Options;
 using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
@@ -152,7 +152,18 @@ namespace Gibbed.Bioware.ErfPack
                     }
 
                     paths[hash] = fullPath;
-                    lookup[hash] = (stripFileNames == false && hasName == true) ? partPath : null;
+
+                    if (hasName == false)
+                    {
+                        partPath = null;
+                    }
+                    else if (stripFileNames == true &&
+                        Path.GetExtension(fullPath) != ".gda")
+                    {
+                        partPath = null;
+                    }
+
+                    lookup[hash] = partPath;
                 }
             }
 

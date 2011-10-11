@@ -40,6 +40,12 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\other\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>..\other\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>..\other\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -97,13 +103,9 @@
       <Project>{08BE5895-CE01-473F-B8CC-F6924D1926D2}</Project>
       <Name>Gibbed.Bioware.FileFormats</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gibbed.Bioware.Setup\Gibbed.Bioware.Setup.csproj">
-      <Project>{9F588011-2AA7-43C5-96FE-7C03D10EA5A6}</Project>
-      <Name>Gibbed.Bioware.Setup</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Gibbed.Helpers\Gibbed.Helpers.csproj">
-      <Project>{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26}</Project>
-      <Name>Gibbed.Helpers</Name>
+    <ProjectReference Include="..\Gibbed.ProjectData\Gibbed.ProjectData.csproj">
+      <Project>{F27A289E-3376-4653-89F3-D19C1ECABF33}</Project>
+      <Name>Gibbed.ProjectData</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

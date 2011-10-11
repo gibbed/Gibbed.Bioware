@@ -25,7 +25,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Gibbed.Helpers;
+using Gibbed.IO;
 using GFF = Gibbed.Bioware.FileFormats.GenericFileFormat;
 
 namespace Gibbed.Bioware.FileFormats
@@ -100,7 +100,7 @@ namespace Gibbed.Bioware.FileFormats
                 return "__ROOT__";
             }
 
-            return Encoding.ASCII.GetString(BitConverter.GetBytes(id)).Trim();
+            return Encoding.ASCII.GetString(BitConverter.GetBytes(id.Swap())).Trim();
         }
 
         private static void PrintLine(int level, string format, params object[] arg)
@@ -252,7 +252,8 @@ namespace Gibbed.Bioware.FileFormats
         {
             input.Seek(0, SeekOrigin.Begin);
 
-            if (input.ReadValueU32(false) != 0x47464620)
+            var magic = input.ReadValueU32(false);
+            if (magic != 0x47464620)
             {
                 throw new FormatException();
             }
@@ -312,7 +313,7 @@ namespace Gibbed.Bioware.FileFormats
                     var type = (ushort)(rawFlags & 0xFFFF);
                     var flags = (GFF.FieldFlags)((rawFlags >> 16) & 0xFFFF);
 
-                    if (flags.HasFlag(GFF.FieldFlags.IsStructure) == true)
+                    if ((flags & GFF.FieldFlags.IsStructure) != 0)
                     {
                         flags &= ~GFF.FieldFlags.IsStructure;
                         fieldDef.Type = GFF.FieldType.Structure;

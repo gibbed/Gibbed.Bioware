@@ -51,10 +51,6 @@
       <Project>{08BE5895-CE01-473F-B8CC-F6924D1926D2}</Project>
       <Name>Gibbed.Bioware.FileFormats</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gibbed.Helpers\Gibbed.Helpers.csproj">
-      <Project>{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26}</Project>
-      <Name>Gibbed.Helpers</Name>
-    </ProjectReference>
     <ProjectReference Include="..\NDesk.Options\NDesk.Options.csproj">
       <Project>{C98A6CD6-9422-4B35-8B7A-F520D75534D1}</Project>
       <Name>NDesk.Options</Name>

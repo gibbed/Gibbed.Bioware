@@ -28,6 +28,7 @@ using System.Threading;
 using System.Windows.Forms;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+using Microsoft.WindowsAPICodePack.Taskbar;
 using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
@@ -51,6 +52,11 @@ namespace Gibbed.Bioware.ErfViewer
 
 			this.statusLabel.Text = status;
 			this.progressBar.Value = percent;
+
+            if (TaskbarManager.IsPlatformSupported == true)
+            {
+                TaskbarManager.Instance.SetProgressValue(percent, 100);
+            }
 		}
 
 		delegate void SaveDoneDelegate();
@@ -98,7 +104,7 @@ namespace Gibbed.Bioware.ErfViewer
                 }
                 else
                 {
-                    if (info.FileNames.ContainsKey(entry.NameHash) == true)
+                    if (info.FileNames.Contains(entry.NameHash) == true)
                     {
                         fileName = info.FileNames[entry.NameHash];
                     }
@@ -111,7 +117,7 @@ namespace Gibbed.Bioware.ErfViewer
                         }
 
                         if (info.TypeNames != null &&
-                            info.TypeNames.ContainsKey(entry.TypeHash) == true)
+                            info.TypeNames.Contains(entry.TypeHash) == true)
                         {
                             fileName =
                                 entry.NameHash.ToString("X16") + "." +
@@ -229,8 +235,8 @@ namespace Gibbed.Bioware.ErfViewer
 			public Stream Stream;
             public ERF Archive;
             public IEnumerable<ERF.Entry> Saving;
-			public Dictionary<ulong, string> FileNames;
-            public Dictionary<uint, string> TypeNames;
+            public ProjectData.HashList<ulong> FileNames;
+            public ProjectData.HashList<uint> TypeNames;
             public SaveAllSettings Settings;
 		}
 
@@ -242,8 +248,8 @@ namespace Gibbed.Bioware.ErfViewer
             Stream stream,
             ERF archive,
             IEnumerable<ERF.Entry> saving,
-            Dictionary<ulong, string> fileNames,
-            Dictionary<uint, string> typeNames,
+            ProjectData.HashList<ulong> fileNames,
+            ProjectData.HashList<uint> typeNames,
             string basePath,
             SaveAllSettings settings)
 		{

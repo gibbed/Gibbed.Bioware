@@ -28,9 +28,9 @@ namespace Gibbed.Bioware.ErfViewer
 {
     internal class EntryComparer : IComparer<ERF.Entry>
     {
-        private Dictionary<ulong, string> FileNames;
+        private ProjectData.HashList<ulong> FileNames;
 
-        public EntryComparer(Dictionary<ulong, string> names)
+        public EntryComparer(ProjectData.HashList<ulong> names)
         {
             this.FileNames = names;
         }
@@ -47,12 +47,12 @@ namespace Gibbed.Bioware.ErfViewer
 
             if (this.FileNames != null)
             {
-                if (x_n == null && this.FileNames.ContainsKey(x.NameHash) == true)
+                if (x_n == null && this.FileNames.Contains(x.NameHash) == true)
                 {
                     x_n = this.FileNames[x.NameHash];
                 }
 
-                if (y_n == null && this.FileNames.ContainsKey(y.NameHash) == true)
+                if (y_n == null && this.FileNames.Contains(y.NameHash) == true)
                 {
                     y_n = this.FileNames[y.NameHash];
                 }

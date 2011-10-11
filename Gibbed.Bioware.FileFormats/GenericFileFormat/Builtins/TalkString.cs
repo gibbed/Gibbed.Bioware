@@ -37,5 +37,11 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat.Builtins
             this.Id = id;
             this.String = str;
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0}, {1}",
+                this.Id, this.String ?? "");
+        }
     }
 }

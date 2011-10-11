@@ -26,7 +26,6 @@ using System.IO;
 using System.Text;
 using System.Xml;
 using Gibbed.Bioware.FileFormats;
-using Gibbed.Helpers;
 using NDesk.Options;
 using GFF = Gibbed.Bioware.FileFormats.GenericFileFormat;
 
@@ -69,7 +68,6 @@ namespace Gibbed.Bioware.GdaDecompile
         public static void Main(string[] args)
         {
             var exportType = ExportType.CSV;
-            bool overwriteFiles = false;
             bool showHelp = false;
             bool pauseOnError = true;
 
@@ -79,11 +77,6 @@ namespace Gibbed.Bioware.GdaDecompile
                     "np|nopause",
                     "don't pause on errors",
                     v => pauseOnError = v == null
-                },
-                {
-                    "o|overwrite",
-                    "overwrite files if they already exist", 
-                    v => overwriteFiles = v != null
                 },
                 {
                     "csv",
@@ -133,24 +126,18 @@ namespace Gibbed.Bioware.GdaDecompile
             string inputPath = extras[0];
             string outputPath = extras.Count > 1 ? extras[1] : Path.ChangeExtension(inputPath, "." + exportType.ToString().ToLowerInvariant());
 
-            if (overwriteFiles == false &&
-                File.Exists(outputPath))
-            {
-                Console.WriteLine("'{0}' already exists.", Path.GetFileName(outputPath));
-                Pause(pauseOnError);
-                return;
-            }
-
+            /*
             var manager = Setup.Manager.Load();
             if (manager.ActiveProject != null)
             {
                 manager.ActiveProject.Load();
-                Names = manager.ActiveProject.GDAHashLookup;
+                Names = manager.ActiveProject.ColumnHashLookup;
             }
             else
             {
                 Console.WriteLine("Warning: no active project loaded.");
             }
+            */
 
             using (var gff = new GenericFile_Data())
             {
@@ -176,25 +163,29 @@ namespace Gibbed.Bioware.GdaDecompile
 
                 var root = gff.Export();
                 var columnDefinitions = root[10002].As<List<KeyValue>>();
-                var rows = root[10003];
+                var rows = root[10003].As<List<KeyValue>>();
 
                 Console.WriteLine("Validating GDA...");
-                foreach (var kv in rows.As<List<KeyValue>>())
+
+                if (rows != null)
                 {
-                    if (kv.Values.Count != columnDefinitions.Count)
+                    foreach (var kv in rows)
                     {
-                        throw new FormatException("mismatching column count for row");
-                    }
-
-                    for (int i = 0; i < kv.Values.Count; i++)
-                    {
-                        var columnDefinition = columnDefinitions[i];
-                        var type = columnDefinition[10999].As<byte>(0xFF);
-                        var column = kv[10005 + i];
-
-                        if (type > 4)
+                        if (kv.Values.Count != columnDefinitions.Count)
                         {
-                            throw new FormatException("bad variable type");
+                            throw new FormatException("mismatching column count for row");
+                        }
+
+                        for (int i = 0; i < kv.Values.Count; i++)
+                        {
+                            var columnDefinition = columnDefinitions[i];
+                            var type = columnDefinition[10999].As<byte>(0xFF);
+                            var column = kv[10005 + i];
+
+                            if (type > 4)
+                            {
+                                throw new FormatException("bad variable type");
+                            }
                         }
                     }
                 }
@@ -255,7 +246,7 @@ namespace Gibbed.Bioware.GdaDecompile
             Console.WriteLine("Decompiling data to CSV...");
 
             var columnDefinitions = root[10002].As<List<KeyValue>>();
-            var rows = root[10003];
+            var rows = root[10003].As<List<KeyValue>>();
 
             using (var writer = new StreamWriter(output, Encoding.Unicode))
             {
@@ -269,59 +260,62 @@ namespace Gibbed.Bioware.GdaDecompile
                     ","));
 
                 // write rows
-                foreach (var kv in rows.As<List<KeyValue>>())
+                if (rows != null)
                 {
-                    for (int i = 0; i < kv.Values.Count; i++)
+                    foreach (var kv in rows)
                     {
-                        var columnDefinition = columnDefinitions[i];
-                        var type = (G2DAColumnType)columnDefinition[10999].As<byte>(0xFF);
-                        var column = kv[10005 + i];
-
-                        switch (type)
+                        for (int i = 0; i < kv.Values.Count; i++)
                         {
-                            case G2DAColumnType.@string:
+                            var columnDefinition = columnDefinitions[i];
+                            var type = (G2DAColumnType)columnDefinition[10999].As<byte>(0xFF);
+                            var column = kv[10005 + i];
+
+                            switch (type)
                             {
-                                writer.Write((string)column.Value);
-                                break;
+                                case G2DAColumnType.@string:
+                                {
+                                    writer.Write((string)column.Value);
+                                    break;
+                                }
+
+                                case G2DAColumnType.@int:
+                                {
+                                    writer.Write((int)column.Value);
+                                    break;
+                                }
+
+                                case G2DAColumnType.@float:
+                                {
+                                    writer.Write((float)column.Value);
+                                    break;
+                                }
+
+                                case G2DAColumnType.@bool:
+                                {
+                                    writer.Write((byte)column.Value);
+                                    break;
+                                }
+
+                                case G2DAColumnType.@resource:
+                                {
+                                    writer.Write((string)column.Value);
+                                    break;
+                                }
+
+                                default:
+                                {
+                                    throw new FormatException("unsupported variable type");
+                                }
                             }
 
-                            case G2DAColumnType.@int:
+                            if (i + 1 < kv.Values.Count)
                             {
-                                writer.Write((int)column.Value);
-                                break;
-                            }
-
-                            case G2DAColumnType.@float:
-                            {
-                                writer.Write((float)column.Value);
-                                break;
-                            }
-
-                            case G2DAColumnType.@bool:
-                            {
-                                writer.Write((byte)column.Value);
-                                break;
-                            }
-
-                            case G2DAColumnType.@resource:
-                            {
-                                writer.Write((string)column.Value);
-                                break;
-                            }
-
-                            default:
-                            {
-                                throw new FormatException("unsupported variable type");
+                                writer.Write(",");
                             }
                         }
 
-                        if (i + 1 < kv.Values.Count)
-                        {
-                            writer.Write(",");
-                        }
+                        writer.WriteLine();
                     }
-
-                    writer.WriteLine();
                 }
             }
         }
@@ -331,7 +325,7 @@ namespace Gibbed.Bioware.GdaDecompile
             Console.WriteLine("Decompiling data to XLSX...");
 
             var columnDefinitions = root[10002].As<List<KeyValue>>();
-            var rows = root[10003];
+            var rows = root[10003].As<List<KeyValue>>();
 
             var xml = XmlWriter.Create(output,
                 new XmlWriterSettings()
@@ -391,74 +385,77 @@ namespace Gibbed.Bioware.GdaDecompile
             xml.WriteEndElement();
 
             // write rows
-            foreach (var kv in rows.As<List<KeyValue>>())
+            if (rows != null)
             {
-                xml.WriteStartElement("ss", "Row", "urn:schemas-microsoft-com:office:spreadsheet");
-
-                for (int i = 0; i < kv.Values.Count; i++)
+                foreach (var kv in rows)
                 {
-                    var columnDefinition = columnDefinitions[i];
-                    var type = (G2DAColumnType)columnDefinition[10999].As<byte>(0xFF);
-                    var column = kv[10005 + i];
+                    xml.WriteStartElement("ss", "Row", "urn:schemas-microsoft-com:office:spreadsheet");
 
-                    xml.WriteStartElement("ss", "Cell", "urn:schemas-microsoft-com:office:spreadsheet");
-                    xml.WriteStartElement("ss", "Data", "urn:schemas-microsoft-com:office:spreadsheet");
-
-                    switch (type)
+                    for (int i = 0; i < kv.Values.Count; i++)
                     {
-                        case G2DAColumnType.@string:
+                        var columnDefinition = columnDefinitions[i];
+                        var type = (G2DAColumnType)columnDefinition[10999].As<byte>(0xFF);
+                        var column = kv[10005 + i];
+
+                        xml.WriteStartElement("ss", "Cell", "urn:schemas-microsoft-com:office:spreadsheet");
+                        xml.WriteStartElement("ss", "Data", "urn:schemas-microsoft-com:office:spreadsheet");
+
+                        switch (type)
                         {
-                            xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
-                                "String");
-                            xml.WriteString((string)column.Value);
-                            break;
+                            case G2DAColumnType.@string:
+                            {
+                                xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
+                                    "String");
+                                xml.WriteString((string)column.Value);
+                                break;
+                            }
+
+                            case G2DAColumnType.@int:
+                            {
+                                xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
+                                    "Number");
+                                xml.WriteString(((int)column.Value).ToString());
+                                break;
+                            }
+
+                            case G2DAColumnType.@float:
+                            {
+                                xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
+                                    "Number");
+                                xml.WriteString(((float)column.Value).ToString());
+                                break;
+                            }
+
+                            case G2DAColumnType.@bool:
+                            {
+                                throw new NotSupportedException();
+                                /*
+                                xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
+                                    "Boolean");
+                                xml.WriteString(((int)column.Value).ToString());
+                                break;*/
+                            }
+
+                            case G2DAColumnType.@resource:
+                            {
+                                xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
+                                    "String");
+                                xml.WriteString((string)column.Value);
+                                break;
+                            }
+
+                            default:
+                            {
+                                throw new FormatException("unsupported variable type");
+                            }
                         }
 
-                        case G2DAColumnType.@int:
-                        {
-                            xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
-                                "Number");
-                            xml.WriteString(((int)column.Value).ToString());
-                            break;
-                        }
-
-                        case G2DAColumnType.@float:
-                        {
-                            xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
-                                "Number");
-                            xml.WriteString(((float)column.Value).ToString());
-                            break;
-                        }
-
-                        case G2DAColumnType.@bool:
-                        {
-                            throw new NotSupportedException();
-
-                            xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
-                                "Boolean");
-                            xml.WriteString(((int)column.Value).ToString());
-                            break;
-                        }
-
-                        case G2DAColumnType.@resource:
-                        {
-                            xml.WriteAttributeString("ss", "Type", "urn:schemas-microsoft-com:office:spreadsheet",
-                                "String");
-                            xml.WriteString((string)column.Value);
-                            break;
-                        }
-
-                        default:
-                        {
-                            throw new FormatException("unsupported variable type");
-                        }
+                        xml.WriteEndElement();
+                        xml.WriteEndElement();
                     }
 
                     xml.WriteEndElement();
-                    xml.WriteEndElement();
                 }
-
-                xml.WriteEndElement();
             }
 
             xml.WriteEndElement();
