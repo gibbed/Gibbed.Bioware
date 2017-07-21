@@ -75,6 +75,8 @@ namespace Gibbed.Bioware.FileFormats
 
         private void ImportField(GFF.FieldDefinition def, KeyValue data, long offset, ref long newOffset, ImportState state)
         {
+            var endian = this.Endian;
+
             var output = this.Data;
             output.Seek(offset + def.Offset, SeekOrigin.Begin);
 
@@ -89,14 +91,14 @@ namespace Gibbed.Bioware.FileFormats
                 var list = (IList)data.Value;
                 if (list == null)
                 {
-                    output.WriteValueU32(0xFFFFFFFF, LittleEndian);
+                    output.WriteValueU32(0xFFFFFFFF, endian);
                 }
                 else
                 {
-                    output.WriteValueU32((uint)newOffset, LittleEndian);
+                    output.WriteValueU32((uint)newOffset, endian);
 
                     output.Seek(newOffset, SeekOrigin.Begin);
-                    output.WriteValueS32(list.Count, LittleEndian);
+                    output.WriteValueS32(list.Count, endian);
                     newOffset += 4;
 
                     uint itemSize;
@@ -151,7 +153,7 @@ namespace Gibbed.Bioware.FileFormats
                                 long itemOffset = output.Position;
                                 foreach (var item in list)
                                 {
-                                    GFF.Builtin.Serialize(output, def.Type, item, LittleEndian);
+                                    GFF.Builtin.Serialize(output, def.Type, item, endian);
                                     itemOffset += itemSize;
                                 }
                             }
@@ -177,18 +179,18 @@ namespace Gibbed.Bioware.FileFormats
 
                         if (s == null || s.Length == 0)
                         {
-                            output.WriteValueU32(0xFFFFFFFF, LittleEndian);
+                            output.WriteValueU32(0xFFFFFFFF, endian);
                         }
                         else
                         {
                             var length = s.Length + 1;
 
-                            output.WriteValueU32((uint)newOffset, LittleEndian);
+                            output.WriteValueU32((uint)newOffset, endian);
 
                             output.Seek(newOffset, SeekOrigin.Begin);
-                            output.WriteValueS32(length, LittleEndian);
-                            output.WriteString(s, LittleEndian ? Encoding.Unicode : Encoding.BigEndianUnicode);
-                            output.WriteValueU16(0, LittleEndian);
+                            output.WriteValueS32(length, endian);
+                            output.WriteString(s, endian == Endian.Little ? Encoding.Unicode : Encoding.BigEndianUnicode);
+                            output.WriteValueU16(0, endian);
                             newOffset += 4 + (2 * length);
                         }
 
@@ -198,26 +200,26 @@ namespace Gibbed.Bioware.FileFormats
                     case GFF.FieldType.TalkString:
                     {
                         var s = data.As<GFF.Builtins.TalkString>();
-                        output.WriteValueU32(s.Id, LittleEndian);
+                        output.WriteValueU32(s.Id, endian);
 
                         if (s.String == null)
                         {
-                            output.WriteValueU32(0xFFFFFFFF, LittleEndian);
+                            output.WriteValueU32(0xFFFFFFFF, endian);
                         }
                         else if (s.String.Length == 0)
                         {
-                            output.WriteValueU32(0, LittleEndian);
+                            output.WriteValueU32(0, endian);
                         }
                         else
                         {
                             var length = s.String.Length + 1;
 
-                            output.WriteValueU32((uint)newOffset, LittleEndian);
+                            output.WriteValueU32((uint)newOffset, endian);
 
                             output.Seek(newOffset, SeekOrigin.Begin);
-                            output.WriteValueS32(length, LittleEndian);
-                            output.WriteString(s.String, LittleEndian ? Encoding.Unicode : Encoding.BigEndianUnicode);
-                            output.WriteValueU16(0, LittleEndian);
+                            output.WriteValueS32(length, endian);
+                            output.WriteString(s.String, endian == Endian.Little ? Encoding.Unicode : Encoding.BigEndianUnicode);
+                            output.WriteValueU16(0, endian);
                             newOffset += 4 + (2 * length);
                         }
 
@@ -230,11 +232,11 @@ namespace Gibbed.Bioware.FileFormats
                         {
                             if (data == null || data.Values == null)
                             {
-                                output.WriteValueU32(0xFFFFFFFF, LittleEndian);
+                                output.WriteValueU32(0xFFFFFFFF, endian);
                             }
                             else
                             {
-                                output.WriteValueU32((uint)newOffset, LittleEndian);
+                                output.WriteValueU32((uint)newOffset, endian);
                                 output.Seek(newOffset, SeekOrigin.Begin);
                                 
                                 var subdef = this.Structures[def.StructureId];
@@ -263,7 +265,7 @@ namespace Gibbed.Bioware.FileFormats
 
                     default:
                     {
-                        GFF.Builtin.Serialize(output, def.Type, data.Value, LittleEndian);
+                        GFF.Builtin.Serialize(output, def.Type, data.Value, endian);
                         break;
                     }
                 }
@@ -303,10 +305,12 @@ namespace Gibbed.Bioware.FileFormats
 
         private object ExportGeneric(ExportState state)
         {
+            var endian = this.Endian;
+
             var input = this.Data;
-            var type = input.ReadValueU16(LittleEndian);
-            var flags = (GFF.FieldFlags)input.ReadValueU16(LittleEndian);
-            var offset = input.ReadValueU32(LittleEndian);
+            var type = input.ReadValueU16(endian);
+            var flags = (GFF.FieldFlags)input.ReadValueU16(endian);
+            var offset = input.ReadValueU32(endian);
 
             if (state.References.ContainsKey(offset) == true)
             {
@@ -337,19 +341,21 @@ namespace Gibbed.Bioware.FileFormats
 
         private object ExportField(GFF.FieldDefinition def, long offset, ExportState state)
         {
+            var endian = this.Endian;
+
             var input = this.Data;
             input.Seek(offset + def.Offset, SeekOrigin.Begin);
 
             if (def.IsReference == true && def.IsList == true)
             {
-                var listOffset = input.ReadValueU32(LittleEndian);
+                var listOffset = input.ReadValueU32(endian);
                 if (listOffset == 0xFFFFFFFF)
                 {
                     return null;
                 }
 
                 input.Seek(listOffset, SeekOrigin.Begin);
-                var count = input.ReadValueU32(LittleEndian);
+                var count = input.ReadValueU32(endian);
 
                 long itemOffset = input.Position;
                 var list = new List<object>();
@@ -365,7 +371,7 @@ namespace Gibbed.Bioware.FileFormats
             {
                 //var type = GFF.Builtin.ToNativeType(def.Type);
 
-                var listOffset = input.ReadValueU32(LittleEndian);
+                var listOffset = input.ReadValueU32(endian);
                 if (listOffset == 0xFFFFFFFF)
                 {
                     /*if (def.Type == GFF.FieldType.UInt8)
@@ -380,7 +386,7 @@ namespace Gibbed.Bioware.FileFormats
                 }
 
                 input.Seek(listOffset, SeekOrigin.Begin);
-                var count = input.ReadValueU32(LittleEndian);
+                var count = input.ReadValueU32(endian);
 
                 switch (def.Type)
                 {
@@ -390,7 +396,7 @@ namespace Gibbed.Bioware.FileFormats
                         var list = new List<string>();
                         for (uint i = 0; i < count; i++)
                         {
-                            var dataOffset = input.ReadValueU32(LittleEndian);
+                            var dataOffset = input.ReadValueU32(endian);
                             if (dataOffset == 0xFFFFFFFF)
                             {
                                 list.Add(null);
@@ -400,9 +406,9 @@ namespace Gibbed.Bioware.FileFormats
                                 if (this.FileVersion < 1)
                                 {
                                     input.Seek(dataOffset, SeekOrigin.Begin);
-                                    var length = input.ReadValueU32(LittleEndian);
+                                    var length = input.ReadValueU32(endian);
                                     list.Add(input.ReadString(length * 2, true,
-                                        LittleEndian == true ? Encoding.Unicode : Encoding.BigEndianUnicode));
+                                        endian == Endian.Little ? Encoding.Unicode : Encoding.BigEndianUnicode));
                                 }
                                 else
                                 {
@@ -445,7 +451,7 @@ namespace Gibbed.Bioware.FileFormats
                             var list = (IList)Activator.CreateInstance(typeof(List<>).MakeGenericType(type));
                             for (uint i = 0; i < count; i++)
                             {
-                                list.Add(GFF.Builtin.Deserialize(input, def.Type, LittleEndian));
+                                list.Add(GFF.Builtin.Deserialize(input, def.Type, endian));
                             }
                             return list;
                         }
@@ -461,7 +467,7 @@ namespace Gibbed.Bioware.FileFormats
                 }
                 else if (def.IsReference == true)
                 {
-                    var referenceOffset = input.ReadValueU32(LittleEndian);
+                    var referenceOffset = input.ReadValueU32(endian);
                     if (referenceOffset == 0xFFFFFFFF)
                     {
                         return null;
@@ -483,7 +489,7 @@ namespace Gibbed.Bioware.FileFormats
 
                     case GFF.FieldType.String:
                     {
-                        var dataOffset = input.ReadValueU32(LittleEndian);
+                        var dataOffset = input.ReadValueU32(endian);
                         if (dataOffset == 0xFFFFFFFF)
                         {
                             return "";
@@ -492,9 +498,9 @@ namespace Gibbed.Bioware.FileFormats
                         if (this.FileVersion < 1)
                         {
                             input.Seek(dataOffset, SeekOrigin.Begin);
-                            var count = input.ReadValueU32(LittleEndian);
+                            var count = input.ReadValueU32(endian);
                             return input.ReadString(count * 2, true,
-                                LittleEndian == true ? Encoding.Unicode : Encoding.BigEndianUnicode);
+                                endian == Endian.Little ? Encoding.Unicode : Encoding.BigEndianUnicode);
                         }
                         else
                         {
@@ -505,9 +511,9 @@ namespace Gibbed.Bioware.FileFormats
                     case GFF.FieldType.TalkString:
                     {
                         var tlk = new GFF.Builtins.TalkString();
-                        tlk.Id = input.ReadValueU32(LittleEndian);
+                        tlk.Id = input.ReadValueU32(endian);
 
-                        var dataOffset = input.ReadValueU32(LittleEndian);
+                        var dataOffset = input.ReadValueU32(endian);
                         if (dataOffset == 0xFFFFFFFF)
                         {
                             tlk.String = null;
@@ -521,9 +527,9 @@ namespace Gibbed.Bioware.FileFormats
                             if (this.FileVersion < 1)
                             {
                                 input.Seek(dataOffset, SeekOrigin.Begin);
-                                var count = input.ReadValueU32(LittleEndian);
+                                var count = input.ReadValueU32(endian);
                                 tlk.String = input.ReadString(count * 2, true,
-                                    LittleEndian == true ? Encoding.Unicode : Encoding.BigEndianUnicode);
+                                    endian == Endian.Little ? Encoding.Unicode : Encoding.BigEndianUnicode);
                             }
                             else
                             {
@@ -542,7 +548,7 @@ namespace Gibbed.Bioware.FileFormats
 
                     default:
                     {
-                        return GFF.Builtin.Deserialize(input, def.Type, LittleEndian);
+                        return GFF.Builtin.Deserialize(input, def.Type, endian);
                     }
                 }
             }

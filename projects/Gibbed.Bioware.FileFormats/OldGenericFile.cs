@@ -57,36 +57,34 @@ namespace Gibbed.Bioware.FileFormats
 
         public byte FileVersion;
         public GFF.FormatType FormatType;
-        protected bool LittleEndian;
+        protected Endian Endian;
         public GFF.StructureData Root;
 
         public void Deserialize(Stream input)
         {
             input.Seek(0, SeekOrigin.Begin);
 
-            this.FormatType = input.ReadValueEnum<GFF.FormatType>(false);
-            var version = input.ReadValueU32(false);
+            this.FormatType = input.ReadValueEnum<GFF.FormatType>(Endian.Big);
+            var version = input.ReadValueU32(Endian.Big);
             if (version != 0x56332E32) // 3.2
             {
                 throw new FormatException("unsupported version");
             }
 
             this.FileVersion = (byte)(version - 0x56332E32);
-
-            this.LittleEndian = true;
-
-            var structOffset = input.ReadValueU32(this.LittleEndian);
-            var structCount = input.ReadValueU32(this.LittleEndian);
-            var fieldOffset = input.ReadValueU32(this.LittleEndian);
-            var fieldCount = input.ReadValueU32(this.LittleEndian);
-            var labelOffset = input.ReadValueU32(this.LittleEndian);
-            var labelCount = input.ReadValueU32(this.LittleEndian);
-            var fieldDataOffset = input.ReadValueU32(this.LittleEndian);
-            var fieldDataSize = input.ReadValueU32(this.LittleEndian);
-            var fieldIndicesOffset = input.ReadValueU32(this.LittleEndian);
-            var fieldIndicesSize = input.ReadValueU32(this.LittleEndian);
-            var listIndicesOffset = input.ReadValueU32(this.LittleEndian);
-            var listIndicesSize = input.ReadValueU32(this.LittleEndian);
+            var endian = this.Endian = Endian.Little;
+            var structOffset = input.ReadValueU32(endian);
+            var structCount = input.ReadValueU32(endian);
+            var fieldOffset = input.ReadValueU32(endian);
+            var fieldCount = input.ReadValueU32(endian);
+            var labelOffset = input.ReadValueU32(endian);
+            var labelCount = input.ReadValueU32(endian);
+            var fieldDataOffset = input.ReadValueU32(endian);
+            var fieldDataSize = input.ReadValueU32(endian);
+            var fieldIndicesOffset = input.ReadValueU32(endian);
+            var fieldIndicesSize = input.ReadValueU32(endian);
+            var listIndicesOffset = input.ReadValueU32(endian);
+            var listIndicesSize = input.ReadValueU32(endian);
 
             if (structCount < 1)
             {
@@ -115,7 +113,7 @@ namespace Gibbed.Bioware.FileFormats
             input.Seek(fieldIndicesOffset, SeekOrigin.Begin);
             for (int i = 0; i < fieldIndices.Length; i++)
             {
-                fieldIndices[i] = input.ReadValueU32(this.LittleEndian);
+                fieldIndices[i] = input.ReadValueU32(endian);
             }
 
             // list indices
@@ -128,7 +126,7 @@ namespace Gibbed.Bioware.FileFormats
             input.Seek(listIndicesOffset, SeekOrigin.Begin);
             for (int i = 0; i < listIndices.Length; i++)
             {
-                listIndices[i] = input.ReadValueU32(this.LittleEndian);
+                listIndices[i] = input.ReadValueU32(endian);
             }
 
             // fields
@@ -136,9 +134,9 @@ namespace Gibbed.Bioware.FileFormats
             input.Seek(fieldOffset, SeekOrigin.Begin);
             for (int i = 0; i < fields.Length; i++)
             {
-                fields[i].Type = input.ReadValueEnum<GFF.FieldType>(this.LittleEndian);
-                fields[i].LabelIndex = input.ReadValueU32(this.LittleEndian);
-                fields[i].DataOrDataOffset = input.ReadValueU32(this.LittleEndian);
+                fields[i].Type = input.ReadValueEnum<GFF.FieldType>(endian);
+                fields[i].LabelIndex = input.ReadValueU32(endian);
+                fields[i].DataOrDataOffset = input.ReadValueU32(endian);
             }
 
             // structures
@@ -153,13 +151,13 @@ namespace Gibbed.Bioware.FileFormats
             {
                 var structData = structs[i];
                 var structFormat = new StructFormat();
-                structData.Type = input.ReadValueU32(this.LittleEndian);
+                structData.Type = input.ReadValueU32(endian);
                 if (i == 0 && structData.Type != 0xFFFFFFFF)
                 {
                     throw new FormatException();
                 }
-                structFormat.DataOrDataOffset = input.ReadValueU32(this.LittleEndian);
-                structFormat.FieldCount = input.ReadValueU32(this.LittleEndian);
+                structFormat.DataOrDataOffset = input.ReadValueU32(endian);
+                structFormat.FieldCount = input.ReadValueU32(endian);
 
                 var indices = new uint[structFormat.FieldCount];
                 
@@ -237,7 +235,7 @@ namespace Gibbed.Bioware.FileFormats
                             }
 
                             data.Seek(fieldFormat.DataOrDataOffset, SeekOrigin.Begin);
-                            fieldData.Value = data.ReadValueU64(this.LittleEndian);
+                            fieldData.Value = data.ReadValueU64(endian);
                             break;
                         }
 
@@ -249,7 +247,7 @@ namespace Gibbed.Bioware.FileFormats
                             }
 
                             data.Seek(fieldFormat.DataOrDataOffset, SeekOrigin.Begin);
-                            fieldData.Value = data.ReadValueS64(this.LittleEndian);
+                            fieldData.Value = data.ReadValueS64(endian);
                             break;
                         }
 
@@ -267,7 +265,7 @@ namespace Gibbed.Bioware.FileFormats
                             }
 
                             data.Seek(fieldFormat.DataOrDataOffset, SeekOrigin.Begin);
-                            fieldData.Value = data.ReadValueF64(this.LittleEndian);
+                            fieldData.Value = data.ReadValueF64(endian);
                             break;
                         }
 
@@ -324,12 +322,12 @@ namespace Gibbed.Bioware.FileFormats
                             }
 
                             var loc = new GFF.LocalizedString();
-                            loc.Id = data.ReadValueU32(this.LittleEndian);
+                            loc.Id = data.ReadValueU32(endian);
 
-                            var count = data.ReadValueU32(this.LittleEndian);
+                            var count = data.ReadValueU32(endian);
                             for (uint j = 0; j < count; j++)
                             {
-                                var id = data.ReadValueS32(this.LittleEndian);
+                                var id = data.ReadValueS32(endian);
                                 var length = data.ReadValueU32();
                                 loc.Strings.Add(id, data.ReadString(length, true, Encoding.ASCII));
                             }

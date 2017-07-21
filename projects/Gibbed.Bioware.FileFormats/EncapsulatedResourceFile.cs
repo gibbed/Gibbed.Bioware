@@ -162,8 +162,8 @@ namespace Gibbed.Bioware.FileFormats
 
             // read as two unsigned longs so we don't have to actually
             // decode the strings
-            var version1 = input.ReadValueU64(false);
-            var version2 = input.ReadValueU64(false);
+            var version1 = input.ReadValueU64(Endian.Big);
+            var version2 = input.ReadValueU64(Endian.Big);
 
             if (version1 == 0x4552462056322E31) // ERF V2.1
             {

@@ -47,50 +47,50 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat.Builtins
         public float DC;
         public float DD;
 
-        public void Serialize(Stream output, bool littleEndian)
+        public void Serialize(Stream output, Endian endian)
         {
-            output.WriteValueF32(this.AA, littleEndian);
-            output.WriteValueF32(this.AB, littleEndian);
-            output.WriteValueF32(this.AC, littleEndian);
-            output.WriteValueF32(this.AD, littleEndian);
+            output.WriteValueF32(this.AA, endian);
+            output.WriteValueF32(this.AB, endian);
+            output.WriteValueF32(this.AC, endian);
+            output.WriteValueF32(this.AD, endian);
 
-            output.WriteValueF32(this.BA, littleEndian);
-            output.WriteValueF32(this.BB, littleEndian);
-            output.WriteValueF32(this.BC, littleEndian);
-            output.WriteValueF32(this.BD, littleEndian);
+            output.WriteValueF32(this.BA, endian);
+            output.WriteValueF32(this.BB, endian);
+            output.WriteValueF32(this.BC, endian);
+            output.WriteValueF32(this.BD, endian);
 
-            output.WriteValueF32(this.CA, littleEndian);
-            output.WriteValueF32(this.CB, littleEndian);
-            output.WriteValueF32(this.CC, littleEndian);
-            output.WriteValueF32(this.CD, littleEndian);
+            output.WriteValueF32(this.CA, endian);
+            output.WriteValueF32(this.CB, endian);
+            output.WriteValueF32(this.CC, endian);
+            output.WriteValueF32(this.CD, endian);
 
-            output.WriteValueF32(this.DA, littleEndian);
-            output.WriteValueF32(this.DB, littleEndian);
-            output.WriteValueF32(this.DC, littleEndian);
-            output.WriteValueF32(this.DD, littleEndian);
+            output.WriteValueF32(this.DA, endian);
+            output.WriteValueF32(this.DB, endian);
+            output.WriteValueF32(this.DC, endian);
+            output.WriteValueF32(this.DD, endian);
         }
 
-        public void Deserialize(Stream input, bool littleEndian)
+        public void Deserialize(Stream input, Endian endian)
         {
-            this.AA = input.ReadValueF32(littleEndian);
-            this.AB = input.ReadValueF32(littleEndian);
-            this.AC = input.ReadValueF32(littleEndian);
-            this.AD = input.ReadValueF32(littleEndian);
+            this.AA = input.ReadValueF32(endian);
+            this.AB = input.ReadValueF32(endian);
+            this.AC = input.ReadValueF32(endian);
+            this.AD = input.ReadValueF32(endian);
 
-            this.BA = input.ReadValueF32(littleEndian);
-            this.BB = input.ReadValueF32(littleEndian);
-            this.BC = input.ReadValueF32(littleEndian);
-            this.BD = input.ReadValueF32(littleEndian);
+            this.BA = input.ReadValueF32(endian);
+            this.BB = input.ReadValueF32(endian);
+            this.BC = input.ReadValueF32(endian);
+            this.BD = input.ReadValueF32(endian);
 
-            this.CA = input.ReadValueF32(littleEndian);
-            this.CB = input.ReadValueF32(littleEndian);
-            this.CC = input.ReadValueF32(littleEndian);
-            this.CD = input.ReadValueF32(littleEndian);
+            this.CA = input.ReadValueF32(endian);
+            this.CB = input.ReadValueF32(endian);
+            this.CC = input.ReadValueF32(endian);
+            this.CD = input.ReadValueF32(endian);
 
-            this.DA = input.ReadValueF32(littleEndian);
-            this.DB = input.ReadValueF32(littleEndian);
-            this.DC = input.ReadValueF32(littleEndian);
-            this.DD = input.ReadValueF32(littleEndian);
+            this.DA = input.ReadValueF32(endian);
+            this.DB = input.ReadValueF32(endian);
+            this.DC = input.ReadValueF32(endian);
+            this.DD = input.ReadValueF32(endian);
         }
     }
 }

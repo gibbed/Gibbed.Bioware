@@ -21,12 +21,13 @@
  */
 
 using System.IO;
+using Gibbed.IO;
 
 namespace Gibbed.Bioware.FileFormats.GenericFileFormat
 {
     internal interface IFieldBuiltinType
     {
-        void Serialize(Stream output, bool littleEndian);
-        void Deserialize(Stream input, bool littleEndian);
+        void Serialize(Stream output, Endian endian);
+        void Deserialize(Stream input, Endian endian);
     }
 }

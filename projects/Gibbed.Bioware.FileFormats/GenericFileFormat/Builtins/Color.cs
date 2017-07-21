@@ -32,20 +32,20 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat.Builtins
         public float B;
         public float A;
 
-        public void Serialize(Stream output, bool littleEndian)
+        public void Serialize(Stream output, Endian endian)
         {
-            output.WriteValueF32(this.R, littleEndian);
-            output.WriteValueF32(this.G, littleEndian);
-            output.WriteValueF32(this.B, littleEndian);
-            output.WriteValueF32(this.A, littleEndian);
+            output.WriteValueF32(this.R, endian);
+            output.WriteValueF32(this.G, endian);
+            output.WriteValueF32(this.B, endian);
+            output.WriteValueF32(this.A, endian);
         }
 
-        public void Deserialize(Stream input, bool littleEndian)
+        public void Deserialize(Stream input, Endian endian)
         {
-            this.R = input.ReadValueF32(littleEndian);
-            this.G = input.ReadValueF32(littleEndian);
-            this.B = input.ReadValueF32(littleEndian);
-            this.A = input.ReadValueF32(littleEndian);
+            this.R = input.ReadValueF32(endian);
+            this.G = input.ReadValueF32(endian);
+            this.B = input.ReadValueF32(endian);
+            this.A = input.ReadValueF32(endian);
         }
     }
 }

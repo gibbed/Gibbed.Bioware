@@ -48,7 +48,7 @@ namespace Gibbed.Bioware.FileFormats
                 throw new FormatException();
             }
 
-            var size = input.ReadValueU32(false);
+            var size = input.ReadValueU32(Endian.Big);
             if (basePosition + size > input.Length)
             {
                 throw new InvalidOperationException();

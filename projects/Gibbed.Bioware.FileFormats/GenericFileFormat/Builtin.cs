@@ -181,7 +181,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
             throw new NotSupportedException();
         }
 
-        public static void Serialize(Stream output, FieldType type, object value, bool littleEndian)
+        public static void Serialize(Stream output, FieldType type, object value, Endian endian)
         {
             switch (type)
             {
@@ -201,7 +201,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
                     {
                         throw new ArgumentNullException();
                     }
-                    ((Builtins.Vector3)value).Serialize(output, littleEndian);
+                    ((Builtins.Vector3)value).Serialize(output, endian);
                     break;
                 }
                 case FieldType.Vector4:
@@ -210,7 +210,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
                     {
                         throw new ArgumentNullException();
                     }
-                    ((Builtins.Vector4)value).Serialize(output, littleEndian);
+                    ((Builtins.Vector4)value).Serialize(output, endian);
                     break;
                 }
                 case FieldType.Quaternion:
@@ -219,7 +219,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
                     {
                         throw new ArgumentNullException();
                     }
-                    ((Builtins.Quaternion)value).Serialize(output, littleEndian);
+                    ((Builtins.Quaternion)value).Serialize(output, endian);
                     break;
                 }
                 case FieldType.String:
@@ -232,7 +232,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
                     {
                         throw new ArgumentNullException();
                     }
-                    ((Builtins.Color)value).Serialize(output, littleEndian);
+                    ((Builtins.Color)value).Serialize(output, endian);
                     break;
                 }
                 case FieldType.Matrix4x4:
@@ -241,7 +241,7 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
                     {
                         throw new ArgumentNullException();
                     }
-                    ((Builtins.Matrix4x4)value).Serialize(output, littleEndian);
+                    ((Builtins.Matrix4x4)value).Serialize(output, endian);
                     break;
                 }
                 default:
@@ -251,36 +251,36 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
             }
         }
 
-        public static object Deserialize(Stream input, FieldType type, bool littleEndian)
+        public static object Deserialize(Stream input, FieldType type, Endian endian)
         {
             switch (type)
             {
                 case FieldType.UInt8: return input.ReadValueU8();
                 case FieldType.Int8: return input.ReadValueS8();
-                case FieldType.UInt16: return input.ReadValueU16(littleEndian);
-                case FieldType.Int16: return input.ReadValueS16(littleEndian);
-                case FieldType.UInt32: return input.ReadValueU32(littleEndian);
-                case FieldType.Int32: return input.ReadValueS32(littleEndian);
-                case FieldType.UInt64: return input.ReadValueU64(littleEndian);
-                case FieldType.Int64: return input.ReadValueS64(littleEndian);
-                case FieldType.Single: return input.ReadValueF32(littleEndian);
-                case FieldType.Double: return input.ReadValueF64(littleEndian);
+                case FieldType.UInt16: return input.ReadValueU16(endian);
+                case FieldType.Int16: return input.ReadValueS16(endian);
+                case FieldType.UInt32: return input.ReadValueU32(endian);
+                case FieldType.Int32: return input.ReadValueS32(endian);
+                case FieldType.UInt64: return input.ReadValueU64(endian);
+                case FieldType.Int64: return input.ReadValueS64(endian);
+                case FieldType.Single: return input.ReadValueF32(endian);
+                case FieldType.Double: return input.ReadValueF64(endian);
                 case FieldType.Vector3:
                 {
                     var value = new Builtins.Vector3();
-                    value.Deserialize(input, littleEndian);
+                    value.Deserialize(input, endian);
                     return value;
                 }
                 case FieldType.Vector4:
                 {
                     var value = new Builtins.Vector4();
-                    value.Deserialize(input, littleEndian);
+                    value.Deserialize(input, endian);
                     return value;
                 }
                 case FieldType.Quaternion:
                 {
                     var value = new Builtins.Quaternion();
-                    value.Deserialize(input, littleEndian);
+                    value.Deserialize(input, endian);
                     return value;
                 }
                 case FieldType.String:
@@ -290,13 +290,13 @@ namespace Gibbed.Bioware.FileFormats.GenericFileFormat
                 case FieldType.Color:
                 {
                     var value = new Builtins.Color();
-                    value.Deserialize(input, littleEndian);
+                    value.Deserialize(input, endian);
                     return value;
                 }
                 case FieldType.Matrix4x4:
                 {
                     var value = new Builtins.Matrix4x4();
-                    value.Deserialize(input, littleEndian);
+                    value.Deserialize(input, endian);
                     return value;
                 }
             }

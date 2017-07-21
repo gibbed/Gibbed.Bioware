@@ -45,7 +45,7 @@ namespace Gibbed.Bioware.FileFormats
 
         public void Deserialize(Stream input)
         {
-            if (input.ReadValueU32(false) != 0x626D6174)
+            if (input.ReadValueU32(Endian.Big) != 0x626D6174)
             {
                 throw new FormatException();
             }

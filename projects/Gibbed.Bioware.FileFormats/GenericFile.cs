@@ -65,9 +65,9 @@ namespace Gibbed.Bioware.FileFormats
         public GFF.FormatType FormatType;
         public uint FormatVersion;
 
-        protected bool LittleEndian
+        protected Endian Endian
         {
-            get { return this.FilePlatform == GFF.FilePlatform.PC; }
+            get { return this.FilePlatform == GFF.FilePlatform.PC ? Endian.Little : Endian.Big; }
         }
 
         protected MemoryStream Data = null;
@@ -188,30 +188,30 @@ namespace Gibbed.Bioware.FileFormats
 
         public void Serialize(Stream output)
         {
-            output.WriteValueU32(0x47464620u, false);
-            output.WriteValueU32(0x56342E30u + this.FileVersion, false);
-            output.WriteValueEnum<GFF.FilePlatform>(this.FilePlatform, false);
-            output.WriteValueEnum<GFF.FormatType>(this.FormatType, false);
-            output.WriteValueU32(this.FormatVersion, false);
+            output.WriteValueU32(0x47464620u, Endian.Big);
+            output.WriteValueU32(0x56342E30u + this.FileVersion, Endian.Big);
+            output.WriteValueEnum<GFF.FilePlatform>(this.FilePlatform, Endian.Big);
+            output.WriteValueEnum<GFF.FormatType>(this.FormatType, Endian.Big);
+            output.WriteValueU32(this.FormatVersion, Endian.Big);
 
-            var littleEndian = this.FilePlatform == GFF.FilePlatform.PC;
+            var endian = this.FilePlatform == GFF.FilePlatform.PC ? Endian.Little : Endian.Big;
 
-            output.WriteValueS32(this.Structures.Count, littleEndian);
+            output.WriteValueS32(this.Structures.Count, endian);
 
             int structuresOffset = (int)output.Position + 4;
             int fieldsOffset = structuresOffset + (this.Structures.Count * 16);
             int dataOffset = fieldsOffset + (this.Structures.Sum(s => s.Fields.Count) * 12);
             dataOffset = dataOffset.Align(16);
-            output.WriteValueS32(dataOffset, littleEndian);
+            output.WriteValueS32(dataOffset, endian);
 
             int runningFieldCount = 0;
             foreach (var structDef in this.Structures)
             {
-                output.WriteValueU32(structDef.Id, false);
-                output.WriteValueS32(structDef.Fields.Count, littleEndian);
+                output.WriteValueU32(structDef.Id, Endian.Big);
+                output.WriteValueS32(structDef.Fields.Count, endian);
                 output.WriteValueS32(fieldsOffset + 
-                    (runningFieldCount * 12), littleEndian);
-                output.WriteValueU32(structDef.DataSize, littleEndian);
+                    (runningFieldCount * 12), endian);
+                output.WriteValueU32(structDef.DataSize, endian);
                 runningFieldCount += structDef.Fields.Count;
             }
 
@@ -219,7 +219,7 @@ namespace Gibbed.Bioware.FileFormats
             {
                 foreach (var fieldDef in structDef.Fields)
                 {
-                    output.WriteValueS32(fieldDef.Id, littleEndian);
+                    output.WriteValueS32(fieldDef.Id, endian);
                     
                     var flags = fieldDef.Flags;
                     ushort type;
@@ -238,8 +238,8 @@ namespace Gibbed.Bioware.FileFormats
                     rawFlags |= type;
                     rawFlags |= (uint)flags << 16;
 
-                    output.WriteValueU32(rawFlags, littleEndian);
-                    output.WriteValueU32(fieldDef.Offset, littleEndian);
+                    output.WriteValueU32(rawFlags, endian);
+                    output.WriteValueU32(fieldDef.Offset, endian);
                 }
             }
 
@@ -252,13 +252,13 @@ namespace Gibbed.Bioware.FileFormats
         {
             input.Seek(0, SeekOrigin.Begin);
 
-            var magic = input.ReadValueU32(false);
+            var magic = input.ReadValueU32(Endian.Big);
             if (magic != 0x47464620)
             {
                 throw new FormatException();
             }
 
-            var version = input.ReadValueU32(false);
+            var version = input.ReadValueU32(Endian.Big);
             if (version != 0x56342E30 && // 4.0
                 version != 0x56342E31) // 4.1
             {
@@ -266,16 +266,16 @@ namespace Gibbed.Bioware.FileFormats
             }
 
             this.FileVersion = (byte)(version - 0x56342E30);
-            this.FilePlatform = input.ReadValueEnum<GFF.FilePlatform>(false);
-            this.FormatType = input.ReadValueEnum<GFF.FormatType>(false);
-            this.FormatVersion = input.ReadValueU32(false);
+            this.FilePlatform = input.ReadValueEnum<GFF.FilePlatform>(Endian.Big);
+            this.FormatType = input.ReadValueEnum<GFF.FormatType>(Endian.Big);
+            this.FormatVersion = input.ReadValueU32(Endian.Big);
 
-            var littleEndian = this.FilePlatform == GFF.FilePlatform.PC;
+            var endian = this.FilePlatform == GFF.FilePlatform.PC ? Endian.Little : Endian.Big;
 
-            var structCount = input.ReadValueU32(littleEndian);
-            var stringCount = this.FileVersion < 1 ? 0 : input.ReadValueU32(littleEndian);
-            var stringOffset = this.FileVersion < 1 ? 0 : input.ReadValueU32(littleEndian);
-            var dataOffset = input.ReadValueU32(littleEndian);
+            var structCount = input.ReadValueU32(endian);
+            var stringCount = this.FileVersion < 1 ? 0 : input.ReadValueU32(endian);
+            var stringOffset = this.FileVersion < 1 ? 0 : input.ReadValueU32(endian);
+            var dataOffset = input.ReadValueU32(endian);
 
             if (this.FileVersion < 1)
             {
@@ -293,11 +293,11 @@ namespace Gibbed.Bioware.FileFormats
             for (uint i = 0; i < structCount; i++)
             {
                 var structDef = new GFF.StructureDefinition();
-                //structDef.Id = input.ReadValueU32(littleEndian);
-                structDef.Id = input.ReadValueU32(false);
-                var fieldCount = input.ReadValueU32(littleEndian);
-                var fieldOffset = input.ReadValueU32(littleEndian);
-                structDef.DataSize = input.ReadValueU32(littleEndian);
+                //structDef.Id = input.ReadValueU32(endian);
+                structDef.Id = input.ReadValueU32(Endian.Big);
+                var fieldCount = input.ReadValueU32(endian);
+                var fieldOffset = input.ReadValueU32(endian);
+                structDef.DataSize = input.ReadValueU32(endian);
 
                 long nextOffset = input.Position;
 
@@ -306,9 +306,9 @@ namespace Gibbed.Bioware.FileFormats
                 for (uint j = 0; j < fieldCount; j++)
                 {
                     var fieldDef = new GFF.FieldDefinition();
-                    fieldDef.Id = input.ReadValueS32(littleEndian);
-                    var rawFlags = input.ReadValueU32(littleEndian);
-                    fieldDef.Offset = input.ReadValueU32(littleEndian);
+                    fieldDef.Id = input.ReadValueS32(endian);
+                    var rawFlags = input.ReadValueU32(endian);
+                    fieldDef.Offset = input.ReadValueU32(endian);
 
                     var type = (ushort)(rawFlags & 0xFFFF);
                     var flags = (GFF.FieldFlags)((rawFlags >> 16) & 0xFFFF);
