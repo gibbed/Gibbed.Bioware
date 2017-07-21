@@ -139,7 +139,7 @@ namespace Gibbed.Bioware.GdaDecompile
             }
             */
 
-            using (var gff = new GenericFile_Data())
+            using (var gff = new GenericDataFile())
             {
                 using (var input = File.OpenRead(inputPath))
                 {
@@ -162,8 +162,8 @@ namespace Gibbed.Bioware.GdaDecompile
                 Console.WriteLine("Importing GDA...");
 
                 var root = gff.Export();
-                var columnDefinitions = root[10002].As<List<KeyValue>>();
-                var rows = root[10003].As<List<KeyValue>>();
+                var columnDefinitions = root[10002].As<List<GenericKeyValue>>();
+                var rows = root[10003].As<List<GenericKeyValue>>();
 
                 Console.WriteLine("Validating GDA...");
 
@@ -241,12 +241,12 @@ namespace Gibbed.Bioware.GdaDecompile
             return input;
         }
 
-        private static void ExportCSV(string name, Stream output, KeyValue root)
+        private static void ExportCSV(string name, Stream output, GenericKeyValue root)
         {
             Console.WriteLine("Decompiling data to CSV...");
 
-            var columnDefinitions = root[10002].As<List<KeyValue>>();
-            var rows = root[10003].As<List<KeyValue>>();
+            var columnDefinitions = root[10002].As<List<GenericKeyValue>>();
+            var rows = root[10003].As<List<GenericKeyValue>>();
 
             using (var writer = new StreamWriter(output, Encoding.Unicode))
             {
@@ -320,12 +320,12 @@ namespace Gibbed.Bioware.GdaDecompile
             }
         }
 
-        private static void ExportXSLT(string name, Stream output, KeyValue root)
+        private static void ExportXSLT(string name, Stream output, GenericKeyValue root)
         {
             Console.WriteLine("Decompiling data to XLSX...");
 
-            var columnDefinitions = root[10002].As<List<KeyValue>>();
-            var rows = root[10003].As<List<KeyValue>>();
+            var columnDefinitions = root[10002].As<List<GenericKeyValue>>();
+            var rows = root[10003].As<List<GenericKeyValue>>();
 
             var xml = XmlWriter.Create(output,
                 new XmlWriterSettings()

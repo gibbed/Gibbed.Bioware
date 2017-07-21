@@ -30,20 +30,24 @@ namespace Gibbed.Bioware.FileFormats
 {
     public class CompiledScriptFile
     {
-        public List<Script.IInstruction> Instructions
-            = new List<Script.IInstruction>();
+        private readonly List<Script.IInstruction> _Instructions;
+
+        public CompiledScriptFile()
+        {
+            this._Instructions = new List<Script.IInstruction>();
+        }
 
         public void Deserialize(Stream input)
         {
-            this.Instructions.Clear();
-
             var basePosition = input.Position;
 
             if (input.ReadString(8, Encoding.ASCII) != "NCS V1.0")
             {
                 throw new FormatException();
             }
-            else if (input.ReadValueU8() != 0x42)
+
+            var version = input.ReadValueU8();
+            if (version != 66)
             {
                 throw new FormatException();
             }
@@ -97,7 +101,8 @@ namespace Gibbed.Bioware.FileFormats
                 instructions.Add(instruction);
             }
 
-            this.Instructions.AddRange(instructions);
+            this._Instructions.Clear();
+            this._Instructions.AddRange(instructions);
         }
 
         private static int CountInstructions(byte[] code)
@@ -215,7 +220,7 @@ namespace Gibbed.Bioware.FileFormats
                         }
                     }
 
-                    throw new NotSupportedException("Unhandled operand " + type.ToString());
+                    throw new NotSupportedException("unhandled operand " + type);
                 }
 
                 case Script.Opcode.EQUAL:
@@ -225,33 +230,31 @@ namespace Gibbed.Bioware.FileFormats
                     {
                         return 4;
                     }
-                    else
-                    {
-                        return 2;
-                    }
+
+                    return 2;
                 }
             }
 
-            throw new NotSupportedException("Unhandled opcode " + op.ToString());
+            throw new NotSupportedException("unhandled opcode " + op);
         }
 
         private class State : Script.IState
         {
-            public int[] Offsets;
+            private readonly int[] _Offsets;
 
             public State(int[] offsets)
             {
-                this.Offsets = offsets;
+                this._Offsets = offsets;
             }
 
             public int IndexToOffset(int index)
             {
-                return this.Offsets[index];
+                return this._Offsets[index];
             }
 
             public int OffsetToIndex(int offset)
             {
-                var index = Array.IndexOf<int>(this.Offsets, offset);
+                var index = Array.IndexOf(this._Offsets, offset);
                 if (index == -1)
                 {
                     throw new InvalidOperationException();

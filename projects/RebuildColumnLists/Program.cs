@@ -154,11 +154,11 @@ namespace RebuildColumnLists
 
                     var localResults = new Dictionary<uint, string>();
 
-                    var gff = new GenericFile_Data();
+                    var gff = new GenericDataFile();
                     gff.Deserialize(data);
 
                     var root = gff.Export();
-                    var columns = root[10002].As<List<KeyValue>>(null);
+                    var columns = root[10002].As<List<GenericKeyValue>>(null);
                     if (columns != null)
                     {
                         foreach (var column in columns)

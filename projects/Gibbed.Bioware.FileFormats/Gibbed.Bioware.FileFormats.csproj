@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BMAT.cs" />
+    <Compile Include="MaterialFile.cs" />
     <Compile Include="CompiledScriptFile.cs" />
     <Compile Include="EncapsulatedResourceFile.cs" />
     <Compile Include="GenericFileFormat\Builtins\Color.cs" />
@@ -52,10 +52,10 @@
     <Compile Include="GenericFileFormat\Builtins\TalkString.cs" />
     <Compile Include="GenericFileFormat\Builtins\Vector3.cs" />
     <Compile Include="GenericFileFormat\Builtins\Vector4.cs" />
-    <Compile Include="GenericFile_Data.cs" />
-    <Compile Include="GenericFile_Type.cs" />
+    <Compile Include="GenericDataFile.cs" />
+    <Compile Include="GenericTypeFile.cs" />
     <Compile Include="JoinHelpers.cs" />
-    <Compile Include="KeyValue.cs" />
+    <Compile Include="GenericKeyValue.cs" />
     <Compile Include="HTLK.cs" />
     <Compile Include="OldGenericFile.cs" />
     <Compile Include="OldGenericFileFormat\FieldData.cs" />

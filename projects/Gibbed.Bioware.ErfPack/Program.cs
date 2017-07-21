@@ -58,7 +58,7 @@ namespace Gibbed.Bioware.ErfPack
                 },
                 {
                     "h|help",
-                    "show this message and exit", 
+                    "show this message and exit",
                     v => showHelp = v != null
                 },
             };
@@ -158,7 +158,7 @@ namespace Gibbed.Bioware.ErfPack
                         partPath = null;
                     }
                     else if (stripFileNames == true &&
-                        Path.GetExtension(fullPath) != ".gda")
+                             Path.GetExtension(fullPath) != ".gda")
                     {
                         partPath = null;
                     }
@@ -170,7 +170,7 @@ namespace Gibbed.Bioware.ErfPack
             using (var output = File.Open(outputPath, FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite))
             {
                 var erf = new ERF();
-                erf.Version = 3;
+                erf.Version = EncapsulatedResourceFile.FileVersion.V3_0;
                 erf.Compression = ERF.CompressionScheme.None;
                 erf.Encryption = ERF.EncryptionScheme.None;
                 erf.ContentId = 0;
@@ -180,8 +180,10 @@ namespace Gibbed.Bioware.ErfPack
                     Console.WriteLine("Adding files...");
                 }
 
-                long headerSize = erf.CalculateHeaderSize(
-                    lookup.Values.ToArray(), paths.Count);
+                long headerSize = ERF.CalculateHeaderSize(
+                    erf.Version,
+                    lookup.Values.ToArray(),
+                    paths.Count);
                 long baseOffset = headerSize.Align(16);
 
                 if (verbose == true)
@@ -217,8 +219,9 @@ namespace Gibbed.Bioware.ErfPack
                         else
                         {
                             var extension = Path.GetExtension(kvp.Value);
-                            entry.TypeHash = extension == null ?
-                                0 : extension.Trim('.').HashFNV32();
+                            entry.TypeHash = extension == null
+                                                 ? 0
+                                                 : extension.Trim('.').HashFNV32();
                         }
 
                         output.WriteFromStream(input, input.Length);

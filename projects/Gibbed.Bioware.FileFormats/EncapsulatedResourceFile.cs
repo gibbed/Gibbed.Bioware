@@ -30,19 +30,67 @@ namespace Gibbed.Bioware.FileFormats
 {
     public class EncapsulatedResourceFile
     {
-        public byte Version;
-        public uint Flags;
-        public EncryptionScheme Encryption;
-        public CompressionScheme Compression;
-        public uint ContentId;
-        public byte[] PasswordDigest = null;
+        #region Fields
+        private FileVersion _Version;
+        private uint _Flags;
+        private EncryptionScheme _Encryption;
+        private CompressionScheme _Compression;
+        private uint _ContentId;
+        private byte[] _PasswordDigest;
+        private readonly List<Entry> _Entries;
+        #endregion
+
+        public EncapsulatedResourceFile()
+        {
+            this._Entries = new List<Entry>();
+        }
+
+        #region Properties
+        public FileVersion Version
+        {
+            get { return this._Version; }
+            set { this._Version = value; }
+        }
+
+        public uint Flags
+        {
+            get { return this._Flags; }
+            set { this._Flags = value; }
+        }
+
+        public EncryptionScheme Encryption
+        {
+            get { return this._Encryption; }
+            set { this._Encryption = value; }
+        }
+
+        public CompressionScheme Compression
+        {
+            get { return this._Compression; }
+            set { this._Compression = value; }
+        }
+
+        public uint ContentId
+        {
+            get { return this._ContentId; }
+            set { this._ContentId = value; }
+        }
+
+        public byte[] PasswordDigest
+        {
+            get { return this._PasswordDigest; }
+            set { this._PasswordDigest = value; }
+        }
 
         public List<Entry> Entries
-            = new List<Entry>();
-
-        public long CalculateHeaderSize(IEnumerable<string> strings, int entries)
         {
-            if (this.Version == 3)
+            get { return this._Entries; }
+        }
+        #endregion
+
+        public static long CalculateHeaderSize(FileVersion version, IEnumerable<string> strings, int entries)
+        {
+            if (version == FileVersion.V3_0)
             {
                 long size = 0;
                 size += 16;
@@ -63,31 +111,22 @@ namespace Gibbed.Bioware.FileFormats
                 size += entries * 28;
                 return size;
             }
-            else
-            {
-                throw new InvalidOperationException();
-            }
+
+            throw new NotSupportedException();
         }
 
         public void Serialize(Stream output)
         {
-            if (this.Version == 1)
-            {
-                throw new NotSupportedException();
-            }
-            else if (this.Version == 2)
-            {
-                throw new NotSupportedException();
-            }
-            else if (this.Version == 3)
+            var version = this._Version;
+
+            if (version == FileVersion.V3_0)
             {
                 output.WriteString("ERF V3.0", Encoding.Unicode);
 
                 var strings = new List<string>();
-                foreach (var entry in this.Entries)
+                foreach (var entry in this._Entries)
                 {
-                    if (entry.Name != null &&
-                        strings.Contains(entry.Name) == false)
+                    if (entry.Name != null && strings.Contains(entry.Name) == false)
                     {
                         strings.Add(entry.Name);
                     }
@@ -96,42 +135,40 @@ namespace Gibbed.Bioware.FileFormats
 
                 var stringOffsets = new Dictionary<string, uint>();
                 var stringTable = new MemoryStream();
-
-                foreach (var str in strings)
+                foreach (var value in strings)
                 {
-                    stringOffsets[str] = (uint)stringTable.Length;
-                    stringTable.WriteStringZ(str, Encoding.UTF8);
+                    stringOffsets[value] = (uint)stringTable.Length;
+                    stringTable.WriteStringZ(value, Encoding.UTF8);
                 }
                 stringTable.SetLength(stringTable.Length.Align(16));
                 stringTable.Position = 0;
 
                 output.WriteValueU32((uint)stringTable.Length);
-                output.WriteValueS32(this.Entries.Count);
+                output.WriteValueS32(this._Entries.Count);
 
-                if (this.Encryption != EncryptionScheme.None ||
-                    this.Compression != CompressionScheme.None)
+                if (this._Encryption != EncryptionScheme.None || this._Compression != CompressionScheme.None)
                 {
                     throw new NotSupportedException();
                 }
 
                 uint flags = 0;
-                flags |= ((uint)this.Encryption) << 4;
-                flags |= ((uint)this.Compression) << 29;
+                flags |= ((uint)this._Encryption) << 4;
+                flags |= ((uint)this._Compression) << 29;
                 output.WriteValueU32(flags);
 
-                output.WriteValueU32(this.ContentId);
-                if (this.PasswordDigest == null)
+                output.WriteValueU32(this._ContentId);
+                if (this._PasswordDigest == null)
                 {
                     output.Write(new byte[16], 0, 16);
                 }
                 else
                 {
-                    output.Write(this.PasswordDigest, 0, 16);
+                    output.Write(this._PasswordDigest, 0, 16);
                 }
 
                 output.WriteFromStream(stringTable, stringTable.Length, 0x00100000);
 
-                foreach (var entry in this.Entries)
+                foreach (var entry in this._Entries)
                 {
                     if (entry.Name != null)
                     {
@@ -152,7 +189,7 @@ namespace Gibbed.Bioware.FileFormats
             }
             else
             {
-                throw new InvalidOperationException();
+                throw new NotSupportedException();
             }
         }
 
@@ -171,41 +208,40 @@ namespace Gibbed.Bioware.FileFormats
                 throw new NotSupportedException();
             }
             else if (version1 == 0x4500520046002000 &&
-                version2 == 0x560032002E003000) // ERF V2.0
+                     version2 == 0x560032002E003000) // ERF V2.0
             {
                 input.Seek(basePosition + 16, SeekOrigin.Begin);
-                this.Version = 1;
 
                 var fileCount = input.ReadValueU32();
                 var unknown14 = input.ReadValueU32();
                 var unknown18 = input.ReadValueU32();
                 var unknown1C = input.ReadValueU32();
 
-                this.Flags = 0;
-                this.Encryption = EncryptionScheme.None;
-                this.Compression = CompressionScheme.None;
-                this.ContentId = 0;
-                this.PasswordDigest = null;
-
-                this.Entries.Clear();
+                var entries = new List<Entry>();
                 for (uint i = 0; i < fileCount; i++)
                 {
                     var entry = new Entry();
-
                     entry.Name = input.ReadString(64, true, Encoding.Unicode);
                     entry.CalculateHashes();
                     entry.Offset = input.ReadValueU32();
                     entry.UncompressedSize = input.ReadValueU32();
                     entry.CompressedSize = entry.UncompressedSize;
-
-                    this.Entries.Add(entry);
+                    entries.Add(entry);
                 }
+
+                this._Version = FileVersion.V2_0;
+                this._Flags = 0;
+                this._Encryption = EncryptionScheme.None;
+                this._Compression = CompressionScheme.None;
+                this._ContentId = 0;
+                this._PasswordDigest = null;
+                this._Entries.Clear();
+                this._Entries.AddRange(entries);
             }
             else if (version1 == 0x4500520046002000 &&
-                version2 == 0x560032002E003200) // ERF V2.2
+                     version2 == 0x560032002E003200) // ERF V2.2
             {
                 input.Seek(basePosition + 16, SeekOrigin.Begin);
-                this.Version = 2;
 
                 var fileCount = input.ReadValueU32();
                 var year = input.ReadValueU32();
@@ -221,37 +257,40 @@ namespace Gibbed.Bioware.FileFormats
                     throw new InvalidOperationException();
                 }
 
-                this.Flags = (flags & 0x1FFFFF0F) >> 0;
-                this.Encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
-                this.Compression = (CompressionScheme)((flags & 0xE0000000) >> 29);
+                var encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
+                var compression = (CompressionScheme)((flags & 0xE0000000) >> 29);
+                flags &= 0x1FFFFF0F;
 
-                if (this.Flags != 0 && this.Flags != 1)
+                if (flags != 0 && flags != 1)
                 {
                     throw new FormatException("unknown flags value");
                 }
 
-                this.ContentId = contentId;
-                this.PasswordDigest = passwordDigest;
-
-                this.Entries.Clear();
+                var entries = new List<Entry>();
                 for (uint i = 0; i < fileCount; i++)
                 {
                     var entry = new Entry();
-                    
                     entry.Name = input.ReadString(64, true, Encoding.Unicode);
                     entry.CalculateHashes();
                     entry.Offset = input.ReadValueU32();
                     entry.CompressedSize = input.ReadValueU32();
                     entry.UncompressedSize = input.ReadValueU32();
-
-                    this.Entries.Add(entry);
+                    entries.Add(entry);
                 }
+
+                this._Version = FileVersion.V2_2;
+                this._Flags = flags;
+                this._Encryption = encryption;
+                this._Compression = compression;
+                this._ContentId = contentId;
+                this._PasswordDigest = passwordDigest;
+                this._Entries.Clear();
+                this._Entries.AddRange(entries);
             }
             else if (version1 == 0x4500520046002000 &&
-                version2 == 0x560033002E003000) // ERF V3.0
+                     version2 == 0x560033002E003000) // ERF V3.0
             {
                 input.Seek(basePosition + 16, SeekOrigin.Begin);
-                this.Version = 3;
 
                 var stringTableSize = input.ReadValueU32();
                 var fileCount = input.ReadValueU32();
@@ -260,61 +299,78 @@ namespace Gibbed.Bioware.FileFormats
                 var passwordDigest = new byte[16];
                 input.Read(passwordDigest, 0, passwordDigest.Length);
 
-                this.Flags = (flags & 0x1FFFFF0F) >> 0;
-                this.Encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
-                this.Compression = (CompressionScheme)((flags & 0xE0000000) >> 29);
+                var encryption = (EncryptionScheme)((flags & 0x000000F0) >> 4);
+                var compression = (CompressionScheme)((flags & 0xE0000000) >> 29);
+                flags &= 0x1FFFFF0F;
 
-                if (this.Flags != 0 && this.Flags != 1)
+                if (flags != 0 && flags != 1)
                 {
                     throw new FormatException("unknown flags value");
                 }
 
-                this.ContentId = contentId;
-                this.PasswordDigest = passwordDigest;
-
-                MemoryStream stringTable = stringTableSize == 0 ?
-                    null : input.ReadToMemoryStream(stringTableSize);
-
-                this.Entries.Clear();
-                for (uint i = 0; i < fileCount; i++)
+                var entries = new List<Entry>();
+                using (var stringTable = stringTableSize != 0
+                                             ? input.ReadToMemoryStream(stringTableSize)
+                                             : null)
                 {
-                    var entry = new Entry();
-
-                    uint nameOffset = input.ReadValueU32();
-                    entry.NameHash = input.ReadValueU64();
-
-                    if (nameOffset != 0xFFFFFFFF)
+                    for (uint i = 0; i < fileCount; i++)
                     {
-                        if (nameOffset + 1 > stringTable.Length)
+                        var entry = new Entry();
+
+                        uint nameOffset = input.ReadValueU32();
+                        entry.NameHash = input.ReadValueU64();
+
+                        if (nameOffset != 0xFFFFFFFF)
                         {
-                            throw new FormatException("file name exceeds string table bounds");
+                            if (nameOffset + 1 > stringTable.Length)
+                            {
+                                throw new FormatException("file name exceeds string table bounds");
+                            }
+
+                            stringTable.Position = nameOffset;
+                            entry.Name = stringTable.ReadStringZ(Encoding.ASCII);
+
+                            if (entry.Name.HashFNV64() != entry.NameHash)
+                            {
+                                throw new InvalidOperationException("hash mismatch");
+                            }
+                        }
+                        else
+                        {
+                            entry.Name = null;
                         }
 
-                        stringTable.Position = nameOffset;
-                        entry.Name = stringTable.ReadStringZ(Encoding.ASCII);
-
-                        if (entry.Name.HashFNV64() != entry.NameHash)
-                        {
-                            throw new InvalidOperationException("hash mismatch");
-                        }
+                        entry.TypeHash = input.ReadValueU32();
+                        entry.Offset = input.ReadValueU32();
+                        entry.CompressedSize = input.ReadValueU32();
+                        entry.UncompressedSize = input.ReadValueU32();
+                        entries.Add(entry);
                     }
-                    else
-                    {
-                        entry.Name = null;
-                    }
-
-                    entry.TypeHash = input.ReadValueU32();
-                    entry.Offset = input.ReadValueU32();
-                    entry.CompressedSize = input.ReadValueU32();
-                    entry.UncompressedSize = input.ReadValueU32();
-
-                    this.Entries.Add(entry);
                 }
+
+                this._Version = FileVersion.V3_0;
+                this._Flags = flags;
+                this._Encryption = encryption;
+                this._Compression = compression;
+                this._ContentId = contentId;
+                this._PasswordDigest = passwordDigest;
+                this._Entries.Clear();
+                this._Entries.AddRange(entries);
             }
             else
             {
                 throw new FormatException("unsupported / unknown ERF format");
             }
+        }
+
+        public enum FileVersion
+        {
+            // ReSharper disable InconsistentNaming
+            Invalid = 0,
+            V2_0,
+            V2_2,
+            V3_0,
+            // ReSharper restore InconsistentNaming
         }
 
         public enum EncryptionScheme : byte
@@ -352,8 +408,7 @@ namespace Gibbed.Bioware.FileFormats
 
                 this.NameHash = this.Name.HashFNV64();
                 var extension = Path.GetExtension(this.Name);
-                this.TypeHash = extension == null ?
-                    0 : extension.Trim('.').HashFNV32();
+                this.TypeHash = extension.TrimStart('.').HashFNV32();
             }
         }
     }

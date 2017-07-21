@@ -43,10 +43,10 @@ namespace Gibbed.Bioware.FileFormats
             this.Dispose(true);
         }
 
-        private bool Disposed = false;
+        private bool _Disposed = false;
         protected virtual void Dispose(bool disposing)
         {
-            if (this.Disposed == false)
+            if (this._Disposed == false)
             {
                 if (disposing == true)
                 {
@@ -56,7 +56,7 @@ namespace Gibbed.Bioware.FileFormats
                     }
                 }
 
-                this.Disposed = true;
+                this._Disposed = true;
             }
         }
 

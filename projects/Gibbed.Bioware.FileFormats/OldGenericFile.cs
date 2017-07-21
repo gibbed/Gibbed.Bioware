@@ -42,16 +42,16 @@ namespace Gibbed.Bioware.FileFormats
             this.Dispose(true);
         }
 
-        private bool Disposed = false;
+        private bool _Disposed;
         protected virtual void Dispose(bool disposing)
         {
-            if (this.Disposed == false)
+            if (this._Disposed == false)
             {
                 if (disposing == true)
                 {
                 }
 
-                this.Disposed = true;
+                this._Disposed = true;
             }
         }
 

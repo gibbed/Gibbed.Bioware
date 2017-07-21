@@ -122,7 +122,7 @@ namespace Gibbed.Bioware.TlkDowngrade
                 return;
             }
 
-            using (var gff = new GenericFile_Type())
+            using (var gff = new GenericTypeFile())
             {
                 using (var input = File.OpenRead(inputPath))
                 {
