@@ -25,6 +25,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Gibbed.Bioware.FileFormats;
+using Gibbed.Bioware.ProjectData;
 using NDesk.Options;
 using ProjectData = Gibbed.ProjectData;
 

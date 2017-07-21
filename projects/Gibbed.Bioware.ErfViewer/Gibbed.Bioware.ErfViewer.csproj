@@ -99,6 +99,10 @@
       <Project>{08BE5895-CE01-473F-B8CC-F6924D1926D2}</Project>
       <Name>Gibbed.Bioware.FileFormats</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Gibbed.Bioware.ProjectData\Gibbed.Bioware.ProjectData.csproj">
+      <Project>{137EF52A-5B2F-49D0-ADD2-ECB5808A32F0}</Project>
+      <Name>Gibbed.Bioware.ProjectData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Gibbed.ProjectData\Gibbed.ProjectData.csproj">
       <Project>{F27A289E-3376-4653-89F3-D19C1ECABF33}</Project>
       <Name>Gibbed.ProjectData</Name>

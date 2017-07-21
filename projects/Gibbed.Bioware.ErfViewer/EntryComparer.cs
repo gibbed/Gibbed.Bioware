@@ -28,9 +28,9 @@ namespace Gibbed.Bioware.ErfViewer
 {
     internal class EntryComparer : IComparer<ERF.Entry>
     {
-        private ProjectData.HashList<ulong> FileNames;
+        private Gibbed.ProjectData.HashList<ulong> FileNames;
 
-        public EntryComparer(ProjectData.HashList<ulong> names)
+        public EntryComparer(Gibbed.ProjectData.HashList<ulong> names)
         {
             this.FileNames = names;
         }

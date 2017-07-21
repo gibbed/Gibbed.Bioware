@@ -63,7 +63,6 @@
     <Compile Include="OldGenericFileFormat\FormatType.cs" />
     <Compile Include="OldGenericFileFormat\LocalizedString.cs" />
     <Compile Include="OldGenericFileFormat\StructureData.cs" />
-    <Compile Include="ProjectHelpers.cs" />
     <Compile Include="Script\IInstruction.cs" />
     <Compile Include="Script\Instructions\Add.cs" />
     <Compile Include="Script\Instructions\AdjustStackPointer.cs" />

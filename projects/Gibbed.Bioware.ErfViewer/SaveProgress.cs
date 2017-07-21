@@ -235,8 +235,8 @@ namespace Gibbed.Bioware.ErfViewer
 			public Stream Stream;
             public ERF Archive;
             public IEnumerable<ERF.Entry> Saving;
-            public ProjectData.HashList<ulong> FileNames;
-            public ProjectData.HashList<uint> TypeNames;
+            public Gibbed.ProjectData.HashList<ulong> FileNames;
+            public Gibbed.ProjectData.HashList<uint> TypeNames;
             public SaveAllSettings Settings;
 		}
 
@@ -248,8 +248,8 @@ namespace Gibbed.Bioware.ErfViewer
             Stream stream,
             ERF archive,
             IEnumerable<ERF.Entry> saving,
-            ProjectData.HashList<ulong> fileNames,
-            ProjectData.HashList<uint> typeNames,
+            Gibbed.ProjectData.HashList<ulong> fileNames,
+            Gibbed.ProjectData.HashList<uint> typeNames,
             string basePath,
             SaveAllSettings settings)
 		{

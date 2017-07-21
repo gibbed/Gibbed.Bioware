@@ -26,6 +26,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using Gibbed.Bioware.FileFormats;
+using Gibbed.Bioware.ProjectData;
 using ERF = Gibbed.Bioware.FileFormats.EncapsulatedResourceFile;
 
 namespace Gibbed.Bioware.ErfViewer
@@ -39,9 +40,9 @@ namespace Gibbed.Bioware.ErfViewer
             this.modeStatusLabel.Text = "";
         }
 
-        private ProjectData.Manager Manager;
-        public ProjectData.HashList<ulong> FileHashLookup { get; private set; }
-        public ProjectData.HashList<uint> TypeHashLookup { get; private set; }
+        private Gibbed.ProjectData.Manager Manager;
+        public Gibbed.ProjectData.HashList<ulong> FileHashLookup { get; private set; }
+        public Gibbed.ProjectData.HashList<uint> TypeHashLookup { get; private set; }
 
         private void OnLoad(object sender, EventArgs e)
         {
@@ -52,7 +53,7 @@ namespace Gibbed.Bioware.ErfViewer
         {
             try
             {
-                this.Manager = ProjectData.Manager.Load();
+                this.Manager = Gibbed.ProjectData.Manager.Load();
                 this.projectComboBox.Items.AddRange(this.Manager.ToArray());
                 this.SetProject(this.Manager.ActiveProject);
             }
@@ -71,7 +72,7 @@ namespace Gibbed.Bioware.ErfViewer
             }
         }
 
-        private void SetProject(ProjectData.Project project)
+        private void SetProject(Gibbed.ProjectData.Project project)
         {
             if (project != null)
             {
@@ -394,7 +395,7 @@ namespace Gibbed.Bioware.ErfViewer
         private void OnProjectSelect(object sender, EventArgs e)
         {
             this.projectComboBox.Invalidate();
-            var project = this.projectComboBox.SelectedItem as ProjectData.Project;
+            var project = this.projectComboBox.SelectedItem as Gibbed.ProjectData.Project;
             if (project == null)
             {
                 this.projectComboBox.Items.Remove(this.projectComboBox.SelectedItem);
