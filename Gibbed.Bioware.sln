@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibbed.Bioware.FileFormats", "Gibbed.Bioware.FileFormats\Gibbed.Bioware.FileFormats.csproj", "{08BE5895-CE01-473F-B8CC-F6924D1926D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibbed.Bioware.Test", "Gibbed.Bioware.Test\Gibbed.Bioware.Test.csproj", "{57E08E83-61E5-4328-A24D-B3C54103B243}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibbed.Bioware.ErfViewer", "Gibbed.Bioware.ErfViewer\Gibbed.Bioware.ErfViewer.csproj", "{5560FC12-3DBF-4220-9865-E802D267CF37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibbed.Bioware.TlkDowngrade", "Gibbed.Bioware.TlkDowngrade\Gibbed.Bioware.TlkDowngrade.csproj", "{1C9EC2BB-5F2C-4D8F-BFDA-8536C40354DC}"
@@ -49,16 +47,6 @@ Global
 		{08BE5895-CE01-473F-B8CC-F6924D1926D2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{08BE5895-CE01-473F-B8CC-F6924D1926D2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{08BE5895-CE01-473F-B8CC-F6924D1926D2}.Release|x86.ActiveCfg = Release|Any CPU
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Debug|x86.ActiveCfg = Debug|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Debug|x86.Build.0 = Debug|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Release|Any CPU.ActiveCfg = Release|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Release|Mixed Platforms.Build.0 = Release|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Release|x86.ActiveCfg = Release|x86
-		{57E08E83-61E5-4328-A24D-B3C54103B243}.Release|x86.Build.0 = Release|x86
 		{5560FC12-3DBF-4220-9865-E802D267CF37}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{5560FC12-3DBF-4220-9865-E802D267CF37}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{5560FC12-3DBF-4220-9865-E802D267CF37}.Debug|Mixed Platforms.Build.0 = Debug|x86
